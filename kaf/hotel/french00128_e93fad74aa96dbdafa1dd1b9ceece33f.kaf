@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-fr" timestamp="2014-01-14T17:37:35" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-27T11:35:55CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1446,4 +1449,52 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Opinion">
+        <references>
+          <span>
+            <target id="t54"/>
+            <target id="t55"/>
+            <target id="t57"/>
+            <target id="t58"/>
+            <target id="t60"/>
+            <target id="t61"/>
+            <target id="t63"/>
+            <target id="t64"/>
+            <target id="t66"/>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t65"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t59"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t62"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t56"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

@@ -18,8 +18,11 @@
     <linguisticProcessors layer="coreference">
       <lp name="corefgraph-fr" timestamp="2014-01-14T17:36:18" version="0.8"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-27T11:35:59CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3246,4 +3249,69 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Bathroom">
+        <references>
+          <span>
+            <target id="t149"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Location">
+        <references>
+          <span>
+            <target id="t28"/>
+            <target id="t29"/>
+            <target id="t40"/>
+            <target id="t41"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t85"/>
+            <target id="t86"/>
+            <target id="t87"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t53"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t161"/>
+            <target id="t162"/>
+            <target id="t163"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t167"/>
+            <target id="t168"/>
+            <target id="t169"/>
+            <target id="t170"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t2"/>
+            <target id="t3"/>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

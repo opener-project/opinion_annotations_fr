@@ -14,8 +14,11 @@
     <linguisticProcessors layer="constituents">
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:15" version="1.0"/>
     </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
+    </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="Manual annotations" timestamp="2014-03-27T11:35:53CET"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3530,4 +3533,59 @@
       </opinion_expression>
     </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t57"/>
+            <target id="t60"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t114"/>
+            <target id="t115"/>
+            <target id="t116"/>
+            <target id="t117"/>
+            <target id="t118"/>
+            <target id="t119"/>
+            <target id="t120"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t33"/>
+            <target id="t35"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t166"/>
+            <target id="t167"/>
+            <target id="t168"/>
+            <target id="t169"/>
+            <target id="t170"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Staff">
+        <references>
+          <span>
+            <target id="t160"/>
+            <target id="t161"/>
+            <target id="t162"/>
+            <target id="t163"/>
+            <target id="t164"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>
