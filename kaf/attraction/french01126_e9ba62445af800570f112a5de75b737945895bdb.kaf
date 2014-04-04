@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:33:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:33:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:33:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">bon</wf>
+    <wf length="5" offset="4" para="1" sent="1" wid="w2">choix</wf>
+    <wf length="4" offset="10" para="1" sent="1" wid="w3">pour</wf>
+    <wf length="3" offset="15" para="1" sent="1" wid="w4">les</wf>
+    <wf length="8" offset="19" para="1" sent="1" wid="w5">familles</wf>
+    <wf length="4" offset="28" para="1" sent="1" wid="w6">avec</wf>
+    <wf length="11" offset="33" para="1" sent="1" wid="w7">adolescents</wf>
+    <wf length="7" offset="45" para="2" sent="2" wid="w8">armures</wf>
+    <wf length="2" offset="53" para="2" sent="2" wid="w9">de</wf>
+    <wf length="10" offset="56" para="2" sent="2" wid="w10">chevaliers</wf>
+    <wf length="1" offset="66" para="2" sent="2" wid="w11">,</wf>
+    <wf length="5" offset="68" para="2" sent="2" wid="w12">armes</wf>
+    <wf length="2" offset="74" para="2" sent="2" wid="w13">de</wf>
+    <wf length="6" offset="77" para="2" sent="2" wid="w14">toutes</wf>
+    <wf length="6" offset="84" para="2" sent="2" wid="w15">sortes</wf>
+    <wf length="1" offset="90" para="2" sent="2" wid="w16">,</wf>
+    <wf length="8" offset="92" para="2" sent="2" wid="w17">Napoléon</wf>
+    <wf length="1" offset="100" para="2" sent="2" wid="w18">,</wf>
+    <wf length="8" offset="102" para="2" sent="2" wid="w19">histoire</wf>
+    <wf length="3" offset="111" para="2" sent="2" wid="w20">des</wf>
+    <wf length="7" offset="115" para="2" sent="2" wid="w21">guerres</wf>
+    <wf length="9" offset="123" para="2" sent="2" wid="w22">mondiales</wf>
+    <wf length="1" offset="132" para="2" sent="2" wid="w23">,</wf>
+    <wf length="9" offset="134" para="2" sent="2" wid="w24">notamment</wf>
+    <wf length="1" offset="143" para="2" sent="2" wid="w25">.</wf>
+  </text>
+  <terms>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="choix" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- choix -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t4" type="close">
+      <span>
+        <!-- les -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="famille" morphofeat="NCfp" pos="N" tid="t5" type="open">
+      <span>
+        <!-- familles -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="adolescent" morphofeat="NCmp" pos="N" tid="t7" type="open">
+      <span>
+        <!-- adolescents -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="armures" morphofeat="Amp" pos="G" tid="t8" type="open">
+      <span>
+        <!-- armures -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!-- de -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="chevalier" morphofeat="NCmp" pos="N" tid="t10" type="open">
+      <span>
+        <!-- chevaliers -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t11" type="close">
+      <span>
+        <!-- , -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="arme" morphofeat="NCfp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- armes -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- de -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Afp" pos="G" tid="t14" type="open">
+      <span>
+        <!-- toutes -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="sorte" morphofeat="NCfp" pos="N" tid="t15" type="open">
+      <span>
+        <!-- sortes -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t16" type="close">
+      <span>
+        <!-- , -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="napoléon" morphofeat="NPms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Napoléon -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t18" type="close">
+      <span>
+        <!-- , -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="histoire" morphofeat="NCfs" pos="N" tid="t19" type="open">
+      <span>
+        <!-- histoire -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!-- des -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="guerre" morphofeat="NCfp" pos="N" tid="t21" type="open">
+      <span>
+        <!-- guerres -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="mondial" morphofeat="Afp" pos="G" tid="t22" type="open">
+      <span>
+        <!-- mondiales -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t23" type="close">
+      <span>
+        <!-- , -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="notamment" morphofeat="ADV" pos="G" tid="t24" type="open">
+      <span>
+        <!-- notamment -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t25" type="close">
+      <span>
+        <!-- . -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--choix pour les familles avec adolescents-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bon-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

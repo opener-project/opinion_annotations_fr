@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:22Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:22Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:22Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Ambiance</wf>
+    <wf length="5" offset="9" para="1" sent="1" wid="w2">sympa</wf>
+    <wf length="2" offset="15" para="2" sent="2" wid="w3">J'</wf>
+    <wf length="4" offset="17" para="2" sent="2" wid="w4">aime</wf>
+    <wf length="4" offset="22" para="2" sent="2" wid="w5">bien</wf>
+    <wf length="2" offset="27" para="2" sent="2" wid="w6">me</wf>
+    <wf length="9" offset="30" para="2" sent="2" wid="w7">retrouver</wf>
+    <wf length="2" offset="40" para="2" sent="2" wid="w8">et</wf>
+    <wf length="2" offset="43" para="2" sent="2" wid="w9">me</wf>
+    <wf length="8" offset="46" para="2" sent="2" wid="w10">promener</wf>
+    <wf length="4" offset="55" para="2" sent="2" wid="w11">dans</wf>
+    <wf length="3" offset="60" para="2" sent="2" wid="w12">les</wf>
+    <wf length="5" offset="64" para="2" sent="2" wid="w13">docks</wf>
+    <wf length="2" offset="70" para="2" sent="2" wid="w14">de</wf>
+    <wf length="9" offset="73" para="2" sent="2" wid="w15">Liverpool</wf>
+    <wf length="5" offset="83" para="2" sent="2" wid="w16">après</wf>
+    <wf length="2" offset="89" para="2" sent="2" wid="w17">un</wf>
+    <wf length="7" offset="92" para="2" sent="2" wid="w18">passage</wf>
+    <wf length="1" offset="100" para="2" sent="2" wid="w19">à</wf>
+    <wf length="2" offset="102" para="2" sent="2" wid="w20">la</wf>
+    <wf length="8" offset="105" para="2" sent="2" wid="w21">boutique</wf>
+    <wf length="7" offset="114" para="2" sent="2" wid="w22">Beatles</wf>
+  </text>
+  <terms>
+    <term lemma="ambiance" morphofeat="NPfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Ambiance -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="sympa" morphofeat="Afs" pos="G" tid="t2" type="open">
+      <span>
+        <!-- sympa -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="J'" morphofeat="CL1ms" pos="Q" tid="t3" type="close">
+      <span>
+        <!-- J' -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="aimer" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- aime -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="me" morphofeat="CLO1ms" pos="Q" tid="t6" type="close">
+      <span>
+        <!-- me -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="retrouver" morphofeat="VW" pos="V" tid="t7" type="open">
+      <span>
+        <!-- retrouver -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t8" type="close">
+      <span>
+        <!-- et -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="me" morphofeat="CLO1ms" pos="Q" tid="t9" type="close">
+      <span>
+        <!-- me -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="promener" morphofeat="VW" pos="V" tid="t10" type="open">
+      <span>
+        <!-- promener -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t12" type="close">
+      <span>
+        <!-- les -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="dock" morphofeat="NCmp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- docks -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- de -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Liverpool" morphofeat="NPs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- Liverpool -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="après" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- après -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t17" type="close">
+      <span>
+        <!-- un -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="passage" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- passage -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- à -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t20" type="close">
+      <span>
+        <!-- la -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="boutique" morphofeat="NCfs" pos="N" tid="t21" type="open">
+      <span>
+        <!-- boutique -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="Beatles" morphofeat="NPms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- Beatles -->
+        <target id="w22"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ambiance-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sympa-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

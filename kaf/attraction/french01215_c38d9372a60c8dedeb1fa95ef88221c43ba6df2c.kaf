@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:27Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:27Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:27Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">une</wf>
+    <wf length="4" offset="4" para="1" sent="1" wid="w2">gare</wf>
+    <wf length="13" offset="9" para="1" sent="1" wid="w3">interressante</wf>
+    <wf length="3" offset="23" para="2" sent="2" wid="w4">Une</wf>
+    <wf length="4" offset="27" para="2" sent="2" wid="w5">gare</wf>
+    <wf length="9" offset="32" para="2" sent="2" wid="w6">imposante</wf>
+    <wf length="2" offset="42" para="2" sent="2" wid="w7">en</wf>
+    <wf length="6" offset="45" para="2" sent="2" wid="w8">pleine</wf>
+    <wf length="14" offset="52" para="2" sent="2" wid="w9">reconstruction</wf>
+    <wf length="1" offset="66" para="2" sent="2" wid="w10">.</wf>
+    <wf length="2" offset="68" para="2" sent="3" wid="w11">La</wf>
+    <wf length="5" offset="71" para="2" sent="3" wid="w12">serre</wf>
+    <wf length="10" offset="77" para="2" sent="3" wid="w13">intérieure</wf>
+    <wf length="2" offset="88" para="2" sent="3" wid="w14">et</wf>
+    <wf length="2" offset="91" para="2" sent="3" wid="w15">le</wf>
+    <wf length="6" offset="94" para="2" sent="3" wid="w16">bassin</wf>
+    <wf length="3" offset="101" para="2" sent="3" wid="w17">aux</wf>
+    <wf length="7" offset="105" para="2" sent="3" wid="w18">tortues</wf>
+    <wf length="4" offset="113" para="2" sent="3" wid="w19">vaut</wf>
+    <wf length="2" offset="118" para="2" sent="3" wid="w20">le</wf>
+    <wf length="6" offset="121" para="2" sent="3" wid="w21">détour</wf>
+    <wf length="1" offset="127" para="2" sent="3" wid="w22">.</wf>
+  </text>
+  <terms>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t1" type="close">
+      <span>
+        <!-- une -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="gare" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- gare -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="interressante" morphofeat="Afs" pos="G" tid="t3" type="open">
+      <span>
+        <!-- interressante -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t4" type="close">
+      <span>
+        <!-- Une -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="gare" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- gare -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="imposant" morphofeat="Afs" pos="G" tid="t6" type="open">
+      <span>
+        <!-- imposante -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- en -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="plein" morphofeat="Afs" pos="G" tid="t8" type="open">
+      <span>
+        <!-- pleine -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="reconstruction" morphofeat="NCfs" pos="N" tid="t9" type="open">
+      <span>
+        <!-- reconstruction -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t10" type="close">
+      <span>
+        <!-- . -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t11" type="close">
+      <span>
+        <!-- La -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="serre" morphofeat="NCfs" pos="N" tid="t12" type="open">
+      <span>
+        <!-- serre -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="intérieur" morphofeat="Afs" pos="G" tid="t13" type="open">
+      <span>
+        <!-- intérieure -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t14" type="close">
+      <span>
+        <!-- et -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t15" type="close">
+      <span>
+        <!-- le -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="bassin" morphofeat="NCms" pos="N" tid="t16" type="open">
+      <span>
+        <!-- bassin -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- aux -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="tortue" morphofeat="NCmp" pos="N" tid="t18" type="open">
+      <span>
+        <!-- tortues -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="valoir" morphofeat="VP3s" pos="V" tid="t19" type="open">
+      <span>
+        <!-- vaut -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t20" type="close">
+      <span>
+        <!-- le -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="détour" morphofeat="NCms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- détour -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t22" type="close">
+      <span>
+        <!-- . -->
+        <target id="w22"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--une gare-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--interressante-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

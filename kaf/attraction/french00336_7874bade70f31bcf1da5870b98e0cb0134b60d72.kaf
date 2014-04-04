@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">belle</wf>
+    <wf length="10" offset="6" para="1" sent="1" wid="w2">découverte</wf>
+    <wf length="7" offset="17" para="2" sent="2" wid="w3">superbe</wf>
+    <wf length="10" offset="25" para="2" sent="2" wid="w4">rénovation</wf>
+    <wf length="3" offset="36" para="2" sent="2" wid="w5">des</wf>
+    <wf length="7" offset="40" para="2" sent="2" wid="w6">anciens</wf>
+    <wf length="5" offset="48" para="2" sent="2" wid="w7">docks</wf>
+    <wf length="4" offset="54" para="2" sent="2" wid="w8">pour</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w9">en</wf>
+    <wf length="5" offset="62" para="2" sent="2" wid="w10">faire</wf>
+    <wf length="2" offset="68" para="2" sent="2" wid="w11">un</wf>
+    <wf length="7" offset="71" para="2" sent="2" wid="w12">endroit</wf>
+    <wf length="5" offset="79" para="2" sent="2" wid="w13">super</wf>
+    <wf length="11" offset="85" para="2" sent="2" wid="w14">touristique</wf>
+    <wf length="1" offset="96" para="2" sent="2" wid="w15">.</wf>
+    <wf length="9" offset="98" para="2" sent="3" wid="w16">Liverpool</wf>
+    <wf length="3" offset="108" para="2" sent="3" wid="w17">est</wf>
+    <wf length="6" offset="112" para="2" sent="3" wid="w18">devenu</wf>
+    <wf length="3" offset="119" para="2" sent="3" wid="w19">une</wf>
+    <wf length="5" offset="123" para="2" sent="3" wid="w20">ville</wf>
+    <wf length="5" offset="129" para="2" sent="3" wid="w21">super</wf>
+    <wf length="11" offset="135" para="2" sent="3" wid="w22">touristique</wf>
+    <wf length="1" offset="146" para="2" sent="3" wid="w23">.</wf>
+    <wf length="6" offset="148" para="2" sent="4" wid="w24">Albert</wf>
+    <wf length="5" offset="155" para="2" sent="4" wid="w25">Docks</wf>
+    <wf length="3" offset="161" para="2" sent="4" wid="w26">est</wf>
+    <wf length="1" offset="165" para="2" sent="4" wid="w27">à</wf>
+    <wf length="2" offset="167" para="2" sent="4" wid="w28">l'</wf>
+    <wf length="5" offset="169" para="2" sent="4" wid="w29">image</wf>
+    <wf length="2" offset="175" para="2" sent="4" wid="w30">du</wf>
+    <wf length="7" offset="178" para="2" sent="4" wid="w31">nouveau</wf>
+    <wf length="9" offset="186" para="2" sent="4" wid="w32">Liverpool</wf>
+  </text>
+  <terms>
+    <term lemma="beau" morphofeat="A" pos="G" tid="t1" type="open">
+      <span>
+        <!-- belle -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="découvrir" morphofeat="VP3s" pos="V" tid="t2" type="open">
+      <span>
+        <!-- découverte -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="superbe" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- superbe -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="rénovation" morphofeat="VKms" pos="V" tid="t4" type="open">
+      <span>
+        <!-- rénovation -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t5" type="close">
+      <span>
+        <!-- des -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="ancien" morphofeat="Amp" pos="G" tid="t6" type="open">
+      <span>
+        <!-- anciens -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="dock" morphofeat="NCmp" pos="N" tid="t7" type="open">
+      <span>
+        <!-- docks -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="CL3ms" pos="Q" tid="t9" type="close">
+      <span>
+        <!-- en -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="faire" morphofeat="VW" pos="V" tid="t10" type="open">
+      <span>
+        <!-- faire -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t11" type="close">
+      <span>
+        <!-- un -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="endroit" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- endroit -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="super" morphofeat="Ams" pos="G" tid="t13" type="open">
+      <span>
+        <!-- super -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="touristique" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- touristique -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t15" type="close">
+      <span>
+        <!-- . -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="Liverpool" morphofeat="NPs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- Liverpool -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t17" type="open">
+      <span>
+        <!-- est -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="devenir" morphofeat="VKms" pos="V" tid="t18" type="open">
+      <span>
+        <!-- devenu -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t19" type="close">
+      <span>
+        <!-- une -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="ville" morphofeat="NCfs" pos="N" tid="t20" type="open">
+      <span>
+        <!-- ville -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="super" morphofeat="Afs" pos="G" tid="t21" type="open">
+      <span>
+        <!-- super -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="touristique" morphofeat="Afs" pos="G" tid="t22" type="open">
+      <span>
+        <!-- touristique -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t23" type="close">
+      <span>
+        <!-- . -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Albert" morphofeat="NPms" pos="N" tid="t24" type="open">
+      <span>
+        <!-- Albert -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="dock" morphofeat="NPms" pos="N" tid="t25" type="open">
+      <span>
+        <!-- Docks -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t26" type="open">
+      <span>
+        <!-- est -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t27" type="close">
+      <span>
+        <!-- à -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="D" pos="D" tid="t28" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="image" morphofeat="N" pos="N" tid="t29" type="open">
+      <span>
+        <!-- image -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t30" type="close">
+      <span>
+        <!-- du -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="nouveau" morphofeat="Ams" pos="G" tid="t31" type="open">
+      <span>
+        <!-- nouveau -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="Liverpool" morphofeat="NCms" pos="N" tid="t32" type="open">
+      <span>
+        <!-- Liverpool -->
+        <target id="w32"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--des anciens docks-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--superbe rénovation-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--des anciens docks-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--pour en faire un endroit super touristique-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

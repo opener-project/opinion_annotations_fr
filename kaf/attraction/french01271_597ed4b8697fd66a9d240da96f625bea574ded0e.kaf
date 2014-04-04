@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:59Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:59Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:59Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Magnifique</wf>
+    <wf length="6" offset="11" para="2" sent="2" wid="w2">Partir</wf>
+    <wf length="2" offset="18" para="2" sent="2" wid="w3">en</wf>
+    <wf length="6" offset="21" para="2" sent="2" wid="w4">Suisse</wf>
+    <wf length="4" offset="28" para="2" sent="2" wid="w5">avec</wf>
+    <wf length="2" offset="33" para="2" sent="2" wid="w6">le</wf>
+    <wf length="7" offset="36" para="2" sent="2" wid="w7">forfait</wf>
+    <wf length="6" offset="44" para="2" sent="2" wid="w8">Portes</wf>
+    <wf length="2" offset="51" para="2" sent="2" wid="w9">du</wf>
+    <wf length="6" offset="54" para="2" sent="2" wid="w10">soleil</wf>
+    <wf length="2" offset="61" para="2" sent="2" wid="w11">et</wf>
+    <wf length="8" offset="64" para="2" sent="2" wid="w12">déguster</wf>
+    <wf length="2" offset="73" para="2" sent="2" wid="w13">un</wf>
+    <wf length="3" offset="76" para="2" sent="2" wid="w14">bon</wf>
+    <wf length="3" offset="80" para="2" sent="2" wid="w15">vin</wf>
+    <wf length="5" offset="84" para="2" sent="2" wid="w16">blanc</wf>
+    <wf length="2" offset="90" para="2" sent="2" wid="w17">ou</wf>
+    <wf length="6" offset="93" para="2" sent="2" wid="w18">manger</wf>
+    <wf length="3" offset="100" para="2" sent="2" wid="w19">une</wf>
+    <wf length="6" offset="104" para="2" sent="2" wid="w20">croûte</wf>
+    <wf length="2" offset="111" para="2" sent="2" wid="w21">au</wf>
+    <wf length="8" offset="114" para="2" sent="2" wid="w22">fromages</wf>
+    <wf length="1" offset="122" para="2" sent="2" wid="w23">.</wf>
+    <wf length="2" offset="124" para="3" sent="3" wid="w24">Je</wf>
+    <wf length="4" offset="127" para="3" sent="3" wid="w25">vous</wf>
+    <wf length="2" offset="132" para="3" sent="3" wid="w26">le</wf>
+    <wf length="9" offset="135" para="3" sent="3" wid="w27">conseille</wf>
+    <wf length="8" offset="145" para="3" sent="3" wid="w28">vivement</wf>
+    <wf length="1" offset="154" para="3" sent="3" wid="w29">!</wf>
+  </text>
+  <terms>
+    <term lemma="Magnifique" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Magnifique -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Partir" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Partir -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- en -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="suisse" morphofeat="NPfs" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Suisse -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t6" type="close">
+      <span>
+        <!-- le -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="forfait" morphofeat="NCms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- forfait -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="porte" morphofeat="NPms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- Portes -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!-- du -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="soleil" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- soleil -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t11" type="close">
+      <span>
+        <!-- et -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="déguster" morphofeat="VW" pos="V" tid="t12" type="open">
+      <span>
+        <!-- déguster -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t13" type="close">
+      <span>
+        <!-- un -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t14" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="vin" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- vin -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="blanc" morphofeat="Ams" pos="G" tid="t16" type="open">
+      <span>
+        <!-- blanc -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="ou" morphofeat="CC" pos="C" tid="t17" type="close">
+      <span>
+        <!-- ou -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="manger" morphofeat="VW" pos="V" tid="t18" type="open">
+      <span>
+        <!-- manger -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t19" type="close">
+      <span>
+        <!-- une -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="croûte" morphofeat="NCfs" pos="N" tid="t20" type="open">
+      <span>
+        <!-- croûte -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- au -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="fromage" morphofeat="NCmp" pos="N" tid="t22" type="open">
+      <span>
+        <!-- fromages -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t23" type="close">
+      <span>
+        <!-- . -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Je" morphofeat="CL1fs" pos="Q" tid="t24" type="close">
+      <span>
+        <!-- Je -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLO2mp" pos="Q" tid="t25" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="CL3ms" pos="Q" tid="t26" type="close">
+      <span>
+        <!-- le -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="conseiller" morphofeat="VP3s" pos="V" tid="t27" type="open">
+      <span>
+        <!-- conseille -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="vivement" morphofeat="ADV" pos="G" tid="t28" type="open">
+      <span>
+        <!-- vivement -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t29" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Magnifique-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

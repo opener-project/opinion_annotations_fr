@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:23:19Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:23:19Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:23:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Emouvant</wf>
+    <wf length="12" offset="9" para="2" sent="2" wid="w2">Contribution</wf>
+    <wf length="8" offset="22" para="2" sent="2" wid="w3">demandée</wf>
+    <wf length="4" offset="31" para="2" sent="2" wid="w4">pour</wf>
+    <wf length="6" offset="36" para="2" sent="2" wid="w5">chaque</wf>
+    <wf length="6" offset="43" para="2" sent="2" wid="w6">entrée</wf>
+    <wf length="1" offset="50" para="2" sent="2" wid="w7">!</wf>
+    <wf length="2" offset="52" para="2" sent="3" wid="w8">La</wf>
+    <wf length="8" offset="55" para="2" sent="3" wid="w9">première</wf>
+    <wf length="4" offset="64" para="2" sent="3" wid="w10">tour</wf>
+    <wf length="2" offset="69" para="2" sent="3" wid="w11">n'</wf>
+    <wf length="3" offset="71" para="2" sent="3" wid="w12">est</wf>
+    <wf length="3" offset="75" para="2" sent="3" wid="w13">pas</wf>
+    <wf length="6" offset="79" para="2" sent="3" wid="w14">encore</wf>
+    <wf length="8" offset="86" para="2" sent="3" wid="w15">terminée</wf>
+    <wf length="4" offset="95" para="2" sent="3" wid="w16">mais</wf>
+    <wf length="4" offset="100" para="2" sent="3" wid="w17">tous</wf>
+    <wf length="3" offset="105" para="2" sent="3" wid="w18">ces</wf>
+    <wf length="4" offset="109" para="2" sent="3" wid="w19">noms</wf>
+    <wf length="6" offset="114" para="2" sent="3" wid="w20">gravés</wf>
+    <wf length="4" offset="121" para="2" sent="3" wid="w21">dans</wf>
+    <wf length="3" offset="126" para="2" sent="3" wid="w22">les</wf>
+    <wf length="5" offset="130" para="2" sent="3" wid="w23">bords</wf>
+    <wf length="3" offset="136" para="2" sent="3" wid="w24">des</wf>
+    <wf length="8" offset="140" para="2" sent="3" wid="w25">cascades</wf>
+    <wf length="1" offset="148" para="2" sent="3" wid="w26">,</wf>
+    <wf length="2" offset="150" para="2" sent="3" wid="w27">c'</wf>
+    <wf length="3" offset="152" para="2" sent="3" wid="w28">est</wf>
+    <wf length="8" offset="156" para="2" sent="3" wid="w29">émouvant</wf>
+    <wf length="1" offset="164" para="2" sent="3" wid="w30">,</wf>
+    <wf length="2" offset="166" para="2" sent="3" wid="w31">ça</wf>
+    <wf length="6" offset="169" para="2" sent="3" wid="w32">marque</wf>
+    <wf length="2" offset="176" para="2" sent="3" wid="w33">un</wf>
+    <wf length="8" offset="179" para="2" sent="3" wid="w34">tournant</wf>
+    <wf length="4" offset="188" para="2" sent="3" wid="w35">dans</wf>
+    <wf length="2" offset="193" para="2" sent="3" wid="w36">l'</wf>
+    <wf length="8" offset="195" para="2" sent="3" wid="w37">histoire</wf>
+    <wf length="3" offset="204" para="2" sent="3" wid="w38">des</wf>
+    <wf length="10" offset="208" para="2" sent="3" wid="w39">américains</wf>
+    <wf length="2" offset="219" para="2" sent="3" wid="w40">et</wf>
+    <wf length="4" offset="222" para="2" sent="3" wid="w41">dans</wf>
+    <wf length="5" offset="227" para="2" sent="3" wid="w42">celle</wf>
+    <wf length="2" offset="233" para="2" sent="3" wid="w43">du</wf>
+    <wf length="5" offset="236" para="2" sent="3" wid="w44">monde</wf>
+    <wf length="1" offset="242" para="2" sent="3" wid="w45">!</wf>
+  </text>
+  <terms>
+    <term lemma="Emouvant" morphofeat="VG" pos="V" tid="t1" type="open">
+      <span>
+        <!-- Emouvant -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="contribution" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Contribution -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="demander" morphofeat="VKfs" pos="V" tid="t3" type="open">
+      <span>
+        <!-- demandée -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="chaque" morphofeat="Dfs" pos="D" tid="t5" type="close">
+      <span>
+        <!-- chaque -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="entrée" morphofeat="NCfs" pos="N" tid="t6" type="open">
+      <span>
+        <!-- entrée -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t7" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t8" type="close">
+      <span>
+        <!-- La -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="premier" morphofeat="Afs" pos="G" tid="t9" type="open">
+      <span>
+        <!-- première -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="tour" morphofeat="NCfs" pos="N" tid="t10" type="open">
+      <span>
+        <!-- tour -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="n'" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- n' -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t12" type="open">
+      <span>
+        <!-- est -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t13" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="encore" morphofeat="ADV" pos="G" tid="t14" type="open">
+      <span>
+        <!-- encore -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="terminer" morphofeat="VKfs" pos="V" tid="t15" type="open">
+      <span>
+        <!-- terminée -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t16" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Amp" pos="G" tid="t17" type="open">
+      <span>
+        <!-- tous -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dmp" pos="D" tid="t18" type="close">
+      <span>
+        <!-- ces -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="nom" morphofeat="NCmp" pos="N" tid="t19" type="open">
+      <span>
+        <!-- noms -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="graver" morphofeat="Amp" pos="G" tid="t20" type="open">
+      <span>
+        <!-- gravés -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t22" type="close">
+      <span>
+        <!-- les -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="bord" morphofeat="NCmp" pos="N" tid="t23" type="open">
+      <span>
+        <!-- bords -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t24" type="close">
+      <span>
+        <!-- des -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="cascade" morphofeat="NCfp" pos="N" tid="t25" type="open">
+      <span>
+        <!-- cascades -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t26" type="close">
+      <span>
+        <!-- , -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t27" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t28" type="open">
+      <span>
+        <!-- est -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="émouvant" morphofeat="ADV" pos="G" tid="t29" type="open">
+      <span>
+        <!-- émouvant -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t30" type="close">
+      <span>
+        <!-- , -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="ça" morphofeat="PROms" pos="P" tid="t31" type="close">
+      <span>
+        <!-- ça -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="marquer" morphofeat="VP3s" pos="V" tid="t32" type="open">
+      <span>
+        <!-- marque -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t33" type="close">
+      <span>
+        <!-- un -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="tournant" morphofeat="NCms" pos="N" tid="t34" type="open">
+      <span>
+        <!-- tournant -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t35" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t36" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="histoire" morphofeat="NCfs" pos="N" tid="t37" type="open">
+      <span>
+        <!-- histoire -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t38" type="close">
+      <span>
+        <!-- des -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="américain" morphofeat="NCmp" pos="N" tid="t39" type="open">
+      <span>
+        <!-- américains -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t40" type="close">
+      <span>
+        <!-- et -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t41" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="celle" morphofeat="PROfs" pos="P" tid="t42" type="close">
+      <span>
+        <!-- celle -->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t43" type="close">
+      <span>
+        <!-- du -->
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="monde" morphofeat="NCms" pos="N" tid="t44" type="open">
+      <span>
+        <!-- monde -->
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t45" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w45"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--c'-->
+        <span>
+          <target id="t27"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--émouvant-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="6_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--ça-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--marque un tournant-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

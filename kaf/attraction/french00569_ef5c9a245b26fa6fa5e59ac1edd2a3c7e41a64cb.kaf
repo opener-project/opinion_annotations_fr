@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:31Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:31Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Vieux</wf>
+    <wf length="2" offset="6" para="2" sent="2" wid="w2">C'</wf>
+    <wf length="5" offset="8" para="2" sent="2" wid="w3">était</wf>
+    <wf length="8" offset="14" para="2" sent="2" wid="w4">vraiment</wf>
+    <wf length="14" offset="23" para="2" sent="2" wid="w5">catastrophique</wf>
+    <wf length="1" offset="37" para="2" sent="2" wid="w6">,</wf>
+    <wf length="5" offset="39" para="2" sent="2" wid="w7">vieux</wf>
+    <wf length="1" offset="44" para="2" sent="2" wid="w8">,</wf>
+    <wf length="14" offset="46" para="2" sent="2" wid="w9">infrastructure</wf>
+    <wf length="5" offset="61" para="2" sent="2" wid="w10">cassé</wf>
+    <wf length="2" offset="67" para="2" sent="2" wid="w11">et</wf>
+    <wf length="4" offset="70" para="2" sent="2" wid="w12">cher</wf>
+    <wf length="1" offset="74" para="2" sent="2" wid="w13">!</wf>
+    <wf length="4" offset="76" para="2" sent="3" wid="w14">nous</wf>
+    <wf length="6" offset="81" para="2" sent="3" wid="w15">sommes</wf>
+    <wf length="5" offset="88" para="2" sent="3" wid="w16">resté</wf>
+    <wf length="5" offset="94" para="2" sent="3" wid="w17">20min</wf>
+    <wf length="2" offset="100" para="2" sent="3" wid="w18">et</wf>
+    <wf length="4" offset="103" para="2" sent="3" wid="w19">puis</wf>
+    <wf length="4" offset="108" para="2" sent="3" wid="w20">nous</wf>
+    <wf length="5" offset="113" para="2" sent="3" wid="w21">avons</wf>
+    <wf length="6" offset="119" para="2" sent="3" wid="w22">quitté</wf>
+    <wf length="3" offset="126" para="2" sent="3" wid="w23">cet</wf>
+    <wf length="7" offset="130" para="2" sent="3" wid="w24">endroit</wf>
+  </text>
+  <terms>
+    <term lemma="vieux" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Vieux -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="C'" morphofeat="CL3ms" pos="Q" tid="t2" type="close">
+      <span>
+        <!-- C' -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t3" type="open">
+      <span>
+        <!-- était -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="vraiment" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- vraiment -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="catastrophique" morphofeat="Afs" pos="G" tid="t5" type="open">
+      <span>
+        <!-- catastrophique -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t6" type="close">
+      <span>
+        <!-- , -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="vieux" morphofeat="Ams" pos="G" tid="t7" type="open">
+      <span>
+        <!-- vieux -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t8" type="close">
+      <span>
+        <!-- , -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="infrastructure" morphofeat="Ams" pos="G" tid="t9" type="open">
+      <span>
+        <!-- infrastructure -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="casser" morphofeat="Ams" pos="G" tid="t10" type="open">
+      <span>
+        <!-- cassé -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t11" type="close">
+      <span>
+        <!-- et -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="cher" morphofeat="Ams" pos="G" tid="t12" type="open">
+      <span>
+        <!-- cher -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t13" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t14" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="sommer" morphofeat="VP1p" pos="V" tid="t15" type="open">
+      <span>
+        <!-- sommes -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="rester" morphofeat="VKms" pos="V" tid="t16" type="open">
+      <span>
+        <!-- resté -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="20min" morphofeat="NCms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- 20min -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="C" pos="C" tid="t18" type="close">
+      <span>
+        <!-- et -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="puis" morphofeat="ADV" pos="G" tid="t19" type="open">
+      <span>
+        <!-- puis -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t20" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP1p" pos="V" tid="t21" type="open">
+      <span>
+        <!-- avons -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="quitter" morphofeat="VKms" pos="V" tid="t22" type="open">
+      <span>
+        <!-- quitté -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t23" type="close">
+      <span>
+        <!-- cet -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="endroit" morphofeat="NCms" pos="N" tid="t24" type="open">
+      <span>
+        <!-- endroit -->
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--vraiment catastrophique-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_1">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--cher-->
+        <span>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_2">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--vieux-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_3">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--infrastructure cassé-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

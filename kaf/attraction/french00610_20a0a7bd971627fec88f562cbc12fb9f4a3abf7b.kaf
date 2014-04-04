@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:56Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="7" offset="0" para="1" sent="1" wid="w1">superbe</wf>
+    <wf length="8" offset="8" para="1" sent="1" wid="w2">aquarium</wf>
+    <wf length="2" offset="17" para="1" sent="1" wid="w3">de</wf>
+    <wf length="2" offset="20" para="1" sent="1" wid="w4">La</wf>
+    <wf length="8" offset="23" para="1" sent="1" wid="w5">Rochelle</wf>
+    <wf length="4" offset="32" para="2" sent="2" wid="w6">Nous</wf>
+    <wf length="11" offset="37" para="2" sent="2" wid="w7">connaissons</wf>
+    <wf length="3" offset="49" para="2" sent="2" wid="w8">les</wf>
+    <wf length="9" offset="53" para="2" sent="2" wid="w9">aquariums</wf>
+    <wf length="2" offset="63" para="2" sent="2" wid="w10">de</wf>
+    <wf length="6" offset="66" para="2" sent="2" wid="w11">Monaco</wf>
+    <wf length="1" offset="72" para="2" sent="2" wid="w12">,</wf>
+    <wf length="7" offset="74" para="2" sent="2" wid="w13">Antibes</wf>
+    <wf length="1" offset="81" para="2" sent="2" wid="w14">,</wf>
+    <wf length="7" offset="83" para="2" sent="2" wid="w15">Nautica</wf>
+    <wf length="1" offset="91" para="2" sent="2" wid="w16">à</wf>
+    <wf length="9" offset="93" para="2" sent="2" wid="w17">Dunkerque</wf>
+    <wf length="3" offset="103" para="2" sent="2" wid="w18">etc</wf>
+    <wf length="3" offset="106" para="2" sent="2" wid="w19">...</wf>
+    <wf length="1" offset="109" para="2" sent="2" wid="w20">,</wf>
+    <wf length="5" offset="111" para="2" sent="2" wid="w21">celui</wf>
+    <wf length="2" offset="117" para="2" sent="2" wid="w22">de</wf>
+    <wf length="2" offset="120" para="2" sent="2" wid="w23">La</wf>
+    <wf length="8" offset="123" para="2" sent="2" wid="w24">Rochelle</wf>
+    <wf length="4" offset="132" para="2" sent="2" wid="w25">vaut</wf>
+    <wf length="2" offset="137" para="2" sent="2" wid="w26">le</wf>
+    <wf length="6" offset="140" para="2" sent="2" wid="w27">détour</wf>
+    <wf length="1" offset="146" para="2" sent="2" wid="w28">.</wf>
+  </text>
+  <terms>
+    <term lemma="superbe" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- superbe -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- de -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t4" type="close">
+      <span>
+        <!-- La -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Rochelle" morphofeat="NPfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- Rochelle -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t6" type="close">
+      <span>
+        <!-- Nous -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="connaître" morphofeat="VP1p" pos="V" tid="t7" type="open">
+      <span>
+        <!-- connaissons -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t8" type="close">
+      <span>
+        <!-- les -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCmp" pos="N" tid="t9" type="open">
+      <span>
+        <!-- aquariums -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- de -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Monaco" morphofeat="NPms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- Monaco -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t12" type="close">
+      <span>
+        <!-- , -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Antibes" morphofeat="NPfp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- Antibes -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t14" type="close">
+      <span>
+        <!-- , -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Nautica" morphofeat="NPfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- Nautica -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- à -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Dunkerque" morphofeat="NPms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Dunkerque -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="etc" morphofeat="ADV" pos="G" tid="t18" type="open">
+      <span>
+        <!-- etc -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="..." morphofeat="..." pos="O" tid="t19" type="close">
+      <span>
+        <!-- ... -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t20" type="close">
+      <span>
+        <!-- , -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="celui" morphofeat="PROms" pos="P" tid="t21" type="close">
+      <span>
+        <!-- celui -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- de -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t23" type="close">
+      <span>
+        <!-- La -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="Rochelle" morphofeat="NPfs" pos="N" tid="t24" type="open">
+      <span>
+        <!-- Rochelle -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="valoir" morphofeat="VP3s" pos="V" tid="t25" type="open">
+      <span>
+        <!-- vaut -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t26" type="close">
+      <span>
+        <!-- le -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="détour" morphofeat="NCms" pos="N" tid="t27" type="open">
+      <span>
+        <!-- détour -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t28" type="close">
+      <span>
+        <!-- . -->
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Location">
+        <references>
+          <span>
+            <target id="t2"/>
+            <target id="t3"/>
+            <target id="t4"/>
+            <target id="t5"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--aquarium de La Rochelle-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--superbe-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

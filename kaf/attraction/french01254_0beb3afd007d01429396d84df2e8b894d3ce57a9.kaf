@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:48Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:48Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:48Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="7" offset="0" para="1" sent="1" wid="w1">station</wf>
+    <wf length="8" offset="8" para="1" sent="1" wid="w2">pietonne</wf>
+    <wf length="1" offset="16" para="1" sent="1" wid="w3">,</wf>
+    <wf length="8" offset="18" para="2" sent="2" wid="w4">stations</wf>
+    <wf length="8" offset="27" para="2" sent="2" wid="w5">pietonne</wf>
+    <wf length="1" offset="35" para="2" sent="2" wid="w6">,</wf>
+    <wf length="5" offset="36" para="2" sent="2" wid="w7">ainsi</wf>
+    <wf length="3" offset="42" para="2" sent="2" wid="w8">que</wf>
+    <wf length="3" offset="46" para="2" sent="2" wid="w9">les</wf>
+    <wf length="8" offset="50" para="2" sent="2" wid="w10">caleches</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w11">c'</wf>
+    <wf length="3" offset="61" para="2" sent="2" wid="w12">est</wf>
+    <wf length="14" offset="65" para="2" sent="2" wid="w13">magnifique.les</wf>
+    <wf length="4" offset="80" para="2" sent="2" wid="w14">gens</wf>
+    <wf length="4" offset="85" para="2" sent="2" wid="w15">sont</wf>
+    <wf length="11" offset="90" para="2" sent="2" wid="w16">sympathique</wf>
+    <wf length="1" offset="101" para="2" sent="2" wid="w17">,</wf>
+    <wf length="2" offset="102" para="2" sent="2" wid="w18">c'</wf>
+    <wf length="3" offset="104" para="2" sent="2" wid="w19">est</wf>
+    <wf length="3" offset="108" para="2" sent="2" wid="w20">une</wf>
+    <wf length="5" offset="112" para="2" sent="2" wid="w21">bonne</wf>
+    <wf length="7" offset="118" para="2" sent="2" wid="w22">station</wf>
+    <wf length="4" offset="126" para="2" sent="2" wid="w23">pour</wf>
+    <wf length="2" offset="131" para="2" sent="2" wid="w24">la</wf>
+    <wf length="7" offset="134" para="2" sent="2" wid="w25">famille</wf>
+  </text>
+  <terms>
+    <term lemma="station" morphofeat="NCfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- station -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="pietonne" morphofeat="Afs" pos="G" tid="t2" type="open">
+      <span>
+        <!-- pietonne -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t3" type="close">
+      <span>
+        <!-- , -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="station" morphofeat="NCfp" pos="N" tid="t4" type="open">
+      <span>
+        <!-- stations -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pietonne" morphofeat="Afs" pos="G" tid="t5" type="open">
+      <span>
+        <!-- pietonne -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t6" type="close">
+      <span>
+        <!-- , -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="ainsi" morphofeat="ADV" pos="G" tid="t7" type="open">
+      <span>
+        <!-- ainsi -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="C" pos="C" tid="t8" type="close">
+      <span>
+        <!-- que -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t9" type="close">
+      <span>
+        <!-- les -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="caleches" morphofeat="NCmp" pos="N" tid="t10" type="open">
+      <span>
+        <!-- caleches -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t11" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t12" type="open">
+      <span>
+        <!-- est -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="magnifique.les" morphofeat="Afp" pos="G" tid="t13" type="open">
+      <span>
+        <!-- magnifique.les -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="gens" morphofeat="NCfp" pos="N" tid="t14" type="open">
+      <span>
+        <!-- gens -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3p" pos="V" tid="t15" type="open">
+      <span>
+        <!-- sont -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="sympathique" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- sympathique -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t17" type="close">
+      <span>
+        <!-- , -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t18" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t19" type="open">
+      <span>
+        <!-- est -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t20" type="close">
+      <span>
+        <!-- une -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t21" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="station" morphofeat="NCfs" pos="N" tid="t22" type="open">
+      <span>
+        <!-- station -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t23" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t24" type="close">
+      <span>
+        <!-- la -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="famille" morphofeat="NCfs" pos="N" tid="t25" type="open">
+      <span>
+        <!-- famille -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="For children">
+        <references>
+          <span>
+            <target id="t24"/>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="10_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--c'-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bonne station pour la famille-->
+        <span>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--stations pietonne les caleches c'-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--magnifique.les-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="6_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--gens-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--sont sympathique-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

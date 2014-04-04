@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">Eviter</wf>
+    <wf length="3" offset="7" para="1" sent="1" wid="w2">les</wf>
+    <wf length="6" offset="11" para="1" sent="1" wid="w3">heures</wf>
+    <wf length="2" offset="18" para="1" sent="1" wid="w4">de</wf>
+    <wf length="7" offset="21" para="1" sent="1" wid="w5">pointes</wf>
+    <wf length="4" offset="29" para="2" sent="2" wid="w6">Très</wf>
+    <wf length="4" offset="34" para="2" sent="2" wid="w7">bien</wf>
+    <wf length="2" offset="39" para="2" sent="2" wid="w8">si</wf>
+    <wf length="4" offset="42" para="2" sent="2" wid="w9">vous</wf>
+    <wf length="10" offset="47" para="2" sent="2" wid="w10">choisissez</wf>
+    <wf length="3" offset="58" para="2" sent="2" wid="w11">une</wf>
+    <wf length="5" offset="62" para="2" sent="2" wid="w12">heure</wf>
+    <wf length="2" offset="68" para="2" sent="2" wid="w13">de</wf>
+    <wf length="6" offset="71" para="2" sent="2" wid="w14">petite</wf>
+    <wf length="9" offset="78" para="2" sent="2" wid="w15">affluence</wf>
+    <wf length="5" offset="88" para="2" sent="2" wid="w16">sinon</wf>
+    <wf length="4" offset="94" para="2" sent="2" wid="w17">vous</wf>
+    <wf length="2" offset="99" para="2" sent="2" wid="w18">ne</wf>
+    <wf length="6" offset="102" para="2" sent="2" wid="w19">verrez</wf>
+    <wf length="3" offset="109" para="2" sent="2" wid="w20">que</wf>
+    <wf length="3" offset="113" para="2" sent="2" wid="w21">les</wf>
+    <wf length="5" offset="117" para="2" sent="2" wid="w22">têtes</wf>
+    <wf length="9" offset="123" para="2" sent="2" wid="w23">visiteurs</wf>
+    <wf length="6" offset="133" para="2" sent="2" wid="w24">devant</wf>
+    <wf length="3" offset="140" para="2" sent="2" wid="w25">les</wf>
+    <wf length="4" offset="144" para="2" sent="2" wid="w26">bacs</wf>
+    <wf length="2" offset="149" para="2" sent="2" wid="w27">..</wf>
+    <wf length="1" offset="151" para="2" sent="2" wid="w28">.</wf>
+    <wf length="1" offset="153" para="2" sent="3" wid="w29">A</wf>
+    <wf length="5" offset="155" para="2" sent="3" wid="w30">faire</wf>
+    <wf length="4" offset="161" para="2" sent="3" wid="w31">tout</wf>
+    <wf length="2" offset="166" para="2" sent="3" wid="w32">de</wf>
+    <wf length="4" offset="169" para="2" sent="3" wid="w33">même</wf>
+    <wf length="10" offset="174" para="2" sent="3" wid="w34">absolument</wf>
+  </text>
+  <terms>
+    <term lemma="Eviter" morphofeat="P" pos="P" tid="t1" type="close">
+      <span>
+        <!-- Eviter -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t2" type="close">
+      <span>
+        <!-- les -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="heure" morphofeat="NCfp" pos="N" tid="t3" type="open">
+      <span>
+        <!-- heures -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!-- de -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pointe" morphofeat="NCfp" pos="N" tid="t5" type="open">
+      <span>
+        <!-- pointes -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t6" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t7" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="si" morphofeat="CS" pos="C" tid="t8" type="close">
+      <span>
+        <!-- si -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t9" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="choisir" morphofeat="VP2p" pos="V" tid="t10" type="open">
+      <span>
+        <!-- choisissez -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t11" type="close">
+      <span>
+        <!-- une -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="heure" morphofeat="NCfs" pos="N" tid="t12" type="open">
+      <span>
+        <!-- heure -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- de -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="petit" morphofeat="Afs" pos="G" tid="t14" type="open">
+      <span>
+        <!-- petite -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="affluence" morphofeat="NCfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- affluence -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="sinon" morphofeat="CC" pos="C" tid="t16" type="close">
+      <span>
+        <!-- sinon -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t17" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t18" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VP2p" pos="V" tid="t19" type="open">
+      <span>
+        <!-- verrez -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t20" type="close">
+      <span>
+        <!-- que -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t21" type="close">
+      <span>
+        <!-- les -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="tête" morphofeat="NCmp" pos="N" tid="t22" type="open">
+      <span>
+        <!-- têtes -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="visiteurs" morphofeat="Amp" pos="G" tid="t23" type="open">
+      <span>
+        <!-- visiteurs -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="devant" morphofeat="P" pos="P" tid="t24" type="close">
+      <span>
+        <!-- devant -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t25" type="close">
+      <span>
+        <!-- les -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="bac" morphofeat="NCfp" pos="N" tid="t26" type="open">
+      <span>
+        <!-- bacs -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma=".." morphofeat="..." pos="O" tid="t27" type="close">
+      <span>
+        <!-- .. -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t28" type="close">
+      <span>
+        <!-- . -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="A" morphofeat="P" pos="P" tid="t29" type="close">
+      <span>
+        <!-- A -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="faire" morphofeat="VW" pos="V" tid="t30" type="open">
+      <span>
+        <!-- faire -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="ADV" pos="G" tid="t31" type="open">
+      <span>
+        <!-- tout -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t32" type="close">
+      <span>
+        <!-- de -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="même" morphofeat="A" pos="G" tid="t33" type="open">
+      <span>
+        <!-- même -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="absolument" morphofeat="ADV" pos="G" tid="t34" type="open">
+      <span>
+        <!-- absolument -->
+        <target id="w34"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Crowds and Queues">
+        <references>
+          <span>
+            <target id="t1"/>
+            <target id="t2"/>
+            <target id="t3"/>
+            <target id="t4"/>
+            <target id="t5"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Eviter les heures de pointes-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

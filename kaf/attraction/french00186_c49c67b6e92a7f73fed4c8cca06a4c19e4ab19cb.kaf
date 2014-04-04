@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:25:01Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:25:01Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:25:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:48CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:48CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="12" offset="0" para="1" sent="1" wid="w1">Exceptionnel</wf>
+    <wf length="1" offset="13" para="2" sent="2" wid="w2">A</wf>
+    <wf length="9" offset="15" para="2" sent="2" wid="w3">découvrir</wf>
+    <wf length="10" offset="25" para="2" sent="2" wid="w4">absolument</wf>
+    <wf length="1" offset="35" para="2" sent="2" wid="w5">,</wf>
+    <wf length="4" offset="37" para="2" sent="2" wid="w6">pour</wf>
+    <wf length="8" offset="42" para="2" sent="2" wid="w7">vraiment</wf>
+    <wf length="7" offset="51" para="2" sent="2" wid="w8">toucher</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w9">du</wf>
+    <wf length="4" offset="62" para="2" sent="2" wid="w10">bout</wf>
+    <wf length="3" offset="67" para="2" sent="2" wid="w11">des</wf>
+    <wf length="6" offset="71" para="2" sent="2" wid="w12">doigts</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w13">la</wf>
+    <wf length="5" offset="81" para="2" sent="2" wid="w14">haute</wf>
+    <wf length="8" offset="87" para="2" sent="2" wid="w15">montagne</wf>
+    <wf length="1" offset="95" para="2" sent="2" wid="w16">.</wf>
+    <wf length="9" offset="97" para="2" sent="3" wid="w17">Attention</wf>
+    <wf length="9" offset="107" para="2" sent="3" wid="w18">cependant</wf>
+    <wf length="1" offset="117" para="2" sent="3" wid="w19">à</wf>
+    <wf length="2" offset="119" para="2" sent="3" wid="w20">ne</wf>
+    <wf length="3" offset="122" para="2" sent="3" wid="w21">pas</wf>
+    <wf length="8" offset="126" para="2" sent="3" wid="w22">négliger</wf>
+    <wf length="2" offset="135" para="2" sent="3" wid="w23">l'</wf>
+    <wf length="8" offset="137" para="2" sent="3" wid="w24">altitude</wf>
+    <wf length="2" offset="146" para="2" sent="3" wid="w25">et</wf>
+    <wf length="3" offset="149" para="2" sent="3" wid="w26">ses</wf>
+    <wf length="6" offset="153" para="2" sent="3" wid="w27">effets</wf>
+    <wf length="1" offset="159" para="2" sent="3" wid="w28">.</wf>
+  </text>
+  <terms>
+    <term lemma="exceptionnel" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Exceptionnel -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="A" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- A -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="découvrir" morphofeat="VW" pos="V" tid="t3" type="open">
+      <span>
+        <!-- découvrir -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="absolument" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- absolument -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t5" type="close">
+      <span>
+        <!-- , -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="vraiment" morphofeat="ADV" pos="G" tid="t7" type="open">
+      <span>
+        <!-- vraiment -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="toucher" morphofeat="VW" pos="V" tid="t8" type="open">
+      <span>
+        <!-- toucher -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- du -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="bout" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- bout -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- des -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="doigt" morphofeat="NCmp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- doigts -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t13" type="close">
+      <span>
+        <!-- la -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="haut" morphofeat="Afs" pos="G" tid="t14" type="open">
+      <span>
+        <!-- haute -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="montagne" morphofeat="NCfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- montagne -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t16" type="close">
+      <span>
+        <!-- . -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="attention" morphofeat="NCfs" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Attention -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="cependant" morphofeat="ADV" pos="G" tid="t18" type="open">
+      <span>
+        <!-- cependant -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- à -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t20" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="négliger" morphofeat="VW" pos="V" tid="t22" type="open">
+      <span>
+        <!-- négliger -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t23" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="altitude" morphofeat="NCfs" pos="N" tid="t24" type="open">
+      <span>
+        <!-- altitude -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t25" type="close">
+      <span>
+        <!-- et -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dmp" pos="D" tid="t26" type="close">
+      <span>
+        <!-- ses -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="effet" morphofeat="NCmp" pos="N" tid="t27" type="open">
+      <span>
+        <!-- effets -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t28" type="close">
+      <span>
+        <!-- . -->
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

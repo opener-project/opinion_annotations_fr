@@ -1,0 +1,288 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:29Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:29Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:29Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">Parc</wf>
+    <wf length="4" offset="5" para="1" sent="1" wid="w2">très</wf>
+    <wf length="9" offset="10" para="1" sent="1" wid="w3">dangereux</wf>
+    <wf length="1" offset="19" para="1" sent="1" wid="w4">.</wf>
+    <wf length="9" offset="21" para="2" sent="2" wid="w5">Attention</wf>
+    <wf length="1" offset="30" para="2" sent="2" wid="w6">,</wf>
+    <wf length="2" offset="32" para="2" sent="2" wid="w7">il</wf>
+    <wf length="1" offset="35" para="2" sent="2" wid="w8">y</wf>
+    <wf length="1" offset="37" para="2" sent="2" wid="w9">a</wf>
+    <wf length="8" offset="39" para="2" sent="2" wid="w10">beaucoup</wf>
+    <wf length="2" offset="48" para="2" sent="2" wid="w11">d'</wf>
+    <wf length="8" offset="50" para="2" sent="2" wid="w12">accident</wf>
+    <wf length="4" offset="59" para="2" sent="2" wid="w13">dans</wf>
+    <wf length="2" offset="64" para="2" sent="2" wid="w14">ce</wf>
+    <wf length="4" offset="67" para="2" sent="2" wid="w15">parc</wf>
+    <wf length="1" offset="71" para="2" sent="2" wid="w16">.</wf>
+    <wf length="4" offset="73" para="2" sent="3" wid="w17">Même</wf>
+    <wf length="2" offset="78" para="2" sent="3" wid="w18">si</wf>
+    <wf length="4" offset="81" para="2" sent="3" wid="w19">vous</wf>
+    <wf length="6" offset="86" para="2" sent="3" wid="w20">suivez</wf>
+    <wf length="1" offset="93" para="2" sent="3" wid="w21">à</wf>
+    <wf length="2" offset="95" para="2" sent="3" wid="w22">la</wf>
+    <wf length="6" offset="98" para="2" sent="3" wid="w23">lettre</wf>
+    <wf length="3" offset="105" para="2" sent="3" wid="w24">les</wf>
+    <wf length="9" offset="109" para="2" sent="3" wid="w25">consignes</wf>
+    <wf length="2" offset="119" para="2" sent="3" wid="w26">de</wf>
+    <wf length="8" offset="122" para="2" sent="3" wid="w27">sécurité</wf>
+    <wf length="1" offset="130" para="2" sent="3" wid="w28">,</wf>
+    <wf length="4" offset="132" para="2" sent="3" wid="w29">vous</wf>
+    <wf length="7" offset="137" para="2" sent="3" wid="w30">risquez</wf>
+    <wf length="2" offset="145" para="2" sent="3" wid="w31">un</wf>
+    <wf length="8" offset="148" para="2" sent="3" wid="w32">accident</wf>
+    <wf length="1" offset="156" para="2" sent="3" wid="w33">.</wf>
+  </text>
+  <terms>
+    <term lemma="parc" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Parc -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t2" type="open">
+      <span>
+        <!-- très -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="dangereux" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- dangereux -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t4" type="close">
+      <span>
+        <!-- . -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="attention" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- Attention -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t6" type="close">
+      <span>
+        <!-- , -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t7" type="close">
+      <span>
+        <!-- il -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="y" morphofeat="CL3ms" pos="Q" tid="t8" type="close">
+      <span>
+        <!-- y -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t9" type="open">
+      <span>
+        <!-- a -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="beaucoup" morphofeat="ADV" pos="G" tid="t10" type="open">
+      <span>
+        <!-- beaucoup -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="accident" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- accident -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t14" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="parc" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- parc -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t16" type="close">
+      <span>
+        <!-- . -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="même" morphofeat="ADV" pos="G" tid="t17" type="open">
+      <span>
+        <!-- Même -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="si" morphofeat="CS" pos="C" tid="t18" type="close">
+      <span>
+        <!-- si -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t19" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="suivre" morphofeat="VP2p" pos="V" tid="t20" type="open">
+      <span>
+        <!-- suivez -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- à -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t22" type="close">
+      <span>
+        <!-- la -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="lettre" morphofeat="NCfs" pos="N" tid="t23" type="open">
+      <span>
+        <!-- lettre -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t24" type="close">
+      <span>
+        <!-- les -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="consigne" morphofeat="NCfp" pos="N" tid="t25" type="open">
+      <span>
+        <!-- consignes -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t26" type="close">
+      <span>
+        <!-- de -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="sécurité" morphofeat="NCfs" pos="N" tid="t27" type="open">
+      <span>
+        <!-- sécurité -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t28" type="close">
+      <span>
+        <!-- , -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t29" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="risquer" morphofeat="VP2p" pos="V" tid="t30" type="open">
+      <span>
+        <!-- risquez -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t31" type="close">
+      <span>
+        <!-- un -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="accident" morphofeat="NCms" pos="N" tid="t32" type="open">
+      <span>
+        <!-- accident -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t33" type="close">
+      <span>
+        <!-- . -->
+        <target id="w33"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Location">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Parc-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--très dangereux-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">reputation</wf>
+    <wf length="8" offset="11" para="1" sent="1" wid="w2">surfaite</wf>
+    <wf length="3" offset="20" para="2" sent="2" wid="w3">une</wf>
+    <wf length="6" offset="24" para="2" sent="2" wid="w4">grande</wf>
+    <wf length="5" offset="31" para="2" sent="2" wid="w5">place</wf>
+    <wf length="6" offset="37" para="2" sent="2" wid="w6">froide</wf>
+    <wf length="2" offset="44" para="2" sent="2" wid="w7">et</wf>
+    <wf length="4" offset="47" para="2" sent="2" wid="w8">sans</wf>
+    <wf length="7" offset="52" para="2" sent="2" wid="w9">interet</wf>
+    <wf length="4" offset="60" para="2" sent="2" wid="w10">avec</wf>
+    <wf length="3" offset="65" para="2" sent="2" wid="w11">des</wf>
+    <wf length="9" offset="69" para="2" sent="2" wid="w12">batiments</wf>
+    <wf length="8" offset="79" para="2" sent="2" wid="w13">atroces.</wf>
+    <wf length="3" offset="88" para="2" sent="2" wid="w14">une</wf>
+    <wf length="5" offset="92" para="2" sent="2" wid="w15">suite</wf>
+    <wf length="2" offset="98" para="2" sent="2" wid="w16">de</wf>
+    <wf length="8" offset="101" para="2" sent="2" wid="w17">magasins</wf>
+    <wf length="2" offset="110" para="2" sent="2" wid="w18">et</wf>
+    <wf length="2" offset="113" para="2" sent="2" wid="w19">de</wf>
+    <wf length="11" offset="116" para="2" sent="2" wid="w20">restaurants</wf>
+    <wf length="1" offset="127" para="2" sent="2" wid="w21">,</wf>
+    <wf length="2" offset="129" para="2" sent="2" wid="w22">de</wf>
+    <wf length="8" offset="132" para="2" sent="2" wid="w23">vendeurs</wf>
+    <wf length="2" offset="141" para="2" sent="2" wid="w24">de</wf>
+    <wf length="9" offset="144" para="2" sent="2" wid="w25">saucisses</wf>
+  </text>
+  <terms>
+    <term lemma="reputation" morphofeat="NCfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- reputation -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="surfaire" morphofeat="VP3s" pos="V" tid="t2" type="open">
+      <span>
+        <!-- surfaite -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t3" type="close">
+      <span>
+        <!-- une -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Afs" pos="G" tid="t4" type="open">
+      <span>
+        <!-- grande -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="place" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- place -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="froid" morphofeat="Afs" pos="G" tid="t6" type="open">
+      <span>
+        <!-- froide -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t7" type="close">
+      <span>
+        <!-- et -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="sans]" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- sans -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="interet" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- interet -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t11" type="close">
+      <span>
+        <!-- des -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="batiments" morphofeat="NCmp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- batiments -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="atroces." morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- atroces. -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t14" type="close">
+      <span>
+        <!-- une -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="suite" morphofeat="NCfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- suite -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- de -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="magasin" morphofeat="NCmp" pos="N" tid="t17" type="open">
+      <span>
+        <!-- magasins -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t18" type="close">
+      <span>
+        <!-- et -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- de -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="restaurant" morphofeat="NCmp" pos="N" tid="t20" type="open">
+      <span>
+        <!-- restaurants -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t21" type="close">
+      <span>
+        <!-- , -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- de -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="vendeur" morphofeat="NCmp" pos="N" tid="t23" type="open">
+      <span>
+        <!-- vendeurs -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t24" type="close">
+      <span>
+        <!-- de -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="saucisse" morphofeat="NCfp" pos="N" tid="t25" type="open">
+      <span>
+        <!-- saucisses -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--une grande place-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--sans-->
+        <span>
+          <target id="t8"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--une grande place-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--des batiments atroces.-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_2">
+      <opinion_holder/>
+      <opinion_target>
+        <!--une grande place-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--froide-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:33:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:33:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:33:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">ENTREE</wf>
+    <wf length="4" offset="7" para="1" sent="1" wid="w2">DANS</wf>
+    <wf length="2" offset="12" para="1" sent="1" wid="w3">LE</wf>
+    <wf length="5" offset="15" para="1" sent="1" wid="w4">MYTHE</wf>
+    <wf length="7" offset="21" para="2" sent="2" wid="w5">Réalité</wf>
+    <wf length="7" offset="29" para="2" sent="2" wid="w6">dépasse</wf>
+    <wf length="2" offset="37" para="2" sent="2" wid="w7">la</wf>
+    <wf length="7" offset="40" para="2" sent="2" wid="w8">fiction</wf>
+    <wf length="1" offset="47" para="2" sent="2" wid="w9">;</wf>
+    <wf length="3" offset="48" para="2" sent="2" wid="w10">les</wf>
+    <wf length="6" offset="52" para="2" sent="2" wid="w11">images</wf>
+    <wf length="9" offset="59" para="2" sent="2" wid="w12">mythiques</wf>
+    <wf length="2" offset="69" para="2" sent="2" wid="w13">du</wf>
+    <wf length="8" offset="72" para="2" sent="2" wid="w14">quartier</wf>
+    <wf length="3" offset="81" para="2" sent="2" wid="w15">art</wf>
+    <wf length="4" offset="85" para="2" sent="2" wid="w16">déco</wf>
+    <wf length="2" offset="90" para="2" sent="2" wid="w17">de</wf>
+    <wf length="5" offset="93" para="2" sent="2" wid="w18">MIAMI</wf>
+    <wf length="4" offset="99" para="2" sent="2" wid="w19">vous</wf>
+    <wf length="9" offset="104" para="2" sent="2" wid="w20">attendent</wf>
+    <wf length="2" offset="114" para="2" sent="2" wid="w21">en</wf>
+    <wf length="4" offset="117" para="2" sent="2" wid="w22">réel</wf>
+    <wf length="2" offset="122" para="2" sent="2" wid="w23">le</wf>
+    <wf length="4" offset="125" para="2" sent="2" wid="w24">long</wf>
+    <wf length="2" offset="130" para="2" sent="2" wid="w25">de</wf>
+    <wf length="5" offset="133" para="2" sent="2" wid="w26">Ocean</wf>
+    <wf length="6" offset="139" para="2" sent="2" wid="w27">avenue</wf>
+    <wf length="6" offset="146" para="2" sent="2" wid="w28">bordée</wf>
+    <wf length="2" offset="153" para="2" sent="2" wid="w29">de</wf>
+    <wf length="9" offset="156" para="2" sent="2" wid="w30">cocotiers</wf>
+  </text>
+  <terms>
+    <term lemma="ENTREE" morphofeat="P" pos="P" tid="t1" type="close">
+      <span>
+        <!-- ENTREE -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="DANS" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- DANS -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t3" type="close">
+      <span>
+        <!-- LE -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="mythe" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- MYTHE -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="réalité" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- Réalité -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="dépasser" morphofeat="VP3s" pos="V" tid="t6" type="open">
+      <span>
+        <!-- dépasse -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t7" type="close">
+      <span>
+        <!-- la -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="fiction" morphofeat="NCfs" pos="N" tid="t8" type="open">
+      <span>
+        <!-- fiction -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma=";" morphofeat=";" pos="O" tid="t9" type="close">
+      <span>
+        <!-- ; -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t10" type="close">
+      <span>
+        <!-- les -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="image" morphofeat="NCfp" pos="N" tid="t11" type="open">
+      <span>
+        <!-- images -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="mythique" morphofeat="Afp" pos="G" tid="t12" type="open">
+      <span>
+        <!-- mythiques -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- du -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="quartier" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- quartier -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="art" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- art -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="déco" morphofeat="VP3s" pos="V" tid="t16" type="open">
+      <span>
+        <!-- déco -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- de -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="MIAMI" morphofeat="NPms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- MIAMI -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t19" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="attendre" morphofeat="VP3p" pos="V" tid="t20" type="open">
+      <span>
+        <!-- attendent -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- en -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="réel" morphofeat="NCms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- réel -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t23" type="close">
+      <span>
+        <!-- le -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="long" morphofeat="Ams" pos="G" tid="t24" type="open">
+      <span>
+        <!-- long -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- de -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Ocean" morphofeat="NPms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- Ocean -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="avenue" morphofeat="NCfs" pos="N" tid="t27" type="open">
+      <span>
+        <!-- avenue -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="border" morphofeat="Afs" pos="G" tid="t28" type="open">
+      <span>
+        <!-- bordée -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t29" type="close">
+      <span>
+        <!-- de -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="cocotier" morphofeat="NCmp" pos="N" tid="t30" type="open">
+      <span>
+        <!-- cocotiers -->
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--ENTREE DANS LE MYTHE-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

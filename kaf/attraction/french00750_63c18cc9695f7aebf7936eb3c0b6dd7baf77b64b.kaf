@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">Bien</wf>
+    <wf length="4" offset="5" para="1" sent="1" wid="w2">tenu</wf>
+    <wf length="1" offset="9" para="1" sent="1" wid="w3">,</wf>
+    <wf length="11" offset="11" para="1" sent="1" wid="w4">magnifiques</wf>
+    <wf length="16" offset="23" para="1" sent="1" wid="w5">poissons.accueil</wf>
+    <wf length="11" offset="40" para="1" sent="1" wid="w6">sympathique</wf>
+    <wf length="3" offset="52" para="1" sent="1" wid="w7">par</wf>
+    <wf length="3" offset="56" para="1" sent="1" wid="w8">une</wf>
+    <wf length="6" offset="60" para="1" sent="1" wid="w9">équipe</wf>
+    <wf length="2" offset="67" para="1" sent="1" wid="w10">de</wf>
+    <wf length="6" offset="70" para="1" sent="1" wid="w11">jeunes</wf>
+    <wf length="1" offset="76" para="1" sent="1" wid="w12">.</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w13">Je</wf>
+    <wf length="7" offset="81" para="2" sent="2" wid="w14">pensais</wf>
+    <wf length="3" offset="89" para="2" sent="2" wid="w15">que</wf>
+    <wf length="2" offset="93" para="2" sent="2" wid="w16">j'</wf>
+    <wf length="6" offset="95" para="2" sent="2" wid="w17">allais</wf>
+    <wf length="5" offset="102" para="2" sent="2" wid="w18">avoir</wf>
+    <wf length="2" offset="108" para="2" sent="2" wid="w19">le</wf>
+    <wf length="7" offset="111" para="2" sent="2" wid="w20">souffle</wf>
+    <wf length="5" offset="119" para="2" sent="2" wid="w21">coupé</wf>
+    <wf length="2" offset="125" para="2" sent="2" wid="w22">et</wf>
+    <wf length="4" offset="128" para="2" sent="2" wid="w23">bien</wf>
+    <wf length="3" offset="133" para="2" sent="2" wid="w24">non</wf>
+    <wf length="1" offset="136" para="2" sent="2" wid="w25">,</wf>
+    <wf length="2" offset="138" para="2" sent="2" wid="w26">je</wf>
+    <wf length="5" offset="141" para="2" sent="2" wid="w27">crois</wf>
+    <wf length="3" offset="147" para="2" sent="2" wid="w28">qu'</wf>
+    <wf length="2" offset="150" para="2" sent="2" wid="w29">il</wf>
+    <wf length="2" offset="153" para="2" sent="2" wid="w30">y'</wf>
+    <wf length="1" offset="155" para="2" sent="2" wid="w31">a</wf>
+    <wf length="5" offset="157" para="2" sent="2" wid="w32">mieux</wf>
+    <wf length="5" offset="163" para="2" sent="2" wid="w33">comme</wf>
+    <wf length="8" offset="169" para="2" sent="2" wid="w34">aquarium</wf>
+    <wf length="1" offset="177" para="2" sent="2" wid="w35">.</wf>
+  </text>
+  <terms>
+    <term lemma="Bien" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Bien -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="tenir" morphofeat="V" pos="V" tid="t2" type="open">
+      <span>
+        <!-- tenu -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t3" type="close">
+      <span>
+        <!-- , -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="magnifiques" morphofeat="NCmp" pos="N" tid="t4" type="open">
+      <span>
+        <!-- magnifiques -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="poissons.accueil" morphofeat="NCms" pos="N" tid="t5" type="open">
+      <span>
+        <!-- poissons.accueil -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="sympathique" morphofeat="NCfs" pos="N" tid="t6" type="open">
+      <span>
+        <!-- sympathique -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- par -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t8" type="close">
+      <span>
+        <!-- une -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="équipe" morphofeat="NCfs" pos="N" tid="t9" type="open">
+      <span>
+        <!-- équipe -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- de -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="jeune" morphofeat="Amp" pos="G" tid="t11" type="open">
+      <span>
+        <!-- jeunes -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t12" type="close">
+      <span>
+        <!-- . -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Je" morphofeat="CL1ms" pos="Q" tid="t13" type="close">
+      <span>
+        <!-- Je -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="penser" morphofeat="VI1s" pos="V" tid="t14" type="open">
+      <span>
+        <!-- pensais -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t15" type="close">
+      <span>
+        <!-- que -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="j'" morphofeat="CL1ms" pos="Q" tid="t16" type="close">
+      <span>
+        <!-- j' -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="allais" morphofeat="NCmp" pos="N" tid="t17" type="open">
+      <span>
+        <!-- allais -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VW" pos="V" tid="t18" type="open">
+      <span>
+        <!-- avoir -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t19" type="close">
+      <span>
+        <!-- le -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="souffle" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- souffle -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="couper" morphofeat="Ams" pos="G" tid="t21" type="open">
+      <span>
+        <!-- coupé -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t22" type="close">
+      <span>
+        <!-- et -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t23" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="non" morphofeat="ADV" pos="G" tid="t24" type="open">
+      <span>
+        <!-- non -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t25" type="close">
+      <span>
+        <!-- , -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="je" morphofeat="CL1ms" pos="Q" tid="t26" type="close">
+      <span>
+        <!-- je -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="croire" morphofeat="VP1s" pos="V" tid="t27" type="open">
+      <span>
+        <!-- crois -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="qu'" morphofeat="CS" pos="C" tid="t28" type="close">
+      <span>
+        <!-- qu' -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t29" type="close">
+      <span>
+        <!-- il -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="y'" morphofeat="CL3ms" pos="Q" tid="t30" type="close">
+      <span>
+        <!-- y' -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t31" type="open">
+      <span>
+        <!-- a -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="mieux" morphofeat="ADV" pos="G" tid="t32" type="open">
+      <span>
+        <!-- mieux -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="comme" morphofeat="P" pos="P" tid="t33" type="close">
+      <span>
+        <!-- comme -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t34" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t35" type="close">
+      <span>
+        <!-- . -->
+        <target id="w35"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Collection">
+        <references>
+          <span>
+            <target id="t5"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t8"/>
+            <target id="t9"/>
+            <target id="t10"/>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="8_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Bien tenu-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="7_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--poissons.accueil-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--magnifiques-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="6_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--par une équipe de jeunes-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--sympathique-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

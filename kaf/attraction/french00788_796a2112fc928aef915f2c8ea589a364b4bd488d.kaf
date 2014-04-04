@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">génial</wf>
+    <wf length="2" offset="7" para="2" sent="2" wid="w2">c'</wf>
+    <wf length="5" offset="9" para="2" sent="2" wid="w3">était</wf>
+    <wf length="2" offset="15" para="2" sent="2" wid="w4">un</wf>
+    <wf length="3" offset="18" para="2" sent="2" wid="w5">pur</wf>
+    <wf length="7" offset="22" para="2" sent="2" wid="w6">bonheur</wf>
+    <wf length="3" offset="30" para="2" sent="2" wid="w7">une</wf>
+    <wf length="4" offset="34" para="2" sent="2" wid="w8">vrai</wf>
+    <wf length="7" offset="39" para="2" sent="2" wid="w9">évasion</wf>
+    <wf length="5" offset="47" para="2" sent="2" wid="w10">entre</wf>
+    <wf length="4" offset="53" para="2" sent="2" wid="w11">amis</wf>
+    <wf length="7" offset="58" para="2" sent="2" wid="w12">surtout</wf>
+    <wf length="7" offset="66" para="2" sent="2" wid="w13">lorsque</wf>
+    <wf length="2" offset="74" para="2" sent="2" wid="w14">il</wf>
+    <wf length="5" offset="77" para="2" sent="2" wid="w15">pleut</wf>
+    <wf length="4" offset="83" para="2" sent="2" wid="w16">nous</wf>
+    <wf length="11" offset="88" para="2" sent="2" wid="w17">reviendrons</wf>
+    <wf length="4" offset="100" para="2" sent="2" wid="w18">avec</wf>
+    <wf length="7" offset="105" para="2" sent="2" wid="w19">plaisir</wf>
+  </text>
+  <terms>
+    <term lemma="génial" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- génial -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t2" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t3" type="open">
+      <span>
+        <!-- était -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t4" type="close">
+      <span>
+        <!-- un -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pur" morphofeat="Ams" pos="G" tid="t5" type="open">
+      <span>
+        <!-- pur -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="bonheur" morphofeat="NCms" pos="N" tid="t6" type="open">
+      <span>
+        <!-- bonheur -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t7" type="close">
+      <span>
+        <!-- une -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="vrai" morphofeat="Ams" pos="G" tid="t8" type="open">
+      <span>
+        <!-- vrai -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="évasion" morphofeat="NCfs" pos="N" tid="t9" type="open">
+      <span>
+        <!-- évasion -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="entre" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- entre -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="ami" morphofeat="NCmp" pos="N" tid="t11" type="open">
+      <span>
+        <!-- amis -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="surtout" morphofeat="ADV" pos="G" tid="t12" type="open">
+      <span>
+        <!-- surtout -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="lorsque" morphofeat="CS" pos="C" tid="t13" type="close">
+      <span>
+        <!-- lorsque -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t14" type="close">
+      <span>
+        <!-- il -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="pleuvoir" morphofeat="VP3s" pos="V" tid="t15" type="open">
+      <span>
+        <!-- pleut -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t16" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="revenir" morphofeat="VF1p" pos="V" tid="t17" type="open">
+      <span>
+        <!-- reviendrons -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="plaisir" morphofeat="NCms" pos="N" tid="t19" type="open">
+      <span>
+        <!-- plaisir -->
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--génial-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

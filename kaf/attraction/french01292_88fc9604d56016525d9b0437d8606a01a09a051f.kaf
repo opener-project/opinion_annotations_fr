@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:35:13Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:35:13Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:35:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">sejour</wf>
+    <wf length="4" offset="7" para="1" sent="1" wid="w2">trés</wf>
+    <wf length="8" offset="12" para="1" sent="1" wid="w3">agreable</wf>
+    <wf length="5" offset="21" para="2" sent="2" wid="w4">bonne</wf>
+    <wf length="7" offset="27" para="2" sent="2" wid="w5">station</wf>
+    <wf length="3" offset="35" para="2" sent="2" wid="w6">bon</wf>
+    <wf length="6" offset="39" para="2" sent="2" wid="w7">sejour</wf>
+    <wf length="4" offset="46" para="2" sent="2" wid="w8">avec</wf>
+    <wf length="3" offset="51" para="2" sent="2" wid="w9">mon</wf>
+    <wf length="4" offset="55" para="2" sent="2" wid="w10">ami.</wf>
+    <wf length="7" offset="60" para="2" sent="2" wid="w11">accueil</wf>
+    <wf length="4" offset="68" para="2" sent="2" wid="w12">très</wf>
+    <wf length="10" offset="73" para="2" sent="2" wid="w13">sympatique</wf>
+    <wf length="3" offset="84" para="2" sent="2" wid="w14">bon</wf>
+    <wf length="11" offset="88" para="2" sent="2" wid="w15">appartement</wf>
+    <wf length="4" offset="100" para="2" sent="2" wid="w16">rien</wf>
+    <wf length="1" offset="105" para="2" sent="2" wid="w17">à</wf>
+    <wf length="10" offset="107" para="2" sent="2" wid="w18">repprocher</wf>
+    <wf length="2" offset="118" para="2" sent="2" wid="w19">je</wf>
+    <wf length="6" offset="121" para="2" sent="2" wid="w20">serais</wf>
+    <wf length="2" offset="128" para="2" sent="2" wid="w21">de</wf>
+    <wf length="6" offset="131" para="2" sent="2" wid="w22">retour</wf>
+    <wf length="2" offset="138" para="2" sent="2" wid="w23">l'</wf>
+    <wf length="2" offset="140" para="2" sent="2" wid="w24">an</wf>
+    <wf length="8" offset="143" para="2" sent="2" wid="w25">prochain</wf>
+  </text>
+  <terms>
+    <term lemma="sejour" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- sejour -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="trés" morphofeat="NCmp" pos="N" tid="t2" type="open">
+      <span>
+        <!-- trés -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="agreable" morphofeat="Afs" pos="G" tid="t3" type="open">
+      <span>
+        <!-- agreable -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t4" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="station" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- station -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t6" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="sejour" morphofeat="NCms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- sejour -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- mon -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="ami." morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- ami. -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="accueil" morphofeat="NCms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- accueil -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t12" type="open">
+      <span>
+        <!-- très -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="sympatique" morphofeat="Ams" pos="G" tid="t13" type="open">
+      <span>
+        <!-- sympatique -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t14" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="appartement" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- appartement -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="rien" morphofeat="PRO3ms" pos="P" tid="t16" type="close">
+      <span>
+        <!-- rien -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- à -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="repprocher" morphofeat="VW" pos="V" tid="t18" type="open">
+      <span>
+        <!-- repprocher -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="je" morphofeat="CL1ms" pos="Q" tid="t19" type="close">
+      <span>
+        <!-- je -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VC1s" pos="V" tid="t20" type="open">
+      <span>
+        <!-- serais -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- de -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="retour" morphofeat="NCms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- retour -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t23" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="an" morphofeat="NCms" pos="N" tid="t24" type="open">
+      <span>
+        <!-- an -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="prochain" morphofeat="Ams" pos="G" tid="t25" type="open">
+      <span>
+        <!-- prochain -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="11_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--accueil-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--très sympatique-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="20_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--rien à repprocher-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="19_0">
+      <opinion_holder>
+        <!--je-->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--serais de retour l' an prochain-->
+        <span>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="15_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--appartement-->
+        <span>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bon-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="5_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--station-->
+        <span>
+          <target id="t5"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bonne-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="8_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--sejour avec mon ami.-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bon-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

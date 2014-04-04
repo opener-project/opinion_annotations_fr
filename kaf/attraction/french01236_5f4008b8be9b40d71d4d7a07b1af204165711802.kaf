@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:38Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:38Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:38Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Great</wf>
+    <wf length="4" offset="6" para="1" sent="1" wid="w2">Mall</wf>
+    <wf length="4" offset="11" para="2" sent="2" wid="w3">Make</wf>
+    <wf length="4" offset="16" para="2" sent="2" wid="w4">sure</wf>
+    <wf length="3" offset="21" para="2" sent="2" wid="w5">you</wf>
+    <wf length="2" offset="25" para="2" sent="2" wid="w6">go</wf>
+    <wf length="3" offset="28" para="2" sent="2" wid="w7">get</wf>
+    <wf length="4" offset="32" para="2" sent="2" wid="w8">your</wf>
+    <wf length="8" offset="37" para="2" sent="2" wid="w9">visitors</wf>
+    <wf length="8" offset="46" para="2" sent="2" wid="w10">discount</wf>
+    <wf length="4" offset="55" para="2" sent="2" wid="w11">card</wf>
+    <wf length="2" offset="60" para="2" sent="2" wid="w12">at</wf>
+    <wf length="7" offset="63" para="2" sent="2" wid="w13">service</wf>
+    <wf length="4" offset="71" para="2" sent="2" wid="w14">desk</wf>
+    <wf length="1" offset="75" para="2" sent="2" wid="w15">.</wf>
+  </text>
+  <terms>
+    <term lemma="Great" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Great -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Mall" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Mall -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Make" morphofeat="NPms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- Make -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="sure" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- sure -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="you" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- you -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="go" morphofeat="ET" pos="O" tid="t6" type="close">
+      <span>
+        <!-- go -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="get" morphofeat="ET" pos="O" tid="t7" type="close">
+      <span>
+        <!-- get -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="your" morphofeat="ET" pos="O" tid="t8" type="close">
+      <span>
+        <!-- your -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="visitors" morphofeat="N" pos="N" tid="t9" type="open">
+      <span>
+        <!-- visitors -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="discount" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- discount -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="card" morphofeat="Ams" pos="G" tid="t11" type="open">
+      <span>
+        <!-- card -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="at" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- at -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="service" morphofeat="NCms" pos="N" tid="t13" type="open">
+      <span>
+        <!-- service -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="desk" morphofeat="NPms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- desk -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t15" type="close">
+      <span>
+        <!-- . -->
+        <target id="w15"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Mall-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Great-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:33:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:33:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:33:40Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Magnifique</wf>
+    <wf length="10" offset="11" para="2" sent="2" wid="w2">Absolument</wf>
+    <wf length="1" offset="22" para="2" sent="2" wid="w3">à</wf>
+    <wf length="4" offset="24" para="2" sent="2" wid="w4">voir</wf>
+    <wf length="4" offset="29" para="2" sent="2" wid="w5">pour</wf>
+    <wf length="3" offset="34" para="2" sent="2" wid="w6">ses</wf>
+    <wf length="11" offset="38" para="2" sent="2" wid="w7">collections</wf>
+    <wf length="2" offset="50" para="2" sent="2" wid="w8">d'</wf>
+    <wf length="7" offset="52" para="2" sent="2" wid="w9">armures</wf>
+    <wf length="2" offset="60" para="2" sent="2" wid="w10">et</wf>
+    <wf length="2" offset="63" para="2" sent="2" wid="w11">de</wf>
+    <wf length="2" offset="66" para="2" sent="2" wid="w12">l'</wf>
+    <wf length="6" offset="68" para="2" sent="2" wid="w13">empire</wf>
+    <wf length="1" offset="74" para="2" sent="2" wid="w14">.</wf>
+    <wf length="4" offset="76" para="3" sent="3" wid="w15">Bien</wf>
+    <wf length="8" offset="81" para="3" sent="3" wid="w16">organisé</wf>
+    <wf length="1" offset="89" para="3" sent="3" wid="w17">,</wf>
+    <wf length="7" offset="91" para="3" sent="3" wid="w18">moderne</wf>
+    <wf length="1" offset="98" para="3" sent="3" wid="w19">.</wf>
+    <wf length="7" offset="100" para="3" sent="4" wid="w20">Prévoir</wf>
+    <wf length="3" offset="108" para="3" sent="4" wid="w21">une</wf>
+    <wf length="7" offset="112" para="3" sent="4" wid="w22">journée</wf>
+    <wf length="1" offset="119" para="3" sent="4" wid="w23">.</wf>
+  </text>
+  <terms>
+    <term lemma="Magnifique" morphofeat="NPfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Magnifique -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Absolument" morphofeat="ADV" pos="G" tid="t2" type="open">
+      <span>
+        <!-- Absolument -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- à -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VW" pos="V" tid="t4" type="open">
+      <span>
+        <!-- voir -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dfp" pos="D" tid="t6" type="close">
+      <span>
+        <!-- ses -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="collection" morphofeat="NCfp" pos="N" tid="t7" type="open">
+      <span>
+        <!-- collections -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="armure" morphofeat="NCfp" pos="N" tid="t9" type="open">
+      <span>
+        <!-- armures -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- et -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- de -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t12" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="empire" morphofeat="NCms" pos="N" tid="t13" type="open">
+      <span>
+        <!-- empire -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t14" type="close">
+      <span>
+        <!-- . -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Bien" morphofeat="ADV" pos="G" tid="t15" type="open">
+      <span>
+        <!-- Bien -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="organiser" morphofeat="VKms" pos="V" tid="t16" type="open">
+      <span>
+        <!-- organisé -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t17" type="close">
+      <span>
+        <!-- , -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="moderne" morphofeat="Afs" pos="G" tid="t18" type="open">
+      <span>
+        <!-- moderne -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t19" type="close">
+      <span>
+        <!-- . -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="Prévoir" morphofeat="NPms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- Prévoir -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t21" type="close">
+      <span>
+        <!-- une -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="journée" morphofeat="NCfs" pos="N" tid="t22" type="open">
+      <span>
+        <!-- journée -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t23" type="close">
+      <span>
+        <!-- . -->
+        <target id="w23"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Collection">
+        <references>
+          <span>
+            <target id="t15"/>
+            <target id="t16"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Bien organisé-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_1">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--moderne-->
+        <span>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

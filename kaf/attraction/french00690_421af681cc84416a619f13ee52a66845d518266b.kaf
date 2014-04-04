@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:29:37Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:29:37Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:29:37Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Comme</wf>
+    <wf length="5" offset="6" para="1" sent="1" wid="w2">celui</wf>
+    <wf length="2" offset="12" para="1" sent="1" wid="w3">de</wf>
+    <wf length="5" offset="15" para="1" sent="1" wid="w4">Saint</wf>
+    <wf length="1" offset="20" para="1" sent="1" wid="w5">·</wf>
+    <wf length="4" offset="21" para="1" sent="1" wid="w6">malo</wf>
+    <wf length="2" offset="26" para="2" sent="2" wid="w7">Je</wf>
+    <wf length="2" offset="29" para="2" sent="2" wid="w8">m'</wf>
+    <wf length="9" offset="31" para="2" sent="2" wid="w9">attendais</wf>
+    <wf length="1" offset="41" para="2" sent="2" wid="w10">à</wf>
+    <wf length="2" offset="43" para="2" sent="2" wid="w11">un</wf>
+    <wf length="8" offset="46" para="2" sent="2" wid="w12">aquarium</wf>
+    <wf length="3" offset="55" para="2" sent="2" wid="w13">une</wf>
+    <wf length="6" offset="59" para="2" sent="2" wid="w14">classe</wf>
+    <wf length="2" offset="66" para="2" sent="2" wid="w15">au</wf>
+    <wf length="1" offset="68" para="2" sent="2" wid="w16">·</wf>
+    <wf length="6" offset="69" para="2" sent="2" wid="w17">dessus</wf>
+    <wf length="2" offset="76" para="2" sent="2" wid="w18">de</wf>
+    <wf length="5" offset="79" para="2" sent="2" wid="w19">celui</wf>
+    <wf length="2" offset="85" para="2" sent="2" wid="w20">de</wf>
+    <wf length="2" offset="88" para="2" sent="2" wid="w21">St</wf>
+    <wf length="1" offset="90" para="2" sent="2" wid="w22">·</wf>
+    <wf length="4" offset="91" para="2" sent="2" wid="w23">Malo</wf>
+    <wf length="1" offset="95" para="2" sent="2" wid="w24">,</wf>
+    <wf length="4" offset="97" para="2" sent="2" wid="w25">même</wf>
+    <wf length="6" offset="102" para="2" sent="2" wid="w26">niveau</wf>
+    <wf length="1" offset="108" para="2" sent="2" wid="w27">,</wf>
+    <wf length="2" offset="110" para="2" sent="2" wid="w28">ce</wf>
+    <wf length="3" offset="113" para="2" sent="2" wid="w29">qui</wf>
+    <wf length="2" offset="117" para="2" sent="2" wid="w30">n'</wf>
+    <wf length="3" offset="119" para="2" sent="2" wid="w31">est</wf>
+    <wf length="4" offset="123" para="2" sent="2" wid="w32">déjà</wf>
+    <wf length="3" offset="128" para="2" sent="2" wid="w33">pas</wf>
+    <wf length="3" offset="132" para="2" sent="2" wid="w34">mal</wf>
+    <wf length="1" offset="136" para="2" sent="2" wid="w35">!</wf>
+  </text>
+  <terms>
+    <term lemma="Comme" morphofeat="P" pos="P" tid="t1" type="close">
+      <span>
+        <!-- Comme -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="celui" morphofeat="PROms" pos="P" tid="t2" type="close">
+      <span>
+        <!-- celui -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- de -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="saint" morphofeat="NPms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Saint -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="VP3s" pos="V" tid="t5" type="open">
+      <span>
+        <!-- · -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="malo" morphofeat="ADV" pos="G" tid="t6" type="open">
+      <span>
+        <!-- malo -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="Je" morphofeat="CL1ms" pos="Q" tid="t7" type="close">
+      <span>
+        <!-- Je -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="m'" morphofeat="CLR1ms" pos="Q" tid="t8" type="close">
+      <span>
+        <!-- m' -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="attendre" morphofeat="VKmp" pos="V" tid="t9" type="open">
+      <span>
+        <!-- attendais -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- à -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t11" type="close">
+      <span>
+        <!-- un -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t13" type="close">
+      <span>
+        <!-- une -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="classe" morphofeat="NCfs" pos="N" tid="t14" type="open">
+      <span>
+        <!-- classe -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- au -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- · -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="dessus" morphofeat="ADV" pos="G" tid="t17" type="open">
+      <span>
+        <!-- dessus -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- de -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="celui" morphofeat="PROms" pos="P" tid="t19" type="close">
+      <span>
+        <!-- celui -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!-- de -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="St" morphofeat="NPms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- St -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="NPms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- · -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="Malo" morphofeat="NPms" pos="N" tid="t23" type="open">
+      <span>
+        <!-- Malo -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t24" type="close">
+      <span>
+        <!-- , -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="même" morphofeat="ADV" pos="G" tid="t25" type="open">
+      <span>
+        <!-- même -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="niveau" morphofeat="NCms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- niveau -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t27" type="close">
+      <span>
+        <!-- , -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="PRO3ms" pos="P" tid="t28" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3ms" pos="P" tid="t29" type="close">
+      <span>
+        <!-- qui -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="n'" morphofeat="ADV" pos="G" tid="t30" type="open">
+      <span>
+        <!-- n' -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t31" type="open">
+      <span>
+        <!-- est -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="déjà" morphofeat="ADV" pos="G" tid="t32" type="open">
+      <span>
+        <!-- déjà -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t33" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="mal" morphofeat="ADV" pos="G" tid="t34" type="open">
+      <span>
+        <!-- mal -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t35" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w35"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

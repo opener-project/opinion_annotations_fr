@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:47Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:47Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:47Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">très</wf>
+    <wf length="4" offset="5" para="1" sent="1" wid="w2">joli</wf>
+    <wf length="8" offset="10" para="1" sent="1" wid="w3">aquarium</wf>
+    <wf length="4" offset="19" para="2" sent="2" wid="w4">Très</wf>
+    <wf length="4" offset="24" para="2" sent="2" wid="w5">joli</wf>
+    <wf length="8" offset="29" para="2" sent="2" wid="w6">aquarium</wf>
+    <wf length="1" offset="37" para="2" sent="2" wid="w7">,</wf>
+    <wf length="4" offset="39" para="2" sent="2" wid="w8">plus</wf>
+    <wf length="4" offset="44" para="2" sent="2" wid="w9">joli</wf>
+    <wf length="2" offset="49" para="2" sent="2" wid="w10">et</wf>
+    <wf length="5" offset="52" para="2" sent="2" wid="w11">moins</wf>
+    <wf length="4" offset="58" para="2" sent="2" wid="w12">cher</wf>
+    <wf length="3" offset="63" para="2" sent="2" wid="w13">que</wf>
+    <wf length="5" offset="67" para="2" sent="2" wid="w14">celui</wf>
+    <wf length="2" offset="73" para="2" sent="2" wid="w15">de</wf>
+    <wf length="2" offset="76" para="2" sent="2" wid="w16">St</wf>
+    <wf length="4" offset="79" para="2" sent="2" wid="w17">Malo</wf>
+    <wf length="1" offset="83" para="2" sent="2" wid="w18">!</wf>
+    <wf length="2" offset="85" para="2" sent="3" wid="w19">En</wf>
+    <wf length="7" offset="88" para="2" sent="3" wid="w20">période</wf>
+    <wf length="2" offset="96" para="2" sent="3" wid="w21">de</wf>
+    <wf length="8" offset="99" para="2" sent="3" wid="w22">vacances</wf>
+    <wf length="1" offset="107" para="2" sent="3" wid="w23">,</wf>
+    <wf length="5" offset="109" para="2" sent="3" wid="w24">mieux</wf>
+    <wf length="4" offset="115" para="2" sent="3" wid="w25">vaut</wf>
+    <wf length="7" offset="120" para="2" sent="3" wid="w26">arriver</wf>
+    <wf length="3" offset="128" para="2" sent="3" wid="w27">tôt</wf>
+    <wf length="1" offset="131" para="2" sent="3" wid="w28">.</wf>
+  </text>
+  <terms>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- très -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="joli" morphofeat="Afp" pos="G" tid="t2" type="open">
+      <span>
+        <!-- joli -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="ET" pos="O" tid="t3" type="close">
+      <span>
+        <!-- aquarium -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="joli" morphofeat="Afp" pos="G" tid="t5" type="open">
+      <span>
+        <!-- joli -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="ET" pos="O" tid="t6" type="close">
+      <span>
+        <!-- aquarium -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t7" type="close">
+      <span>
+        <!-- , -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t8" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="joli" morphofeat="Afp" pos="G" tid="t9" type="open">
+      <span>
+        <!-- joli -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- et -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="moins" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- moins -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="cher" morphofeat="Ams" pos="G" tid="t12" type="open">
+      <span>
+        <!-- cher -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t13" type="close">
+      <span>
+        <!-- que -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="celui" morphofeat="PROms" pos="P" tid="t14" type="close">
+      <span>
+        <!-- celui -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- de -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="St" morphofeat="NPms" pos="N" tid="t16" type="open">
+      <span>
+        <!-- St -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Malo" morphofeat="NPms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Malo -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t18" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="En" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- En -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="période" morphofeat="NCfs" pos="N" tid="t20" type="open">
+      <span>
+        <!-- période -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- de -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="vacance" morphofeat="NCfp" pos="N" tid="t22" type="open">
+      <span>
+        <!-- vacances -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t23" type="close">
+      <span>
+        <!-- , -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="mieux" morphofeat="ADV" pos="G" tid="t24" type="open">
+      <span>
+        <!-- mieux -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="valoir" morphofeat="VP3s" pos="V" tid="t25" type="open">
+      <span>
+        <!-- vaut -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="arriver" morphofeat="VW" pos="V" tid="t26" type="open">
+      <span>
+        <!-- arriver -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="tôt" morphofeat="ADV" pos="G" tid="t27" type="open">
+      <span>
+        <!-- tôt -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t28" type="close">
+      <span>
+        <!-- . -->
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t11"/>
+            <target id="t12"/>
+            <target id="t13"/>
+            <target id="t14"/>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--aquarium-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--plus joli-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--aquarium-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Très joli-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_2">
+      <opinion_holder/>
+      <opinion_target>
+        <!--aquarium-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--moins cher que celui de St Malo-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

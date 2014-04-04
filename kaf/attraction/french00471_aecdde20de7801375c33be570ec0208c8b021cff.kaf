@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:39Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="0" para="1" sent="1" wid="w1">LE</wf>
+    <wf length="6" offset="3" para="1" sent="1" wid="w2">TEMPLE</wf>
+    <wf length="2" offset="10" para="1" sent="1" wid="w3">DU</wf>
+    <wf length="4" offset="13" para="1" sent="1" wid="w4">HEAT</wf>
+    <wf length="2" offset="18" para="2" sent="2" wid="w5">C'</wf>
+    <wf length="3" offset="20" para="2" sent="2" wid="w6">est</wf>
+    <wf length="2" offset="24" para="2" sent="2" wid="w7">le</wf>
+    <wf length="4" offset="27" para="2" sent="2" wid="w8">lieu</wf>
+    <wf length="7" offset="32" para="2" sent="2" wid="w9">magique</wf>
+    <wf length="4" offset="40" para="2" sent="2" wid="w10">pour</wf>
+    <wf length="4" offset="45" para="2" sent="2" wid="w11">tous</wf>
+    <wf length="3" offset="50" para="2" sent="2" wid="w12">les</wf>
+    <wf length="7" offset="54" para="2" sent="2" wid="w13">adeptes</wf>
+    <wf length="2" offset="62" para="2" sent="2" wid="w14">de</wf>
+    <wf length="2" offset="65" para="2" sent="2" wid="w15">la</wf>
+    <wf length="3" offset="68" para="2" sent="2" wid="w16">NBA</wf>
+    <wf length="1" offset="71" para="2" sent="2" wid="w17">.</wf>
+    <wf length="2" offset="73" para="2" sent="3" wid="w18">Le</wf>
+    <wf length="4" offset="76" para="2" sent="3" wid="w19">HEAT</wf>
+    <wf length="2" offset="81" para="2" sent="3" wid="w20">de</wf>
+    <wf length="5" offset="84" para="2" sent="3" wid="w21">Miami</wf>
+    <wf length="8" offset="90" para="2" sent="3" wid="w22">champion</wf>
+    <wf length="3" offset="99" para="2" sent="3" wid="w23">NBA</wf>
+    <wf length="4" offset="103" para="2" sent="3" wid="w24">2013</wf>
+    <wf length="4" offset="108" para="2" sent="3" wid="w25">joue</wf>
+    <wf length="4" offset="113" para="2" sent="3" wid="w26">dans</wf>
+    <wf length="5" offset="118" para="2" sent="3" wid="w27">cette</wf>
+    <wf length="5" offset="124" para="2" sent="3" wid="w28">salle</wf>
+    <wf length="1" offset="129" para="2" sent="3" wid="w29">.</wf>
+    <wf length="2" offset="131" para="2" sent="4" wid="w30">La</wf>
+    <wf length="8" offset="134" para="2" sent="4" wid="w31">boutique</wf>
+    <wf length="2" offset="143" para="2" sent="4" wid="w32">de</wf>
+    <wf length="2" offset="146" para="2" sent="4" wid="w33">la</wf>
+    <wf length="9" offset="149" para="2" sent="4" wid="w34">franchise</wf>
+    <wf length="13" offset="159" para="2" sent="4" wid="w35">commercialise</wf>
+    <wf length="4" offset="173" para="2" sent="4" wid="w36">tous</wf>
+    <wf length="2" offset="178" para="2" sent="4" wid="w37">ce</wf>
+    <wf length="3" offset="181" para="2" sent="4" wid="w38">qui</wf>
+    <wf length="10" offset="185" para="2" sent="4" wid="w39">concernent</wf>
+    <wf length="2" offset="196" para="2" sent="4" wid="w40">le</wf>
+    <wf length="4" offset="199" para="2" sent="4" wid="w41">HEAT</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t1" type="close">
+      <span>
+        <!-- LE -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="temple" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- TEMPLE -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="DU" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- DU -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="HEAT" morphofeat="NPms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- HEAT -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="C'" morphofeat="CL3ms" pos="Q" tid="t5" type="close">
+      <span>
+        <!-- C' -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t6" type="open">
+      <span>
+        <!-- est -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t7" type="close">
+      <span>
+        <!-- le -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="lieu" morphofeat="NCms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- lieu -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="magique" morphofeat="Ams" pos="G" tid="t9" type="open">
+      <span>
+        <!-- magique -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Amp" pos="G" tid="t11" type="open">
+      <span>
+        <!-- tous -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t12" type="close">
+      <span>
+        <!-- les -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="adepte" morphofeat="NCmp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- adeptes -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- de -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t15" type="close">
+      <span>
+        <!-- la -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="NBA" morphofeat="NPfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- NBA -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t17" type="close">
+      <span>
+        <!-- . -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t18" type="close">
+      <span>
+        <!-- Le -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="HEAT" morphofeat="NPms" pos="N" tid="t19" type="open">
+      <span>
+        <!-- HEAT -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!-- de -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="Miami" morphofeat="NPms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- Miami -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="champion" morphofeat="NCfs" pos="N" tid="t22" type="open">
+      <span>
+        <!-- champion -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="NBA" morphofeat="Ams" pos="G" tid="t23" type="open">
+      <span>
+        <!-- NBA -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="2013" morphofeat="Ams" pos="G" tid="t24" type="open">
+      <span>
+        <!-- 2013 -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="jouer" morphofeat="VP3s" pos="V" tid="t25" type="open">
+      <span>
+        <!-- joue -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t26" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t27" type="close">
+      <span>
+        <!-- cette -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="salle" morphofeat="NCfs" pos="N" tid="t28" type="open">
+      <span>
+        <!-- salle -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t29" type="close">
+      <span>
+        <!-- . -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t30" type="close">
+      <span>
+        <!-- La -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="boutique" morphofeat="NCfs" pos="N" tid="t31" type="open">
+      <span>
+        <!-- boutique -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t32" type="close">
+      <span>
+        <!-- de -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t33" type="close">
+      <span>
+        <!-- la -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="franchise" morphofeat="NCfs" pos="N" tid="t34" type="open">
+      <span>
+        <!-- franchise -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="commercialiser" morphofeat="VP3s" pos="V" tid="t35" type="open">
+      <span>
+        <!-- commercialise -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Dmp" pos="D" tid="t36" type="close">
+      <span>
+        <!-- tous -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="PRO3ms" pos="P" tid="t37" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3ms" pos="P" tid="t38" type="close">
+      <span>
+        <!-- qui -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="concerner" morphofeat="VP3p" pos="V" tid="t39" type="open">
+      <span>
+        <!-- concernent -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t40" type="close">
+      <span>
+        <!-- le -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="HEAT" morphofeat="NCms" pos="N" tid="t41" type="open">
+      <span>
+        <!-- HEAT -->
+        <target id="w41"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

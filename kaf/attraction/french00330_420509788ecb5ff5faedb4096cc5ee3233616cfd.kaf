@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:20Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:20Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:20Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">Lovely</wf>
+    <wf length="3" offset="7" para="1" sent="1" wid="w2">but</wf>
+    <wf length="4" offset="11" para="1" sent="1" wid="w3">cold</wf>
+    <wf length="1" offset="15" para="1" sent="1" wid="w4">.</wf>
+    <wf length="9" offset="17" para="2" sent="2" wid="w5">Excellent</wf>
+    <wf length="4" offset="27" para="2" sent="2" wid="w6">area</wf>
+    <wf length="2" offset="32" para="2" sent="2" wid="w7">to</wf>
+    <wf length="5" offset="35" para="2" sent="2" wid="w8">visit</wf>
+    <wf length="1" offset="40" para="2" sent="2" wid="w9">,</wf>
+    <wf length="4" offset="42" para="2" sent="2" wid="w10">lots</wf>
+    <wf length="2" offset="47" para="2" sent="2" wid="w11">of</wf>
+    <wf length="6" offset="50" para="2" sent="2" wid="w12">places</wf>
+    <wf length="2" offset="57" para="2" sent="2" wid="w13">to</wf>
+    <wf length="3" offset="60" para="2" sent="2" wid="w14">eat</wf>
+    <wf length="3" offset="64" para="2" sent="2" wid="w15">and</wf>
+    <wf length="5" offset="68" para="2" sent="2" wid="w16">relax</wf>
+    <wf length="1" offset="73" para="2" sent="2" wid="w17">.</wf>
+  </text>
+  <terms>
+    <term lemma="Lovely" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Lovely -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="but" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- but -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="cold" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- cold -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t4" type="close">
+      <span>
+        <!-- . -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Excellent" morphofeat="NPms" pos="N" tid="t5" type="open">
+      <span>
+        <!-- Excellent -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="area" morphofeat="Afp" pos="G" tid="t6" type="open">
+      <span>
+        <!-- area -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="to" morphofeat="ET" pos="O" tid="t7" type="close">
+      <span>
+        <!-- to -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="visit" morphofeat="N" pos="N" tid="t8" type="open">
+      <span>
+        <!-- visit -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t9" type="close">
+      <span>
+        <!-- , -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="lot" morphofeat="NCmp" pos="N" tid="t10" type="open">
+      <span>
+        <!-- lots -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="of" morphofeat="ET" pos="O" tid="t11" type="close">
+      <span>
+        <!-- of -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="place" morphofeat="NCfp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- places -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="to" morphofeat="ET" pos="O" tid="t13" type="close">
+      <span>
+        <!-- to -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="eat" morphofeat="ET" pos="O" tid="t14" type="close">
+      <span>
+        <!-- eat -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="and" morphofeat="ET" pos="O" tid="t15" type="close">
+      <span>
+        <!-- and -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="relax" morphofeat="NCfp" pos="N" tid="t16" type="open">
+      <span>
+        <!-- relax -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t17" type="close">
+      <span>
+        <!-- . -->
+        <target id="w17"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

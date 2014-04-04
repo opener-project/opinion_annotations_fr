@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Magnifique</wf>
+    <wf length="8" offset="11" para="1" sent="1" wid="w2">aquarium</wf>
+    <wf length="4" offset="20" para="2" sent="2" wid="w3">Très</wf>
+    <wf length="4" offset="25" para="2" sent="2" wid="w4">bien</wf>
+    <wf length="5" offset="30" para="2" sent="2" wid="w5">situé</wf>
+    <wf length="1" offset="35" para="2" sent="2" wid="w6">,</wf>
+    <wf length="4" offset="37" para="2" sent="2" wid="w7">pŕes</wf>
+    <wf length="2" offset="42" para="2" sent="2" wid="w8">du</wf>
+    <wf length="6" offset="45" para="2" sent="2" wid="w9">centre</wf>
+    <wf length="5" offset="52" para="2" sent="2" wid="w10">ville</wf>
+    <wf length="1" offset="57" para="2" sent="2" wid="w11">.</wf>
+    <wf length="3" offset="59" para="2" sent="3" wid="w12">Vue</wf>
+    <wf length="10" offset="63" para="2" sent="3" wid="w13">magnifique</wf>
+    <wf length="2" offset="74" para="2" sent="3" wid="w14">du</wf>
+    <wf length="10" offset="77" para="2" sent="3" wid="w15">restaurant</wf>
+    <wf length="11" offset="88" para="2" sent="3" wid="w16">panoramique</wf>
+    <wf length="1" offset="99" para="2" sent="3" wid="w17">.</wf>
+    <wf length="7" offset="101" para="3" sent="4" wid="w18">Superbe</wf>
+    <wf length="1" offset="108" para="3" sent="4" wid="w19">,</wf>
+    <wf length="4" offset="110" para="3" sent="4" wid="w20">prix</wf>
+    <wf length="9" offset="115" para="3" sent="4" wid="w21">abordable</wf>
+    <wf length="1" offset="124" para="3" sent="4" wid="w22">.</wf>
+  </text>
+  <terms>
+    <term lemma="Magnifique" morphofeat="NPfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Magnifique -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="VP3s" pos="V" tid="t2" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t3" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="situer" morphofeat="VKms" pos="V" tid="t5" type="open">
+      <span>
+        <!-- situé -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t6" type="close">
+      <span>
+        <!-- , -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="pŕes" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- pŕes -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t8" type="close">
+      <span>
+        <!-- du -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="centre" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- centre -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="ville" morphofeat="NCfs" pos="N" tid="t10" type="open">
+      <span>
+        <!-- ville -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t11" type="close">
+      <span>
+        <!-- . -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="Afs" pos="G" tid="t12" type="open">
+      <span>
+        <!-- Vue -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="magnifique" morphofeat="NCfs" pos="N" tid="t13" type="open">
+      <span>
+        <!-- magnifique -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- du -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="restaurer" morphofeat="VG" pos="V" tid="t15" type="open">
+      <span>
+        <!-- restaurant -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="panoramique" morphofeat="Afs" pos="G" tid="t16" type="open">
+      <span>
+        <!-- panoramique -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t17" type="close">
+      <span>
+        <!-- . -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="superbe" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- Superbe -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t19" type="close">
+      <span>
+        <!-- , -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="prix" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- prix -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="abordable" morphofeat="Ams" pos="G" tid="t21" type="open">
+      <span>
+        <!-- abordable -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t22" type="close">
+      <span>
+        <!-- . -->
+        <target id="w22"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t15"/>
+            <target id="t16"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--restaurant panoramique-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Vue magnifique-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

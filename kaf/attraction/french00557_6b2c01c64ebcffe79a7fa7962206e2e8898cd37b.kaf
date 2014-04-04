@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">Très</wf>
+    <wf length="8" offset="5" para="1" sent="1" wid="w2">agréable</wf>
+    <wf length="6" offset="14" para="1" sent="1" wid="w3">moment</wf>
+    <wf length="5" offset="21" para="2" sent="2" wid="w4">Cette</wf>
+    <wf length="7" offset="27" para="2" sent="2" wid="w5">comédie</wf>
+    <wf length="8" offset="35" para="2" sent="2" wid="w6">musicale</wf>
+    <wf length="3" offset="44" para="2" sent="2" wid="w7">est</wf>
+    <wf length="5" offset="48" para="2" sent="2" wid="w8">toute</wf>
+    <wf length="8" offset="54" para="2" sent="2" wid="w9">mignonne</wf>
+    <wf length="2" offset="63" para="2" sent="2" wid="w10">et</wf>
+    <wf length="3" offset="66" para="2" sent="2" wid="w11">les</wf>
+    <wf length="7" offset="70" para="2" sent="2" wid="w12">enfants</wf>
+    <wf length="4" offset="78" para="2" sent="2" wid="w13">sont</wf>
+    <wf length="5" offset="83" para="2" sent="2" wid="w14">juste</wf>
+    <wf length="11" offset="89" para="2" sent="2" wid="w15">formidables</wf>
+    <wf length="1" offset="100" para="2" sent="2" wid="w16">!</wf>
+    <wf length="2" offset="102" para="2" sent="3" wid="w17">Ce</wf>
+    <wf length="9" offset="105" para="2" sent="3" wid="w18">spectacle</wf>
+    <wf length="4" offset="115" para="2" sent="3" wid="w19">vous</wf>
+    <wf length="10" offset="120" para="2" sent="3" wid="w20">regonflera</wf>
+    <wf length="1" offset="131" para="2" sent="3" wid="w21">à</wf>
+    <wf length="4" offset="133" para="2" sent="3" wid="w22">bloc</wf>
+    <wf length="2" offset="138" para="2" sent="3" wid="w23">et</wf>
+    <wf length="4" offset="141" para="2" sent="3" wid="w24">vous</wf>
+    <wf length="7" offset="146" para="2" sent="3" wid="w25">donnera</wf>
+    <wf length="3" offset="154" para="2" sent="3" wid="w26">une</wf>
+    <wf length="5" offset="158" para="2" sent="3" wid="w27">bonne</wf>
+    <wf length="4" offset="164" para="2" sent="3" wid="w28">dose</wf>
+    <wf length="2" offset="169" para="2" sent="3" wid="w29">de</wf>
+    <wf length="5" offset="172" para="2" sent="3" wid="w30">bonne</wf>
+    <wf length="6" offset="178" para="2" sent="3" wid="w31">humeur</wf>
+    <wf length="1" offset="184" para="2" sent="3" wid="w32">!</wf>
+  </text>
+  <terms>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="agréable" morphofeat="Ams" pos="G" tid="t2" type="open">
+      <span>
+        <!-- agréable -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="moment" morphofeat="NCms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- moment -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t4" type="close">
+      <span>
+        <!-- Cette -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="comédie" morphofeat="NCfs" pos="N" tid="t5" type="open">
+      <span>
+        <!-- comédie -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="musical" morphofeat="Afs" pos="G" tid="t6" type="open">
+      <span>
+        <!-- musicale -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t7" type="open">
+      <span>
+        <!-- est -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Afs" pos="G" tid="t8" type="open">
+      <span>
+        <!-- toute -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="mignonne" morphofeat="Afs" pos="G" tid="t9" type="open">
+      <span>
+        <!-- mignonne -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- et -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t11" type="close">
+      <span>
+        <!-- les -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="enfant" morphofeat="NCmp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- enfants -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3p" pos="V" tid="t13" type="open">
+      <span>
+        <!-- sont -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="juste" morphofeat="ADV" pos="G" tid="t14" type="open">
+      <span>
+        <!-- juste -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="formidable" morphofeat="Amp" pos="G" tid="t15" type="open">
+      <span>
+        <!-- formidables -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t16" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Ce" morphofeat="PROms" pos="P" tid="t17" type="close">
+      <span>
+        <!-- Ce -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="spectacle" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- spectacle -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t19" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="regonfler" morphofeat="VF3s" pos="V" tid="t20" type="open">
+      <span>
+        <!-- regonflera -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- à -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="bloc" morphofeat="NCms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- bloc -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t23" type="close">
+      <span>
+        <!-- et -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="vous" morphofeat="PRO2mp" pos="P" tid="t24" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="donner" morphofeat="VF3s" pos="V" tid="t25" type="open">
+      <span>
+        <!-- donnera -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t26" type="close">
+      <span>
+        <!-- une -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t27" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="dose" morphofeat="NCfs" pos="N" tid="t28" type="open">
+      <span>
+        <!-- dose -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t29" type="close">
+      <span>
+        <!-- de -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t30" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="humeur" morphofeat="NCfs" pos="N" tid="t31" type="open">
+      <span>
+        <!-- humeur -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t32" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w32"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--moment-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Très agréable-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

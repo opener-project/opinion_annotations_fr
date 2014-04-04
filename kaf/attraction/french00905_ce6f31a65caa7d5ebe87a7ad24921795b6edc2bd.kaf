@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:31:35Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:31:35Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:31:35Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">vue</wf>
+    <wf length="10" offset="4" para="1" sent="1" wid="w2">imprenable</wf>
+    <wf length="4" offset="15" para="2" sent="2" wid="w3">chic</wf>
+    <wf length="2" offset="20" para="2" sent="2" wid="w4">et</wf>
+    <wf length="4" offset="23" para="2" sent="2" wid="w5">bien</wf>
+    <wf length="5" offset="28" para="2" sent="2" wid="w6">situé</wf>
+    <wf length="1" offset="33" para="2" sent="2" wid="w7">.</wf>
+    <wf length="2" offset="35" para="2" sent="3" wid="w8">Un</wf>
+    <wf length="10" offset="38" para="2" sent="3" wid="w9">restaurant</wf>
+    <wf length="2" offset="49" para="2" sent="3" wid="w10">un</wf>
+    <wf length="3" offset="52" para="2" sent="3" wid="w11">peu</wf>
+    <wf length="6" offset="56" para="2" sent="3" wid="w12">classe</wf>
+    <wf length="4" offset="63" para="2" sent="3" wid="w13">pour</wf>
+    <wf length="6" offset="68" para="2" sent="3" wid="w14">manger</wf>
+    <wf length="10" offset="75" para="2" sent="3" wid="w15">simplement</wf>
+    <wf length="4" offset="86" para="2" sent="3" wid="w16">mais</wf>
+    <wf length="3" offset="91" para="2" sent="3" wid="w17">bon</wf>
+    <wf length="4" offset="95" para="2" sent="3" wid="w18">avec</wf>
+    <wf length="3" offset="100" para="2" sent="3" wid="w19">une</wf>
+    <wf length="5" offset="104" para="2" sent="3" wid="w20">belle</wf>
+    <wf length="3" offset="110" para="2" sent="3" wid="w21">vue</wf>
+    <wf length="3" offset="114" para="2" sent="3" wid="w22">sur</wf>
+    <wf length="2" offset="118" para="2" sent="3" wid="w23">le</wf>
+    <wf length="5" offset="121" para="2" sent="3" wid="w24">gabut</wf>
+    <wf length="1" offset="127" para="2" sent="3" wid="w25">.</wf>
+    <wf length="7" offset="129" para="2" sent="4" wid="w26">Service</wf>
+    <wf length="2" offset="137" para="2" sent="4" wid="w27">un</wf>
+    <wf length="3" offset="140" para="2" sent="4" wid="w28">peu</wf>
+    <wf length="6" offset="144" para="2" sent="4" wid="w29">coincé</wf>
+    <wf length="4" offset="151" para="2" sent="4" wid="w30">mais</wf>
+    <wf length="8" offset="156" para="2" sent="4" wid="w31">agréable</wf>
+  </text>
+  <terms>
+    <term lemma="vue" morphofeat="N" pos="N" tid="t1" type="open">
+      <span>
+        <!-- vue -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="imprenable" morphofeat="Ams" pos="G" tid="t2" type="open">
+      <span>
+        <!-- imprenable -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="chic" morphofeat="NCms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- chic -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t4" type="close">
+      <span>
+        <!-- et -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="situer" morphofeat="VKms" pos="V" tid="t6" type="open">
+      <span>
+        <!-- situé -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t7" type="close">
+      <span>
+        <!-- . -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t8" type="close">
+      <span>
+        <!-- Un -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="restaurer" morphofeat="VG" pos="V" tid="t9" type="open">
+      <span>
+        <!-- restaurant -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="D" pos="D" tid="t10" type="close">
+      <span>
+        <!-- un -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="peu" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- peu -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="classe" morphofeat="Ams" pos="G" tid="t12" type="open">
+      <span>
+        <!-- classe -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="manger" morphofeat="VW" pos="V" tid="t14" type="open">
+      <span>
+        <!-- manger -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="simplement" morphofeat="ADV" pos="G" tid="t15" type="open">
+      <span>
+        <!-- simplement -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t16" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t17" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t19" type="close">
+      <span>
+        <!-- une -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Afs" pos="G" tid="t20" type="open">
+      <span>
+        <!-- belle -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="vue" morphofeat="NCfs" pos="N" tid="t21" type="open">
+      <span>
+        <!-- vue -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t23" type="close">
+      <span>
+        <!-- le -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="gabut" morphofeat="NCms" pos="N" tid="t24" type="open">
+      <span>
+        <!-- gabut -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t25" type="close">
+      <span>
+        <!-- . -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="service" morphofeat="NPms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- Service -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="D" pos="D" tid="t27" type="close">
+      <span>
+        <!-- un -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="peu" morphofeat="ADV" pos="G" tid="t28" type="open">
+      <span>
+        <!-- peu -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="coincer" morphofeat="VKms" pos="V" tid="t29" type="open">
+      <span>
+        <!-- coincé -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t30" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="agréable" morphofeat="Ams" pos="G" tid="t31" type="open">
+      <span>
+        <!-- agréable -->
+        <target id="w31"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Location">
+        <references>
+          <span>
+            <target id="t20"/>
+            <target id="t21"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="8_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--une belle vue sur le gabut-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="8_1">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--bon-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Un restaurant-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--un peu classe pour manger simplement-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

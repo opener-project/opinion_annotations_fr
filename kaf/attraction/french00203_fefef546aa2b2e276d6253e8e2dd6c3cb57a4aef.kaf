@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:25:10Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:25:10Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:25:10Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="13" offset="0" para="1" sent="1" wid="w1">Epoustouflant</wf>
+    <wf length="7" offset="14" para="2" sent="2" wid="w2">Grimpez</wf>
+    <wf length="2" offset="22" para="2" sent="2" wid="w3">là</wf>
+    <wf length="1" offset="24" para="2" sent="2" wid="w4">·</wf>
+    <wf length="4" offset="25" para="2" sent="2" wid="w5">haut</wf>
+    <wf length="2" offset="30" para="2" sent="2" wid="w6">et</wf>
+    <wf length="4" offset="33" para="2" sent="2" wid="w7">vous</wf>
+    <wf length="11" offset="38" para="2" sent="2" wid="w8">comprendrez</wf>
+    <wf length="8" offset="50" para="2" sent="2" wid="w9">pourquoi</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w10">on</wf>
+    <wf length="7" offset="62" para="2" sent="2" wid="w11">appelle</wf>
+    <wf length="4" offset="70" para="2" sent="2" wid="w12">cela</wf>
+    <wf length="2" offset="75" para="2" sent="2" wid="w13">de</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w14">la</wf>
+    <wf length="5" offset="81" para="2" sent="2" wid="w15">Haute</wf>
+    <wf length="7" offset="87" para="2" sent="2" wid="w16">Montage</wf>
+    <wf length="1" offset="94" para="2" sent="2" wid="w17">.</wf>
+    <wf length="8" offset="96" para="3" sent="3" wid="w18">Panorama</wf>
+    <wf length="14" offset="105" para="3" sent="3" wid="w19">extraordinaire</wf>
+    <wf length="1" offset="119" para="3" sent="3" wid="w20">.</wf>
+  </text>
+  <terms>
+    <term lemma="Epoustouflant" morphofeat="VG" pos="V" tid="t1" type="open">
+      <span>
+        <!-- Epoustouflant -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Grimpez" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Grimpez -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="là" morphofeat="ADV" pos="G" tid="t3" type="open">
+      <span>
+        <!-- là -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- · -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="haut" morphofeat="Ams" pos="G" tid="t5" type="open">
+      <span>
+        <!-- haut -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t6" type="close">
+      <span>
+        <!-- et -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t7" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="comprendre" morphofeat="VP2p" pos="V" tid="t8" type="open">
+      <span>
+        <!-- comprendrez -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="pourquoi" morphofeat="ADV" pos="G" tid="t9" type="open">
+      <span>
+        <!-- pourquoi -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="on" morphofeat="CL3ms" pos="Q" tid="t10" type="close">
+      <span>
+        <!-- on -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="appeler" morphofeat="VP3s" pos="V" tid="t11" type="open">
+      <span>
+        <!-- appelle -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="cela" morphofeat="PROms" pos="P" tid="t12" type="close">
+      <span>
+        <!-- cela -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- de -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t14" type="close">
+      <span>
+        <!-- la -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="haut" morphofeat="Afs" pos="G" tid="t15" type="open">
+      <span>
+        <!-- Haute -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="montage" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- Montage -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t17" type="close">
+      <span>
+        <!-- . -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="panorama" morphofeat="NPms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- Panorama -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="extraordinaire" morphofeat="Ams" pos="G" tid="t19" type="open">
+      <span>
+        <!-- extraordinaire -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t20" type="close">
+      <span>
+        <!-- . -->
+        <target id="w20"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Epoustouflant-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

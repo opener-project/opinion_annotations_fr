@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:29:21Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:29:21Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:29:22Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">Bel</wf>
+    <wf length="8" offset="4" para="1" sent="1" wid="w2">aquarium</wf>
+    <wf length="3" offset="13" para="2" sent="2" wid="w3">Bel</wf>
+    <wf length="8" offset="17" para="2" sent="2" wid="w4">aquarium</wf>
+    <wf length="15" offset="26" para="2" sent="2" wid="w5">essentiellement</wf>
+    <wf length="8" offset="42" para="2" sent="2" wid="w6">consacré</wf>
+    <wf length="1" offset="51" para="2" sent="2" wid="w7">à</wf>
+    <wf length="2" offset="53" para="2" sent="2" wid="w8">la</wf>
+    <wf length="5" offset="56" para="2" sent="2" wid="w9">faune</wf>
+    <wf length="2" offset="62" para="2" sent="2" wid="w10">et</wf>
+    <wf length="1" offset="65" para="2" sent="2" wid="w11">à</wf>
+    <wf length="2" offset="67" para="2" sent="2" wid="w12">la</wf>
+    <wf length="5" offset="70" para="2" sent="2" wid="w13">flore</wf>
+    <wf length="2" offset="76" para="2" sent="2" wid="w14">de</wf>
+    <wf length="2" offset="79" para="2" sent="2" wid="w15">l'</wf>
+    <wf length="10" offset="81" para="2" sent="2" wid="w16">atlantique</wf>
+    <wf length="4" offset="92" para="2" sent="2" wid="w17">mais</wf>
+    <wf length="5" offset="97" para="2" sent="2" wid="w18">aussi</wf>
+    <wf length="4" offset="103" para="2" sent="2" wid="w19">avec</wf>
+    <wf length="9" offset="108" para="2" sent="2" wid="w20">certaines</wf>
+    <wf length="7" offset="118" para="2" sent="2" wid="w21">espèces</wf>
+    <wf length="11" offset="126" para="2" sent="2" wid="w22">extérieures</wf>
+    <wf length="1" offset="137" para="2" sent="2" wid="w23">.</wf>
+  </text>
+  <terms>
+    <term lemma="bel" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Bel -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="bel" morphofeat="NPms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- Bel -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="essentiellement" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- essentiellement -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="consacrer" morphofeat="VKms" pos="V" tid="t6" type="open">
+      <span>
+        <!-- consacré -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- à -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t8" type="close">
+      <span>
+        <!-- la -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="faune" morphofeat="NCfs" pos="N" tid="t9" type="open">
+      <span>
+        <!-- faune -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- et -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- à -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t12" type="close">
+      <span>
+        <!-- la -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="flore" morphofeat="NCfs" pos="N" tid="t13" type="open">
+      <span>
+        <!-- flore -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- de -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t15" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="atlantique" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- atlantique -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t17" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="aussi" morphofeat="ADV" pos="G" tid="t18" type="open">
+      <span>
+        <!-- aussi -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="certain" morphofeat="Dfp" pos="D" tid="t20" type="close">
+      <span>
+        <!-- certaines -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="espèce" morphofeat="NCfp" pos="N" tid="t21" type="open">
+      <span>
+        <!-- espèces -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="extérieur" morphofeat="Afp" pos="G" tid="t22" type="open">
+      <span>
+        <!-- extérieures -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t23" type="close">
+      <span>
+        <!-- . -->
+        <target id="w23"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--aquarium-->
+        <span>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--Bel-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

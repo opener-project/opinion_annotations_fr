@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:25Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:25Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="0" para="1" sent="1" wid="w1">Un</wf>
+    <wf length="9" offset="3" para="1" sent="1" wid="w2">classique</wf>
+    <wf length="1" offset="12" para="1" sent="1" wid="w3">,</wf>
+    <wf length="8" offset="14" para="1" sent="1" wid="w4">charmant</wf>
+    <wf length="1" offset="22" para="1" sent="1" wid="w5">.</wf>
+    <wf length="3" offset="24" para="2" sent="2" wid="w6">Une</wf>
+    <wf length="7" offset="28" para="2" sent="2" wid="w7">comédie</wf>
+    <wf length="8" offset="36" para="2" sent="2" wid="w8">musicale</wf>
+    <wf length="12" offset="45" para="2" sent="2" wid="w9">relativement</wf>
+    <wf length="8" offset="58" para="2" sent="2" wid="w10">ancienne</wf>
+    <wf length="4" offset="67" para="2" sent="2" wid="w11">mais</wf>
+    <wf length="10" offset="72" para="2" sent="2" wid="w12">absolument</wf>
+    <wf length="9" offset="83" para="2" sent="2" wid="w13">charmante</wf>
+    <wf length="1" offset="92" para="2" sent="2" wid="w14">,</wf>
+    <wf length="4" offset="94" para="2" sent="2" wid="w15">avec</wf>
+    <wf length="5" offset="99" para="2" sent="2" wid="w16">cette</wf>
+    <wf length="6" offset="105" para="2" sent="2" wid="w17">petite</wf>
+    <wf length="5" offset="112" para="2" sent="2" wid="w18">fille</wf>
+    <wf length="2" offset="118" para="2" sent="2" wid="w19">et</wf>
+    <wf length="2" offset="121" para="2" sent="2" wid="w20">ce</wf>
+    <wf length="5" offset="124" para="2" sent="2" wid="w21">chien</wf>
+    <wf length="1" offset="129" para="2" sent="2" wid="w22">.</wf>
+    <wf length="4" offset="131" para="3" sent="3" wid="w23">Nous</wf>
+    <wf length="2" offset="136" para="3" sent="3" wid="w24">l'</wf>
+    <wf length="5" offset="138" para="3" sent="3" wid="w25">avons</wf>
+    <wf length="3" offset="144" para="3" sent="3" wid="w26">vue</wf>
+    <wf length="2" offset="148" para="3" sent="3" wid="w27">en</wf>
+    <wf length="4" offset="151" para="3" sent="3" wid="w28">tant</wf>
+    <wf length="3" offset="156" para="3" sent="3" wid="w29">qu'</wf>
+    <wf length="7" offset="159" para="3" sent="3" wid="w30">adultes</wf>
+    <wf length="2" offset="167" para="3" sent="3" wid="w31">et</wf>
+    <wf length="4" offset="170" para="3" sent="3" wid="w32">nous</wf>
+    <wf length="5" offset="175" para="3" sent="3" wid="w33">avons</wf>
+    <wf length="8" offset="181" para="3" sent="3" wid="w34">beaucoup</wf>
+    <wf length="8" offset="190" para="3" sent="3" wid="w35">apprécié</wf>
+    <wf length="1" offset="198" para="3" sent="3" wid="w36">.</wf>
+  </text>
+  <terms>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Un -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="classique" morphofeat="Ams" pos="G" tid="t2" type="open">
+      <span>
+        <!-- classique -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t3" type="close">
+      <span>
+        <!-- , -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="charmer" morphofeat="VG" pos="V" tid="t4" type="open">
+      <span>
+        <!-- charmant -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t5" type="close">
+      <span>
+        <!-- . -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t6" type="close">
+      <span>
+        <!-- Une -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="comédie" morphofeat="NCfs" pos="N" tid="t7" type="open">
+      <span>
+        <!-- comédie -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="musical" morphofeat="Afs" pos="G" tid="t8" type="open">
+      <span>
+        <!-- musicale -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="relativement" morphofeat="ADV" pos="G" tid="t9" type="open">
+      <span>
+        <!-- relativement -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="ancien" morphofeat="Afs" pos="G" tid="t10" type="open">
+      <span>
+        <!-- ancienne -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t11" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="absolument" morphofeat="ADV" pos="G" tid="t12" type="open">
+      <span>
+        <!-- absolument -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="charmant" morphofeat="Afs" pos="G" tid="t13" type="open">
+      <span>
+        <!-- charmante -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t14" type="close">
+      <span>
+        <!-- , -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t16" type="close">
+      <span>
+        <!-- cette -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="petit" morphofeat="Afs" pos="G" tid="t17" type="open">
+      <span>
+        <!-- petite -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="fille" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- fille -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t19" type="close">
+      <span>
+        <!-- et -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t20" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="chien" morphofeat="NCms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- chien -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t22" type="close">
+      <span>
+        <!-- . -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t23" type="close">
+      <span>
+        <!-- Nous -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="l'" morphofeat="CL3ms" pos="Q" tid="t24" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP1p" pos="V" tid="t25" type="open">
+      <span>
+        <!-- avons -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VKfs" pos="V" tid="t26" type="open">
+      <span>
+        <!-- vue -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t27" type="close">
+      <span>
+        <!-- en -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="tant" morphofeat="ADV" pos="G" tid="t28" type="open">
+      <span>
+        <!-- tant -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="qu'" morphofeat="C" pos="C" tid="t29" type="close">
+      <span>
+        <!-- qu' -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="adulte" morphofeat="NCmp" pos="N" tid="t30" type="open">
+      <span>
+        <!-- adultes -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t31" type="close">
+      <span>
+        <!-- et -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t32" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP1p" pos="V" tid="t33" type="open">
+      <span>
+        <!-- avons -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="beaucoup" morphofeat="ADV" pos="G" tid="t34" type="open">
+      <span>
+        <!-- beaucoup -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="apprécier" morphofeat="VKms" pos="V" tid="t35" type="open">
+      <span>
+        <!-- apprécié -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t36" type="close">
+      <span>
+        <!-- . -->
+        <target id="w36"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Une comédie musicale-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--relativement ancienne-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Une comédie musicale-->
+        <span>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--absolument charmante-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

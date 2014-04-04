@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:23:18Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:23:18Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:23:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:39CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Émouvant</wf>
+    <wf length="4" offset="9" para="2" sent="2" wid="w2">Même</wf>
+    <wf length="2" offset="14" para="2" sent="2" wid="w3">si</wf>
+    <wf length="2" offset="17" para="2" sent="2" wid="w4">je</wf>
+    <wf length="2" offset="20" para="2" sent="2" wid="w5">ne</wf>
+    <wf length="11" offset="23" para="2" sent="2" wid="w6">connaissais</wf>
+    <wf length="8" offset="35" para="2" sent="2" wid="w7">personne</wf>
+    <wf length="3" offset="44" para="2" sent="2" wid="w8">qui</wf>
+    <wf length="3" offset="48" para="2" sent="2" wid="w9">est</wf>
+    <wf length="4" offset="52" para="2" sent="2" wid="w10">mort</wf>
+    <wf length="4" offset="57" para="2" sent="2" wid="w11">dans</wf>
+    <wf length="5" offset="62" para="2" sent="2" wid="w12">cette</wf>
+    <wf length="8" offset="68" para="2" sent="2" wid="w13">tragédie</wf>
+    <wf length="1" offset="76" para="2" sent="2" wid="w14">,</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w15">c'</wf>
+    <wf length="3" offset="80" para="2" sent="2" wid="w16">est</wf>
+    <wf length="8" offset="84" para="2" sent="2" wid="w17">émouvant</wf>
+    <wf length="2" offset="93" para="2" sent="2" wid="w18">de</wf>
+    <wf length="4" offset="96" para="2" sent="2" wid="w19">voir</wf>
+    <wf length="3" offset="101" para="2" sent="2" wid="w20">ces</wf>
+    <wf length="1" offset="105" para="2" sent="2" wid="w21">2</wf>
+    <wf length="6" offset="107" para="2" sent="2" wid="w22">grands</wf>
+    <wf length="6" offset="114" para="2" sent="2" wid="w23">carrés</wf>
+    <wf length="2" offset="121" para="2" sent="2" wid="w24">..</wf>
+    <wf length="1" offset="123" para="2" sent="2" wid="w25">.</wf>
+    <wf length="8" offset="125" para="2" sent="3" wid="w26">Beaucoup</wf>
+    <wf length="2" offset="134" para="2" sent="3" wid="w27">d'</wf>
+    <wf length="8" offset="136" para="2" sent="3" wid="w28">émotions</wf>
+    <wf length="1" offset="144" para="2" sent="3" wid="w29">.</wf>
+  </text>
+  <terms>
+    <term lemma="émouvoir" morphofeat="VG" pos="V" tid="t1" type="open">
+      <span>
+        <!-- Émouvant -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="même" morphofeat="ADV" pos="G" tid="t2" type="open">
+      <span>
+        <!-- Même -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="si" morphofeat="CS" pos="C" tid="t3" type="close">
+      <span>
+        <!-- si -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="je" morphofeat="CL1ms" pos="Q" tid="t4" type="close">
+      <span>
+        <!-- je -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="connaître" morphofeat="VP1s" pos="V" tid="t6" type="open">
+      <span>
+        <!-- connaissais -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="personne" morphofeat="PROms" pos="P" tid="t7" type="close">
+      <span>
+        <!-- personne -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3ms" pos="P" tid="t8" type="close">
+      <span>
+        <!-- qui -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t9" type="open">
+      <span>
+        <!-- est -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="mourir" morphofeat="VKms" pos="V" tid="t10" type="open">
+      <span>
+        <!-- mort -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfs" pos="D" tid="t12" type="close">
+      <span>
+        <!-- cette -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="tragédie" morphofeat="NCfs" pos="N" tid="t13" type="open">
+      <span>
+        <!-- tragédie -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t14" type="close">
+      <span>
+        <!-- , -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t15" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t16" type="open">
+      <span>
+        <!-- est -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="émouvant" morphofeat="ADV" pos="G" tid="t17" type="open">
+      <span>
+        <!-- émouvant -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- de -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VW" pos="V" tid="t19" type="open">
+      <span>
+        <!-- voir -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dmp" pos="D" tid="t20" type="close">
+      <span>
+        <!-- ces -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="2" morphofeat="Amp" pos="G" tid="t21" type="open">
+      <span>
+        <!-- 2 -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Amp" pos="G" tid="t22" type="open">
+      <span>
+        <!-- grands -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="carré" morphofeat="NCmp" pos="N" tid="t23" type="open">
+      <span>
+        <!-- carrés -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma=".." morphofeat="..." pos="O" tid="t24" type="close">
+      <span>
+        <!-- .. -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t25" type="close">
+      <span>
+        <!-- . -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="Beaucoup" morphofeat="ADV" pos="G" tid="t26" type="open">
+      <span>
+        <!-- Beaucoup -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t27" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="émotion" morphofeat="NCfp" pos="N" tid="t28" type="open">
+      <span>
+        <!-- émotions -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t29" type="close">
+      <span>
+        <!-- . -->
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--Émouvant-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

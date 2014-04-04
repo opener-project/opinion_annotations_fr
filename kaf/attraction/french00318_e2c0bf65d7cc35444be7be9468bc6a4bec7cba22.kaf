@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:13Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">quartier</wf>
+    <wf length="9" offset="9" para="1" sent="1" wid="w2">populaire</wf>
+    <wf length="2" offset="19" para="2" sent="2" wid="w3">ce</wf>
+    <wf length="8" offset="22" para="2" sent="2" wid="w4">quartier</wf>
+    <wf length="9" offset="31" para="2" sent="2" wid="w5">populaire</wf>
+    <wf length="3" offset="41" para="2" sent="2" wid="w6">est</wf>
+    <wf length="5" offset="45" para="2" sent="2" wid="w7">lourd</wf>
+    <wf length="2" offset="51" para="2" sent="2" wid="w8">d'</wf>
+    <wf length="8" offset="53" para="2" sent="2" wid="w9">histoire</wf>
+    <wf length="4" offset="62" para="2" sent="2" wid="w10">mais</wf>
+    <wf length="3" offset="67" para="2" sent="2" wid="w11">ces</wf>
+    <wf length="4" offset="71" para="2" sent="2" wid="w12">rues</wf>
+    <wf length="8" offset="76" para="2" sent="2" wid="w13">typiques</wf>
+    <wf length="2" offset="85" para="2" sent="2" wid="w14">et</wf>
+    <wf length="3" offset="88" para="2" sent="2" wid="w15">ses</wf>
+    <wf length="7" offset="92" para="2" sent="2" wid="w16">maisons</wf>
+    <wf length="8" offset="100" para="2" sent="2" wid="w17">blanches</wf>
+    <wf length="4" offset="109" para="2" sent="2" wid="w18">avec</wf>
+    <wf length="4" offset="114" para="2" sent="2" wid="w19">leur</wf>
+    <wf length="6" offset="119" para="2" sent="2" wid="w20">jardin</wf>
+    <wf length="9" offset="126" para="2" sent="2" wid="w21">intérieur</wf>
+    <wf length="5" offset="136" para="2" sent="2" wid="w22">caché</wf>
+    <wf length="8" offset="142" para="2" sent="2" wid="w23">pourront</wf>
+    <wf length="4" offset="151" para="2" sent="2" wid="w24">vous</wf>
+    <wf length="9" offset="156" para="2" sent="2" wid="w25">enchantés</wf>
+    <wf length="1" offset="165" para="2" sent="2" wid="w26">.</wf>
+  </text>
+  <terms>
+    <term lemma="quartier" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- quartier -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="populaire" morphofeat="Ams" pos="G" tid="t2" type="open">
+      <span>
+        <!-- populaire -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t3" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="quartier" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- quartier -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="populaire" morphofeat="Ams" pos="G" tid="t5" type="open">
+      <span>
+        <!-- populaire -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t6" type="open">
+      <span>
+        <!-- est -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="lourd" morphofeat="Ams" pos="G" tid="t7" type="open">
+      <span>
+        <!-- lourd -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="histoire" morphofeat="NCfs" pos="N" tid="t9" type="open">
+      <span>
+        <!-- histoire -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dfp" pos="D" tid="t11" type="close">
+      <span>
+        <!-- ces -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="rue" morphofeat="NCfp" pos="N" tid="t12" type="open">
+      <span>
+        <!-- rues -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="typique" morphofeat="Afp" pos="G" tid="t13" type="open">
+      <span>
+        <!-- typiques -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t14" type="close">
+      <span>
+        <!-- et -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dfp" pos="D" tid="t15" type="close">
+      <span>
+        <!-- ses -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="maison" morphofeat="NCfp" pos="N" tid="t16" type="open">
+      <span>
+        <!-- maisons -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="blanc" morphofeat="Afp" pos="G" tid="t17" type="open">
+      <span>
+        <!-- blanches -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dms" pos="D" tid="t19" type="close">
+      <span>
+        <!-- leur -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="jardin" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- jardin -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="intérieur" morphofeat="Ams" pos="G" tid="t21" type="open">
+      <span>
+        <!-- intérieur -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="cacher" morphofeat="VKms" pos="V" tid="t22" type="open">
+      <span>
+        <!-- caché -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="pouvoir" morphofeat="VF3p" pos="V" tid="t23" type="open">
+      <span>
+        <!-- pourront -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t24" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="enchanter" morphofeat="VKmp" pos="V" tid="t25" type="open">
+      <span>
+        <!-- enchantés -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t26" type="close">
+      <span>
+        <!-- . -->
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--ces rues typiques ses maisons blanches avec leur jardin intérieur caché-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--pourront vous enchantés-->
+        <span>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:43Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Super</wf>
+    <wf length="2" offset="6" para="2" sent="2" wid="w2">Le</wf>
+    <wf length="8" offset="9" para="2" sent="2" wid="w3">meilleur</wf>
+    <wf length="6" offset="18" para="2" sent="2" wid="w4">centre</wf>
+    <wf length="10" offset="25" para="2" sent="2" wid="w5">commercial</wf>
+    <wf length="2" offset="36" para="2" sent="2" wid="w6">de</wf>
+    <wf length="5" offset="39" para="2" sent="2" wid="w7">Miami</wf>
+    <wf length="1" offset="44" para="2" sent="2" wid="w8">,</wf>
+    <wf length="6" offset="46" para="2" sent="2" wid="w9">propre</wf>
+    <wf length="2" offset="53" para="2" sent="2" wid="w10">et</wf>
+    <wf length="8" offset="56" para="2" sent="2" wid="w11">beaucoup</wf>
+    <wf length="2" offset="65" para="2" sent="2" wid="w12">de</wf>
+    <wf length="5" offset="68" para="2" sent="2" wid="w13">choix</wf>
+    <wf length="1" offset="73" para="2" sent="2" wid="w14">.</wf>
+    <wf length="3" offset="75" para="2" sent="3" wid="w15">Par</wf>
+    <wf length="6" offset="79" para="2" sent="3" wid="w16">contre</wf>
+    <wf length="2" offset="86" para="2" sent="3" wid="w17">au</wf>
+    <wf length="4" offset="89" para="2" sent="3" wid="w18">coin</wf>
+    <wf length="3" offset="94" para="2" sent="3" wid="w19">des</wf>
+    <wf length="10" offset="98" para="2" sent="3" wid="w20">restaurant</wf>
+    <wf length="4" offset="109" para="2" sent="3" wid="w21">tout</wf>
+    <wf length="3" offset="114" para="2" sent="3" wid="w22">est</wf>
+    <wf length="6" offset="118" para="2" sent="3" wid="w23">pourri</wf>
+    <wf length="3" offset="124" para="2" sent="3" wid="w24">...</wf>
+  </text>
+  <terms>
+    <term lemma="super" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Super -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t2" type="close">
+      <span>
+        <!-- Le -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="meilleur" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- meilleur -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="centre" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- centre -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="commercial" morphofeat="Ams" pos="G" tid="t5" type="open">
+      <span>
+        <!-- commercial -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- de -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="Miami" morphofeat="NPms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- Miami -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t8" type="close">
+      <span>
+        <!-- , -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="propre" morphofeat="Ams" pos="G" tid="t9" type="open">
+      <span>
+        <!-- propre -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t10" type="close">
+      <span>
+        <!-- et -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="beaucoup" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- beaucoup -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t12" type="close">
+      <span>
+        <!-- de -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="choix" morphofeat="NCmp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- choix -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t14" type="close">
+      <span>
+        <!-- . -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="Par" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- Par -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="contre" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- contre -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- au -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="coin" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- coin -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- des -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="restaurer" morphofeat="VG" pos="V" tid="t20" type="open">
+      <span>
+        <!-- restaurant -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- tout -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t22" type="open">
+      <span>
+        <!-- est -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="pourrir" morphofeat="VKms" pos="V" tid="t23" type="open">
+      <span>
+        <!-- pourri -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="..." morphofeat="..." pos="O" tid="t24" type="close">
+      <span>
+        <!-- ... -->
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t20"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--des restaurant tout-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--pourri-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

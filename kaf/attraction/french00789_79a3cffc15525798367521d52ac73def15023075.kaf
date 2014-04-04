@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:32Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">trop</wf>
+    <wf length="2" offset="5" para="1" sent="1" wid="w2">de</wf>
+    <wf length="10" offset="8" para="1" sent="1" wid="w3">poussettes</wf>
+    <wf length="5" offset="19" para="2" sent="2" wid="w4">Pitié</wf>
+    <wf length="1" offset="24" para="2" sent="2" wid="w5">!</wf>
+    <wf length="1" offset="25" para="2" sent="2" wid="w6">!</wf>
+    <wf length="1" offset="26" para="2" sent="2" wid="w7">!</wf>
+    <wf length="1" offset="27" para="2" sent="2" wid="w8">!</wf>
+    <wf length="1" offset="28" para="2" sent="2" wid="w9">!</wf>
+    <wf length="1" offset="29" para="2" sent="2" wid="w10">!</wf>
+    <wf length="4" offset="31" para="2" sent="3" wid="w11">Trop</wf>
+    <wf length="2" offset="36" para="2" sent="3" wid="w12">de</wf>
+    <wf length="10" offset="39" para="2" sent="3" wid="w13">poussettes</wf>
+    <wf length="4" offset="50" para="2" sent="3" wid="w14">avec</wf>
+    <wf length="3" offset="55" para="2" sent="3" wid="w15">des</wf>
+    <wf length="4" offset="59" para="2" sent="3" wid="w16">tous</wf>
+    <wf length="6" offset="64" para="2" sent="3" wid="w17">petits</wf>
+    <wf length="3" offset="71" para="2" sent="3" wid="w18">qui</wf>
+    <wf length="9" offset="75" para="2" sent="3" wid="w19">braillent</wf>
+    <wf length="1" offset="84" para="2" sent="3" wid="w20">.</wf>
+    <wf length="2" offset="86" para="2" sent="4" wid="w21">On</wf>
+    <wf length="2" offset="89" para="2" sent="4" wid="w22">ne</wf>
+    <wf length="4" offset="92" para="2" sent="4" wid="w23">peut</wf>
+    <wf length="3" offset="97" para="2" sent="4" wid="w24">pas</wf>
+    <wf length="9" offset="101" para="2" sent="4" wid="w25">approcher</wf>
+    <wf length="3" offset="111" para="2" sent="4" wid="w26">les</wf>
+    <wf length="8" offset="115" para="2" sent="4" wid="w27">vitrines</wf>
+  </text>
+  <terms>
+    <term lemma="trop" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- trop -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- de -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="poussette" morphofeat="NCfp" pos="N" tid="t3" type="open">
+      <span>
+        <!-- poussettes -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="pitié" morphofeat="NCfs" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Pitié -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t5" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t6" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t7" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t8" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t9" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t10" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Trop" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- Trop -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t12" type="close">
+      <span>
+        <!-- de -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="poussette" morphofeat="NCfp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- poussettes -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t15" type="close">
+      <span>
+        <!-- des -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Amp" pos="G" tid="t16" type="open">
+      <span>
+        <!-- tous -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="petit" morphofeat="Amp" pos="G" tid="t17" type="open">
+      <span>
+        <!-- petits -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="qui" morphofeat="PROR3mp" pos="P" tid="t18" type="close">
+      <span>
+        <!-- qui -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="brailler" morphofeat="VP3p" pos="V" tid="t19" type="open">
+      <span>
+        <!-- braillent -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t20" type="close">
+      <span>
+        <!-- . -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="On" morphofeat="CL3ms" pos="Q" tid="t21" type="close">
+      <span>
+        <!-- On -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t22" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="pouvoir" morphofeat="VP3s" pos="V" tid="t23" type="open">
+      <span>
+        <!-- peut -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t24" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="approcher" morphofeat="VW" pos="V" tid="t25" type="open">
+      <span>
+        <!-- approcher -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t26" type="close">
+      <span>
+        <!-- les -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="vitrine" morphofeat="NCfp" pos="N" tid="t27" type="open">
+      <span>
+        <!-- vitrines -->
+        <target id="w27"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Crowds and Queues">
+        <references>
+          <span>
+            <target id="t13"/>
+            <target id="t14"/>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--Trop de poussettes avec des tous petits qui braillent-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

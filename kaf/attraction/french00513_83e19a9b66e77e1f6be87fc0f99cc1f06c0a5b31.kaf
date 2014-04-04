@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="0" para="1" sent="1" wid="w1">La</wf>
+    <wf length="6" offset="3" para="1" sent="1" wid="w2">grande</wf>
+    <wf length="6" offset="10" para="1" sent="1" wid="w3">classe</wf>
+    <wf length="3" offset="17" para="2" sent="2" wid="w4">Des</wf>
+    <wf length="6" offset="21" para="2" sent="2" wid="w5">arènes</wf>
+    <wf length="4" offset="28" para="2" sent="2" wid="w6">sans</wf>
+    <wf length="11" offset="33" para="2" sent="2" wid="w7">échafaudage</wf>
+    <wf length="2" offset="45" para="2" sent="2" wid="w8">et</wf>
+    <wf length="16" offset="48" para="2" sent="2" wid="w9">particulièrement</wf>
+    <wf length="4" offset="65" para="2" sent="2" wid="w10">bien</wf>
+    <wf length="10" offset="70" para="2" sent="2" wid="w11">restaurées</wf>
+    <wf length="1" offset="80" para="2" sent="2" wid="w12">.</wf>
+    <wf length="9" offset="82" para="2" sent="3" wid="w13">Cependant</wf>
+    <wf length="1" offset="91" para="2" sent="3" wid="w14">,</wf>
+    <wf length="2" offset="93" para="2" sent="3" wid="w15">la</wf>
+    <wf length="10" offset="96" para="2" sent="3" wid="w16">différence</wf>
+    <wf length="5" offset="107" para="2" sent="3" wid="w17">entre</wf>
+    <wf length="3" offset="113" para="2" sent="3" wid="w18">les</wf>
+    <wf length="9" offset="117" para="2" sent="3" wid="w19">nouvelles</wf>
+    <wf length="7" offset="127" para="2" sent="3" wid="w20">pierres</wf>
+    <wf length="2" offset="135" para="2" sent="3" wid="w21">et</wf>
+    <wf length="3" offset="138" para="2" sent="3" wid="w22">les</wf>
+    <wf length="9" offset="142" para="2" sent="3" wid="w23">anciennes</wf>
+    <wf length="7" offset="152" para="2" sent="3" wid="w24">tranche</wf>
+    <wf length="2" offset="160" para="2" sent="3" wid="w25">un</wf>
+    <wf length="3" offset="163" para="2" sent="3" wid="w26">peu</wf>
+    <wf length="4" offset="167" para="2" sent="3" wid="w27">trop</wf>
+    <wf length="1" offset="171" para="2" sent="3" wid="w28">.</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t1" type="close">
+      <span>
+        <!-- La -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Afs" pos="G" tid="t2" type="open">
+      <span>
+        <!-- grande -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="classe" morphofeat="NCfs" pos="N" tid="t3" type="open">
+      <span>
+        <!-- classe -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Des" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!-- Des -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="arène" morphofeat="NCfp" pos="N" tid="t5" type="open">
+      <span>
+        <!-- arènes -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="sans]" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- sans -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="échafaudage" morphofeat="NCms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- échafaudage -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t8" type="close">
+      <span>
+        <!-- et -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="particulièrement" morphofeat="ADV" pos="G" tid="t9" type="open">
+      <span>
+        <!-- particulièrement -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t10" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="restaurer" morphofeat="VKfp" pos="V" tid="t11" type="open">
+      <span>
+        <!-- restaurées -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t12" type="close">
+      <span>
+        <!-- . -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Cependant" morphofeat="ADV" pos="G" tid="t13" type="open">
+      <span>
+        <!-- Cependant -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t14" type="close">
+      <span>
+        <!-- , -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t15" type="close">
+      <span>
+        <!-- la -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="différence" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- différence -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="entre" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- entre -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t18" type="close">
+      <span>
+        <!-- les -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="nouveau" morphofeat="Afp" pos="G" tid="t19" type="open">
+      <span>
+        <!-- nouvelles -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="pierre" morphofeat="NCfp" pos="N" tid="t20" type="open">
+      <span>
+        <!-- pierres -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t21" type="close">
+      <span>
+        <!-- et -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t22" type="close">
+      <span>
+        <!-- les -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="ancien" morphofeat="Afp" pos="G" tid="t23" type="open">
+      <span>
+        <!-- anciennes -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="trancher" morphofeat="VP3s" pos="V" tid="t24" type="open">
+      <span>
+        <!-- tranche -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="D" pos="D" tid="t25" type="close">
+      <span>
+        <!-- un -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="peu" morphofeat="ADV" pos="G" tid="t26" type="open">
+      <span>
+        <!-- peu -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="trop" morphofeat="ADV" pos="G" tid="t27" type="open">
+      <span>
+        <!-- trop -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t28" type="close">
+      <span>
+        <!-- . -->
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--la différence entre les nouvelles pierres et les anciennes-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--tranche un peu trop-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

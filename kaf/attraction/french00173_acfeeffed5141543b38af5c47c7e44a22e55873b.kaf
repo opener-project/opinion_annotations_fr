@@ -1,0 +1,480 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:24:53Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:24:53Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:24:54Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">Près</wf>
+    <wf length="2" offset="5" para="1" sent="1" wid="w2">du</wf>
+    <wf length="4" offset="8" para="1" sent="1" wid="w3">Mont</wf>
+    <wf length="5" offset="13" para="1" sent="1" wid="w4">Blanc</wf>
+    <wf length="4" offset="19" para="2" sent="2" wid="w5">Très</wf>
+    <wf length="5" offset="24" para="2" sent="2" wid="w6">bonne</wf>
+    <wf length="12" offset="30" para="2" sent="2" wid="w7">organisation</wf>
+    <wf length="1" offset="42" para="2" sent="2" wid="w8">,</wf>
+    <wf length="2" offset="44" para="2" sent="2" wid="w9">un</wf>
+    <wf length="7" offset="47" para="2" sent="2" wid="w10">endroit</wf>
+    <wf length="9" offset="55" para="2" sent="2" wid="w11">somptueux</wf>
+    <wf length="3" offset="65" para="2" sent="2" wid="w12">par</wf>
+    <wf length="4" offset="69" para="2" sent="2" wid="w13">beau</wf>
+    <wf length="5" offset="74" para="2" sent="2" wid="w14">temps</wf>
+    <wf length="1" offset="79" para="2" sent="2" wid="w15">,</wf>
+    <wf length="2" offset="81" para="2" sent="2" wid="w16">le</wf>
+    <wf length="4" offset="84" para="2" sent="2" wid="w17">Mont</wf>
+    <wf length="5" offset="89" para="2" sent="2" wid="w18">Blanc</wf>
+    <wf length="4" offset="95" para="2" sent="2" wid="w19">tout</wf>
+    <wf length="4" offset="100" para="2" sent="2" wid="w20">près</wf>
+    <wf length="1" offset="104" para="2" sent="2" wid="w21">,</wf>
+    <wf length="3" offset="106" para="2" sent="2" wid="w22">une</wf>
+    <wf length="6" offset="110" para="2" sent="2" wid="w23">visite</wf>
+    <wf length="2" offset="117" para="2" sent="2" wid="w24">d'</wf>
+    <wf length="9" offset="119" para="2" sent="2" wid="w25">exception</wf>
+    <wf length="1" offset="128" para="2" sent="2" wid="w26">,</wf>
+    <wf length="2" offset="130" para="2" sent="2" wid="w27">un</wf>
+    <wf length="10" offset="133" para="2" sent="2" wid="w28">restaurant</wf>
+    <wf length="9" offset="144" para="2" sent="2" wid="w29">excellent</wf>
+    <wf length="2" offset="154" para="2" sent="2" wid="w30">et</wf>
+    <wf length="4" offset="157" para="2" sent="2" wid="w31">très</wf>
+    <wf length="4" offset="162" para="2" sent="2" wid="w32">bien</wf>
+    <wf length="5" offset="167" para="2" sent="2" wid="w33">placé</wf>
+    <wf length="2" offset="173" para="2" sent="2" wid="w34">en</wf>
+    <wf length="7" offset="176" para="2" sent="2" wid="w35">rapport</wf>
+    <wf length="7" offset="184" para="2" sent="2" wid="w36">qualité</wf>
+    <wf length="1" offset="191" para="2" sent="2" wid="w37">·</wf>
+    <wf length="4" offset="192" para="2" sent="2" wid="w38">prix</wf>
+    <wf length="1" offset="196" para="2" sent="2" wid="w39">,</wf>
+    <wf length="2" offset="198" para="2" sent="2" wid="w40">un</wf>
+    <wf length="9" offset="201" para="2" sent="2" wid="w41">spectacle</wf>
+    <wf length="11" offset="211" para="2" sent="2" wid="w42">inoubliable</wf>
+    <wf length="1" offset="222" para="2" sent="2" wid="w43">.</wf>
+  </text>
+  <terms>
+    <term lemma="Près" morphofeat="P" pos="P" tid="t1" type="close">
+      <span>
+        <!-- Près -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t2" type="close">
+      <span>
+        <!-- du -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="mont" morphofeat="NPms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- Mont -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Blanc" morphofeat="NPms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Blanc -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t6" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="organisation" morphofeat="NCfs" pos="N" tid="t7" type="open">
+      <span>
+        <!-- organisation -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t8" type="close">
+      <span>
+        <!-- , -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- un -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="endroit" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- endroit -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="somptueux" morphofeat="Ams" pos="G" tid="t11" type="open">
+      <span>
+        <!-- somptueux -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t12" type="close">
+      <span>
+        <!-- par -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t13" type="open">
+      <span>
+        <!-- beau -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="temps" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- temps -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t15" type="close">
+      <span>
+        <!-- , -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t16" type="close">
+      <span>
+        <!-- le -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="mont" morphofeat="NPms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Mont -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="Blanc" morphofeat="NPms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- Blanc -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="ADV" pos="G" tid="t19" type="open">
+      <span>
+        <!-- tout -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="près" morphofeat="ADV" pos="G" tid="t20" type="open">
+      <span>
+        <!-- près -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t21" type="close">
+      <span>
+        <!-- , -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t22" type="close">
+      <span>
+        <!-- une -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="visite" morphofeat="NCfs" pos="N" tid="t23" type="open">
+      <span>
+        <!-- visite -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t24" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="exception" morphofeat="N" pos="N" tid="t25" type="open">
+      <span>
+        <!-- exception -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t26" type="close">
+      <span>
+        <!-- , -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t27" type="close">
+      <span>
+        <!-- un -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="restaurant" morphofeat="NCms" pos="N" tid="t28" type="open">
+      <span>
+        <!-- restaurant -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="excellent" morphofeat="Ams" pos="G" tid="t29" type="open">
+      <span>
+        <!-- excellent -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t30" type="close">
+      <span>
+        <!-- et -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t31" type="open">
+      <span>
+        <!-- très -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t32" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="placer" morphofeat="VKms" pos="V" tid="t33" type="open">
+      <span>
+        <!-- placé -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t34" type="close">
+      <span>
+        <!-- en -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="rapport" morphofeat="N" pos="N" tid="t35" type="open">
+      <span>
+        <!-- rapport -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="qualité" morphofeat="NCfs" pos="N" tid="t36" type="open">
+      <span>
+        <!-- qualité -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="P" pos="P" tid="t37" type="close">
+      <span>
+        <!-- · -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="prix" morphofeat="NCms" pos="N" tid="t38" type="open">
+      <span>
+        <!-- prix -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t39" type="close">
+      <span>
+        <!-- , -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t40" type="close">
+      <span>
+        <!-- un -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="spectacle" morphofeat="NCms" pos="N" tid="t41" type="open">
+      <span>
+        <!-- spectacle -->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="inoubliable" morphofeat="Ams" pos="G" tid="t42" type="open">
+      <span>
+        <!-- inoubliable -->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t43" type="close">
+      <span>
+        <!-- . -->
+        <target id="w43"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Weather">
+        <references>
+          <span>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Atmosphere">
+        <references>
+          <span>
+            <target id="t41"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t10"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="13_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--visite-->
+        <span>
+          <target id="t23"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--d' exception-->
+        <span>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="22_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un spectacle-->
+        <span>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--inoubliable-->
+        <span>
+          <target id="t42"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="16_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un restaurant-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--très bien placé en rapport qualité · prix-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+          <target id="t36"/>
+          <target id="t37"/>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="16_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un restaurant-->
+        <span>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--excellent-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--organisation-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Très bonne-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="4_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--endroit-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--somptueux-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="8_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--temps-->
+        <span>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--beau-->
+        <span>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

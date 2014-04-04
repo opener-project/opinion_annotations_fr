@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:05Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:05Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:05Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">bel</wf>
+    <wf length="8" offset="4" para="1" sent="1" wid="w2">ensemble</wf>
+    <wf length="4" offset="13" para="2" sent="2" wid="w3">beau</wf>
+    <wf length="8" offset="18" para="2" sent="2" wid="w4">monument</wf>
+    <wf length="1" offset="26" para="2" sent="2" wid="w5">,</wf>
+    <wf length="2" offset="27" para="2" sent="2" wid="w6">un</wf>
+    <wf length="3" offset="30" para="2" sent="2" wid="w7">peu</wf>
+    <wf length="5" offset="34" para="2" sent="2" wid="w8">gaché</wf>
+    <wf length="3" offset="40" para="2" sent="2" wid="w9">par</wf>
+    <wf length="3" offset="44" para="2" sent="2" wid="w10">les</wf>
+    <wf length="7" offset="48" para="2" sent="2" wid="w11">gradins</wf>
+    <wf length="1" offset="55" para="2" sent="2" wid="w12">!</wf>
+    <wf length="1" offset="56" para="2" sent="2" wid="w13">!</wf>
+    <wf length="5" offset="58" para="2" sent="3" wid="w14">quant</wf>
+    <wf length="2" offset="64" para="2" sent="3" wid="w15">au</wf>
+    <wf length="5" offset="67" para="2" sent="3" wid="w16">petit</wf>
+    <wf length="5" offset="73" para="2" sent="3" wid="w17">train</wf>
+    <wf length="2" offset="79" para="2" sent="3" wid="w18">ne</wf>
+    <wf length="7" offset="82" para="2" sent="3" wid="w19">surtout</wf>
+    <wf length="3" offset="90" para="2" sent="3" wid="w20">pas</wf>
+    <wf length="2" offset="94" para="2" sent="3" wid="w21">le</wf>
+    <wf length="7" offset="97" para="2" sent="3" wid="w22">prendre</wf>
+    <wf length="9" offset="104" para="2" sent="3" wid="w23">.........</wf>
+    <wf length="13" offset="113" para="2" sent="3" wid="w24">ininteressant</wf>
+    <wf length="2" offset="127" para="2" sent="3" wid="w25">au</wf>
+    <wf length="8" offset="130" para="2" sent="3" wid="w26">possible</wf>
+  </text>
+  <terms>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- bel -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="ensemble" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- ensemble -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- beau -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="monument" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- monument -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t5" type="close">
+      <span>
+        <!-- , -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="D" pos="D" tid="t6" type="close">
+      <span>
+        <!-- un -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="peu" morphofeat="ADV" pos="G" tid="t7" type="open">
+      <span>
+        <!-- peu -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="gaché" morphofeat="VKms" pos="V" tid="t8" type="open">
+      <span>
+        <!-- gaché -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="par" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!-- par -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t10" type="close">
+      <span>
+        <!-- les -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="gradin" morphofeat="NCmp" pos="N" tid="t11" type="open">
+      <span>
+        <!-- gradins -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t12" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t13" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="quant" morphofeat="ADV" pos="G" tid="t14" type="open">
+      <span>
+        <!-- quant -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- au -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="petit" morphofeat="A" pos="G" tid="t16" type="open">
+      <span>
+        <!-- petit -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="train" morphofeat="N" pos="N" tid="t17" type="open">
+      <span>
+        <!-- train -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t18" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="surtout" morphofeat="ADV" pos="G" tid="t19" type="open">
+      <span>
+        <!-- surtout -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t20" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t21" type="close">
+      <span>
+        <!-- le -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="prendre" morphofeat="Ams" pos="G" tid="t22" type="open">
+      <span>
+        <!-- prendre -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="........." morphofeat="..." pos="O" tid="t23" type="close">
+      <span>
+        <!-- ......... -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="ininteressant" morphofeat="Ams" pos="G" tid="t24" type="open">
+      <span>
+        <!-- ininteressant -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- au -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="possible" morphofeat="Dms" pos="D" tid="t26" type="close">
+      <span>
+        <!-- possible -->
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--ensemble-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

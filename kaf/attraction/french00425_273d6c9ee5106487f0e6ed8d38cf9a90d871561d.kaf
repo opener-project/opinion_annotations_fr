@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="7" offset="0" para="1" sent="1" wid="w1">superbe</wf>
+    <wf length="6" offset="8" para="2" sent="2" wid="w2">Genial</wf>
+    <wf length="1" offset="14" para="2" sent="2" wid="w3">,</wf>
+    <wf length="10" offset="16" para="2" sent="2" wid="w4">magnifique</wf>
+    <wf length="1" offset="26" para="2" sent="2" wid="w5">,</wf>
+    <wf length="4" offset="28" para="2" sent="2" wid="w6">quel</wf>
+    <wf length="5" offset="33" para="2" sent="2" wid="w7">stade</wf>
+    <wf length="1" offset="38" para="2" sent="2" wid="w8">.</wf>
+    <wf length="2" offset="40" para="2" sent="3" wid="w9">Le</wf>
+    <wf length="5" offset="43" para="2" sent="3" wid="w10">musée</wf>
+    <wf length="3" offset="49" para="2" sent="3" wid="w11">une</wf>
+    <wf length="9" offset="53" para="2" sent="3" wid="w12">merveille</wf>
+    <wf length="1" offset="62" para="2" sent="3" wid="w13">,</wf>
+    <wf length="7" offset="64" para="2" sent="3" wid="w14">dommage</wf>
+    <wf length="3" offset="72" para="2" sent="3" wid="w15">que</wf>
+    <wf length="2" offset="76" para="2" sent="3" wid="w16">j'</wf>
+    <wf length="2" offset="78" para="2" sent="3" wid="w17">ai</wf>
+    <wf length="4" offset="81" para="2" sent="3" wid="w18">raté</wf>
+    <wf length="2" offset="86" para="2" sent="3" wid="w19">le</wf>
+    <wf length="6" offset="89" para="2" sent="3" wid="w20">triplé</wf>
+    <wf length="10" offset="96" para="2" sent="3" wid="w21">historique</wf>
+    <wf length="1" offset="107" para="2" sent="3" wid="w22">à</wf>
+    <wf length="8" offset="109" para="2" sent="3" wid="w23">quelques</wf>
+    <wf length="8" offset="118" para="2" sent="3" wid="w24">semaines</wf>
+    <wf length="4" offset="127" para="2" sent="3" wid="w25">pret</wf>
+  </text>
+  <terms>
+    <term lemma="superbe" morphofeat="Afs" pos="G" tid="t1" type="open">
+      <span>
+        <!-- superbe -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Genial" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Genial -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t3" type="close">
+      <span>
+        <!-- , -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="magnifique" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- magnifique -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t5" type="close">
+      <span>
+        <!-- , -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="quel" morphofeat="Ams" pos="G" tid="t6" type="open">
+      <span>
+        <!-- quel -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="stade" morphofeat="NCms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- stade -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t8" type="close">
+      <span>
+        <!-- . -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- Le -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="musée" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- musée -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t11" type="close">
+      <span>
+        <!-- une -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="merveille" morphofeat="NCfs" pos="N" tid="t12" type="open">
+      <span>
+        <!-- merveille -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t13" type="close">
+      <span>
+        <!-- , -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="dommage" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- dommage -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t15" type="close">
+      <span>
+        <!-- que -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="j'" morphofeat="CL1ms" pos="Q" tid="t16" type="close">
+      <span>
+        <!-- j' -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP1s" pos="V" tid="t17" type="open">
+      <span>
+        <!-- ai -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="rater" morphofeat="VKms" pos="V" tid="t18" type="open">
+      <span>
+        <!-- raté -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t19" type="close">
+      <span>
+        <!-- le -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="triplé" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- triplé -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="historique" morphofeat="Ams" pos="G" tid="t21" type="open">
+      <span>
+        <!-- historique -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- à -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="quelque" morphofeat="Dfp" pos="D" tid="t23" type="close">
+      <span>
+        <!-- quelques -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="semaine" morphofeat="NCfp" pos="N" tid="t24" type="open">
+      <span>
+        <!-- semaines -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="pret" morphofeat="NCms" pos="N" tid="t25" type="open">
+      <span>
+        <!-- pret -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--superbe-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:35:43Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:35:43Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:35:43Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">Grosse</wf>
+    <wf length="9" offset="7" para="1" sent="1" wid="w2">deception</wf>
+    <wf length="8" offset="17" para="2" sent="2" wid="w3">Aquarium</wf>
+    <wf length="3" offset="26" para="2" sent="2" wid="w4">sur</wf>
+    <wf length="1" offset="29" para="2" sent="2" wid="w5">·</wf>
+    <wf length="5" offset="30" para="2" sent="2" wid="w6">vendu</wf>
+    <wf length="1" offset="35" para="2" sent="2" wid="w7">,</wf>
+    <wf length="5" offset="37" para="2" sent="2" wid="w8">tarif</wf>
+    <wf length="10" offset="43" para="2" sent="2" wid="w9">exorbitant</wf>
+    <wf length="4" offset="54" para="2" sent="2" wid="w10">pour</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w11">ce</wf>
+    <wf length="3" offset="62" para="2" sent="2" wid="w12">que</wf>
+    <wf length="2" offset="66" para="2" sent="2" wid="w13">c'</wf>
+    <wf length="3" offset="68" para="2" sent="2" wid="w14">est</wf>
+    <wf length="1" offset="71" para="2" sent="2" wid="w15">,</wf>
+    <wf length="4" offset="73" para="2" sent="2" wid="w16">seul</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w17">le</wf>
+    <wf length="6" offset="81" para="2" sent="2" wid="w18">tunnel</wf>
+    <wf length="4" offset="88" para="2" sent="2" wid="w19">vaut</wf>
+    <wf length="2" offset="93" para="2" sent="2" wid="w20">le</wf>
+    <wf length="4" offset="96" para="2" sent="2" wid="w21">coup</wf>
+    <wf length="2" offset="101" para="2" sent="2" wid="w22">d’</wf>
+    <wf length="3" offset="103" para="2" sent="2" wid="w23">œil</wf>
+    <wf length="4" offset="107" para="2" sent="2" wid="w24">mais</wf>
+    <wf length="4" offset="112" para="2" sent="2" wid="w25">sans</wf>
+    <wf length="4" offset="117" para="2" sent="2" wid="w26">plus</wf>
+    <wf length="1" offset="121" para="2" sent="2" wid="w27">.</wf>
+  </text>
+  <terms>
+    <term lemma="gros" morphofeat="NPs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Grosse -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="deception" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- deception -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NPs" pos="N" tid="t3" type="open">
+      <span>
+        <!-- Aquarium -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="Dfs" pos="D" tid="t5" type="close">
+      <span>
+        <!-- · -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="vendre" morphofeat="VKms" pos="V" tid="t6" type="open">
+      <span>
+        <!-- vendu -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t7" type="close">
+      <span>
+        <!-- , -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="tarif" morphofeat="NCms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- tarif -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="exorbitant" morphofeat="Ams" pos="G" tid="t9" type="open">
+      <span>
+        <!-- exorbitant -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="PROms" pos="P" tid="t11" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t12" type="close">
+      <span>
+        <!-- que -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t13" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t14" type="open">
+      <span>
+        <!-- est -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t15" type="close">
+      <span>
+        <!-- , -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="seul" morphofeat="Ams" pos="G" tid="t16" type="open">
+      <span>
+        <!-- seul -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t17" type="close">
+      <span>
+        <!-- le -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="tunnel" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- tunnel -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="valoir" morphofeat="VP3s" pos="V" tid="t19" type="open">
+      <span>
+        <!-- vaut -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t20" type="close">
+      <span>
+        <!-- le -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="coup" morphofeat="NCms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- coup -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="d’" morphofeat="Ams" pos="G" tid="t22" type="open">
+      <span>
+        <!-- d’ -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="œil" morphofeat="NCms" pos="N" tid="t23" type="open">
+      <span>
+        <!-- œil -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t24" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="sans]" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- sans -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t26" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t27" type="close">
+      <span>
+        <!-- . -->
+        <target id="w27"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Grosse deception-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

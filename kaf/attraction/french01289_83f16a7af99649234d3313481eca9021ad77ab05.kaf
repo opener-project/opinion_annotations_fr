@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:35:11Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:35:11Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:35:11Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="7" offset="0" para="1" sent="1" wid="w1">domaine</wf>
+    <wf length="4" offset="8" para="1" sent="1" wid="w2">pour</wf>
+    <wf length="4" offset="13" para="1" sent="1" wid="w3">tous</wf>
+    <wf length="2" offset="18" para="2" sent="2" wid="w4">du</wf>
+    <wf length="8" offset="21" para="2" sent="2" wid="w5">débutant</wf>
+    <wf length="2" offset="30" para="2" sent="2" wid="w6">au</wf>
+    <wf length="9" offset="33" para="2" sent="2" wid="w7">chevronné</wf>
+    <wf length="6" offset="43" para="2" sent="2" wid="w8">chaque</wf>
+    <wf length="6" offset="50" para="2" sent="2" wid="w9">skieur</wf>
+    <wf length="8" offset="57" para="2" sent="2" wid="w10">trouvera</wf>
+    <wf length="3" offset="66" para="2" sent="2" wid="w11">son</wf>
+    <wf length="7" offset="70" para="2" sent="2" wid="w12">bonheur</wf>
+    <wf length="4" offset="78" para="2" sent="2" wid="w13">dans</wf>
+    <wf length="2" offset="83" para="2" sent="2" wid="w14">ce</wf>
+    <wf length="7" offset="86" para="2" sent="2" wid="w15">domaine</wf>
+    <wf length="7" offset="94" para="2" sent="2" wid="w16">skiable</wf>
+    <wf length="3" offset="102" para="3" sent="3" wid="w17">Des</wf>
+    <wf length="5" offset="106" para="3" sent="3" wid="w18">zones</wf>
+    <wf length="7" offset="112" para="3" sent="3" wid="w19">boisées</wf>
+    <wf length="1" offset="119" para="3" sent="3" wid="w20">,</wf>
+    <wf length="3" offset="121" para="3" sent="3" wid="w21">aux</wf>
+    <wf length="6" offset="125" para="3" sent="3" wid="w22">pentes</wf>
+    <wf length="12" offset="132" para="3" sent="3" wid="w23">ensoleillées</wf>
+    <wf length="1" offset="144" para="3" sent="3" wid="w24">,</wf>
+    <wf length="4" offset="147" para="4" sent="4" wid="w25">Skis</wf>
+    <wf length="3" offset="152" para="4" sent="4" wid="w26">aux</wf>
+    <wf length="5" offset="156" para="4" sent="4" wid="w27">pieds</wf>
+    <wf length="2" offset="162" para="5" sent="5" wid="w28">J'</wf>
+    <wf length="5" offset="164" para="5" sent="5" wid="w29">avais</wf>
+    <wf length="6" offset="170" para="5" sent="5" wid="w30">oublié</wf>
+    <wf length="3" offset="177" para="5" sent="5" wid="w31">que</wf>
+    <wf length="2" offset="181" para="5" sent="5" wid="w32">c'</wf>
+    <wf length="5" offset="183" para="5" sent="5" wid="w33">était</wf>
+    <wf length="2" offset="189" para="5" sent="5" wid="w34">si</wf>
+    <wf length="4" offset="192" para="5" sent="5" wid="w35">bien</wf>
+  </text>
+  <terms>
+    <term lemma="domaine" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- domaine -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Amp" pos="G" tid="t3" type="open">
+      <span>
+        <!-- tous -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t4" type="close">
+      <span>
+        <!-- du -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="débutant" morphofeat="NCms" pos="N" tid="t5" type="open">
+      <span>
+        <!-- débutant -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- au -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="chevronné" morphofeat="NCmp" pos="N" tid="t7" type="open">
+      <span>
+        <!-- chevronné -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="chaque" morphofeat="Dms" pos="D" tid="t8" type="close">
+      <span>
+        <!-- chaque -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="skieur" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- skieur -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="trouver" morphofeat="VF3s" pos="V" tid="t10" type="open">
+      <span>
+        <!-- trouvera -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dms" pos="D" tid="t11" type="close">
+      <span>
+        <!-- son -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="bonheur" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- bonheur -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t14" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="domaine" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- domaine -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="skiable" morphofeat="Ams" pos="G" tid="t16" type="open">
+      <span>
+        <!-- skiable -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t17" type="close">
+      <span>
+        <!-- Des -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="zone" morphofeat="NCfp" pos="N" tid="t18" type="open">
+      <span>
+        <!-- zones -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="boiser" morphofeat="Afp" pos="G" tid="t19" type="open">
+      <span>
+        <!-- boisées -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t20" type="close">
+      <span>
+        <!-- , -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- aux -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="pente" morphofeat="NCfp" pos="N" tid="t22" type="open">
+      <span>
+        <!-- pentes -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="ensoleiller" morphofeat="VKfp" pos="V" tid="t23" type="open">
+      <span>
+        <!-- ensoleillées -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t24" type="close">
+      <span>
+        <!-- , -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Skis" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- Skis -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="aux" morphofeat="P" pos="P" tid="t26" type="close">
+      <span>
+        <!-- aux -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="pied" morphofeat="N" pos="N" tid="t27" type="open">
+      <span>
+        <!-- pieds -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="J'" morphofeat="CL1ms" pos="Q" tid="t28" type="close">
+      <span>
+        <!-- J' -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VI1s" pos="V" tid="t29" type="open">
+      <span>
+        <!-- avais -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="oublier" morphofeat="VKms" pos="V" tid="t30" type="open">
+      <span>
+        <!-- oublié -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t31" type="close">
+      <span>
+        <!-- que -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t32" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VI3s" pos="V" tid="t33" type="open">
+      <span>
+        <!-- était -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="si" morphofeat="ADV" pos="G" tid="t34" type="open">
+      <span>
+        <!-- si -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t35" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w35"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="5_0">
+      <opinion_holder>
+        <!--du débutant au chevronné chaque skieur-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--ce domaine skiable-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--trouvera son bonheur-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

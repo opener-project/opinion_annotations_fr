@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:31:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:31:00Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:31:01Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">bel</wf>
+    <wf length="8" offset="4" para="1" sent="1" wid="w2">aquarium</wf>
+    <wf length="3" offset="13" para="2" sent="2" wid="w3">bel</wf>
+    <wf length="8" offset="17" para="2" sent="2" wid="w4">aquarium</wf>
+    <wf length="1" offset="26" para="2" sent="2" wid="w5">!</wf>
+    <wf length="4" offset="28" para="2" sent="3" wid="w6">nous</wf>
+    <wf length="6" offset="33" para="2" sent="3" wid="w7">avions</wf>
+    <wf length="4" offset="40" para="2" sent="3" wid="w8">pris</wf>
+    <wf length="3" offset="45" para="2" sent="3" wid="w9">les</wf>
+    <wf length="7" offset="49" para="2" sent="3" wid="w10">casques</wf>
+    <wf length="1" offset="56" para="2" sent="3" wid="w11">,</wf>
+    <wf length="3" offset="58" para="2" sent="3" wid="w12">les</wf>
+    <wf length="7" offset="62" para="2" sent="3" wid="w13">enfants</wf>
+    <wf length="3" offset="70" para="2" sent="3" wid="w14">ont</wf>
+    <wf length="4" offset="74" para="2" sent="3" wid="w15">aimé</wf>
+    <wf length="8" offset="79" para="2" sent="3" wid="w16">entendre</wf>
+    <wf length="3" offset="88" para="2" sent="3" wid="w17">les</wf>
+    <wf length="12" offset="92" para="2" sent="3" wid="w18">commentaires</wf>
+    <wf length="2" offset="105" para="2" sent="3" wid="w19">et</wf>
+    <wf length="4" offset="108" para="2" sent="3" wid="w20">nous</wf>
+    <wf length="6" offset="113" para="2" sent="3" wid="w21">avions</wf>
+    <wf length="3" offset="120" para="2" sent="3" wid="w22">pas</wf>
+    <wf length="7" offset="124" para="2" sent="3" wid="w23">intêret</wf>
+    <wf length="1" offset="132" para="2" sent="3" wid="w24">a</wf>
+    <wf length="6" offset="134" para="2" sent="3" wid="w25">louper</wf>
+    <wf length="2" offset="141" para="2" sent="3" wid="w26">un</wf>
+    <wf length="6" offset="144" para="2" sent="3" wid="w27">numéro</wf>
+    <wf length="1" offset="151" para="2" sent="3" wid="w28">!</wf>
+    <wf length="2" offset="153" para="3" sent="4" wid="w29">de</wf>
+    <wf length="11" offset="156" para="3" sent="4" wid="w30">magnifiques</wf>
+    <wf length="8" offset="168" para="3" sent="4" wid="w31">poissons</wf>
+    <wf length="1" offset="177" para="3" sent="4" wid="w32">a</wf>
+    <wf length="4" offset="179" para="3" sent="4" wid="w33">voir</wf>
+    <wf length="2" offset="184" para="3" sent="4" wid="w34">et</wf>
+    <wf length="3" offset="187" para="3" sent="4" wid="w35">les</wf>
+    <wf length="7" offset="191" para="3" sent="4" wid="w36">requins</wf>
+    <wf length="4" offset="199" para="3" sent="4" wid="w37">sont</wf>
+    <wf length="14" offset="204" para="3" sent="4" wid="w38">impressionnant</wf>
+    <wf length="1" offset="219" para="3" sent="4" wid="w39">!</wf>
+    <wf length="1" offset="220" para="3" sent="4" wid="w40">!</wf>
+  </text>
+  <terms>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- bel -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- bel -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t5" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t6" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VI1p" pos="V" tid="t7" type="open">
+      <span>
+        <!-- avions -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="prendre" morphofeat="VKmp" pos="V" tid="t8" type="open">
+      <span>
+        <!-- pris -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t9" type="close">
+      <span>
+        <!-- les -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="casque" morphofeat="NCfp" pos="N" tid="t10" type="open">
+      <span>
+        <!-- casques -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t11" type="close">
+      <span>
+        <!-- , -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t12" type="close">
+      <span>
+        <!-- les -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="enfant" morphofeat="NCmp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- enfants -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3p" pos="V" tid="t14" type="open">
+      <span>
+        <!-- ont -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="aimer" morphofeat="VKms" pos="V" tid="t15" type="open">
+      <span>
+        <!-- aimé -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="entendre" morphofeat="VW" pos="V" tid="t16" type="open">
+      <span>
+        <!-- entendre -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t17" type="close">
+      <span>
+        <!-- les -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="commentaire" morphofeat="NCmp" pos="N" tid="t18" type="open">
+      <span>
+        <!-- commentaires -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t19" type="close">
+      <span>
+        <!-- et -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t20" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VI1p" pos="V" tid="t21" type="open">
+      <span>
+        <!-- avions -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t22" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="intêret" morphofeat="NCms" pos="N" tid="t23" type="open">
+      <span>
+        <!-- intêret -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t24" type="open">
+      <span>
+        <!-- a -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="louper" morphofeat="VW" pos="V" tid="t25" type="open">
+      <span>
+        <!-- louper -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t26" type="close">
+      <span>
+        <!-- un -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="numéro" morphofeat="NCms" pos="N" tid="t27" type="open">
+      <span>
+        <!-- numéro -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t28" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t29" type="close">
+      <span>
+        <!-- de -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="magnifiques" morphofeat="NCmp" pos="N" tid="t30" type="open">
+      <span>
+        <!-- magnifiques -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="poissons" morphofeat="Amp" pos="G" tid="t31" type="open">
+      <span>
+        <!-- poissons -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t32" type="open">
+      <span>
+        <!-- a -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VW" pos="V" tid="t33" type="open">
+      <span>
+        <!-- voir -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t34" type="close">
+      <span>
+        <!-- et -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t35" type="close">
+      <span>
+        <!-- les -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="requin" morphofeat="NCmp" pos="N" tid="t36" type="open">
+      <span>
+        <!-- requins -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3p" pos="V" tid="t37" type="open">
+      <span>
+        <!-- sont -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="impressionnant" morphofeat="Ams" pos="G" tid="t38" type="open">
+      <span>
+        <!-- impressionnant -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t39" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t40" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w40"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Collection">
+        <references>
+          <span>
+            <target id="t30"/>
+            <target id="t31"/>
+            <target id="t35"/>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--poissons a voir-->
+        <span>
+          <target id="t31"/>
+          <target id="t32"/>
+          <target id="t33"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--magnifiques-->
+        <span>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="6_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--les requins-->
+        <span>
+          <target id="t35"/>
+          <target id="t36"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--impressionnant-->
+        <span>
+          <target id="t38"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

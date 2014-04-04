@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:31:36Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:31:36Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:31:36Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="4" offset="0" para="1" sent="1" wid="w1">Très</wf>
+    <wf length="8" offset="5" para="1" sent="1" wid="w2">chouette</wf>
+    <wf length="2" offset="14" para="2" sent="2" wid="w3">Je</wf>
+    <wf length="2" offset="17" para="2" sent="2" wid="w4">le</wf>
+    <wf length="9" offset="20" para="2" sent="2" wid="w5">conseille</wf>
+    <wf length="1" offset="29" para="2" sent="2" wid="w6">.</wf>
+    <wf length="2" offset="31" para="2" sent="3" wid="w7">C'</wf>
+    <wf length="3" offset="33" para="2" sent="3" wid="w8">est</wf>
+    <wf length="2" offset="37" para="2" sent="3" wid="w9">un</wf>
+    <wf length="3" offset="40" para="2" sent="3" wid="w10">bel</wf>
+    <wf length="8" offset="44" para="2" sent="3" wid="w11">aquarium</wf>
+    <wf length="14" offset="53" para="2" sent="3" wid="w12">intérieurement</wf>
+    <wf length="2" offset="68" para="2" sent="3" wid="w13">et</wf>
+    <wf length="14" offset="71" para="2" sent="3" wid="w14">exterieurement</wf>
+    <wf length="1" offset="85" para="2" sent="3" wid="w15">.</wf>
+    <wf length="8" offset="87" para="2" sent="4" wid="w16">Beaucoup</wf>
+    <wf length="1" offset="96" para="2" sent="4" wid="w17">d</wf>
+    <wf length="7" offset="98" para="2" sent="4" wid="w18">espèces</wf>
+    <wf length="11" offset="106" para="2" sent="4" wid="w19">différentes</wf>
+  </text>
+  <terms>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="chouette" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- chouette -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Je" morphofeat="CL1ms" pos="Q" tid="t3" type="close">
+      <span>
+        <!-- Je -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t4" type="close">
+      <span>
+        <!-- le -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="conseille" morphofeat="NCms" pos="N" tid="t5" type="open">
+      <span>
+        <!-- conseille -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t6" type="close">
+      <span>
+        <!-- . -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="C'" morphofeat="CL3ms" pos="Q" tid="t7" type="close">
+      <span>
+        <!-- C' -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t8" type="open">
+      <span>
+        <!-- est -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- un -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Ams" pos="G" tid="t10" type="open">
+      <span>
+        <!-- bel -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="intérieurement" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- intérieurement -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t13" type="close">
+      <span>
+        <!-- et -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="exterieurement" morphofeat="ADV" pos="G" tid="t14" type="open">
+      <span>
+        <!-- exterieurement -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t15" type="close">
+      <span>
+        <!-- . -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="Beaucoup" morphofeat="ADV" pos="G" tid="t16" type="open">
+      <span>
+        <!-- Beaucoup -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="d" morphofeat="VP3s" pos="V" tid="t17" type="open">
+      <span>
+        <!-- d -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="espèces" morphofeat="Afp" pos="G" tid="t18" type="open">
+      <span>
+        <!-- espèces -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="différentes" morphofeat="NCfp" pos="N" tid="t19" type="open">
+      <span>
+        <!-- différentes -->
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Collection">
+        <references>
+          <span>
+            <target id="t18"/>
+            <target id="t19"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--espèces différentes-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Beaucoup d-->
+        <span>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

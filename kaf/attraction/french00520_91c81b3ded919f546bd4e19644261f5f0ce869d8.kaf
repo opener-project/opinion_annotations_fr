@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Super</wf>
+    <wf length="8" offset="6" para="2" sent="2" wid="w2">Beaucoup</wf>
+    <wf length="2" offset="15" para="2" sent="2" wid="w3">d'</wf>
+    <wf length="9" offset="17" para="2" sent="2" wid="w4">escaliers</wf>
+    <wf length="3" offset="27" para="2" sent="2" wid="w5">pas</wf>
+    <wf length="8" offset="31" para="2" sent="2" wid="w6">toujours</wf>
+    <wf length="4" offset="40" para="2" sent="2" wid="w7">aisé</wf>
+    <wf length="4" offset="45" para="2" sent="2" wid="w8">pour</wf>
+    <wf length="3" offset="51" para="2" sent="2" wid="w9">les</wf>
+    <wf length="10" offset="55" para="2" sent="2" wid="w10">personnnes</wf>
+    <wf length="4" offset="66" para="2" sent="2" wid="w11">plus</wf>
+    <wf length="5" offset="71" para="2" sent="2" wid="w12">agêes</wf>
+    <wf length="1" offset="77" para="2" sent="2" wid="w13">.</wf>
+    <wf length="3" offset="79" para="2" sent="3" wid="w14">Les</wf>
+    <wf length="12" offset="83" para="2" sent="3" wid="w15">commentaires</wf>
+    <wf length="4" offset="96" para="2" sent="3" wid="w16">avec</wf>
+    <wf length="2" offset="101" para="2" sent="3" wid="w17">l'</wf>
+    <wf length="10" offset="103" para="2" sent="3" wid="w18">audioguide</wf>
+    <wf length="4" offset="114" para="2" sent="3" wid="w19">tràs</wf>
+    <wf length="8" offset="119" para="2" sent="3" wid="w20">complets</wf>
+    <wf length="5" offset="128" para="2" sent="3" wid="w21">ainsi</wf>
+    <wf length="3" offset="134" para="2" sent="3" wid="w22">que</wf>
+    <wf length="3" offset="138" para="2" sent="3" wid="w23">les</wf>
+    <wf length="8" offset="142" para="2" sent="3" wid="w24">panneaux</wf>
+    <wf length="11" offset="151" para="2" sent="3" wid="w25">explicatifs</wf>
+    <wf length="4" offset="163" para="2" sent="3" wid="w26">dans</wf>
+    <wf length="2" offset="168" para="2" sent="3" wid="w27">l'</wf>
+    <wf length="8" offset="170" para="2" sent="3" wid="w28">enceinte</wf>
+    <wf length="1" offset="178" para="2" sent="3" wid="w29">.</wf>
+  </text>
+  <terms>
+    <term lemma="super" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Super -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Beaucoup" morphofeat="ADV" pos="G" tid="t2" type="open">
+      <span>
+        <!-- Beaucoup -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="escalier" morphofeat="NCmp" pos="N" tid="t4" type="open">
+      <span>
+        <!-- escaliers -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="toujours" morphofeat="ADV" pos="G" tid="t6" type="open">
+      <span>
+        <!-- toujours -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="aisé" morphofeat="Ams" pos="G" tid="t7" type="open">
+      <span>
+        <!-- aisé -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t9" type="close">
+      <span>
+        <!-- les -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="personnnes" morphofeat="NCmp" pos="N" tid="t10" type="open">
+      <span>
+        <!-- personnnes -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="agêes" morphofeat="Amp" pos="G" tid="t12" type="open">
+      <span>
+        <!-- agêes -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t13" type="close">
+      <span>
+        <!-- . -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t14" type="close">
+      <span>
+        <!-- Les -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="commentaire" morphofeat="NCmp" pos="N" tid="t15" type="open">
+      <span>
+        <!-- commentaires -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t17" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="audioguide" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- audioguide -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="tràs" morphofeat="," pos="O" tid="t19" type="close">
+      <span>
+        <!-- tràs -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="complet" morphofeat="NCmp" pos="N" tid="t20" type="open">
+      <span>
+        <!-- complets -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="ainsi" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- ainsi -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="C" pos="C" tid="t22" type="close">
+      <span>
+        <!-- que -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t23" type="close">
+      <span>
+        <!-- les -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="panneau" morphofeat="NCmp" pos="N" tid="t24" type="open">
+      <span>
+        <!-- panneaux -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="explicatif" morphofeat="Amp" pos="G" tid="t25" type="open">
+      <span>
+        <!-- explicatifs -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t26" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t27" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="enceinte" morphofeat="NCfs" pos="N" tid="t28" type="open">
+      <span>
+        <!-- enceinte -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t29" type="close">
+      <span>
+        <!-- . -->
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t14"/>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+            <target id="t18"/>
+            <target id="t23"/>
+            <target id="t24"/>
+            <target id="t25"/>
+            <target id="t26"/>
+            <target id="t27"/>
+            <target id="t28"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Les commentaires avec l' audioguide les panneaux explicatifs dans l' enceinte-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+          <target id="t26"/>
+          <target id="t27"/>
+          <target id="t28"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--tràs complets-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

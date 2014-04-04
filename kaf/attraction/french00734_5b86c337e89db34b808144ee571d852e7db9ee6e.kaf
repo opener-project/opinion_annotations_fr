@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:02Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="14" offset="0" para="1" sent="1" wid="w1">incontournable</wf>
+    <wf length="4" offset="15" para="2" sent="2" wid="w2">tres</wf>
+    <wf length="4" offset="20" para="2" sent="2" wid="w3">bien</wf>
+    <wf length="5" offset="25" para="2" sent="2" wid="w4">situe</wf>
+    <wf length="2" offset="31" para="2" sent="2" wid="w5">au</wf>
+    <wf length="6" offset="34" para="2" sent="2" wid="w6">centre</wf>
+    <wf length="5" offset="41" para="2" sent="2" wid="w7">ville</wf>
+    <wf length="2" offset="47" para="2" sent="2" wid="w8">un</wf>
+    <wf length="7" offset="50" para="2" sent="2" wid="w9">parking</wf>
+    <wf length="7" offset="58" para="2" sent="2" wid="w10">immense</wf>
+    <wf length="1" offset="66" para="2" sent="2" wid="w11">a</wf>
+    <wf length="9" offset="68" para="2" sent="2" wid="w12">proximite</wf>
+    <wf length="1" offset="78" para="2" sent="2" wid="w13">l</wf>
+    <wf length="8" offset="80" para="2" sent="2" wid="w14">aquarium</wf>
+    <wf length="4" offset="89" para="2" sent="2" wid="w15">doit</wf>
+    <wf length="4" offset="94" para="2" sent="2" wid="w16">etre</wf>
+    <wf length="11" offset="99" para="2" sent="2" wid="w17">absoluement</wf>
+    <wf length="9" offset="111" para="2" sent="2" wid="w18">visitepar</wf>
+    <wf length="3" offset="121" para="2" sent="2" wid="w19">les</wf>
+    <wf length="4" offset="125" para="2" sent="2" wid="w20">gens</wf>
+    <wf length="2" offset="130" para="2" sent="2" wid="w21">de</wf>
+    <wf length="7" offset="133" para="2" sent="2" wid="w22">passage</wf>
+    <wf length="1" offset="141" para="2" sent="2" wid="w23">a</wf>
+    <wf length="2" offset="143" para="2" sent="2" wid="w24">la</wf>
+    <wf length="13" offset="146" para="2" sent="2" wid="w25">rochelle.vous</wf>
+    <wf length="2" offset="160" para="2" sent="2" wid="w26">en</wf>
+    <wf length="5" offset="163" para="2" sent="2" wid="w27">aurez</wf>
+    <wf length="5" offset="169" para="2" sent="2" wid="w28">plein</wf>
+    <wf length="3" offset="175" para="2" sent="2" wid="w29">les</wf>
+    <wf length="4" offset="179" para="2" sent="2" wid="w30">yeux</wf>
+    <wf length="7" offset="184" para="2" sent="2" wid="w31">endroit</wf>
+    <wf length="5" offset="192" para="2" sent="2" wid="w32">calme</wf>
+    <wf length="9" offset="198" para="2" sent="2" wid="w33">climatise</wf>
+  </text>
+  <terms>
+    <term lemma="incontournable" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- incontournable -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="tres" morphofeat="Afp" pos="G" tid="t2" type="open">
+      <span>
+        <!-- tres -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t3" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="situer" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- situe -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- au -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="centre" morphofeat="Dfs" pos="D" tid="t6" type="close">
+      <span>
+        <!-- centre -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="ville" morphofeat="NCfs" pos="N" tid="t7" type="open">
+      <span>
+        <!-- ville -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t8" type="close">
+      <span>
+        <!-- un -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="parking" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- parking -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="immense" morphofeat="Ams" pos="G" tid="t10" type="open">
+      <span>
+        <!-- immense -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t11" type="open">
+      <span>
+        <!-- a -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="proximite" morphofeat="Afs" pos="G" tid="t12" type="open">
+      <span>
+        <!-- proximite -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="l" morphofeat="Dfs" pos="D" tid="t13" type="close">
+      <span>
+        <!-- l -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="ET" pos="O" tid="t14" type="close">
+      <span>
+        <!-- aquarium -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="devoir" morphofeat="VP3s" pos="V" tid="t15" type="open">
+      <span>
+        <!-- doit -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="etre" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- etre -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="absoluement" morphofeat="ADV" pos="G" tid="t17" type="open">
+      <span>
+        <!-- absoluement -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="visitepar" morphofeat="VW" pos="V" tid="t18" type="open">
+      <span>
+        <!-- visitepar -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t19" type="close">
+      <span>
+        <!-- les -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="gens" morphofeat="NCmp" pos="N" tid="t20" type="open">
+      <span>
+        <!-- gens -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- de -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="passage" morphofeat="NCms" pos="N" tid="t22" type="open">
+      <span>
+        <!-- passage -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t23" type="open">
+      <span>
+        <!-- a -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t24" type="close">
+      <span>
+        <!-- la -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="rochelle.vous" morphofeat="Amp" pos="G" tid="t25" type="open">
+      <span>
+        <!-- rochelle.vous -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t26" type="close">
+      <span>
+        <!-- en -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VF2p" pos="V" tid="t27" type="open">
+      <span>
+        <!-- aurez -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="plein" morphofeat="Ams" pos="G" tid="t28" type="open">
+      <span>
+        <!-- plein -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t29" type="close">
+      <span>
+        <!-- les -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="oeil" morphofeat="NCmp" pos="N" tid="t30" type="open">
+      <span>
+        <!-- yeux -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="endroit" morphofeat="VP3s" pos="V" tid="t31" type="open">
+      <span>
+        <!-- endroit -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="calme" morphofeat="NCms" pos="N" tid="t32" type="open">
+      <span>
+        <!-- calme -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="climatise" morphofeat="NCfs" pos="N" tid="t33" type="open">
+      <span>
+        <!-- climatise -->
+        <target id="w33"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Car parking">
+        <references>
+          <span>
+            <target id="t8"/>
+            <target id="t9"/>
+            <target id="t10"/>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t14"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t4"/>
+            <target id="t5"/>
+            <target id="t6"/>
+            <target id="t7"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t32"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Collection">
+        <references>
+          <span>
+            <target id="t28"/>
+            <target id="t29"/>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="8_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un parking-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--a proximite-->
+        <span>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="8_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un parking-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--immense-->
+        <span>
+          <target id="t10"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--situe au centre ville-->
+        <span>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--tres bien-->
+        <span>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="12_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--l aquarium-->
+        <span>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--doit etre absoluement visitepar les gens de passage a la rochelle.vous-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+          <target id="t23"/>
+          <target id="t24"/>
+          <target id="t25"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="15_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--plein les yeux-->
+        <span>
+          <target id="t28"/>
+          <target id="t29"/>
+          <target id="t30"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="20_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--endroit-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--climatise-->
+        <span>
+          <target id="t33"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="20_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--endroit-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--calme-->
+        <span>
+          <target id="t32"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

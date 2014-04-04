@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:17Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:17Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:18Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">Les</wf>
+    <wf length="6" offset="4" para="1" sent="1" wid="w2">Arènes</wf>
+    <wf length="3" offset="11" para="2" sent="2" wid="w3">Les</wf>
+    <wf length="6" offset="15" para="2" sent="2" wid="w4">Arènes</wf>
+    <wf length="4" offset="22" para="2" sent="2" wid="w5">sont</wf>
+    <wf length="11" offset="27" para="2" sent="2" wid="w6">Magnifiques</wf>
+    <wf length="1" offset="39" para="2" sent="2" wid="w7">,</wf>
+    <wf length="3" offset="41" para="2" sent="2" wid="w8">les</wf>
+    <wf length="7" offset="45" para="2" sent="2" wid="w9">visites</wf>
+    <wf length="8" offset="53" para="2" sent="2" wid="w10">proposés</wf>
+    <wf length="4" offset="62" para="2" sent="2" wid="w11">sont</wf>
+    <wf length="4" offset="67" para="2" sent="2" wid="w12">très</wf>
+    <wf length="4" offset="72" para="2" sent="2" wid="w13">bien</wf>
+    <wf length="2" offset="77" para="2" sent="2" wid="w14">et</wf>
+    <wf length="3" offset="80" para="2" sent="2" wid="w15">pas</wf>
+    <wf length="4" offset="84" para="2" sent="2" wid="w16">très</wf>
+    <wf length="6" offset="89" para="2" sent="2" wid="w17">chères</wf>
+    <wf length="1" offset="96" para="2" sent="2" wid="w18">.</wf>
+    <wf length="4" offset="98" para="2" sent="3" wid="w19">Très</wf>
+    <wf length="4" offset="103" para="2" sent="3" wid="w20">bien</wf>
+    <wf length="5" offset="108" para="2" sent="3" wid="w21">aussi</wf>
+    <wf length="4" offset="114" para="2" sent="3" wid="w22">pour</wf>
+    <wf length="4" offset="119" para="2" sent="3" wid="w23">tout</wf>
+    <wf length="3" offset="124" para="2" sent="3" wid="w24">les</wf>
+    <wf length="10" offset="128" para="2" sent="3" wid="w25">spectacles</wf>
+    <wf length="2" offset="139" para="2" sent="3" wid="w26">ou</wf>
+    <wf length="7" offset="142" para="2" sent="3" wid="w27">corrida</wf>
+    <wf length="2" offset="150" para="2" sent="3" wid="w28">ou</wf>
+    <wf length="4" offset="153" para="2" sent="3" wid="w29">même</wf>
+    <wf length="3" offset="158" para="2" sent="3" wid="w30">les</wf>
+    <wf length="8" offset="162" para="2" sent="3" wid="w31">concerts</wf>
+    <wf length="1" offset="171" para="2" sent="3" wid="w32">!</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Les -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="arène" morphofeat="NCmp" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Arènes -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t3" type="close">
+      <span>
+        <!-- Les -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="arène" morphofeat="NCmp" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Arènes -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3p" pos="V" tid="t5" type="open">
+      <span>
+        <!-- sont -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="Magnifiques" morphofeat="NPms" pos="N" tid="t6" type="open">
+      <span>
+        <!-- Magnifiques -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t7" type="close">
+      <span>
+        <!-- , -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t8" type="close">
+      <span>
+        <!-- les -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="visite" morphofeat="NCmp" pos="N" tid="t9" type="open">
+      <span>
+        <!-- visites -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="proposer" morphofeat="VKmp" pos="V" tid="t10" type="open">
+      <span>
+        <!-- proposés -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3p" pos="V" tid="t11" type="open">
+      <span>
+        <!-- sont -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t12" type="open">
+      <span>
+        <!-- très -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t13" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t14" type="close">
+      <span>
+        <!-- et -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t15" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t16" type="open">
+      <span>
+        <!-- très -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="cher" morphofeat="Afp" pos="G" tid="t17" type="open">
+      <span>
+        <!-- chères -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t18" type="close">
+      <span>
+        <!-- . -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="Très" morphofeat="ADV" pos="G" tid="t19" type="open">
+      <span>
+        <!-- Très -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t20" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="aussi" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- aussi -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="ADV" pos="G" tid="t23" type="open">
+      <span>
+        <!-- tout -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t24" type="close">
+      <span>
+        <!-- les -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="spectacle" morphofeat="NCmp" pos="N" tid="t25" type="open">
+      <span>
+        <!-- spectacles -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="ou" morphofeat="CC" pos="C" tid="t26" type="close">
+      <span>
+        <!-- ou -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="corrida" morphofeat="NCfs" pos="N" tid="t27" type="open">
+      <span>
+        <!-- corrida -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="ou" morphofeat="CC" pos="C" tid="t28" type="close">
+      <span>
+        <!-- ou -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="même" morphofeat="ADV" pos="G" tid="t29" type="open">
+      <span>
+        <!-- même -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t30" type="close">
+      <span>
+        <!-- les -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="concert" morphofeat="NCmp" pos="N" tid="t31" type="open">
+      <span>
+        <!-- concerts -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t32" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w32"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Location">
+        <references>
+          <span>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t9"/>
+            <target id="t10"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Les Arènes-->
+        <span>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Magnifiques-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--les visites proposés-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--très bien-->
+        <span>
+          <target id="t12"/>
+          <target id="t13"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="2_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--les visites proposés-->
+        <span>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--pas très chères-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

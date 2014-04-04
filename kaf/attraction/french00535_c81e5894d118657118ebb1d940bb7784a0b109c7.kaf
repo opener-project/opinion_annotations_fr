@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:12Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:12Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:12Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Patrimoine</wf>
+    <wf length="10" offset="11" para="1" sent="1" wid="w2">historique</wf>
+    <wf length="10" offset="22" para="1" sent="1" wid="w3">magnifique</wf>
+    <wf length="8" offset="33" para="2" sent="2" wid="w4">Descendu</wf>
+    <wf length="2" offset="42" para="2" sent="2" wid="w5">en</wf>
+    <wf length="7" offset="45" para="2" sent="2" wid="w6">famille</wf>
+    <wf length="2" offset="53" para="2" sent="2" wid="w7">de</wf>
+    <wf length="4" offset="56" para="2" sent="2" wid="w8">Lyon</wf>
+    <wf length="4" offset="61" para="2" sent="2" wid="w9">pour</wf>
+    <wf length="7" offset="66" para="2" sent="2" wid="w10">visiter</wf>
+    <wf length="5" offset="74" para="2" sent="2" wid="w11">Arles</wf>
+    <wf length="4" offset="80" para="2" sent="2" wid="w12">nous</wf>
+    <wf length="6" offset="85" para="2" sent="2" wid="w13">sommes</wf>
+    <wf length="4" offset="92" para="2" sent="2" wid="w14">allé</wf>
+    <wf length="7" offset="97" para="2" sent="2" wid="w15">visiter</wf>
+    <wf length="2" offset="105" para="2" sent="2" wid="w16">ce</wf>
+    <wf length="10" offset="108" para="2" sent="2" wid="w17">patrimoine</wf>
+    <wf length="8" offset="119" para="2" sent="2" wid="w18">français</wf>
+    <wf length="1" offset="127" para="2" sent="2" wid="w19">,</wf>
+    <wf length="2" offset="129" para="2" sent="2" wid="w20">l'</wf>
+    <wf length="2" offset="131" para="2" sent="2" wid="w21">un</wf>
+    <wf length="3" offset="134" para="2" sent="2" wid="w22">des</wf>
+    <wf length="6" offset="138" para="2" sent="2" wid="w23">joyaux</wf>
+    <wf length="2" offset="145" para="2" sent="2" wid="w24">de</wf>
+    <wf length="8" offset="148" para="2" sent="2" wid="w25">Provence</wf>
+    <wf length="2" offset="157" para="2" sent="2" wid="w26">et</wf>
+    <wf length="3" offset="160" para="2" sent="2" wid="w27">une</wf>
+    <wf length="8" offset="164" para="2" sent="2" wid="w28">histoire</wf>
+    <wf length="10" offset="173" para="2" sent="2" wid="w29">formidable</wf>
+    <wf length="2" offset="184" para="2" sent="2" wid="w30">un</wf>
+    <wf length="8" offset="187" para="2" sent="2" wid="w31">monument</wf>
+    <wf length="1" offset="198" para="2" sent="2" wid="w32">a</wf>
+    <wf length="2" offset="200" para="2" sent="2" wid="w33">ne</wf>
+    <wf length="3" offset="203" para="2" sent="2" wid="w34">pas</wf>
+    <wf length="7" offset="207" para="2" sent="2" wid="w35">manquer</wf>
+    <wf length="5" offset="215" para="2" sent="2" wid="w36">quand</wf>
+    <wf length="2" offset="221" para="2" sent="2" wid="w37">on</wf>
+    <wf length="6" offset="224" para="2" sent="2" wid="w38">visite</wf>
+    <wf length="2" offset="231" para="2" sent="2" wid="w39">la</wf>
+    <wf length="8" offset="234" para="2" sent="2" wid="w40">Provence</wf>
+    <wf length="1" offset="242" para="2" sent="2" wid="w41">.</wf>
+  </text>
+  <terms>
+    <term lemma="patrimoine" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Patrimoine -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="historique" morphofeat="Ams" pos="G" tid="t2" type="open">
+      <span>
+        <!-- historique -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="magnifique" morphofeat="NCms" pos="N" tid="t3" type="open">
+      <span>
+        <!-- magnifique -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="descendre" morphofeat="VKms" pos="V" tid="t4" type="open">
+      <span>
+        <!-- Descendu -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- en -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="famille" morphofeat="NCfs" pos="N" tid="t6" type="open">
+      <span>
+        <!-- famille -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- de -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Lyon" morphofeat="NPms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- Lyon -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="visiter" morphofeat="VW" pos="V" tid="t10" type="open">
+      <span>
+        <!-- visiter -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="Arles" morphofeat="NPms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- Arles -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS1mp" pos="Q" tid="t12" type="close">
+      <span>
+        <!-- nous -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="sommer" morphofeat="VP1p" pos="V" tid="t13" type="open">
+      <span>
+        <!-- sommes -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="allé" morphofeat="default" pos="O" tid="t14" type="close">
+      <span>
+        <!-- allé -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="visiter" morphofeat="VW" pos="V" tid="t15" type="open">
+      <span>
+        <!-- visiter -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t16" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="patrimoine" morphofeat="NCms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- patrimoine -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="français" morphofeat="Ams" pos="G" tid="t18" type="open">
+      <span>
+        <!-- français -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t19" type="close">
+      <span>
+        <!-- , -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t20" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="PROms" pos="P" tid="t21" type="close">
+      <span>
+        <!-- un -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- des -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="joyau" morphofeat="NCmp" pos="N" tid="t23" type="open">
+      <span>
+        <!-- joyaux -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t24" type="close">
+      <span>
+        <!-- de -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="Provence" morphofeat="NPfs" pos="N" tid="t25" type="open">
+      <span>
+        <!-- Provence -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t26" type="close">
+      <span>
+        <!-- et -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t27" type="close">
+      <span>
+        <!-- une -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="histoire" morphofeat="NCfs" pos="N" tid="t28" type="open">
+      <span>
+        <!-- histoire -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="formidable" morphofeat="Afs" pos="G" tid="t29" type="open">
+      <span>
+        <!-- formidable -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t30" type="close">
+      <span>
+        <!-- un -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="monument" morphofeat="NCms" pos="N" tid="t31" type="open">
+      <span>
+        <!-- monument -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t32" type="open">
+      <span>
+        <!-- a -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t33" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t34" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="manquer" morphofeat="VW" pos="V" tid="t35" type="open">
+      <span>
+        <!-- manquer -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="quand" morphofeat="CS" pos="C" tid="t36" type="close">
+      <span>
+        <!-- quand -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="on" morphofeat="CL3ms" pos="Q" tid="t37" type="close">
+      <span>
+        <!-- on -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="visiter" morphofeat="VP3s" pos="V" tid="t38" type="open">
+      <span>
+        <!-- visite -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t39" type="close">
+      <span>
+        <!-- la -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="Provence" morphofeat="NPfs" pos="N" tid="t40" type="open">
+      <span>
+        <!-- Provence -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t41" type="close">
+      <span>
+        <!-- . -->
+        <target id="w41"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Patrimoine historique-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--magnifique-->
+        <span>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

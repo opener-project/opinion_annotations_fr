@@ -1,0 +1,787 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:35:15Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:35:15Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:35:15Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:41CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Magnifique</wf>
+    <wf length="7" offset="11" para="1" sent="1" wid="w2">station</wf>
+    <wf length="2" offset="19" para="1" sent="1" wid="w3">de</wf>
+    <wf length="3" offset="22" para="1" sent="1" wid="w4">ski</wf>
+    <wf length="1" offset="25" para="1" sent="1" wid="w5">.</wf>
+    <wf length="7" offset="27" para="2" sent="2" wid="w6">Station</wf>
+    <wf length="2" offset="35" para="2" sent="2" wid="w7">de</wf>
+    <wf length="3" offset="38" para="2" sent="2" wid="w8">Ski</wf>
+    <wf length="6" offset="42" para="2" sent="2" wid="w9">autant</wf>
+    <wf length="4" offset="49" para="2" sent="2" wid="w10">pour</wf>
+    <wf length="2" offset="54" para="2" sent="2" wid="w11">s'</wf>
+    <wf length="6" offset="56" para="2" sent="2" wid="w12">amuser</wf>
+    <wf length="5" offset="63" para="2" sent="2" wid="w13">entre</wf>
+    <wf length="6" offset="69" para="2" sent="2" wid="w14">jeunes</wf>
+    <wf length="3" offset="76" para="2" sent="2" wid="w15">que</wf>
+    <wf length="4" offset="80" para="2" sent="2" wid="w16">pour</wf>
+    <wf length="3" offset="85" para="2" sent="2" wid="w17">les</wf>
+    <wf length="8" offset="89" para="2" sent="2" wid="w18">familles</wf>
+    <wf length="1" offset="97" para="2" sent="2" wid="w19">,</wf>
+    <wf length="2" offset="99" para="2" sent="2" wid="w20">en</wf>
+    <wf length="4" offset="102" para="2" sent="2" wid="w21">plus</wf>
+    <wf length="3" offset="107" para="2" sent="2" wid="w22">pas</wf>
+    <wf length="2" offset="111" para="2" sent="2" wid="w23">de</wf>
+    <wf length="8" offset="114" para="2" sent="2" wid="w24">voitures</wf>
+    <wf length="1" offset="122" para="2" sent="2" wid="w25">.</wf>
+    <wf length="1" offset="123" para="2" sent="2" wid="w26">.</wf>
+    <wf length="6" offset="125" para="2" sent="3" wid="w27">Pistes</wf>
+    <wf length="5" offset="132" para="2" sent="3" wid="w28">extra</wf>
+    <wf length="1" offset="137" para="2" sent="3" wid="w29">,</wf>
+    <wf length="5" offset="139" para="2" sent="3" wid="w30">choix</wf>
+    <wf length="2" offset="145" para="2" sent="3" wid="w31">de</wf>
+    <wf length="11" offset="148" para="2" sent="3" wid="w32">restaurants</wf>
+    <wf length="4" offset="160" para="2" sent="3" wid="w33">pour</wf>
+    <wf length="4" offset="165" para="2" sent="3" wid="w34">tous</wf>
+    <wf length="1" offset="169" para="2" sent="3" wid="w35">,</wf>
+    <wf length="7" offset="171" para="2" sent="3" wid="w36">surtout</wf>
+    <wf length="2" offset="179" para="2" sent="3" wid="w37">le</wf>
+    <wf length="7" offset="182" para="2" sent="3" wid="w38">Bistrot</wf>
+    <wf length="4" offset="190" para="2" sent="3" wid="w39">avec</wf>
+    <wf length="5" offset="195" para="2" sent="3" wid="w40">leurs</wf>
+    <wf length="8" offset="201" para="2" sent="3" wid="w41">pierrade</wf>
+    <wf length="2" offset="210" para="2" sent="3" wid="w42">et</wf>
+    <wf length="5" offset="213" para="2" sent="3" wid="w43">leurs</wf>
+    <wf length="8" offset="219" para="2" sent="3" wid="w44">raclette</wf>
+    <wf length="1" offset="227" para="2" sent="3" wid="w45">,</wf>
+    <wf length="2" offset="229" para="2" sent="3" wid="w46">il</wf>
+    <wf length="1" offset="232" para="2" sent="3" wid="w47">y</wf>
+    <wf length="1" offset="234" para="2" sent="3" wid="w48">a</wf>
+    <wf length="2" offset="236" para="2" sent="3" wid="w49">le</wf>
+    <wf length="11" offset="239" para="2" sent="3" wid="w50">Fantastique</wf>
+    <wf length="4" offset="251" para="2" sent="3" wid="w51">pour</wf>
+    <wf length="5" offset="256" para="2" sent="3" wid="w52">boire</wf>
+    <wf length="2" offset="262" para="2" sent="3" wid="w53">l'</wf>
+    <wf length="5" offset="264" para="2" sent="3" wid="w54">apéro</wf>
+    <wf length="2" offset="270" para="2" sent="3" wid="w55">ou</wf>
+    <wf length="5" offset="273" para="2" sent="3" wid="w56">avant</wf>
+    <wf length="1" offset="279" para="2" sent="3" wid="w57">'</wf>
+    <wf length="4" offset="280" para="2" sent="3" wid="w58">allé</wf>
+    <wf length="5" offset="285" para="2" sent="3" wid="w59">faire</wf>
+    <wf length="2" offset="291" para="2" sent="3" wid="w60">un</wf>
+    <wf length="4" offset="294" para="2" sent="3" wid="w61">tour</wf>
+    <wf length="2" offset="299" para="2" sent="3" wid="w62">au</wf>
+    <wf length="1" offset="302" para="2" sent="3" wid="w63">"</wf>
+    <wf length="4" offset="303" para="2" sent="3" wid="w64">Yéti</wf>
+    <wf length="1" offset="307" para="2" sent="3" wid="w65">"</wf>
+    <wf length="4" offset="308" para="2" sent="3" wid="w66">pour</wf>
+    <wf length="5" offset="313" para="2" sent="3" wid="w67">finir</wf>
+    <wf length="2" offset="319" para="2" sent="3" wid="w68">la</wf>
+    <wf length="6" offset="322" para="2" sent="3" wid="w69">soirée</wf>
+    <wf length="1" offset="328" para="2" sent="3" wid="w70">.</wf>
+    <wf length="8" offset="330" para="2" sent="4" wid="w71">Toujours</wf>
+    <wf length="6" offset="339" para="2" sent="4" wid="w72">pleins</wf>
+    <wf length="2" offset="346" para="2" sent="4" wid="w73">de</wf>
+    <wf length="12" offset="349" para="2" sent="4" wid="w74">propositions</wf>
+    <wf length="2" offset="362" para="2" sent="4" wid="w75">d’</wf>
+    <wf length="9" offset="364" para="2" sent="4" wid="w76">activités</wf>
+    <wf length="1" offset="373" para="2" sent="4" wid="w77">,</wf>
+    <wf length="2" offset="375" para="2" sent="4" wid="w78">je</wf>
+    <wf length="2" offset="378" para="2" sent="4" wid="w79">la</wf>
+    <wf length="10" offset="381" para="2" sent="4" wid="w80">recommande</wf>
+    <wf length="8" offset="392" para="2" sent="4" wid="w81">vraiment</wf>
+    <wf length="2" offset="401" para="2" sent="4" wid="w82">et</wf>
+    <wf length="2" offset="404" para="2" sent="4" wid="w83">je</wf>
+    <wf length="2" offset="407" para="2" sent="4" wid="w84">me</wf>
+    <wf length="4" offset="410" para="2" sent="4" wid="w85">fais</wf>
+    <wf length="3" offset="415" para="2" sent="4" wid="w86">une</wf>
+    <wf length="4" offset="419" para="2" sent="4" wid="w87">joie</wf>
+    <wf length="2" offset="424" para="2" sent="4" wid="w88">de</wf>
+    <wf length="9" offset="427" para="2" sent="4" wid="w89">retourner</wf>
+    <wf length="13" offset="437" para="2" sent="4" wid="w90">régulièrement</wf>
+    <wf length="6" offset="451" para="2" sent="4" wid="w91">autant</wf>
+    <wf length="2" offset="458" para="2" sent="4" wid="w92">en</wf>
+    <wf length="3" offset="461" para="2" sent="4" wid="w93">été</wf>
+    <wf length="3" offset="465" para="2" sent="4" wid="w94">que</wf>
+    <wf length="2" offset="469" para="2" sent="4" wid="w95">en</wf>
+    <wf length="5" offset="472" para="2" sent="4" wid="w96">hiver</wf>
+    <wf length="1" offset="477" para="2" sent="4" wid="w97">.</wf>
+  </text>
+  <terms>
+    <term lemma="Magnifique" morphofeat="NPfs" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Magnifique -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="station" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- station -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- de -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="ski" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- ski -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t5" type="close">
+      <span>
+        <!-- . -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="station" morphofeat="NPms" pos="N" tid="t6" type="open">
+      <span>
+        <!-- Station -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- de -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="ski" morphofeat="NPms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- Ski -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="autant" morphofeat="ADV" pos="G" tid="t9" type="open">
+      <span>
+        <!-- autant -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="s'" morphofeat="CLR3mp" pos="Q" tid="t11" type="close">
+      <span>
+        <!-- s' -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="amuser" morphofeat="VW" pos="V" tid="t12" type="open">
+      <span>
+        <!-- amuser -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="entre" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- entre -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="jeune" morphofeat="NCmp" pos="N" tid="t14" type="open">
+      <span>
+        <!-- jeunes -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t15" type="close">
+      <span>
+        <!-- que -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t17" type="close">
+      <span>
+        <!-- les -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="famille" morphofeat="NCfp" pos="N" tid="t18" type="open">
+      <span>
+        <!-- familles -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t19" type="close">
+      <span>
+        <!-- , -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!-- en -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t22" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t23" type="close">
+      <span>
+        <!-- de -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="voiture" morphofeat="NCfp" pos="N" tid="t24" type="open">
+      <span>
+        <!-- voitures -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t25" type="close">
+      <span>
+        <!-- . -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t26" type="close">
+      <span>
+        <!-- . -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="Pistes" morphofeat="Afp" pos="G" tid="t27" type="open">
+      <span>
+        <!-- Pistes -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="extra" morphofeat="Afp" pos="G" tid="t28" type="open">
+      <span>
+        <!-- extra -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t29" type="close">
+      <span>
+        <!-- , -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="choix" morphofeat="NCms" pos="N" tid="t30" type="open">
+      <span>
+        <!-- choix -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t31" type="close">
+      <span>
+        <!-- de -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="restaurant" morphofeat="NCmp" pos="N" tid="t32" type="open">
+      <span>
+        <!-- restaurants -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t33" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="tout" morphofeat="Amp" pos="G" tid="t34" type="open">
+      <span>
+        <!-- tous -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t35" type="close">
+      <span>
+        <!-- , -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="surtout" morphofeat="ADV" pos="G" tid="t36" type="open">
+      <span>
+        <!-- surtout -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t37" type="close">
+      <span>
+        <!-- le -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="bistrot" morphofeat="NCms" pos="N" tid="t38" type="open">
+      <span>
+        <!-- Bistrot -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t39" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dmp" pos="D" tid="t40" type="close">
+      <span>
+        <!-- leurs -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="pierrade" morphofeat="Afs" pos="G" tid="t41" type="open">
+      <span>
+        <!-- pierrade -->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t42" type="close">
+      <span>
+        <!-- et -->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="son" morphofeat="Dmp" pos="D" tid="t43" type="close">
+      <span>
+        <!-- leurs -->
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="raclette" morphofeat="NCmp" pos="N" tid="t44" type="open">
+      <span>
+        <!-- raclette -->
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t45" type="close">
+      <span>
+        <!-- , -->
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t46" type="close">
+      <span>
+        <!-- il -->
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="y" morphofeat="CL3ms" pos="Q" tid="t47" type="close">
+      <span>
+        <!-- y -->
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t48" type="open">
+      <span>
+        <!-- a -->
+        <target id="w48"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t49" type="close">
+      <span>
+        <!-- le -->
+        <target id="w49"/>
+      </span>
+    </term>
+    <term lemma="fantastique" morphofeat="NCms" pos="N" tid="t50" type="open">
+      <span>
+        <!-- Fantastique -->
+        <target id="w50"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t51" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w51"/>
+      </span>
+    </term>
+    <term lemma="boire" morphofeat="NCfs" pos="N" tid="t52" type="open">
+      <span>
+        <!-- boire -->
+        <target id="w52"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t53" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w53"/>
+      </span>
+    </term>
+    <term lemma="apéro" morphofeat="NCfs" pos="N" tid="t54" type="open">
+      <span>
+        <!-- apéro -->
+        <target id="w54"/>
+      </span>
+    </term>
+    <term lemma="ou" morphofeat="CC" pos="C" tid="t55" type="close">
+      <span>
+        <!-- ou -->
+        <target id="w55"/>
+      </span>
+    </term>
+    <term lemma="avant" morphofeat="P" pos="P" tid="t56" type="close">
+      <span>
+        <!-- avant -->
+        <target id="w56"/>
+      </span>
+    </term>
+    <term lemma="'" morphofeat="Dfs" pos="D" tid="t57" type="close">
+      <span>
+        <!-- ' -->
+        <target id="w57"/>
+      </span>
+    </term>
+    <term lemma="aller" morphofeat="VKms" pos="V" tid="t58" type="open">
+      <span>
+        <!-- allé -->
+        <target id="w58"/>
+      </span>
+    </term>
+    <term lemma="faire" morphofeat="VW" pos="V" tid="t59" type="open">
+      <span>
+        <!-- faire -->
+        <target id="w59"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t60" type="close">
+      <span>
+        <!-- un -->
+        <target id="w60"/>
+      </span>
+    </term>
+    <term lemma="tour" morphofeat="NCms" pos="N" tid="t61" type="open">
+      <span>
+        <!-- tour -->
+        <target id="w61"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t62" type="close">
+      <span>
+        <!-- au -->
+        <target id="w62"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t63" type="close">
+      <span>
+        <!-- " -->
+        <target id="w63"/>
+      </span>
+    </term>
+    <term lemma="yéti" morphofeat="NPs" pos="N" tid="t64" type="open">
+      <span>
+        <!-- Yéti -->
+        <target id="w64"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t65" type="close">
+      <span>
+        <!-- " -->
+        <target id="w65"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t66" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w66"/>
+      </span>
+    </term>
+    <term lemma="finir" morphofeat="VW" pos="V" tid="t67" type="open">
+      <span>
+        <!-- finir -->
+        <target id="w67"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t68" type="close">
+      <span>
+        <!-- la -->
+        <target id="w68"/>
+      </span>
+    </term>
+    <term lemma="soirée" morphofeat="NCfs" pos="N" tid="t69" type="open">
+      <span>
+        <!-- soirée -->
+        <target id="w69"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t70" type="close">
+      <span>
+        <!-- . -->
+        <target id="w70"/>
+      </span>
+    </term>
+    <term lemma="Toujours" morphofeat="ADV" pos="G" tid="t71" type="open">
+      <span>
+        <!-- Toujours -->
+        <target id="w71"/>
+      </span>
+    </term>
+    <term lemma="plein" morphofeat="Amp" pos="G" tid="t72" type="open">
+      <span>
+        <!-- pleins -->
+        <target id="w72"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t73" type="close">
+      <span>
+        <!-- de -->
+        <target id="w73"/>
+      </span>
+    </term>
+    <term lemma="proposition" morphofeat="NCfp" pos="N" tid="t74" type="open">
+      <span>
+        <!-- propositions -->
+        <target id="w74"/>
+      </span>
+    </term>
+    <term lemma="d’" morphofeat="Afp" pos="G" tid="t75" type="open">
+      <span>
+        <!-- d’ -->
+        <target id="w75"/>
+      </span>
+    </term>
+    <term lemma="activité" morphofeat="NCfp" pos="N" tid="t76" type="open">
+      <span>
+        <!-- activités -->
+        <target id="w76"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t77" type="close">
+      <span>
+        <!-- , -->
+        <target id="w77"/>
+      </span>
+    </term>
+    <term lemma="je" morphofeat="CL1ms" pos="Q" tid="t78" type="close">
+      <span>
+        <!-- je -->
+        <target id="w78"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t79" type="close">
+      <span>
+        <!-- la -->
+        <target id="w79"/>
+      </span>
+    </term>
+    <term lemma="recommande" morphofeat="NCfs" pos="N" tid="t80" type="open">
+      <span>
+        <!-- recommande -->
+        <target id="w80"/>
+      </span>
+    </term>
+    <term lemma="vraiment" morphofeat="ADV" pos="G" tid="t81" type="open">
+      <span>
+        <!-- vraiment -->
+        <target id="w81"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t82" type="close">
+      <span>
+        <!-- et -->
+        <target id="w82"/>
+      </span>
+    </term>
+    <term lemma="je" morphofeat="CL1ms" pos="Q" tid="t83" type="close">
+      <span>
+        <!-- je -->
+        <target id="w83"/>
+      </span>
+    </term>
+    <term lemma="me" morphofeat="CLR1ms" pos="Q" tid="t84" type="close">
+      <span>
+        <!-- me -->
+        <target id="w84"/>
+      </span>
+    </term>
+    <term lemma="faire" morphofeat="VP1s" pos="V" tid="t85" type="open">
+      <span>
+        <!-- fais -->
+        <target id="w85"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t86" type="close">
+      <span>
+        <!-- une -->
+        <target id="w86"/>
+      </span>
+    </term>
+    <term lemma="joie" morphofeat="NCfs" pos="N" tid="t87" type="open">
+      <span>
+        <!-- joie -->
+        <target id="w87"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t88" type="close">
+      <span>
+        <!-- de -->
+        <target id="w88"/>
+      </span>
+    </term>
+    <term lemma="retourner" morphofeat="VW" pos="V" tid="t89" type="open">
+      <span>
+        <!-- retourner -->
+        <target id="w89"/>
+      </span>
+    </term>
+    <term lemma="régulièrement" morphofeat="ADV" pos="G" tid="t90" type="open">
+      <span>
+        <!-- régulièrement -->
+        <target id="w90"/>
+      </span>
+    </term>
+    <term lemma="autant" morphofeat="ADV" pos="G" tid="t91" type="open">
+      <span>
+        <!-- autant -->
+        <target id="w91"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t92" type="close">
+      <span>
+        <!-- en -->
+        <target id="w92"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VKms" pos="V" tid="t93" type="open">
+      <span>
+        <!-- été -->
+        <target id="w93"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t94" type="close">
+      <span>
+        <!-- que -->
+        <target id="w94"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t95" type="close">
+      <span>
+        <!-- en -->
+        <target id="w95"/>
+      </span>
+    </term>
+    <term lemma="hiver" morphofeat="NCms" pos="N" tid="t96" type="open">
+      <span>
+        <!-- hiver -->
+        <target id="w96"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t97" type="close">
+      <span>
+        <!-- . -->
+        <target id="w97"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t74"/>
+            <target id="t75"/>
+            <target id="t76"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="10_0">
+      <opinion_holder>
+        <!--je-->
+        <span>
+          <target id="t78"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--la-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--recommande vraiment-->
+        <span>
+          <target id="t80"/>
+          <target id="t81"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--propositions d’ activités-->
+        <span>
+          <target id="t74"/>
+          <target id="t75"/>
+          <target id="t76"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Toujours pleins-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="13_0">
+      <opinion_holder>
+        <!--je me-->
+        <span>
+          <target id="t83"/>
+          <target id="t84"/>
+        </span>
+      </opinion_holder>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--une joie de retourner régulièrement autant en été que en hiver-->
+        <span>
+          <target id="t86"/>
+          <target id="t87"/>
+          <target id="t88"/>
+          <target id="t89"/>
+          <target id="t90"/>
+          <target id="t91"/>
+          <target id="t92"/>
+          <target id="t93"/>
+          <target id="t94"/>
+          <target id="t95"/>
+          <target id="t96"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

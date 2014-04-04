@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:41Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:41Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:41Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="9" offset="0" para="1" sent="1" wid="w1">Excellent</wf>
+    <wf length="4" offset="10" para="2" sent="2" wid="w2">Pour</wf>
+    <wf length="3" offset="15" para="2" sent="2" wid="w3">les</wf>
+    <wf length="7" offset="19" para="2" sent="2" wid="w4">adeptes</wf>
+    <wf length="2" offset="27" para="2" sent="2" wid="w5">de</wf>
+    <wf length="8" offset="30" para="2" sent="2" wid="w6">shopping</wf>
+    <wf length="2" offset="39" para="2" sent="2" wid="w7">ce</wf>
+    <wf length="5" offset="42" para="2" sent="2" wid="w8">cente</wf>
+    <wf length="10" offset="48" para="2" sent="2" wid="w9">commercial</wf>
+    <wf length="8" offset="59" para="2" sent="2" wid="w10">renferme</wf>
+    <wf length="3" offset="68" para="2" sent="2" wid="w11">une</wf>
+    <wf length="6" offset="72" para="2" sent="2" wid="w12">grande</wf>
+    <wf length="9" offset="79" para="2" sent="2" wid="w13">sélection</wf>
+    <wf length="2" offset="89" para="2" sent="2" wid="w14">de</wf>
+    <wf length="9" offset="92" para="2" sent="2" wid="w15">boutiques</wf>
+    <wf length="3" offset="102" para="2" sent="2" wid="w16">sur</wf>
+    <wf length="9" offset="106" para="2" sent="2" wid="w17">plusieurs</wf>
+    <wf length="6" offset="116" para="2" sent="2" wid="w18">étages</wf>
+    <wf length="1" offset="122" para="2" sent="2" wid="w19">.</wf>
+  </text>
+  <terms>
+    <term lemma="excellent" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Excellent -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Pour" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- Pour -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t3" type="close">
+      <span>
+        <!-- les -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="adepte" morphofeat="NCmp" pos="N" tid="t4" type="open">
+      <span>
+        <!-- adeptes -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t5" type="close">
+      <span>
+        <!-- de -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="shopping" morphofeat="ET" pos="O" tid="t6" type="close">
+      <span>
+        <!-- shopping -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dms" pos="D" tid="t7" type="close">
+      <span>
+        <!-- ce -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="cente" morphofeat="NCms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- cente -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="commercial" morphofeat="Ams" pos="G" tid="t9" type="open">
+      <span>
+        <!-- commercial -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="renfermer" morphofeat="VP3s" pos="V" tid="t10" type="open">
+      <span>
+        <!-- renferme -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t11" type="close">
+      <span>
+        <!-- une -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Afs" pos="G" tid="t12" type="open">
+      <span>
+        <!-- grande -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="sélection" morphofeat="NCfs" pos="N" tid="t13" type="open">
+      <span>
+        <!-- sélection -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- de -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="boutique" morphofeat="NCfp" pos="N" tid="t15" type="open">
+      <span>
+        <!-- boutiques -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="plusieurs" morphofeat="Dmp" pos="D" tid="t17" type="close">
+      <span>
+        <!-- plusieurs -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="étage" morphofeat="NCmp" pos="N" tid="t18" type="open">
+      <span>
+        <!-- étages -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t19" type="close">
+      <span>
+        <!-- . -->
+        <target id="w19"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Excellent-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

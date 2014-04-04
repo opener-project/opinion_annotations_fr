@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:39Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:39Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:40Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:45CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">super</wf>
+    <wf length="8" offset="6" para="1" sent="1" wid="w2">ambiance</wf>
+    <wf length="2" offset="15" para="2" sent="2" wid="w3">on</wf>
+    <wf length="2" offset="18" para="2" sent="2" wid="w4">ne</wf>
+    <wf length="7" offset="21" para="2" sent="2" wid="w5">pouvait</wf>
+    <wf length="3" offset="29" para="2" sent="2" wid="w6">pas</wf>
+    <wf length="6" offset="33" para="2" sent="2" wid="w7">passer</wf>
+    <wf length="1" offset="40" para="2" sent="2" wid="w8">à</wf>
+    <wf length="5" offset="42" para="2" sent="2" wid="w9">miami</wf>
+    <wf length="4" offset="48" para="2" sent="2" wid="w10">sans</wf>
+    <wf length="4" offset="53" para="2" sent="2" wid="w11">voir</wf>
+    <wf length="3" offset="58" para="2" sent="2" wid="w12">les</wf>
+    <wf length="5" offset="62" para="2" sent="2" wid="w13">heats</wf>
+    <wf length="2" offset="68" para="2" sent="2" wid="w14">le</wf>
+    <wf length="5" offset="71" para="2" sent="2" wid="w15">stade</wf>
+    <wf length="3" offset="77" para="2" sent="2" wid="w16">est</wf>
+    <wf length="7" offset="81" para="2" sent="2" wid="w17">superbe</wf>
+    <wf length="8" offset="89" para="2" sent="2" wid="w18">ambiance</wf>
+    <wf length="1" offset="98" para="2" sent="2" wid="w19">à</wf>
+    <wf length="2" offset="100" para="2" sent="2" wid="w20">l'</wf>
+    <wf length="10" offset="102" para="2" sent="2" wid="w21">américaine</wf>
+    <wf length="5" offset="113" para="2" sent="2" wid="w22">super</wf>
+    <wf length="4" offset="119" para="2" sent="2" wid="w23">show</wf>
+    <wf length="1" offset="124" para="2" sent="2" wid="w24">.</wf>
+  </text>
+  <terms>
+    <term lemma="super" morphofeat="VW" pos="V" tid="t1" type="open">
+      <span>
+        <!-- super -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="ambiance" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- ambiance -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="on" morphofeat="CL3ms" pos="Q" tid="t3" type="close">
+      <span>
+        <!-- on -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pouvoir" morphofeat="VI3s" pos="V" tid="t5" type="open">
+      <span>
+        <!-- pouvait -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t6" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="passer" morphofeat="VW" pos="V" tid="t7" type="open">
+      <span>
+        <!-- passer -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- à -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="miami" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- miami -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="sans]" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- sans -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VW" pos="V" tid="t11" type="open">
+      <span>
+        <!-- voir -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t12" type="close">
+      <span>
+        <!-- les -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="heats" morphofeat="NCmp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- heats -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t14" type="close">
+      <span>
+        <!-- le -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="stade" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- stade -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t16" type="open">
+      <span>
+        <!-- est -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="superbe" morphofeat="Ams" pos="G" tid="t17" type="open">
+      <span>
+        <!-- superbe -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ambiance" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- ambiance -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- à -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t20" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="américain" morphofeat="NCms" pos="N" tid="t21" type="open">
+      <span>
+        <!-- américaine -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="super" morphofeat="Ams" pos="G" tid="t22" type="open">
+      <span>
+        <!-- super -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="show" morphofeat="NCms" pos="N" tid="t23" type="open">
+      <span>
+        <!-- show -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t24" type="close">
+      <span>
+        <!-- . -->
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--ambiance-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--super-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

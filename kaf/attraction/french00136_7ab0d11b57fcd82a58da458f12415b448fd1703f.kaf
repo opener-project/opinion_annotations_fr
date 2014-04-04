@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:24:32Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:24:32Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:24:33Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="6" offset="0" para="1" sent="1" wid="w1">Extase</wf>
+    <wf length="6" offset="7" para="2" sent="2" wid="w2">Extase</wf>
+    <wf length="6" offset="14" para="2" sent="2" wid="w3">totale</wf>
+    <wf length="2" offset="21" para="2" sent="2" wid="w4">et</wf>
+    <wf length="1" offset="24" para="2" sent="2" wid="w5">a</wf>
+    <wf length="6" offset="26" para="2" sent="2" wid="w6">chaque</wf>
+    <wf length="4" offset="33" para="2" sent="2" wid="w7">fois</wf>
+    <wf length="8" offset="38" para="2" sent="2" wid="w8">pourtant</wf>
+    <wf length="2" offset="47" para="2" sent="2" wid="w9">il</wf>
+    <wf length="1" offset="50" para="2" sent="2" wid="w10">y</wf>
+    <wf length="1" offset="52" para="2" sent="2" wid="w11">a</wf>
+    <wf length="2" offset="54" para="2" sent="2" wid="w12">un</wf>
+    <wf length="3" offset="57" para="2" sent="2" wid="w13">bon</wf>
+    <wf length="6" offset="61" para="2" sent="2" wid="w14">moment</wf>
+    <wf length="3" offset="68" para="2" sent="2" wid="w15">que</wf>
+    <wf length="2" offset="72" para="2" sent="2" wid="w16">j'</wf>
+    <wf length="8" offset="74" para="2" sent="2" wid="w17">emprunte</wf>
+    <wf length="2" offset="83" para="2" sent="2" wid="w18">la</wf>
+    <wf length="5" offset="86" para="2" sent="2" wid="w19">benne</wf>
+    <wf length="2" offset="92" para="2" sent="2" wid="w20">et</wf>
+    <wf length="2" offset="95" para="2" sent="2" wid="w21">c'</wf>
+    <wf length="3" offset="97" para="2" sent="2" wid="w22">est</wf>
+    <wf length="8" offset="101" para="2" sent="2" wid="w23">toujours</wf>
+    <wf length="2" offset="110" para="2" sent="2" wid="w24">l'</wf>
+    <wf length="14" offset="112" para="2" sent="2" wid="w25">émerveillement</wf>
+    <wf length="5" offset="127" para="2" sent="2" wid="w26">total</wf>
+    <wf length="1" offset="132" para="2" sent="2" wid="w27">.</wf>
+  </text>
+  <terms>
+    <term lemma="Extase" morphofeat="Dfs" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Extase -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="extase" morphofeat="NPfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- Extase -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="total" morphofeat="Afs" pos="G" tid="t3" type="open">
+      <span>
+        <!-- totale -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t4" type="close">
+      <span>
+        <!-- et -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t5" type="open">
+      <span>
+        <!-- a -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="chaque" morphofeat="Dfs" pos="D" tid="t6" type="close">
+      <span>
+        <!-- chaque -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="foi" morphofeat="NCfs" pos="N" tid="t7" type="open">
+      <span>
+        <!-- fois -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="pourtant" morphofeat="ADV" pos="G" tid="t8" type="open">
+      <span>
+        <!-- pourtant -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="il" morphofeat="CL3ms" pos="Q" tid="t9" type="close">
+      <span>
+        <!-- il -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="y" morphofeat="CL3ms" pos="Q" tid="t10" type="close">
+      <span>
+        <!-- y -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t11" type="open">
+      <span>
+        <!-- a -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t12" type="close">
+      <span>
+        <!-- un -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Ams" pos="G" tid="t13" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="moment" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- moment -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="que" morphofeat="CS" pos="C" tid="t15" type="close">
+      <span>
+        <!-- que -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="j'" morphofeat="CL1ms" pos="Q" tid="t16" type="close">
+      <span>
+        <!-- j' -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="emprunter" morphofeat="VP3s" pos="V" tid="t17" type="open">
+      <span>
+        <!-- emprunte -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t18" type="close">
+      <span>
+        <!-- la -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="benne" morphofeat="NCfs" pos="N" tid="t19" type="open">
+      <span>
+        <!-- benne -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t20" type="close">
+      <span>
+        <!-- et -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="c'" morphofeat="CL3ms" pos="Q" tid="t21" type="close">
+      <span>
+        <!-- c' -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t22" type="open">
+      <span>
+        <!-- est -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="toujours" morphofeat="ADV" pos="G" tid="t23" type="open">
+      <span>
+        <!-- toujours -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t24" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="émerveillement" morphofeat="NCms" pos="N" tid="t25" type="open">
+      <span>
+        <!-- émerveillement -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="total" morphofeat="Ams" pos="G" tid="t26" type="open">
+      <span>
+        <!-- total -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t27" type="close">
+      <span>
+        <!-- . -->
+        <target id="w27"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Extase-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

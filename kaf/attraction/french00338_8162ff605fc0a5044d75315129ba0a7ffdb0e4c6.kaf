@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:24Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:24Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:25Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="5" offset="0" para="1" sent="1" wid="w1">Great</wf>
+    <wf length="4" offset="6" para="1" sent="1" wid="w2">meal</wf>
+    <wf length="2" offset="11" para="1" sent="1" wid="w3">in</wf>
+    <wf length="5" offset="14" para="1" sent="1" wid="w4">Gusto</wf>
+    <wf length="5" offset="20" para="2" sent="2" wid="w5">Great</wf>
+    <wf length="4" offset="26" para="2" sent="2" wid="w6">meal</wf>
+    <wf length="2" offset="31" para="2" sent="2" wid="w7">in</wf>
+    <wf length="5" offset="34" para="2" sent="2" wid="w8">Gusto</wf>
+    <wf length="1" offset="40" para="2" sent="2" wid="w9">·</wf>
+    <wf length="7" offset="42" para="2" sent="2" wid="w10">Italian</wf>
+    <wf length="10" offset="50" para="2" sent="2" wid="w11">restaurant</wf>
+    <wf length="1" offset="60" para="2" sent="2" wid="w12">.</wf>
+    <wf length="5" offset="62" para="2" sent="3" wid="w13">Great</wf>
+    <wf length="4" offset="68" para="2" sent="3" wid="w14">food</wf>
+    <wf length="1" offset="72" para="2" sent="3" wid="w15">,</wf>
+    <wf length="5" offset="74" para="2" sent="3" wid="w16">great</wf>
+    <wf length="7" offset="80" para="2" sent="3" wid="w17">service</wf>
+    <wf length="3" offset="88" para="2" sent="3" wid="w18">and</wf>
+    <wf length="4" offset="92" para="2" sent="3" wid="w19">good</wf>
+    <wf length="6" offset="97" para="2" sent="3" wid="w20">prices</wf>
+    <wf length="1" offset="103" para="2" sent="3" wid="w21">.</wf>
+  </text>
+  <terms>
+    <term lemma="Great" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Great -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="meal" morphofeat="NCms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- meal -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="ET" pos="O" tid="t3" type="close">
+      <span>
+        <!-- in -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Gusto" morphofeat="ET" pos="O" tid="t4" type="close">
+      <span>
+        <!-- Gusto -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="Great" morphofeat="ET" pos="O" tid="t5" type="close">
+      <span>
+        <!-- Great -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="meal" morphofeat="ET" pos="O" tid="t6" type="close">
+      <span>
+        <!-- meal -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="ET" pos="O" tid="t7" type="close">
+      <span>
+        <!-- in -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Gusto" morphofeat="ET" pos="O" tid="t8" type="close">
+      <span>
+        <!-- Gusto -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="ET" pos="O" tid="t9" type="close">
+      <span>
+        <!-- · -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="Italian" morphofeat="ET" pos="O" tid="t10" type="close">
+      <span>
+        <!-- Italian -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="restaurer" morphofeat="VG" pos="V" tid="t11" type="open">
+      <span>
+        <!-- restaurant -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t12" type="close">
+      <span>
+        <!-- . -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="Great" morphofeat="NPms" pos="N" tid="t13" type="open">
+      <span>
+        <!-- Great -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="food" morphofeat="VP3s" pos="V" tid="t14" type="open">
+      <span>
+        <!-- food -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t15" type="close">
+      <span>
+        <!-- , -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="great" morphofeat="Ams" pos="G" tid="t16" type="open">
+      <span>
+        <!-- great -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="service" morphofeat="NCms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- service -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="and" morphofeat="Ams" pos="G" tid="t18" type="open">
+      <span>
+        <!-- and -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="good" morphofeat="Ams" pos="G" tid="t19" type="open">
+      <span>
+        <!-- good -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="prices" morphofeat="NCfp" pos="N" tid="t20" type="open">
+      <span>
+        <!-- prices -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t21" type="close">
+      <span>
+        <!-- . -->
+        <target id="w21"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

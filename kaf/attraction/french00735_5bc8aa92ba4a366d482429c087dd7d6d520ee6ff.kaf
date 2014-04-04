@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:02Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:02Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">Bel</wf>
+    <wf length="7" offset="4" para="1" sent="1" wid="w2">endroit</wf>
+    <wf length="6" offset="12" para="2" sent="2" wid="w3">Visite</wf>
+    <wf length="4" offset="19" para="2" sent="2" wid="w4">très</wf>
+    <wf length="12" offset="24" para="2" sent="2" wid="w5">intéressante</wf>
+    <wf length="1" offset="36" para="2" sent="2" wid="w6">.</wf>
+    <wf length="2" offset="38" para="2" sent="3" wid="w7">L'</wf>
+    <wf length="8" offset="40" para="2" sent="3" wid="w8">aquarium</wf>
+    <wf length="3" offset="49" para="2" sent="3" wid="w9">est</wf>
+    <wf length="4" offset="53" para="2" sent="3" wid="w10">très</wf>
+    <wf length="4" offset="58" para="2" sent="3" wid="w11">bien</wf>
+    <wf length="5" offset="63" para="2" sent="3" wid="w12">conçu</wf>
+    <wf length="1" offset="68" para="2" sent="3" wid="w13">.</wf>
+    <wf length="6" offset="70" para="2" sent="4" wid="w14">Grande</wf>
+    <wf length="8" offset="77" para="2" sent="4" wid="w15">variétés</wf>
+    <wf length="2" offset="86" para="2" sent="4" wid="w16">de</wf>
+    <wf length="8" offset="89" para="2" sent="4" wid="w17">poissons</wf>
+    <wf length="1" offset="97" para="2" sent="4" wid="w18">.</wf>
+    <wf length="5" offset="99" para="2" sent="5" wid="w19">Grand</wf>
+    <wf length="7" offset="105" para="2" sent="5" wid="w20">parking</wf>
+    <wf length="1" offset="113" para="2" sent="5" wid="w21">à</wf>
+    <wf length="9" offset="115" para="2" sent="5" wid="w22">proximité</wf>
+    <wf length="2" offset="125" para="2" sent="5" wid="w23">et</wf>
+    <wf length="6" offset="128" para="2" sent="5" wid="w24">facile</wf>
+    <wf length="2" offset="135" para="2" sent="5" wid="w25">d'</wf>
+    <wf length="5" offset="137" para="2" sent="5" wid="w26">accés</wf>
+  </text>
+  <terms>
+    <term lemma="bel" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Bel -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="endroit" morphofeat="VP3s" pos="V" tid="t2" type="open">
+      <span>
+        <!-- endroit -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="Visite" morphofeat="Dfs" pos="D" tid="t3" type="close">
+      <span>
+        <!-- Visite -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- très -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="intéressant" morphofeat="Afs" pos="G" tid="t5" type="open">
+      <span>
+        <!-- intéressante -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t6" type="close">
+      <span>
+        <!-- . -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t7" type="close">
+      <span>
+        <!-- L' -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t9" type="open">
+      <span>
+        <!-- est -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t10" type="open">
+      <span>
+        <!-- très -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="concevoir" morphofeat="VKms" pos="V" tid="t12" type="open">
+      <span>
+        <!-- conçu -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t13" type="close">
+      <span>
+        <!-- . -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="NPfs" pos="N" tid="t14" type="open">
+      <span>
+        <!-- Grande -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="variété" morphofeat="NCfp" pos="N" tid="t15" type="open">
+      <span>
+        <!-- variétés -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- de -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="poisson" morphofeat="NCmp" pos="N" tid="t17" type="open">
+      <span>
+        <!-- poissons -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t18" type="close">
+      <span>
+        <!-- . -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="grand" morphofeat="Ams" pos="G" tid="t19" type="open">
+      <span>
+        <!-- Grand -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="parking" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- parking -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t21" type="close">
+      <span>
+        <!-- à -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="proximité" morphofeat="NCfs" pos="N" tid="t22" type="open">
+      <span>
+        <!-- proximité -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t23" type="close">
+      <span>
+        <!-- et -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="facile" morphofeat="Afs" pos="G" tid="t24" type="open">
+      <span>
+        <!-- facile -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="accés" morphofeat="NCms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- accés -->
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Collection">
+        <references>
+          <span>
+            <target id="t10"/>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--L' aquarium-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--très bien conçu-->
+        <span>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

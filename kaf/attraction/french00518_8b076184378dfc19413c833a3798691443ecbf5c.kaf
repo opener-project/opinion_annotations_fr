@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:28:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:28:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:28:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Histoire</wf>
+    <wf length="8" offset="9" para="2" sent="2" wid="w2">Monument</wf>
+    <wf length="14" offset="18" para="2" sent="2" wid="w3">impressionnant</wf>
+    <wf length="1" offset="33" para="2" sent="2" wid="w4">,</wf>
+    <wf length="2" offset="35" para="2" sent="2" wid="w5">et</wf>
+    <wf length="8" offset="38" para="2" sent="2" wid="w6">maintenu</wf>
+    <wf length="2" offset="47" para="2" sent="2" wid="w7">en</wf>
+    <wf length="3" offset="50" para="2" sent="2" wid="w8">bon</wf>
+    <wf length="4" offset="54" para="2" sent="2" wid="w9">état</wf>
+    <wf length="1" offset="59" para="2" sent="2" wid="w10">.</wf>
+    <wf length="5" offset="63" para="3" sent="3" wid="w11">Donne</wf>
+    <wf length="8" offset="69" para="3" sent="3" wid="w12">vraiment</wf>
+    <wf length="3" offset="78" para="3" sent="3" wid="w13">une</wf>
+    <wf length="5" offset="82" para="3" sent="3" wid="w14">bonne</wf>
+    <wf length="4" offset="88" para="3" sent="3" wid="w15">idée</wf>
+    <wf length="2" offset="93" para="3" sent="3" wid="w16">de</wf>
+    <wf length="2" offset="96" para="3" sent="3" wid="w17">la</wf>
+    <wf length="9" offset="99" para="3" sent="3" wid="w18">puissance</wf>
+    <wf length="7" offset="109" para="3" sent="3" wid="w19">romaine</wf>
+    <wf length="1" offset="116" para="3" sent="3" wid="w20">.</wf>
+  </text>
+  <terms>
+    <term lemma="Histoire" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Histoire -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Monument" morphofeat="ADV" pos="G" tid="t2" type="open">
+      <span>
+        <!-- Monument -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="impressionnant" morphofeat="Ams" pos="G" tid="t3" type="open">
+      <span>
+        <!-- impressionnant -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t4" type="close">
+      <span>
+        <!-- , -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t5" type="close">
+      <span>
+        <!-- et -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="maintenir" morphofeat="VKms" pos="V" tid="t6" type="open">
+      <span>
+        <!-- maintenu -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- en -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="A" pos="G" tid="t8" type="open">
+      <span>
+        <!-- bon -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="état" morphofeat="N" pos="N" tid="t9" type="open">
+      <span>
+        <!-- état -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t10" type="close">
+      <span>
+        <!-- . -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="donne" morphofeat="NPs" pos="N" tid="t11" type="open">
+      <span>
+        <!-- Donne -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="vraiment" morphofeat="ADV" pos="G" tid="t12" type="open">
+      <span>
+        <!-- vraiment -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t13" type="close">
+      <span>
+        <!-- une -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afs" pos="G" tid="t14" type="open">
+      <span>
+        <!-- bonne -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="idée" morphofeat="NCfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- idée -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- de -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t17" type="close">
+      <span>
+        <!-- la -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="puissance" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- puissance -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="romain" morphofeat="Afs" pos="G" tid="t19" type="open">
+      <span>
+        <!-- romaine -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t20" type="close">
+      <span>
+        <!-- . -->
+        <target id="w20"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

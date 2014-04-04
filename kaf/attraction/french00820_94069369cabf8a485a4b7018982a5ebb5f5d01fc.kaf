@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:30:49Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:30:49Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:30:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Fabuleux</wf>
+    <wf length="1" offset="9" para="1" sent="1" wid="w2">!</wf>
+    <wf length="1" offset="10" para="1" sent="1" wid="w3">!</wf>
+    <wf length="1" offset="11" para="1" sent="1" wid="w4">!</wf>
+    <wf length="3" offset="13" para="2" sent="2" wid="w5">Des</wf>
+    <wf length="8" offset="17" para="2" sent="2" wid="w6">poissons</wf>
+    <wf length="11" offset="26" para="2" sent="2" wid="w7">merveilleux</wf>
+    <wf length="4" offset="38" para="2" sent="2" wid="w8">dans</wf>
+    <wf length="2" offset="43" para="2" sent="2" wid="w9">un</wf>
+    <wf length="5" offset="46" para="2" sent="2" wid="w10">décor</wf>
+    <wf length="10" offset="52" para="2" sent="2" wid="w11">magnifique</wf>
+    <wf length="1" offset="62" para="2" sent="2" wid="w12">.</wf>
+    <wf length="3" offset="64" para="2" sent="3" wid="w13">Des</wf>
+    <wf length="8" offset="68" para="2" sent="3" wid="w14">milliers</wf>
+    <wf length="2" offset="77" para="2" sent="3" wid="w15">d'</wf>
+    <wf length="7" offset="79" para="2" sent="3" wid="w16">espèces</wf>
+    <wf length="4" offset="87" para="2" sent="3" wid="w17">dans</wf>
+    <wf length="3" offset="92" para="2" sent="3" wid="w18">des</wf>
+    <wf length="9" offset="96" para="2" sent="3" wid="w19">aquariums</wf>
+    <wf length="12" offset="106" para="2" sent="3" wid="w20">gigantesques</wf>
+    <wf length="3" offset="119" para="2" sent="3" wid="w21">une</wf>
+    <wf length="9" offset="123" para="2" sent="3" wid="w22">promenade</wf>
+    <wf length="2" offset="133" para="2" sent="3" wid="w23">en</wf>
+    <wf length="5" offset="136" para="2" sent="3" wid="w24">plein</wf>
+    <wf length="4" offset="142" para="2" sent="3" wid="w25">rêve</wf>
+  </text>
+  <terms>
+    <term lemma="fabuleux" morphofeat="Ams" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Fabuleux -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t2" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t3" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t4" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t5" type="close">
+      <span>
+        <!-- Des -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="poisson" morphofeat="NCmp" pos="N" tid="t6" type="open">
+      <span>
+        <!-- poissons -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="merveilleux" morphofeat="Amp" pos="G" tid="t7" type="open">
+      <span>
+        <!-- merveilleux -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t9" type="close">
+      <span>
+        <!-- un -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="décor" morphofeat="NCms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- décor -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="magnifique" morphofeat="Ams" pos="G" tid="t11" type="open">
+      <span>
+        <!-- magnifique -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t12" type="close">
+      <span>
+        <!-- . -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t13" type="close">
+      <span>
+        <!-- Des -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="millier" morphofeat="NCmp" pos="N" tid="t14" type="open">
+      <span>
+        <!-- milliers -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="espèce" morphofeat="NCmp" pos="N" tid="t16" type="open">
+      <span>
+        <!-- espèces -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t17" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dmp" pos="D" tid="t18" type="close">
+      <span>
+        <!-- des -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCmp" pos="N" tid="t19" type="open">
+      <span>
+        <!-- aquariums -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="gigantesque" morphofeat="Amp" pos="G" tid="t20" type="open">
+      <span>
+        <!-- gigantesques -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t21" type="close">
+      <span>
+        <!-- une -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="promenade" morphofeat="NCfs" pos="N" tid="t22" type="open">
+      <span>
+        <!-- promenade -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="en" morphofeat="P" pos="P" tid="t23" type="close">
+      <span>
+        <!-- en -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="plein" morphofeat="Ams" pos="G" tid="t24" type="open">
+      <span>
+        <!-- plein -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="rêve" morphofeat="NCms" pos="N" tid="t25" type="open">
+      <span>
+        <!-- rêve -->
+        <target id="w25"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t10"/>
+            <target id="t11"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Collection">
+        <references>
+          <span>
+            <target id="t6"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="5_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Des poissons-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--merveilleux-->
+        <span>
+          <target id="t7"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="6_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un décor-->
+        <span>
+          <target id="t9"/>
+          <target id="t10"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--magnifique-->
+        <span>
+          <target id="t11"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

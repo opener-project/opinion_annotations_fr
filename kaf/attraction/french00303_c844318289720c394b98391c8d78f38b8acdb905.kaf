@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:03Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:03Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:03Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">AGREABLE</wf>
+    <wf length="9" offset="9" para="1" sent="1" wid="w2">PROMENADE</wf>
+    <wf length="2" offset="19" para="2" sent="2" wid="w3">C'</wf>
+    <wf length="3" offset="21" para="2" sent="2" wid="w4">est</wf>
+    <wf length="3" offset="25" para="2" sent="2" wid="w5">une</wf>
+    <wf length="8" offset="29" para="2" sent="2" wid="w6">agréable</wf>
+    <wf length="9" offset="38" para="2" sent="2" wid="w7">promenade</wf>
+    <wf length="1" offset="48" para="2" sent="2" wid="w8">à</wf>
+    <wf length="7" offset="50" para="2" sent="2" wid="w9">travers</wf>
+    <wf length="3" offset="58" para="2" sent="2" wid="w10">des</wf>
+    <wf length="7" offset="62" para="2" sent="2" wid="w11">ruelles</wf>
+    <wf length="8" offset="70" para="2" sent="2" wid="w12">blanches</wf>
+    <wf length="2" offset="79" para="2" sent="2" wid="w13">et</wf>
+    <wf length="8" offset="82" para="2" sent="2" wid="w14">étroites</wf>
+    <wf length="1" offset="90" para="2" sent="2" wid="w15">.</wf>
+    <wf length="2" offset="92" para="2" sent="3" wid="w16">On</wf>
+    <wf length="4" offset="95" para="2" sent="3" wid="w17">aime</wf>
+    <wf length="1" offset="100" para="2" sent="3" wid="w18">à</wf>
+    <wf length="2" offset="102" para="2" sent="3" wid="w19">s'</wf>
+    <wf length="1" offset="104" para="2" sent="3" wid="w20">y</wf>
+    <wf length="6" offset="106" para="2" sent="3" wid="w21">perdre</wf>
+    <wf length="1" offset="112" para="2" sent="3" wid="w22">.</wf>
+    <wf length="4" offset="114" para="2" sent="4" wid="w23">Vous</wf>
+    <wf length="6" offset="119" para="2" sent="4" wid="w24">pouvez</wf>
+    <wf length="1" offset="126" para="2" sent="4" wid="w25">y</wf>
+    <wf length="6" offset="128" para="2" sent="4" wid="w26">passer</wf>
+    <wf length="1" offset="135" para="2" sent="4" wid="w27">2</wf>
+    <wf length="6" offset="137" para="2" sent="4" wid="w28">bonnes</wf>
+    <wf length="6" offset="144" para="2" sent="4" wid="w29">heures</wf>
+    <wf length="1" offset="150" para="2" sent="4" wid="w30">.</wf>
+  </text>
+  <terms>
+    <term lemma="AGREABLE" morphofeat="NPms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- AGREABLE -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="promenade" morphofeat="NPms" pos="N" tid="t2" type="open">
+      <span>
+        <!-- PROMENADE -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="C'" morphofeat="CL3ms" pos="Q" tid="t3" type="close">
+      <span>
+        <!-- C' -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- est -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t5" type="close">
+      <span>
+        <!-- une -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="agréable" morphofeat="Afs" pos="G" tid="t6" type="open">
+      <span>
+        <!-- agréable -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="promenade" morphofeat="NCfs" pos="N" tid="t7" type="open">
+      <span>
+        <!-- promenade -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t8" type="close">
+      <span>
+        <!-- à -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="travers" morphofeat="N" pos="N" tid="t9" type="open">
+      <span>
+        <!-- travers -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfp" pos="D" tid="t10" type="close">
+      <span>
+        <!-- des -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="ruelle" morphofeat="NCfp" pos="N" tid="t11" type="open">
+      <span>
+        <!-- ruelles -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="blanc" morphofeat="Afp" pos="G" tid="t12" type="open">
+      <span>
+        <!-- blanches -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t13" type="close">
+      <span>
+        <!-- et -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="étroit" morphofeat="Afp" pos="G" tid="t14" type="open">
+      <span>
+        <!-- étroites -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t15" type="close">
+      <span>
+        <!-- . -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="On" morphofeat="CL3ms" pos="Q" tid="t16" type="close">
+      <span>
+        <!-- On -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="aimer" morphofeat="VP3s" pos="V" tid="t17" type="open">
+      <span>
+        <!-- aime -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t18" type="close">
+      <span>
+        <!-- à -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="s'" morphofeat="CLR3ms" pos="Q" tid="t19" type="close">
+      <span>
+        <!-- s' -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="y" morphofeat="CL3ms" pos="Q" tid="t20" type="close">
+      <span>
+        <!-- y -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="perdre" morphofeat="VW" pos="V" tid="t21" type="open">
+      <span>
+        <!-- perdre -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t22" type="close">
+      <span>
+        <!-- . -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t23" type="close">
+      <span>
+        <!-- Vous -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="pouvoir" morphofeat="VP2p" pos="V" tid="t24" type="open">
+      <span>
+        <!-- pouvez -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="y" morphofeat="CL3fp" pos="Q" tid="t25" type="close">
+      <span>
+        <!-- y -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="passer" morphofeat="VW" pos="V" tid="t26" type="open">
+      <span>
+        <!-- passer -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="2" morphofeat="PRO" pos="P" tid="t27" type="close">
+      <span>
+        <!-- 2 -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="bon" morphofeat="Afp" pos="G" tid="t28" type="open">
+      <span>
+        <!-- bonnes -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="heure" morphofeat="NCfp" pos="N" tid="t29" type="open">
+      <span>
+        <!-- heures -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t30" type="close">
+      <span>
+        <!-- . -->
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--promenade à travers des ruelles blanches et étroites-->
+        <span>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--agréable-->
+        <span>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

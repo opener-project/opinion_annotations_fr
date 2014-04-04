@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:30Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:30Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:31Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="2" offset="0" para="1" sent="1" wid="w1">La</wf>
+    <wf length="5" offset="3" para="1" sent="1" wid="w2">salle</wf>
+    <wf length="3" offset="9" para="1" sent="1" wid="w3">des</wf>
+    <wf length="4" offset="13" para="1" sent="1" wid="w4">Heat</wf>
+    <wf length="2" offset="18" para="2" sent="2" wid="w5">L'</wf>
+    <wf length="8" offset="20" para="2" sent="2" wid="w6">American</wf>
+    <wf length="8" offset="29" para="2" sent="2" wid="w7">Airlines</wf>
+    <wf length="5" offset="38" para="2" sent="2" wid="w8">Arena</wf>
+    <wf length="9" offset="44" para="2" sent="2" wid="w9">accueille</wf>
+    <wf length="5" offset="54" para="2" sent="2" wid="w10">entre</wf>
+    <wf length="6" offset="60" para="2" sent="2" wid="w11">autres</wf>
+    <wf length="3" offset="67" para="2" sent="2" wid="w12">les</wf>
+    <wf length="10" offset="71" para="2" sent="2" wid="w13">rencontres</wf>
+    <wf length="2" offset="82" para="2" sent="2" wid="w14">de</wf>
+    <wf length="3" offset="85" para="2" sent="2" wid="w15">NBA</wf>
+    <wf length="3" offset="89" para="2" sent="2" wid="w16">des</wf>
+    <wf length="5" offset="93" para="2" sent="2" wid="w17">Miami</wf>
+    <wf length="4" offset="99" para="2" sent="2" wid="w18">Heat</wf>
+    <wf length="1" offset="103" para="2" sent="2" wid="w19">.</wf>
+    <wf length="3" offset="105" para="2" sent="3" wid="w20">Une</wf>
+    <wf length="8" offset="109" para="2" sent="3" wid="w21">ambiance</wf>
+    <wf length="2" offset="118" para="2" sent="3" wid="w22">de</wf>
+    <wf length="3" offset="121" para="2" sent="3" wid="w23">feu</wf>
+    <wf length="1" offset="124" para="2" sent="3" wid="w24">.</wf>
+    <wf length="1" offset="126" para="2" sent="4" wid="w25">A</wf>
+    <wf length="4" offset="128" para="2" sent="4" wid="w26">voir</wf>
+    <wf length="10" offset="133" para="2" sent="4" wid="w27">absolument</wf>
+    <wf length="1" offset="144" para="2" sent="4" wid="w28">!</wf>
+    <wf length="1" offset="145" para="2" sent="4" wid="w29">!</wf>
+    <wf length="1" offset="146" para="2" sent="4" wid="w30">!</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t1" type="close">
+      <span>
+        <!-- La -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="salle" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- salle -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- des -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="Heat" morphofeat="NPms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- Heat -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t5" type="close">
+      <span>
+        <!-- L' -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="American" morphofeat="NPms" pos="N" tid="t6" type="open">
+      <span>
+        <!-- American -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="Airlines" morphofeat="NPms" pos="N" tid="t7" type="open">
+      <span>
+        <!-- Airlines -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Arena" morphofeat="NPms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- Arena -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="accueillir" morphofeat="VP3s" pos="V" tid="t9" type="open">
+      <span>
+        <!-- accueille -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="entre" morphofeat="P" pos="P" tid="t10" type="close">
+      <span>
+        <!-- entre -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="autres" morphofeat="PROmp" pos="P" tid="t11" type="close">
+      <span>
+        <!-- autres -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t12" type="close">
+      <span>
+        <!-- les -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="rencontre" morphofeat="NCfp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- rencontres -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- de -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="NBA" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- NBA -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="des" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- des -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="Miami" morphofeat="NPms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- Miami -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="Heat" morphofeat="NPms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- Heat -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t19" type="close">
+      <span>
+        <!-- . -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t20" type="close">
+      <span>
+        <!-- Une -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="ambiance" morphofeat="NCfs" pos="N" tid="t21" type="open">
+      <span>
+        <!-- ambiance -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- de -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="feu" morphofeat="NCms" pos="N" tid="t23" type="open">
+      <span>
+        <!-- feu -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="." morphofeat="." pos="O" tid="t24" type="close">
+      <span>
+        <!-- . -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="A" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- A -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="voir" morphofeat="VW" pos="V" tid="t26" type="open">
+      <span>
+        <!-- voir -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="absolument" morphofeat="ADV" pos="G" tid="t27" type="open">
+      <span>
+        <!-- absolument -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t28" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t29" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="!" morphofeat="!" pos="O" tid="t30" type="close">
+      <span>
+        <!-- ! -->
+        <target id="w30"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

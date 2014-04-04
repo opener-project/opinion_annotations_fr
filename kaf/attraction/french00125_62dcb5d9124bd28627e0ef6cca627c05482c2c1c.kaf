@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:24:26Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:24:26Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:24:26Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="10" offset="0" para="1" sent="1" wid="w1">Magnifique</wf>
+    <wf length="2" offset="11" para="2" sent="2" wid="w2">Si</wf>
+    <wf length="4" offset="14" para="2" sent="2" wid="w3">vous</wf>
+    <wf length="5" offset="19" para="2" sent="2" wid="w4">reste</wf>
+    <wf length="9" offset="25" para="2" sent="2" wid="w5">plusieurs</wf>
+    <wf length="2" offset="35" para="2" sent="2" wid="w6">et</wf>
+    <wf length="2" offset="38" para="2" sent="2" wid="w7">vs</wf>
+    <wf length="7" offset="41" para="2" sent="2" wid="w8">comptez</wf>
+    <wf length="5" offset="49" para="2" sent="2" wid="w9">faire</wf>
+    <wf length="9" offset="55" para="2" sent="2" wid="w10">plusieurs</wf>
+    <wf length="7" offset="65" para="2" sent="2" wid="w11">balades</wf>
+    <wf length="7" offset="73" para="2" sent="2" wid="w12">prendre</wf>
+    <wf length="2" offset="81" para="2" sent="2" wid="w13">le</wf>
+    <wf length="3" offset="84" para="2" sent="2" wid="w14">pas</wf>
+    <wf length="2" offset="88" para="2" sent="2" wid="w15">ça</wf>
+    <wf length="5" offset="91" para="2" sent="2" wid="w16">pique</wf>
+    <wf length="2" offset="97" para="2" sent="2" wid="w17">au</wf>
+    <wf length="6" offset="100" para="2" sent="2" wid="w18">moment</wf>
+    <wf length="2" offset="107" para="2" sent="2" wid="w19">du</wf>
+    <wf length="8" offset="110" para="2" sent="2" wid="w20">paiement</wf>
+    <wf length="4" offset="119" para="2" sent="2" wid="w21">mais</wf>
+    <wf length="1" offset="124" para="2" sent="2" wid="w22">c</wf>
+    <wf length="3" offset="126" para="2" sent="2" wid="w23">est</wf>
+    <wf length="10" offset="130" para="2" sent="2" wid="w24">avantageux</wf>
+  </text>
+  <terms>
+    <term lemma="Magnifique" morphofeat="NCms" pos="N" tid="t1" type="open">
+      <span>
+        <!-- Magnifique -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="Si" morphofeat="CS" pos="C" tid="t2" type="close">
+      <span>
+        <!-- Si -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="lui" morphofeat="CLS2mp" pos="Q" tid="t3" type="close">
+      <span>
+        <!-- vous -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="rester" morphofeat="VP3s" pos="V" tid="t4" type="open">
+      <span>
+        <!-- reste -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="plusieurs" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- plusieurs -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t6" type="close">
+      <span>
+        <!-- et -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="vs" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- vs -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="compter" morphofeat="VP2p" pos="V" tid="t8" type="open">
+      <span>
+        <!-- comptez -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="faire" morphofeat="VW" pos="V" tid="t9" type="open">
+      <span>
+        <!-- faire -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="plusieurs" morphofeat="Dfp" pos="D" tid="t10" type="close">
+      <span>
+        <!-- plusieurs -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="balade" morphofeat="NCfp" pos="N" tid="t11" type="open">
+      <span>
+        <!-- balades -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="prendre" morphofeat="P" pos="P" tid="t12" type="close">
+      <span>
+        <!-- prendre -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t13" type="close">
+      <span>
+        <!-- le -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="NCms" pos="N" tid="t14" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="ça" morphofeat="PRO3ms" pos="P" tid="t15" type="close">
+      <span>
+        <!-- ça -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="piquer" morphofeat="VP3s" pos="V" tid="t16" type="open">
+      <span>
+        <!-- pique -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="default" pos="O" tid="t17" type="close">
+      <span>
+        <!-- au -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="moment" morphofeat="N" pos="N" tid="t18" type="open">
+      <span>
+        <!-- moment -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="Dms" pos="D" tid="t19" type="close">
+      <span>
+        <!-- du -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="paiement" morphofeat="NCms" pos="N" tid="t20" type="open">
+      <span>
+        <!-- paiement -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="mais" morphofeat="CC" pos="C" tid="t21" type="close">
+      <span>
+        <!-- mais -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="c" morphofeat="default" pos="O" tid="t22" type="close">
+      <span>
+        <!-- c -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="être" morphofeat="VP3s" pos="V" tid="t23" type="open">
+      <span>
+        <!-- est -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="avantageux" morphofeat="NCms" pos="N" tid="t24" type="open">
+      <span>
+        <!-- avantageux -->
+        <target id="w24"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t15"/>
+            <target id="t16"/>
+            <target id="t17"/>
+            <target id="t18"/>
+            <target id="t19"/>
+            <target id="t20"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--avantageux-->
+        <span>
+          <target id="t24"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="1_1">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="Negative">
+        <!--ça pique au moment du paiement-->
+        <span>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

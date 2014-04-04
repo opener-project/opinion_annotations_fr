@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:33:50Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:33:50Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:33:50Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:37CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="8" offset="0" para="1" sent="1" wid="w1">Ensemble</wf>
+    <wf length="2" offset="9" para="1" sent="1" wid="w2">d'</wf>
+    <wf length="9" offset="11" para="1" sent="1" wid="w3">immeubles</wf>
+    <wf length="12" offset="21" para="1" sent="1" wid="w4">exceptionnel</wf>
+    <wf length="3" offset="34" para="2" sent="2" wid="w5">Ces</wf>
+    <wf length="9" offset="38" para="2" sent="2" wid="w6">immeubles</wf>
+    <wf length="2" offset="48" para="2" sent="2" wid="w7">d'</wf>
+    <wf length="6" offset="50" para="2" sent="2" wid="w8">époque</wf>
+    <wf length="3" offset="57" para="2" sent="2" wid="w9">art</wf>
+    <wf length="1" offset="60" para="2" sent="2" wid="w10">·</wf>
+    <wf length="4" offset="61" para="2" sent="2" wid="w11">deco</wf>
+    <wf length="1" offset="66" para="2" sent="2" wid="w12">(</wf>
+    <wf length="6" offset="67" para="2" sent="2" wid="w13">années</wf>
+    <wf length="4" offset="74" para="2" sent="2" wid="w14">1920</wf>
+    <wf length="1" offset="78" para="2" sent="2" wid="w15">·</wf>
+    <wf length="4" offset="79" para="2" sent="2" wid="w16">1930</wf>
+    <wf length="1" offset="83" para="2" sent="2" wid="w17">)</wf>
+    <wf length="2" offset="85" para="2" sent="2" wid="w18">se</wf>
+    <wf length="8" offset="88" para="2" sent="2" wid="w19">trouvent</wf>
+    <wf length="3" offset="97" para="2" sent="2" wid="w20">sur</wf>
+    <wf length="3" offset="101" para="2" sent="2" wid="w21">les</wf>
+    <wf length="4" offset="105" para="2" sent="2" wid="w22">deux</wf>
+    <wf length="7" offset="110" para="2" sent="2" wid="w23">avenues</wf>
+    <wf length="10" offset="118" para="2" sent="2" wid="w24">parallèles</wf>
+    <wf length="1" offset="129" para="2" sent="2" wid="w25">à</wf>
+    <wf length="2" offset="131" para="2" sent="2" wid="w26">la</wf>
+    <wf length="5" offset="134" para="2" sent="2" wid="w27">plage</wf>
+    <wf length="2" offset="140" para="2" sent="2" wid="w28">et</wf>
+    <wf length="7" offset="143" para="2" sent="2" wid="w29">forment</wf>
+    <wf length="2" offset="151" para="2" sent="2" wid="w30">un</wf>
+    <wf length="8" offset="154" para="2" sent="2" wid="w31">ensemble</wf>
+    <wf length="16" offset="163" para="2" sent="2" wid="w32">particulièrement</wf>
+    <wf length="4" offset="180" para="2" sent="2" wid="w33">bien</wf>
+    <wf length="8" offset="185" para="2" sent="2" wid="w34">conservé</wf>
+  </text>
+  <terms>
+    <term lemma="Ensemble" morphofeat="ADV" pos="G" tid="t1" type="open">
+      <span>
+        <!-- Ensemble -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t2" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="immeuble" morphofeat="NCmp" pos="N" tid="t3" type="open">
+      <span>
+        <!-- immeubles -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="exceptionnel" morphofeat="Ams" pos="G" tid="t4" type="open">
+      <span>
+        <!-- exceptionnel -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="ce" morphofeat="Dmp" pos="D" tid="t5" type="close">
+      <span>
+        <!-- Ces -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="immeuble" morphofeat="NCmp" pos="N" tid="t6" type="open">
+      <span>
+        <!-- immeubles -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t7" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="époque" morphofeat="NCfs" pos="N" tid="t8" type="open">
+      <span>
+        <!-- époque -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="art" morphofeat="NCms" pos="N" tid="t9" type="open">
+      <span>
+        <!-- art -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="NPms" pos="N" tid="t10" type="open">
+      <span>
+        <!-- · -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="deco" morphofeat="NPms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- deco -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="(" morphofeat="(" pos="O" tid="t12" type="close">
+      <span>
+        <!-- ( -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="année" morphofeat="NCfp" pos="N" tid="t13" type="open">
+      <span>
+        <!-- années -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="1920" morphofeat="NCfs" pos="N" tid="t14" type="open">
+      <span>
+        <!-- 1920 -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="P" pos="P" tid="t15" type="close">
+      <span>
+        <!-- · -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="1930" morphofeat="NCfs" pos="N" tid="t16" type="open">
+      <span>
+        <!-- 1930 -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma=")" morphofeat=")" pos="O" tid="t17" type="close">
+      <span>
+        <!-- ) -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="se" morphofeat="CL3fs" pos="Q" tid="t18" type="close">
+      <span>
+        <!-- se -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="trouver" morphofeat="VP3p" pos="V" tid="t19" type="open">
+      <span>
+        <!-- trouvent -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t20" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t21" type="close">
+      <span>
+        <!-- les -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Afp" pos="G" tid="t22" type="open">
+      <span>
+        <!-- deux -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="avenue" morphofeat="NCfp" pos="N" tid="t23" type="open">
+      <span>
+        <!-- avenues -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="parallèle" morphofeat="Afp" pos="G" tid="t24" type="open">
+      <span>
+        <!-- parallèles -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- à -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t26" type="close">
+      <span>
+        <!-- la -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="plage" morphofeat="NCfs" pos="N" tid="t27" type="open">
+      <span>
+        <!-- plage -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t28" type="close">
+      <span>
+        <!-- et -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="former" morphofeat="VP3p" pos="V" tid="t29" type="open">
+      <span>
+        <!-- forment -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t30" type="close">
+      <span>
+        <!-- un -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="ensemble" morphofeat="NCms" pos="N" tid="t31" type="open">
+      <span>
+        <!-- ensemble -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="particulièrement" morphofeat="ADV" pos="G" tid="t32" type="open">
+      <span>
+        <!-- particulièrement -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="bien" morphofeat="ADV" pos="G" tid="t33" type="open">
+      <span>
+        <!-- bien -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="conserver" morphofeat="VKms" pos="V" tid="t34" type="open">
+      <span>
+        <!-- conservé -->
+        <target id="w34"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="3_0">
+      <opinion_holder/>
+      <opinion_target>
+        <!--Ces immeubles d' époque art · deco ( années 1920 · 1930 )-->
+        <span>
+          <target id="t5"/>
+          <target id="t6"/>
+          <target id="t7"/>
+          <target id="t8"/>
+          <target id="t9"/>
+          <target id="t10"/>
+          <target id="t11"/>
+          <target id="t12"/>
+          <target id="t13"/>
+          <target id="t14"/>
+          <target id="t15"/>
+          <target id="t16"/>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--particulièrement bien conservé-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="3_1">
+      <opinion_holder/>
+      <opinion_target>
+        <!--un ensemble-->
+        <span>
+          <target id="t30"/>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--particulièrement bien conservé-->
+        <span>
+          <target id="t32"/>
+          <target id="t33"/>
+          <target id="t34"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

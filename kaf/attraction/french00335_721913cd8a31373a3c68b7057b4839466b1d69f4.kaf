@@ -1,0 +1,366 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:26:23Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:26:23Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:26:23Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:42CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">les</wf>
+    <wf length="5" offset="4" para="1" sent="1" wid="w2">docks</wf>
+    <wf length="2" offset="10" para="2" sent="2" wid="w3">le</wf>
+    <wf length="5" offset="13" para="2" sent="2" wid="w4">musée</wf>
+    <wf length="9" offset="19" para="2" sent="2" wid="w5">excellent</wf>
+    <wf length="3" offset="29" para="2" sent="2" wid="w6">sur</wf>
+    <wf length="3" offset="33" para="2" sent="2" wid="w7">les</wf>
+    <wf length="7" offset="37" para="2" sent="2" wid="w8">Beatles</wf>
+    <wf length="1" offset="44" para="2" sent="2" wid="w9">,</wf>
+    <wf length="2" offset="45" para="2" sent="2" wid="w10">le</wf>
+    <wf length="6" offset="48" para="2" sent="2" wid="w11">yellow</wf>
+    <wf length="9" offset="55" para="2" sent="2" wid="w12">submarine</wf>
+    <wf length="4" offset="65" para="2" sent="2" wid="w13">dans</wf>
+    <wf length="2" offset="70" para="2" sent="2" wid="w14">le</wf>
+    <wf length="4" offset="73" para="2" sent="2" wid="w15">port</wf>
+    <wf length="1" offset="77" para="2" sent="2" wid="w16">,</wf>
+    <wf length="12" offset="78" para="2" sent="2" wid="w17">merveilleuse</wf>
+    <wf length="7" offset="91" para="2" sent="2" wid="w18">ballade</wf>
+    <wf length="3" offset="99" para="2" sent="2" wid="w19">sur</wf>
+    <wf length="3" offset="103" para="2" sent="2" wid="w20">les</wf>
+    <wf length="5" offset="107" para="2" sent="2" wid="w21">docks</wf>
+    <wf length="4" offset="113" para="2" sent="2" wid="w22">avec</wf>
+    <wf length="2" offset="118" para="2" sent="2" wid="w23">la</wf>
+    <wf length="3" offset="121" para="2" sent="2" wid="w24">vue</wf>
+    <wf length="3" offset="125" para="2" sent="2" wid="w25">sur</wf>
+    <wf length="3" offset="129" para="2" sent="2" wid="w26">les</wf>
+    <wf length="6" offset="133" para="2" sent="2" wid="w27">ferrys</wf>
+    <wf length="4" offset="140" para="2" sent="2" wid="w28">pour</wf>
+    <wf length="1" offset="146" para="2" sent="2" wid="w29">l</wf>
+    <wf length="7" offset="148" para="2" sent="2" wid="w30">Irlande</wf>
+    <wf length="1" offset="155" para="2" sent="2" wid="w31">,</wf>
+    <wf length="2" offset="157" para="2" sent="2" wid="w32">le</wf>
+    <wf length="4" offset="160" para="2" sent="2" wid="w33">coin</wf>
+    <wf length="2" offset="165" para="2" sent="2" wid="w34">le</wf>
+    <wf length="4" offset="168" para="2" sent="2" wid="w35">plus</wf>
+    <wf length="5" offset="173" para="2" sent="2" wid="w36">sympa</wf>
+    <wf length="4" offset="179" para="2" sent="2" wid="w37">pour</wf>
+    <wf length="6" offset="184" para="2" sent="2" wid="w38">manger</wf>
+    <wf length="5" offset="191" para="2" sent="2" wid="w39">boire</wf>
+    <wf length="2" offset="197" para="2" sent="2" wid="w40">ou</wf>
+    <wf length="6" offset="200" para="2" sent="2" wid="w41">danser</wf>
+    <wf length="2" offset="206" para="2" sent="2" wid="w42">..</wf>
+    <wf length="4" offset="208" para="2" sent="2" wid="w43">sans</wf>
+    <wf length="7" offset="213" para="2" sent="2" wid="w44">oublier</wf>
+    <wf length="3" offset="221" para="2" sent="2" wid="w45">les</wf>
+    <wf length="6" offset="225" para="2" sent="2" wid="w46">bureau</wf>
+    <wf length="2" offset="232" para="2" sent="2" wid="w47">du</wf>
+    <wf length="7" offset="235" para="2" sent="2" wid="w48">TITANIC</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t1" type="close">
+      <span>
+        <!-- les -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="dock" morphofeat="NCmp" pos="N" tid="t2" type="open">
+      <span>
+        <!-- docks -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t3" type="close">
+      <span>
+        <!-- le -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="musée" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- musée -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="excellent" morphofeat="Ams" pos="G" tid="t5" type="open">
+      <span>
+        <!-- excellent -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t6" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t7" type="close">
+      <span>
+        <!-- les -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="Beatles" morphofeat="NCmp" pos="N" tid="t8" type="open">
+      <span>
+        <!-- Beatles -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t9" type="close">
+      <span>
+        <!-- , -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t10" type="close">
+      <span>
+        <!-- le -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="yellow" morphofeat="NCms" pos="N" tid="t11" type="open">
+      <span>
+        <!-- yellow -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="submarine" morphofeat="VP3s" pos="V" tid="t12" type="open">
+      <span>
+        <!-- submarine -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t13" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t14" type="close">
+      <span>
+        <!-- le -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="port" morphofeat="NCms" pos="N" tid="t15" type="open">
+      <span>
+        <!-- port -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t16" type="close">
+      <span>
+        <!-- , -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="merveilleuse" morphofeat="NCms" pos="N" tid="t17" type="open">
+      <span>
+        <!-- merveilleuse -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ballade" morphofeat="NCfs" pos="N" tid="t18" type="open">
+      <span>
+        <!-- ballade -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t20" type="close">
+      <span>
+        <!-- les -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="dock" morphofeat="NCmp" pos="N" tid="t21" type="open">
+      <span>
+        <!-- docks -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="avec" morphofeat="P" pos="P" tid="t22" type="close">
+      <span>
+        <!-- avec -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t23" type="close">
+      <span>
+        <!-- la -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="vue" morphofeat="NCfs" pos="N" tid="t24" type="open">
+      <span>
+        <!-- vue -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="sur" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- sur -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t26" type="close">
+      <span>
+        <!-- les -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="ferrys" morphofeat="NCmp" pos="N" tid="t27" type="open">
+      <span>
+        <!-- ferrys -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t28" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="l" morphofeat="Dfs" pos="D" tid="t29" type="close">
+      <span>
+        <!-- l -->
+        <target id="w29"/>
+      </span>
+    </term>
+    <term lemma="Irlande" morphofeat="NPfs" pos="N" tid="t30" type="open">
+      <span>
+        <!-- Irlande -->
+        <target id="w30"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t31" type="close">
+      <span>
+        <!-- , -->
+        <target id="w31"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t32" type="close">
+      <span>
+        <!-- le -->
+        <target id="w32"/>
+      </span>
+    </term>
+    <term lemma="coin" morphofeat="NCms" pos="N" tid="t33" type="open">
+      <span>
+        <!-- coin -->
+        <target id="w33"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t34" type="close">
+      <span>
+        <!-- le -->
+        <target id="w34"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t35" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w35"/>
+      </span>
+    </term>
+    <term lemma="sympa" morphofeat="Ams" pos="G" tid="t36" type="open">
+      <span>
+        <!-- sympa -->
+        <target id="w36"/>
+      </span>
+    </term>
+    <term lemma="pour" morphofeat="P" pos="P" tid="t37" type="close">
+      <span>
+        <!-- pour -->
+        <target id="w37"/>
+      </span>
+    </term>
+    <term lemma="manger" morphofeat="VW" pos="V" tid="t38" type="open">
+      <span>
+        <!-- manger -->
+        <target id="w38"/>
+      </span>
+    </term>
+    <term lemma="boire" morphofeat="NCfs" pos="N" tid="t39" type="open">
+      <span>
+        <!-- boire -->
+        <target id="w39"/>
+      </span>
+    </term>
+    <term lemma="ou" morphofeat="CC" pos="C" tid="t40" type="close">
+      <span>
+        <!-- ou -->
+        <target id="w40"/>
+      </span>
+    </term>
+    <term lemma="danser" morphofeat="P" pos="P" tid="t41" type="close">
+      <span>
+        <!-- danser -->
+        <target id="w41"/>
+      </span>
+    </term>
+    <term lemma=".." morphofeat="..." pos="O" tid="t42" type="close">
+      <span>
+        <!-- .. -->
+        <target id="w42"/>
+      </span>
+    </term>
+    <term lemma="sans]" morphofeat="P" pos="P" tid="t43" type="close">
+      <span>
+        <!-- sans -->
+        <target id="w43"/>
+      </span>
+    </term>
+    <term lemma="oublier" morphofeat="VW" pos="V" tid="t44" type="open">
+      <span>
+        <!-- oublier -->
+        <target id="w44"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t45" type="close">
+      <span>
+        <!-- les -->
+        <target id="w45"/>
+      </span>
+    </term>
+    <term lemma="bureau" morphofeat="NCmp" pos="N" tid="t46" type="open">
+      <span>
+        <!-- bureau -->
+        <target id="w46"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t47" type="close">
+      <span>
+        <!-- du -->
+        <target id="w47"/>
+      </span>
+    </term>
+    <term lemma="TITANIC" morphofeat="NCms" pos="N" tid="t48" type="open">
+      <span>
+        <!-- TITANIC -->
+        <target id="w48"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+</KAF>

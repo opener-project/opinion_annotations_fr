@@ -1,0 +1,227 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:34:55Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:34:55Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:34:55Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">Les</wf>
+    <wf length="6" offset="4" para="1" sent="1" wid="w2">portes</wf>
+    <wf length="2" offset="11" para="1" sent="1" wid="w3">du</wf>
+    <wf length="6" offset="14" para="1" sent="1" wid="w4">soleil</wf>
+    <wf length="2" offset="21" para="2" sent="2" wid="w5">le</wf>
+    <wf length="3" offset="24" para="2" sent="2" wid="w6">ski</wf>
+    <wf length="1" offset="28" para="2" sent="2" wid="w7">"</wf>
+    <wf length="10" offset="29" para="2" sent="2" wid="w8">circulaire</wf>
+    <wf length="1" offset="39" para="2" sent="2" wid="w9">"</wf>
+    <wf length="5" offset="41" para="2" sent="2" wid="w10">quant</wf>
+    <wf length="2" offset="47" para="2" sent="2" wid="w11">au</wf>
+    <wf length="4" offset="50" para="2" sent="2" wid="w12">tour</wf>
+    <wf length="8" offset="55" para="2" sent="2" wid="w13">possible</wf>
+    <wf length="4" offset="64" para="2" sent="2" wid="w14">dans</wf>
+    <wf length="3" offset="69" para="2" sent="2" wid="w15">les</wf>
+    <wf length="4" offset="73" para="2" sent="2" wid="w16">deux</wf>
+    <wf length="4" offset="78" para="2" sent="2" wid="w17">sens</wf>
+    <wf length="1" offset="83" para="2" sent="2" wid="w18">,</wf>
+    <wf length="2" offset="85" para="2" sent="2" wid="w19">l'</wf>
+    <wf length="8" offset="87" para="2" sent="2" wid="w20">ambiance</wf>
+    <wf length="8" offset="96" para="2" sent="2" wid="w21">sportive</wf>
+    <wf length="2" offset="105" para="2" sent="2" wid="w22">et</wf>
+    <wf length="2" offset="108" para="2" sent="2" wid="w23">l'</wf>
+    <wf length="7" offset="110" para="2" sent="2" wid="w24">absence</wf>
+    <wf length="2" offset="118" para="2" sent="2" wid="w25">de</wf>
+    <wf length="8" offset="121" para="2" sent="2" wid="w26">voitures</wf>
+  </text>
+  <terms>
+    <term lemma="le" morphofeat="Dfp" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Les -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="porte" morphofeat="NCfp" pos="N" tid="t2" type="open">
+      <span>
+        <!-- portes -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="du" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- du -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="soleil" morphofeat="NCms" pos="N" tid="t4" type="open">
+      <span>
+        <!-- soleil -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t5" type="close">
+      <span>
+        <!-- le -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="ski" morphofeat="NCms" pos="N" tid="t6" type="open">
+      <span>
+        <!-- ski -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t7" type="close">
+      <span>
+        <!-- " -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="circulaire" morphofeat="NCfs" pos="N" tid="t8" type="open">
+      <span>
+        <!-- circulaire -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="&amp;quot;" morphofeat="&quot;" pos="O" tid="t9" type="close">
+      <span>
+        <!-- " -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="quant" morphofeat="ADV" pos="G" tid="t10" type="open">
+      <span>
+        <!-- quant -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t11" type="close">
+      <span>
+        <!-- au -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="tour" morphofeat="Dms" pos="D" tid="t12" type="close">
+      <span>
+        <!-- tour -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="possible" morphofeat="Ams" pos="G" tid="t13" type="open">
+      <span>
+        <!-- possible -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="dans" morphofeat="P" pos="P" tid="t14" type="close">
+      <span>
+        <!-- dans -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t15" type="close">
+      <span>
+        <!-- les -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="deux" morphofeat="Amp" pos="G" tid="t16" type="open">
+      <span>
+        <!-- deux -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="sens" morphofeat="NCmp" pos="N" tid="t17" type="open">
+      <span>
+        <!-- sens -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t18" type="close">
+      <span>
+        <!-- , -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t19" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="ambiance" morphofeat="NCfs" pos="N" tid="t20" type="open">
+      <span>
+        <!-- ambiance -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="sportif" morphofeat="Afs" pos="G" tid="t21" type="open">
+      <span>
+        <!-- sportive -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t22" type="close">
+      <span>
+        <!-- et -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t23" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="absence" morphofeat="NCfs" pos="N" tid="t24" type="open">
+      <span>
+        <!-- absence -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- de -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="voiture" morphofeat="NCfp" pos="N" tid="t26" type="open">
+      <span>
+        <!-- voitures -->
+        <target id="w26"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Les portes du soleil-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

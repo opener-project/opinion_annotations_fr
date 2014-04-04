@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:31:45Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:31:45Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:31:46Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:49CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="3" offset="0" para="1" sent="1" wid="w1">Une</wf>
+    <wf length="6" offset="4" para="1" sent="1" wid="w2">visite</wf>
+    <wf length="1" offset="11" para="1" sent="1" wid="w3">à</wf>
+    <wf length="2" offset="13" para="1" sent="1" wid="w4">ne</wf>
+    <wf length="3" offset="16" para="1" sent="1" wid="w5">pas</wf>
+    <wf length="7" offset="20" para="1" sent="1" wid="w6">manquer</wf>
+    <wf length="2" offset="28" para="2" sent="2" wid="w7">Un</wf>
+    <wf length="8" offset="31" para="2" sent="2" wid="w8">aquarium</wf>
+    <wf length="5" offset="40" para="2" sent="2" wid="w9">parmi</wf>
+    <wf length="3" offset="46" para="2" sent="2" wid="w10">les</wf>
+    <wf length="4" offset="50" para="2" sent="2" wid="w11">plus</wf>
+    <wf length="5" offset="55" para="2" sent="2" wid="w12">beaux</wf>
+    <wf length="2" offset="61" para="2" sent="2" wid="w13">et</wf>
+    <wf length="5" offset="64" para="2" sent="2" wid="w14">mieux</wf>
+    <wf length="9" offset="70" para="2" sent="2" wid="w15">entretenu</wf>
+    <wf length="2" offset="80" para="2" sent="2" wid="w16">de</wf>
+    <wf length="2" offset="83" para="2" sent="2" wid="w17">l'</wf>
+    <wf length="5" offset="85" para="2" sent="2" wid="w18">ouest</wf>
+    <wf length="2" offset="91" para="2" sent="2" wid="w19">de</wf>
+    <wf length="2" offset="94" para="2" sent="2" wid="w20">la</wf>
+    <wf length="6" offset="97" para="2" sent="2" wid="w21">France</wf>
+    <wf length="1" offset="104" para="2" sent="2" wid="w22">·</wf>
+    <wf length="4" offset="106" para="2" sent="2" wid="w23">très</wf>
+    <wf length="11" offset="111" para="2" sent="2" wid="w24">pédagogique</wf>
+    <wf length="1" offset="123" para="2" sent="2" wid="w25">·</wf>
+    <wf length="8" offset="125" para="2" sent="2" wid="w26">parcours</wf>
+    <wf length="3" offset="134" para="2" sent="2" wid="w27">non</wf>
+    <wf length="6" offset="138" para="2" sent="2" wid="w28">fléché</wf>
+  </text>
+  <terms>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t1" type="close">
+      <span>
+        <!-- Une -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="visite" morphofeat="NCfs" pos="N" tid="t2" type="open">
+      <span>
+        <!-- visite -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="à" morphofeat="P" pos="P" tid="t3" type="close">
+      <span>
+        <!-- à -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="ne" morphofeat="ADV" pos="G" tid="t4" type="open">
+      <span>
+        <!-- ne -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="pas" morphofeat="ADV" pos="G" tid="t5" type="open">
+      <span>
+        <!-- pas -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="manquer" morphofeat="VW" pos="V" tid="t6" type="open">
+      <span>
+        <!-- manquer -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dms" pos="D" tid="t7" type="close">
+      <span>
+        <!-- Un -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="aquarium" morphofeat="NCms" pos="N" tid="t8" type="open">
+      <span>
+        <!-- aquarium -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="parmi" morphofeat="P" pos="P" tid="t9" type="close">
+      <span>
+        <!-- parmi -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dmp" pos="D" tid="t10" type="close">
+      <span>
+        <!-- les -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="plus" morphofeat="ADV" pos="G" tid="t11" type="open">
+      <span>
+        <!-- plus -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="beau" morphofeat="Amp" pos="G" tid="t12" type="open">
+      <span>
+        <!-- beaux -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="et" morphofeat="CC" pos="C" tid="t13" type="close">
+      <span>
+        <!-- et -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="mieux" morphofeat="ADV" pos="G" tid="t14" type="open">
+      <span>
+        <!-- mieux -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="entretenir" morphofeat="VKms" pos="V" tid="t15" type="open">
+      <span>
+        <!-- entretenu -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- de -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t17" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="ouest" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- ouest -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t19" type="close">
+      <span>
+        <!-- de -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t20" type="close">
+      <span>
+        <!-- la -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="France" morphofeat="NPfs" pos="N" tid="t21" type="open">
+      <span>
+        <!-- France -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="VP3s" pos="V" tid="t22" type="open">
+      <span>
+        <!-- · -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="très" morphofeat="ADV" pos="G" tid="t23" type="open">
+      <span>
+        <!-- très -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="pédagogique" morphofeat="Afs" pos="G" tid="t24" type="open">
+      <span>
+        <!-- pédagogique -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="·" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- · -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="parcours" morphofeat="NCms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- parcours -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="non" morphofeat="ADV" pos="G" tid="t27" type="open">
+      <span>
+        <!-- non -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="flécher" morphofeat="VKms" pos="V" tid="t28" type="open">
+      <span>
+        <!-- fléché -->
+        <target id="w28"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="2_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Une visite à ne pas manquer-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+          <target id="t4"/>
+          <target id="t5"/>
+          <target id="t6"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>

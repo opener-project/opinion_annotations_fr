@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<KAF version="v1.opener" xml:lang="fr">
+  <kafHeader>
+    <linguisticProcessors layer="text">
+      <lp name="opener-sentence-splitter-fr" timestamp="2014-02-11T08:27:04Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-fr" timestamp="2014-02-11T08:27:04Z" version="1.0.1"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="terms">
+      <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:27:04Z" version="1.0"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="features">
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+    <linguisticProcessors layer="opinions">
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:43CEST"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="7" offset="0" para="1" sent="1" wid="w1">superbe</wf>
+    <wf length="3" offset="8" para="2" sent="2" wid="w2">une</wf>
+    <wf length="6" offset="12" para="2" sent="2" wid="w3">marché</wf>
+    <wf length="2" offset="19" para="2" sent="2" wid="w4">de</wf>
+    <wf length="4" offset="22" para="2" sent="2" wid="w5">noel</wf>
+    <wf length="9" offset="27" para="2" sent="2" wid="w6">grandiose</wf>
+    <wf length="1" offset="37" para="2" sent="2" wid="w7">,</wf>
+    <wf length="5" offset="39" para="2" sent="2" wid="w8">tower</wf>
+    <wf length="2" offset="45" para="2" sent="2" wid="w9">of</wf>
+    <wf length="2" offset="48" para="2" sent="2" wid="w10">tv</wf>
+    <wf length="1" offset="50" para="2" sent="2" wid="w11">,</wf>
+    <wf length="4" offset="52" para="2" sent="2" wid="w12">saut</wf>
+    <wf length="1" offset="57" para="2" sent="2" wid="w13">a</wf>
+    <wf length="2" offset="59" para="2" sent="2" wid="w14">l'</wf>
+    <wf length="9" offset="61" para="2" sent="2" wid="w15">elastique</wf>
+    <wf length="6" offset="71" para="2" sent="2" wid="w16">depuis</wf>
+    <wf length="2" offset="78" para="2" sent="2" wid="w17">le</wf>
+    <wf length="4" offset="81" para="2" sent="2" wid="w18">park</wf>
+    <wf length="2" offset="86" para="2" sent="2" wid="w19">in</wf>
+    <wf length="1" offset="88" para="2" sent="2" wid="w20">,</wf>
+    <wf length="4" offset="90" para="2" sent="2" wid="w21">bref</wf>
+    <wf length="8" offset="95" para="2" sent="2" wid="w22">beaucoup</wf>
+    <wf length="2" offset="104" para="2" sent="2" wid="w23">d'</wf>
+    <wf length="8" offset="106" para="2" sent="2" wid="w24">activité</wf>
+    <wf length="2" offset="115" para="2" sent="2" wid="w25">au</wf>
+    <wf length="5" offset="118" para="2" sent="2" wid="w26">coeur</wf>
+    <wf length="4" offset="124" para="2" sent="2" wid="w27">meme</wf>
+    <wf length="2" offset="129" para="2" sent="2" wid="w28">de</wf>
+    <wf length="6" offset="132" para="2" sent="2" wid="w29">berlin</wf>
+  </text>
+  <terms>
+    <term lemma="superbe" morphofeat="Afs" pos="G" tid="t1" type="open">
+      <span>
+        <!-- superbe -->
+        <target id="w1"/>
+      </span>
+    </term>
+    <term lemma="un" morphofeat="Dfs" pos="D" tid="t2" type="close">
+      <span>
+        <!-- une -->
+        <target id="w2"/>
+      </span>
+    </term>
+    <term lemma="marché" morphofeat="NCfs" pos="N" tid="t3" type="open">
+      <span>
+        <!-- marché -->
+        <target id="w3"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t4" type="close">
+      <span>
+        <!-- de -->
+        <target id="w4"/>
+      </span>
+    </term>
+    <term lemma="noel" morphofeat="NCms" pos="N" tid="t5" type="open">
+      <span>
+        <!-- noel -->
+        <target id="w5"/>
+      </span>
+    </term>
+    <term lemma="grandiose" morphofeat="NCfs" pos="N" tid="t6" type="open">
+      <span>
+        <!-- grandiose -->
+        <target id="w6"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t7" type="close">
+      <span>
+        <!-- , -->
+        <target id="w7"/>
+      </span>
+    </term>
+    <term lemma="tower" morphofeat="Dfs" pos="D" tid="t8" type="close">
+      <span>
+        <!-- tower -->
+        <target id="w8"/>
+      </span>
+    </term>
+    <term lemma="of" morphofeat="ET" pos="O" tid="t9" type="close">
+      <span>
+        <!-- of -->
+        <target id="w9"/>
+      </span>
+    </term>
+    <term lemma="tv" morphofeat="ET" pos="O" tid="t10" type="close">
+      <span>
+        <!-- tv -->
+        <target id="w10"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t11" type="close">
+      <span>
+        <!-- , -->
+        <target id="w11"/>
+      </span>
+    </term>
+    <term lemma="saut" morphofeat="NCms" pos="N" tid="t12" type="open">
+      <span>
+        <!-- saut -->
+        <target id="w12"/>
+      </span>
+    </term>
+    <term lemma="avoir" morphofeat="VP3s" pos="V" tid="t13" type="open">
+      <span>
+        <!-- a -->
+        <target id="w13"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dfs" pos="D" tid="t14" type="close">
+      <span>
+        <!-- l' -->
+        <target id="w14"/>
+      </span>
+    </term>
+    <term lemma="elastique" morphofeat="NCfs" pos="N" tid="t15" type="open">
+      <span>
+        <!-- elastique -->
+        <target id="w15"/>
+      </span>
+    </term>
+    <term lemma="depuis" morphofeat="P" pos="P" tid="t16" type="close">
+      <span>
+        <!-- depuis -->
+        <target id="w16"/>
+      </span>
+    </term>
+    <term lemma="le" morphofeat="Dms" pos="D" tid="t17" type="close">
+      <span>
+        <!-- le -->
+        <target id="w17"/>
+      </span>
+    </term>
+    <term lemma="park" morphofeat="NCms" pos="N" tid="t18" type="open">
+      <span>
+        <!-- park -->
+        <target id="w18"/>
+      </span>
+    </term>
+    <term lemma="in" morphofeat="Ams" pos="G" tid="t19" type="open">
+      <span>
+        <!-- in -->
+        <target id="w19"/>
+      </span>
+    </term>
+    <term lemma="," morphofeat="," pos="O" tid="t20" type="close">
+      <span>
+        <!-- , -->
+        <target id="w20"/>
+      </span>
+    </term>
+    <term lemma="bref" morphofeat="ADV" pos="G" tid="t21" type="open">
+      <span>
+        <!-- bref -->
+        <target id="w21"/>
+      </span>
+    </term>
+    <term lemma="beaucoup" morphofeat="ADV" pos="G" tid="t22" type="open">
+      <span>
+        <!-- beaucoup -->
+        <target id="w22"/>
+      </span>
+    </term>
+    <term lemma="d'" morphofeat="P" pos="P" tid="t23" type="close">
+      <span>
+        <!-- d' -->
+        <target id="w23"/>
+      </span>
+    </term>
+    <term lemma="activité" morphofeat="NCfs" pos="N" tid="t24" type="open">
+      <span>
+        <!-- activité -->
+        <target id="w24"/>
+      </span>
+    </term>
+    <term lemma="au" morphofeat="P" pos="P" tid="t25" type="close">
+      <span>
+        <!-- au -->
+        <target id="w25"/>
+      </span>
+    </term>
+    <term lemma="coeur" morphofeat="NCms" pos="N" tid="t26" type="open">
+      <span>
+        <!-- coeur -->
+        <target id="w26"/>
+      </span>
+    </term>
+    <term lemma="meme" morphofeat="Ams" pos="G" tid="t27" type="open">
+      <span>
+        <!-- meme -->
+        <target id="w27"/>
+      </span>
+    </term>
+    <term lemma="de" morphofeat="P" pos="P" tid="t28" type="close">
+      <span>
+        <!-- de -->
+        <target id="w28"/>
+      </span>
+    </term>
+    <term lemma="berlin" morphofeat="NCms" pos="N" tid="t29" type="open">
+      <span>
+        <!-- berlin -->
+        <target id="w29"/>
+      </span>
+    </term>
+  </terms>
+  <deps/>
+  <chunks/>
+  <entities/>
+  <coreferences/>
+  <features>
+    <categories/>
+  </features>
+  <relations/>
+  <opinions>
+    <opinion oid="1_0">
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--superbe-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
+</KAF>
