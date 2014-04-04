@@ -1,0 +1,23 @@
+w1	Les	le	D			0		0		0	10-highly positive	2		0		0		0		0	0	true	1
+w6	Nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	avons	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	réservé	réserver	V			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	heure	heure	N			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	d'	d'	P			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	airboat	airboat	N			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	privé	priver	G			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	directement	directement	G			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	sur	sur	P			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	site	site	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	après	après	P			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	avoir	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	lu	lire	V			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	nombreux	nombreux	G			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	commentaires	commentaire	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	positifs	positif	G			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	sur	sur	P			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2
+w27	Tripadvisor	Tripadvisor	N			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	2

@@ -1,0 +1,25 @@
+w1	Monde	monde	N			0		0		0	6-average-positive	2	zoo/aquarium	3		0		0		0	0	true	1
+w38	Quel	Quel	G			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	5
+w39	dommage	dommage	N			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	5
+w40	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	5
+w41	ne	ne	G			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	5
+w42	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	5
+w43	pouvoir	pouvoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	5
+w44	profiter	profiter	V			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	5
+w45	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	5
+w46	aquariums	aquarium	N			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	5
+w47	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	5
+w48	surtout	surtout	G			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	5
+w49	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	5
+w50	espaces	espace	N			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	5
+w51	ou	ou	C			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	5
+w52	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	5
+w53	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	5
+w54	peut	pouvoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	5
+w55	s'	s'	Q			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	5
+w56	assoier	assoier	V			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	5
+w57	pour	pour	P			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	5
+w58	admirer	admirer	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	5
+w59	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	5
+w60	poissons	poisson	N			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	5
+w61	nager	nager	V			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	5

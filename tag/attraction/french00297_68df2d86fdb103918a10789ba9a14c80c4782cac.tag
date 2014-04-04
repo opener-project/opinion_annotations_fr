@@ -1,0 +1,27 @@
+w1	l	l	Q			0		0		0	8-positive	10	tour(city/landscape)	11		0		0		0	0	true	1
+w5	quartier	quartier	N		OpinionTarget	4	Opinion	1	Location	5		0		0		0		0		0	4	true	2
+w6	anime	anime	G		Positive	6	Opinion	1		0		0		0		0		0		0	5	true	2
+w7	tres	tres	G		StrongPositive	7	Opinion	1		0		0		0		0		0		0	6	true	2
+w8	tranquille	tranquille	G		StrongPositive	7	Opinion	1		0		0		0		0		0		0	7	true	2
+w22	n	n	N		Positive	8	Opinion	2		0		0		0		0		0		0	21	true	2
+w23	hesitez	hesitez	V		Positive	8	Opinion	2		0		0		0		0		0		0	22	true	2
+w24	pas	pas	G		Positive	8	Opinion	2		0		0		0		0		0		0	23	true	2
+w25	a	avoir	V		Positive	8	Opinion	2		0		0		0		0		0		0	24	true	2
+w26	aller	aller	V		Positive	8	Opinion	2		0		0		0		0		0		0	25	true	2
+w27	jeter	jeter	V		Positive	8	Opinion	2		0		0		0		0		0		0	26	true	2
+w28	un	un	D		Positive	8	Opinion	2		0		0		0		0		0		0	27	true	2
+w29	coup	coup	N		Positive	8	Opinion	2		0		0		0		0		0		0	28	true	2
+w30	d	d	G		Positive	8	Opinion	2		0		0		0		0		0		0	29	true	2
+w31	oeil	oeil	N		Positive	8	Opinion	2		0		0		0		0		0		0	30	true	2
+w32	ici	ici	G		Positive	8	Opinion	2		0		0		0		0		0		0	31	true	2
+w45	il	il	Q		Negative	9	Opinion	3		0		0		0		0		0		0	44	true	2
+w46	y	y	Q		Negative	9	Opinion	3		0		0		0		0		0		0	45	true	2
+w47	a	avoir	V		Negative	9	Opinion	3		0		0		0		0		0		0	46	true	2
+w48	cependant	cependant	G		Negative	9	Opinion	3		0		0		0		0		0		0	47	true	2
+w49	de	de	P		Negative	9	Opinion	3		0		0		0		0		0		0	48	true	2
+w50	teterias	teterias	N		Negative	9	Opinion	3		0		0		0		0		0		0	49	true	2
+w51	qui	qui	P		Negative	9	Opinion	3		0		0		0		0		0		0	50	true	2
+w52	ne	ne	G		Negative	9	Opinion	3		0		0		0		0		0		0	51	true	2
+w53	se	se	Q		Negative	9	Opinion	3		0		0		0		0		0		0	52	true	2
+w54	valent	valoir	V		Negative	9	Opinion	3		0		0		0		0		0		0	53	true	2
+w55	pas	pas	G		Negative	9	Opinion	3		0		0		0		0		0		0	54	true	2

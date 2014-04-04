@@ -1,0 +1,22 @@
+w1	Le	le	D			0		0		0	6-average-positive	4	museum	3		0		0		0	0	true	1
+w44	On	On	Q			0	Non-Opinionated	1		0		0		0		0		0		0	43	false	3
+w45	y	y	Q			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	3
+w46	trouve	trouver	V			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	3
+w47	L'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	3
+w48	original	original	N			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	3
+w49	du	du	D			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	3
+w50	Pendule	pendule	N			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	3
+w51	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	3
+w52	Foucault	Foucault	N			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	3
+w53	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	3
+w54	qui	qui	P			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	3
+w55	lui	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	3
+w56	permit	permettre	V			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	3
+w57	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	3
+w58	démontrer	démontrer	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	3
+w59	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	3
+w60	rotation	rotation	N			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	3
+w61	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	3
+w62	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	3
+w63	terre	terre	N			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	3
+w64	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	3

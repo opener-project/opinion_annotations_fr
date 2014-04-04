@@ -1,0 +1,21 @@
+w64	Show	show	N			0	Non-Opinionated	1		0	9-very positive	2	unknown	3		0		0		0	63	true	5
+w65	au	au	P			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	5
+w66	théatre	théatre	D			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	5
+w67	pour	pour	N			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	5
+w68	présenter	présenter	V			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5
+w70	reptiles	reptile	N			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	5
+w71	comme	comme	P			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	5
+w72	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	5
+w73	Gila	Gila	N			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	5
+w74	Monster	Monster	N			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	5
+w75	ou	ou	C			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	5
+w76	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	5
+w77	serpent	serpent	N			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	5
+w78	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	5
+w79	sonnettes	sonnette	N			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	5
+w80	(	(	O			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	5
+w81	par	par	P			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	5
+w82	un	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	5
+w83	herpétologue	herpétologue	N			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	5
+w84	)	)	O			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	5

@@ -1,0 +1,27 @@
+w46	Cependant	Cependant	G			0	Non-Opinionated	1		0	9-very positive	2	tour(city/landscape)	3		0		0		0	45	true	5
+w47	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	5
+w48	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	5
+w49	musique	musique	N			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	5
+w50	des	des	P			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	5
+w51	différents	différents	D			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	5
+w52	restaurants	restaurant	N			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	5
+w53	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	5
+w54	bars	bar	N			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	5
+w55	ou	ou	C			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	5
+w56	cabarets	cabaret	N			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	5
+w57	nous	nous	G			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	5
+w58	tirent	tirer	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	5
+w59	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	5
+w60	nos	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	5
+w61	rêveries	rêverie	N			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	5
+w62	pour	pour	P			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	5
+w63	nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	5
+w64	inviter	inviter	V			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	5
+w65	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	5
+w66	danser	danser	V			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	5
+w67	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	5
+w68	buvant	boire	V			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	un	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5
+w70	superbe	superbe	N			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	5
+w71	cocktail	cocktail	N			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	5
+w72	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	5

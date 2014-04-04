@@ -1,0 +1,22 @@
+w2	Visite	visiter	V			0	Non-Opinionated	1		0	9-very positive	2	zoo/aquarium	3		0		0		0	1	true	2
+w3	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	2	true	2
+w4	fin	fin	N			0	Non-Opinionated	1		0		0		0		0		0		0	3	true	2
+w5	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	journée	journée	N			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	grâce	grâce	N			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	horaires	horaire	N			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	adaptées	adapter	G			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	plein	plein	G			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	mois	moi	N			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	d'	d'	P			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	août	août	N			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	mais	mais	C			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	surpeuplé	surpeupler	V			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2

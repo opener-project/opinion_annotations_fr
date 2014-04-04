@@ -1,0 +1,13 @@
+w1	Moment	Moment	G			0		0		0	9-very positive	7		0		0		0		0	0	true	1
+w6	Superbe	Superbe	P		StrongPositive	1	Opinion	3		0		0		0		0		0		0	5	true	2
+w7	ballade	ballade	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	6	true	2
+w8	en	en	P		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	7	true	2
+w9	famille	famille	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	8	true	2
+w26	aire	aire	G		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	25	true	2
+w27	de	de	P		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	26	true	2
+w28	jeux	jeu	N		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	27	true	2
+w29	pour	pour	P		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	28	true	2
+w30	les	les	Q		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	29	true	2
+w31	enfants	enfant	N		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	30	true	2
+w32	vraiment	vraiment	G		StrongPositive	5	Opinion	6		0		0		0		0		0		0	31	true	2
+w33	appréciables	appréciable	G		StrongPositive	5	Opinion	6		0		0		0		0		0		0	32	true	2

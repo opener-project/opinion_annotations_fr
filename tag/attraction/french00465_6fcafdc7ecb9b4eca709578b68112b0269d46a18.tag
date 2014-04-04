@@ -1,0 +1,24 @@
+w1	Let'	Let'	D			0		0		0	10-highly positive	2	tour(city/landscape)	3		0		0		0	0	true	1
+w73	On	On	Q			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	4
+w74	a	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	4
+w75	donc	donc	G			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	4
+w76	réussi	réussir	V			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	4
+w77	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	4
+w78	rentrer	rentrer	V			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	4
+w79	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	4
+w80	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	4
+w81	intérieur	intérieur	N			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	4
+w82	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	4
+w83	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	4
+w84	personnes	personne	N			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	4
+w85	nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	84	true	4
+w86	ont	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	85	true	4
+w87	donné	donner	V			0	Non-Opinionated	1		0		0		0		0		0		0	86	true	4
+w88	des	des	P			0	Non-Opinionated	1		0		0		0		0		0		0	87	true	4
+w89	tickets	ticket	N			0	Non-Opinionated	1		0		0		0		0		0		0	88	true	4
+w90	gratuitement	gratuitement	G			0	Non-Opinionated	1		0		0		0		0		0		0	89	true	4
+w91	car	car	C			0	Non-Opinionated	1		0		0		0		0		0		0	90	true	4
+w92	ils	ils	Q			0	Non-Opinionated	1		0		0		0		0		0		0	91	true	4
+w93	avaient	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	92	true	4
+w94	été	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	93	true	4
+w95	invités	inviter	V			0	Non-Opinionated	1		0		0		0		0		0		0	94	true	4

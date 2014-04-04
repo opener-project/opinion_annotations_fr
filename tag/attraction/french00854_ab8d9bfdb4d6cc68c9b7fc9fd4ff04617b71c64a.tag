@@ -1,0 +1,15 @@
+w29	Eviter	Eviter	P		Negative	2	Opinion	3		0	9-very positive	5	unknown	6		0		0		0	28	true	3
+w30	les	le	D		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	29	true	3
+w31	heures	heure	N		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	30	true	3
+w32	de	de	P		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	31	true	3
+w33	pointe	pointe	N		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	32	true	3
+w34	...	...	O		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	33	true	3
+w35	et	et	C		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	34	true	3
+w36	les	le	D		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	35	true	3
+w37	visites	visite	N		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	36	true	3
+w38	en	en	P		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	37	true	3
+w39	même	même	G		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	38	true	3
+w40	temps	temps	N		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	39	true	3
+w41	que	que	C		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	40	true	3
+w42	les	le	D		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	41	true	3
+w43	scolaires	scolaire	N		OpinionTarget	1	Opinion	3	Crowds and Queues	4		0		0		0		0		0	42	true	3

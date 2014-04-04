@@ -1,0 +1,19 @@
+w59	et	et	C			0	Non-Opinionated	1		0	9-very positive	2	museum	3		0		0		0	58	true	5
+w60	dehors	dehors	P			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	5
+w61	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	5
+w62	enfants	enfant	N			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	5
+w63	se	se	Q			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	5
+w64	prenne	prendre	V			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	5
+w65	aux	aux	P			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	5
+w66	jeux	jeu	N			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	5
+w67	avec	avec	P			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	5
+w68	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	5
+w69	canons	canon	N			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	5
+w70	exposés	exposer	V			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	5
+w71	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	5
+w72	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	5
+w73	cours	cour	N			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	5
+w74	!	!	O			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	5
+w75	!	!	O			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	5
+w76	!	!	O			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	5
+w77	!	!	O			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	5

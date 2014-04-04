@@ -1,0 +1,15 @@
+w44	On	On	Q			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	4
+w45	peut	pouvoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	4
+w46	même	même	G			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	4
+w47	monter	monter	V			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	4
+w48	plus	plus	G			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	4
+w49	haut	haut	G			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	4
+w50	encore	encore	G			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	4
+w51	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	4
+w52	ce	ce	P			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	4
+w53	que	que	P			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	4
+w54	nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	4
+w55	n'	n'	G			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	4
+w56	avons	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	4
+w57	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	4
+w58	fait	faire	V			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	4

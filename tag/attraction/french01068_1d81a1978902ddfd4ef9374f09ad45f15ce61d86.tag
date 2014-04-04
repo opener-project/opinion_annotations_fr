@@ -1,0 +1,24 @@
+w129	De	De	P			0	Non-Opinionated	1		0	8-positive	2	tour(city/landscape)	3		0		0		0	128	true	5
+w130	quoi	quoi	P			0	Non-Opinionated	1		0		0		0		0		0		0	129	true	5
+w131	passer	passer	V			0	Non-Opinionated	1		0		0		0		0		0		0	130	true	5
+w132	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	131	true	5
+w133	journée	journée	N			0	Non-Opinionated	1		0		0		0		0		0		0	132	true	5
+w134	entière	entier	G			0	Non-Opinionated	1		0		0		0		0		0		0	133	true	5
+w135	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	134	true	5
+w136	cet	ce	D			0	Non-Opinionated	1		0		0		0		0		0		0	135	true	5
+w137	endroit	endroit	N			0	Non-Opinionated	1		0		0		0		0		0		0	136	true	5
+w138	honorifique	honorifique	G			0	Non-Opinionated	1		0		0		0		0		0		0	137	true	5
+w139	lors	lors	G			0	Non-Opinionated	1		0		0		0		0		0		0	138	true	5
+w140	d'	d'	P			0	Non-Opinionated	1		0		0		0		0		0		0	139	true	5
+w141	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	140	true	5
+w142	journée	journée	N			0	Non-Opinionated	1		0		0		0		0		0		0	141	true	5
+w143	pluvieuse	pluvieux	G			0	Non-Opinionated	1		0		0		0		0		0		0	142	true	5
+w144	par	par	P			0	Non-Opinionated	1		0		0		0		0		0		0	143	true	5
+w145	exemple	exemple	N			0	Non-Opinionated	1		0		0		0		0		0		0	144	true	5
+w146	(	(	O			0	Non-Opinionated	1		0		0		0		0		0		0	145	true	5
+w147	journée	journée	N			0	Non-Opinionated	1		0		0		0		0		0		0	146	true	5
+w148	fréquente	fréquent	G			0	Non-Opinionated	1		0		0		0		0		0		0	147	true	5
+w149	sur	sur	P			0	Non-Opinionated	1		0		0		0		0		0		0	148	true	5
+w150	Paris	pari	N			0	Non-Opinionated	1		0		0		0		0		0		0	149	true	5
+w151	...	...	O			0	Non-Opinionated	1		0		0		0		0		0		0	150	true	5
+w152	)	)	O			0	Non-Opinionated	1		0		0		0		0		0		0	151	true	5

@@ -1,0 +1,13 @@
+w1	incontournable	incontournable	G			0		0		0	8-positive	2		0		0		0		0	0	true	1
+w13	partir	partir	V			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	3
+w14	assez	assez	G			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	3
+w15	tôt	tôt	G			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	3
+w16	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	3
+w17	matin	matin	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	permet	permettre	V			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	d	d	G			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	'	'	Q			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	éviter	éviter	V			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	attente	attente	N			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	bousculade	bousculade	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3

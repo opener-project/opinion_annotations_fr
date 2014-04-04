@@ -1,0 +1,27 @@
+w75	Il	Il	Q			0	Non-Opinionated	1		0	5-average-negative	2	zoo/aquarium	3		0		0		0	74	true	7
+w76	faut	faillir	V			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	7
+w77	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	7
+w78	pièce	pièce	N			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	7
+w79	justificative	justificatif	G			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	7
+w80	que	que	C			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	7
+w81	ce	ce	D			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	7
+w82	sont	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	7
+w83	nos	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	7
+w84	enfants	enfant	N			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	7
+w85	...	...	O			0	Non-Opinionated	1		0		0		0		0		0		0	84	true	7
+w86	mais	mais	C			0	Non-Opinionated	1		0		0		0		0		0		0	85	true	7
+w87	hélas	hélas	O			0	Non-Opinionated	1		0		0		0		0		0		0	86	true	7
+w88	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	87	true	7
+w89	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	88	true	7
+w90	vacances	vacance	N			0	Non-Opinionated	1		0		0		0		0		0		0	89	true	7
+w91	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	90	true	7
+w92	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	91	true	7
+w93	ne	ne	G			0	Non-Opinionated	1		0		0		0		0		0		0	92	true	7
+w94	se	se	Q			0	Non-Opinionated	1		0		0		0		0		0		0	93	true	7
+w95	déplace	déplacer	V			0	Non-Opinionated	1		0		0		0		0		0		0	94	true	7
+w96	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	95	true	7
+w97	avec	avec	P			0	Non-Opinionated	1		0		0		0		0		0		0	96	true	7
+w98	tous	tout	G			0	Non-Opinionated	1		0		0		0		0		0		0	97	true	7
+w99	nos	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	98	true	7
+w100	papiers	papier	N			0	Non-Opinionated	1		0		0		0		0		0		0	99	true	7
+w101	!	!	O			0	Non-Opinionated	1		0		0		0		0		0		0	100	true	7

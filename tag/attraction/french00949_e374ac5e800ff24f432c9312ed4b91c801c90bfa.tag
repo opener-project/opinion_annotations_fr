@@ -1,0 +1,22 @@
+w49	Attention	attention	N			0	Non-Opinionated	1		0	10-highly positive	2	zoo/aquarium	3		0		0		0	48	true	6
+w50	pensez	pensez	G			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	6
+w51	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	6
+w52	réserver	réserver	V			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	6
+w53	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	6
+w54	restaurant	restaurant	N			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	6
+w55	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	6
+w56	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	6
+w57	avance	avance	N			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	6
+w58	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	6
+w59	nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	6
+w60	n'	n'	G			0	Non-Opinionated	1		0		0		0		0		0		0	59	true	6
+w61	avons	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	60	true	6
+w62	pu	pouvoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	61	true	6
+w63	obtenir	obtenir	V			0	Non-Opinionated	1		0		0		0		0		0		0	62	true	6
+w64	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	63	true	6
+w65	place	place	N			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	6
+w66	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	6
+w67	jour	jour	N			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	6
+w68	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	6
+w69	notre	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	6
+w70	visite	visite	N			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	6

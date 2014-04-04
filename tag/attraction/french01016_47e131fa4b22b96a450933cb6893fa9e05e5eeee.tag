@@ -1,0 +1,20 @@
+w101	Depuis	Depuis	P			0	Non-Opinionated	1		0	8-positive	2	amusement park	3		0		0		0	100	true	7
+w102	que	que	C			0	Non-Opinionated	1		0		0		0		0		0		0	101	true	7
+w103	port	port	N			0	Non-Opinionated	1		0		0		0		0		0		0	102	true	7
+w104	aventura	aventura	N			0	Non-Opinionated	1		0		0		0		0		0		0	103	true	7
+w105	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	104	true	7
+w106	son	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	105	true	7
+w107	parc	parc	N			0	Non-Opinionated	1		0		0		0		0		0		0	106	true	7
+w108	aquatique	aquatique	G			0	Non-Opinionated	1		0		0		0		0		0		0	107	true	7
+w109	ils	ils	Q			0	Non-Opinionated	1		0		0		0		0		0		0	108	true	7
+w110	font	faire	V			0	Non-Opinionated	1		0		0		0		0		0		0	109	true	7
+w111	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	110	true	7
+w112	propos	propos	N			0	Non-Opinionated	1		0		0		0		0		0		0	111	true	7
+w113	quasi	quasi	G			0	Non-Opinionated	1		0		0		0		0		0		0	112	true	7
+w114	quotidienne	quotidienne	C			0	Non-Opinionated	1		0		0		0		0		0		0	113	true	7
+w115	même	même	G			0	Non-Opinionated	1		0		0		0		0		0		0	114	true	7
+w116	au	au	P			0	Non-Opinionated	1		0		0		0		0		0		0	115	true	7
+w117	mois	moi	N			0	Non-Opinionated	1		0		0		0		0		0		0	116	true	7
+w118	d	d	G			0	Non-Opinionated	1		0		0		0		0		0		0	117	true	7
+w119	août	août	N			0	Non-Opinionated	1		0		0		0		0		0		0	118	true	7
+w120	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	119	true	7

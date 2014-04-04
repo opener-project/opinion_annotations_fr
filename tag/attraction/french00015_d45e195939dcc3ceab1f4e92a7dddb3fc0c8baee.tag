@@ -1,0 +1,19 @@
+w1	Émouvant	émouvant	G			0		0		0	9-very positive	3		0		0		0		0	0	true	1
+w28	Il	Il	Q			0	Non-Opinionated	2		0		0		0		0		0		0	27	true	3
+w29	faisait	faire	V			0	Non-Opinionated	2		0		0		0		0		0		0	28	true	3
+w30	beau	beau	G			0	Non-Opinionated	2		0		0		0		0		0		0	29	true	3
+w31	et	et	C			0	Non-Opinionated	2		0		0		0		0		0		0	30	true	3
+w32	très	très	G			0	Non-Opinionated	2		0		0		0		0		0		0	31	true	3
+w33	froid	froid	G			0	Non-Opinionated	2		0		0		0		0		0		0	32	true	3
+w34	,	,	O			0	Non-Opinionated	2		0		0		0		0		0		0	33	true	3
+w35	il	il	Q			0	Non-Opinionated	2		0		0		0		0		0		0	34	true	3
+w36	y	y	Q			0	Non-Opinionated	2		0		0		0		0		0		0	35	true	3
+w37	avait	avoir	V			0	Non-Opinionated	2		0		0		0		0		0		0	36	true	3
+w38	du	du	D			0	Non-Opinionated	2		0		0		0		0		0		0	37	true	3
+w39	monde	monde	N			0	Non-Opinionated	2		0		0		0		0		0		0	38	true	3
+w40	mais	mais	C			0	Non-Opinionated	2		0		0		0		0		0		0	39	true	3
+w41	tous	tout	G			0	Non-Opinionated	2		0		0		0		0		0		0	40	true	3
+w42	étaient	étayer	V			0	Non-Opinionated	2		0		0		0		0		0		0	41	true	3
+w43	respectueux	respectueux	G			0	Non-Opinionated	2		0		0		0		0		0		0	42	true	3
+w44	et	et	C			0	Non-Opinionated	2		0		0		0		0		0		0	43	true	3
+w45	silencieux	silencieux	G			0	Non-Opinionated	2		0		0		0		0		0		0	44	true	3

@@ -1,0 +1,19 @@
+w1	atypique	atypique	G			0		0		0	6-average-positive	2	tour(city/landscape)	3		0		0		0	0	true	1
+w2	quartier	quartier	N			0	Non-Opinionated	1		0		0		0		0		0		0	1	true	2
+w3	atypique	atypique	G			0	Non-Opinionated	1		0		0		0		0		0		0	2	true	2
+w4	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	3	true	2
+w5	a	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	faire	faire	V			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	flanant	flanant	N			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	sans	sans]	P			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	chercher	chercher	V			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	quelque	quelque	D			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	chose	chose	N			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	précis	précis	G			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	mais	mais	C			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	plutot	plutot	G			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	ambiance	ambiance	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2

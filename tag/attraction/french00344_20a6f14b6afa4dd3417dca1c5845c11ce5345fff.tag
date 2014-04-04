@@ -1,0 +1,26 @@
+w1	Imposant	imposant	G			0		0		0	10-highly positive	2	tour(city/landscape)	3		0		0		0	0	true	1
+w2	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	1	true	2
+w3	porte	porte	N			0	Non-Opinionated	1		0		0		0		0		0		0	2	true	2
+w4	est	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	3	true	2
+w5	au	au	P			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	centre	centre	D			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	du	du	D			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	rond	rond	N			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	point	point	N			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	fait	faire	V			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	penser	penser	V			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	arc	arc	N			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	triomphe	triomphe	N			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	Paris	pari	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	bien	bien	G			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	que	que	C			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	différent	différent	G			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	son	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	architecture	architecture	N			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2

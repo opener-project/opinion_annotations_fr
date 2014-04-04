@@ -1,0 +1,14 @@
+w1	La	le	D			0		0		0	8-positive	4	unknown	5		0		0		0	0	true	1
+w15	la	le	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	14	true	3
+w16	différence	différence	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	15	true	3
+w17	entre	entre	P		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	16	true	3
+w18	les	le	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	17	true	3
+w19	nouvelles	nouveau	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	18	true	3
+w20	pierres	pierre	N		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	19	true	3
+w21	et	et	C		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	20	true	3
+w22	les	le	D		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	21	true	3
+w23	anciennes	ancien	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	22	true	3
+w24	tranche	trancher	V		Negative	3	Opinion	1		0		0		0		0		0		0	23	true	3
+w25	un	un	D		Negative	3	Opinion	1		0		0		0		0		0		0	24	true	3
+w26	peu	peu	G		Negative	3	Opinion	1		0		0		0		0		0		0	25	true	3
+w27	trop	trop	G		Negative	3	Opinion	1		0		0		0		0		0		0	26	true	3

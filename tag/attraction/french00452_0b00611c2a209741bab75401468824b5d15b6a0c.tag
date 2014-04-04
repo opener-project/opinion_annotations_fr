@@ -1,0 +1,21 @@
+w1	Tout	tout	G			0		0		0	9-very positive	2	tour(city/landscape)	3		0		0		0	0	true	1
+w18	Pour	Pour	P			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	voir	voir	V			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	matches	match	N			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	basket	basket	N			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3
+w25	même	même	G			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	3
+w26	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	3
+w27	dernières	dernier	G			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	3
+w28	rangées	rangée	N			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	3
+w29	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	hauteurs	hauteur	N			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	offrent	offrir	V			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	vue	vue	N			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	raisonnable	raisonnable	G			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	du	du	D			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	terrain	terrain	N			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3

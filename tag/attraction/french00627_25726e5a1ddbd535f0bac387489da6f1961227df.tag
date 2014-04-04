@@ -1,0 +1,25 @@
+w1	Plein	Plein	P			0		0		0	9-very positive	4	zoo/aquarium	5		0		0		0	0	true	1
+w22	Et	Et	C			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	4
+w23	si	si	C			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	4
+w24	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	4
+w25	a	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	4
+w26	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	4
+w27	chance	chance	N			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	4
+w28	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	4
+w29	découvrir	découvrir	V			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	4
+w30	cet	ce	D			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	4
+w31	endroit	endroit	N			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	4
+w32	avec	avec	P			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	4
+w33	un	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	4
+w34	connaisseur	connaisseur	N			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	4
+w35	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	4
+w36	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	4
+w37	y	y	Q			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	4
+w38	apprend	apprendre	V			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	4
+w39	mille	mille	D			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	4
+w40	choses	chose	N			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	4
+w41	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	4
+w42	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	4
+w43	respect	respect	N			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	4
+w44	des	des	P			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	4
+w45	écosystèmes	écosystème	N			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	4

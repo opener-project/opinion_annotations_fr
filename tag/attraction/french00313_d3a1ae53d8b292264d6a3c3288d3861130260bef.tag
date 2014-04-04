@@ -1,0 +1,19 @@
+w1	Exceptionnel	exceptionnel	G			0		0		0	10-highly positive	2	tour(city/landscape)	3		0		0		0	0	true	1
+w10	Ce	ce	D			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	village	village	N			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	classé	classer	G			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	par	par	P			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	UNESCO	UNESCO	N			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	s'	s'	Q			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	observe	observer	V			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	se	se	Q			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	photographie	photographier	V			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	son	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	ensemble	ensemble	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	depuis	depuis	P			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	L'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2
+w27	Alhambra	Alhambra	N			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	2

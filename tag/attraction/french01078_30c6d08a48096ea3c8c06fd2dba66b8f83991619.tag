@@ -1,0 +1,24 @@
+w71	De	De	P			0	Non-Opinionated	1		0	9-very positive	2	museum	3		0		0		0	70	true	4
+w72	courtes	court	G			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	4
+w73	vidéos	vidéo	N			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	4
+w74	explicitent	expliciter	V			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	4
+w75	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	4
+w76	propos	propos	N			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	4
+w77	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	4
+w78	permettent	permettre	V			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	4
+w79	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	4
+w80	sauter	sauter	V			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	4
+w81	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	4
+w82	lecture	lecture	N			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	4
+w83	des	des	P			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	4
+w84	cartels	cartel	N			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	4
+w85	...	...	O			0	Non-Opinionated	1		0		0		0		0		0		0	84	true	4
+w86	A	A	P			0	Non-Opinionated	1		0		0		0		0		0		0	85	true	4
+w87	deux	deux	D			0	Non-Opinionated	1		0		0		0		0		0		0	86	true	4
+w88	pas	pas	N			0	Non-Opinionated	1		0		0		0		0		0		0	87	true	4
+w89	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	88	true	4
+w90	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	89	true	4
+w91	tombeau	tombeau	N			0	Non-Opinionated	1		0		0		0		0		0		0	90	true	4
+w92	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	91	true	4
+w93	Napoléon	napoléon	N			0	Non-Opinionated	1		0		0		0		0		0		0	92	true	4
+w94	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	93	true	4

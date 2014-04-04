@@ -1,0 +1,26 @@
+w1	Havre	havre	N			0		0		0	9-very positive	2	church/castle	3		0		0		0	0	true	1
+w4	Du	Du	P			0	Non-Opinionated	1		0		0		0		0		0		0	3	true	2
+w5	haut	haut	O			0	Non-Opinionated	1		0		0		0		0		0		0	4	true	2
+w6	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	5	true	2
+w7	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	6	true	2
+w8	Alcazar	alcazar	N			0	Non-Opinionated	1		0		0		0		0		0		0	7	true	2
+w9	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	8	true	2
+w10	los	los	N			0	Non-Opinionated	1		0		0		0		0		0		0	9	true	2
+w11	Reyes	Reyes	N			0	Non-Opinionated	1		0		0		0		0		0		0	10	true	2
+w12	Cristianos	Cristianos	N			0	Non-Opinionated	1		0		0		0		0		0		0	11	true	2
+w13	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	2
+w14	nous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	2
+w15	avons	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	2
+w16	admiré	admirer	V			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	2
+w17	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	2
+w18	ville	ville	N			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	2
+w19	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	2
+w20	Cordoba	Cordoba	N			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	2
+w21	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	2
+w22	le	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	2
+w23	mytique	mytique	N			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	2
+w24	Guadalquivir	Guadalquivir	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	2
+w25	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	2
+w26	son	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	2
+w27	vieux	vieux	G			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	2
+w28	pont	pont	N			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	2

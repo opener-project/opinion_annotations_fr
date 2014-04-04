@@ -1,0 +1,20 @@
+w40	prendre	prendre	V			0	Non-Opinionated	1		0	9-very positive	2	museum	3		0		0		0	39	true	5
+w41	son	son	D			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	5
+w42	temps	temps	N			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	5
+w43	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	5
+w44	surtout	surtout	G			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	5
+w45	ne	ne	G			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	5
+w46	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	5
+w47	s'	s'	Q			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	5
+w48	y	y	Q			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	5
+w49	rendre	rendre	V			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	5
+w50	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	5
+w51	fin	fin	N			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	5
+w52	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	5
+w53	journée	journée	N			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	5
+w54	losqu'	losqu'	C			0	Non-Opinionated	1		0		0		0		0		0		0	53	true	5
+w55	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	54	true	5
+w56	est	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	55	true	5
+w57	déjà	déjà	G			0	Non-Opinionated	1		0		0		0		0		0		0	56	true	5
+w58	très	très	G			0	Non-Opinionated	1		0		0		0		0		0		0	57	true	5
+w59	fatig	fatig	G			0	Non-Opinionated	1		0		0		0		0		0		0	58	true	5

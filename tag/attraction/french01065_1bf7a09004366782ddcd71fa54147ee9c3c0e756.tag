@@ -1,0 +1,22 @@
+w29	Statue	statue	N			0	Non-Opinionated	1		0	8-positive	2	museum	3		0		0		0	28	true	3
+w30	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	Napoléon	napoléon	N			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	....	....	O			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	invalides	invalide	N			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	fut	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	construit	construire	V			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	sous	sous	P			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3
+w38	LOUIS	louis	N			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	3
+w39	XIV	XIV	N			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	3
+w40	pour	pour	P			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	3
+w41	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	3
+w42	soldats	soldat	N			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	3
+w43	condamnés.histoire	condamnés.histoire	V			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	3
+w44	intéressante	intéressante	O			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	3
+w45	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	3
+w46	entrée	entrée	N			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	3
+w47	est	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	3
+w48	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	3
+w49	six	six	D			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	3
+w50	euro	euro	N			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	3

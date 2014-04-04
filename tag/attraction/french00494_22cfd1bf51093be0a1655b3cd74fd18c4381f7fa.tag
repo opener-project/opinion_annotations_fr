@@ -1,0 +1,26 @@
+w1	Visite	visite	N			0		0		0	8-positive	2	theater	3		0		0		0	0	true	1
+w69	2	2	D			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	4
+w70	une	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	4
+w71	équipe	équipe	N			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	4
+w72	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	4
+w73	6	6	D			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	4
+w74	gladiateurs	gladiateur	N			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	4
+w75	offre	offrir	V			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	4
+w76	3	3	D			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	4
+w77	séries	série	N			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	4
+w78	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	4
+w79	combats	combat	N			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	4
+w80	avec	avec	P			0	Non-Opinionated	1		0		0		0		0		0		0	79	true	4
+w81	des	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	80	true	4
+w82	copies	copie	N			0	Non-Opinionated	1		0		0		0		0		0		0	81	true	4
+w83	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	82	true	4
+w84	matériaux	matériau	N			0	Non-Opinionated	1		0		0		0		0		0		0	83	true	4
+w85	utilisés	utiliser	V			0	Non-Opinionated	1		0		0		0		0		0		0	84	true	4
+w86	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	85	true	4
+w87	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	86	true	4
+w88	époque	époque	N			0	Non-Opinionated	1		0		0		0		0		0		0	87	true	4
+w89	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	88	true	4
+w90	explications	explication	N			0	Non-Opinionated	1		0		0		0		0		0		0	89	true	4
+w91	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	90	true	4
+w92	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	91	true	4
+w93	historique	historique	N			0	Non-Opinionated	1		0		0		0		0		0		0	92	true	4

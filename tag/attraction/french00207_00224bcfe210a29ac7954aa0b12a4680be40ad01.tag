@@ -1,0 +1,26 @@
+w1	Excellent	excellent	G			0		0		0	9-very positive	2		0		0		0		0	0	true	1
+w29	Pour	Pour	P			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	français	français	N			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	vous	lui	Q			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	pouvez	pouvoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	demander	demander	V			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	"	&quot;	O			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	capitaine	capitaine	G			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	Monkey	Monkey	N			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3
+w38	"	&quot;	O			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	3
+w39	comme	comme	P			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	3
+w40	guide	guide	N			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	3
+w41	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	3
+w42	c'	c'	Q			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	3
+w43	est	être	V			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	3
+w44	courant	courant	N			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	3
+w45	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	44	true	3
+w46	demander	demander	V			0	Non-Opinionated	1		0		0		0		0		0		0	45	true	3
+w47	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	46	true	3
+w48	cela	cela	P			0	Non-Opinionated	1		0		0		0		0		0		0	47	true	3
+w49	ne	ne	G			0	Non-Opinionated	1		0		0		0		0		0		0	48	true	3
+w50	pose	poser	V			0	Non-Opinionated	1		0		0		0		0		0		0	49	true	3
+w51	pas	pas	G			0	Non-Opinionated	1		0		0		0		0		0		0	50	true	3
+w52	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	51	true	3
+w53	problème	problème	N			0	Non-Opinionated	1		0		0		0		0		0		0	52	true	3

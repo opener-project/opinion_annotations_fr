@@ -1,0 +1,26 @@
+w1	Une	un	D			0		0		0	3-negative	3	tour(city/landscape)	4		0		0		0	0	true	1
+w5	La	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	4	true	2
+w6	place	place	N			0	Non-Opinionated	2		0		0		0		0		0		0	5	true	2
+w7	soufre	soufrer	V			0	Non-Opinionated	2		0		0		0		0		0		0	6	true	2
+w8	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	7	true	2
+w9	l'	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	8	true	2
+w10	ancien	ancien	G			0	Non-Opinionated	2		0		0		0		0		0		0	9	true	2
+w11	architecture	architecture	N			0	Non-Opinionated	2		0		0		0		0		0		0	10	true	2
+w12	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	11	true	2
+w13	la	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	12	true	2
+w14	RDA	RDA	N			0	Non-Opinionated	2		0		0		0		0		0		0	13	true	2
+w15	des	des	P			0	Non-Opinionated	2		0		0		0		0		0		0	14	true	2
+w16	années	année	N			0	Non-Opinionated	2		0		0		0		0		0		0	15	true	2
+w17	70	70	G			0	Non-Opinionated	2		0		0		0		0		0		0	16	true	2
+w18	et	et	C			0	Non-Opinionated	2		0		0		0		0		0		0	17	true	2
+w19	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	18	true	2
+w20	la	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	19	true	2
+w21	pauvreté	pauvreté	N			0	Non-Opinionated	2		0		0		0		0		0		0	20	true	2
+w22	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	21	true	2
+w23	la	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	22	true	2
+w24	population	population	N			0	Non-Opinionated	2		0		0		0		0		0		0	23	true	2
+w25	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	24	true	2
+w26	l'	le	D			0	Non-Opinionated	2		0		0		0		0		0		0	25	true	2
+w27	est	être	V			0	Non-Opinionated	2		0		0		0		0		0		0	26	true	2
+w28	de	de	P			0	Non-Opinionated	2		0		0		0		0		0		0	27	true	2
+w29	Berlin	Berlin	N			0	Non-Opinionated	2		0		0		0		0		0		0	28	true	2

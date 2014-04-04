@@ -1,0 +1,21 @@
+w1	The	The	O			0		0		0	9-very positive	2	unknown	3		0		0		0	0	true	1
+w18	Désservi	Désservi	V			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	4
+w19	depuis	depuis	P			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	4
+w20	Miami	Miami	N			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	4
+w21	Beach	Beach	N			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	4
+w22	par	par	P			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	4
+w23	les	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	4
+w24	bus	bus	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	4
+w25	S	S	N			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	4
+w26	et	et	C			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	4
+w27	C	C	N			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	4
+w28	,	,	O			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	4
+w29	se	se	Q			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	4
+w30	situe	situer	V			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	4
+w31	juste	juste	G			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	4
+w32	à	à	P			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	4
+w33	côté	côté	N			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	4
+w34	du	du	D			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	4
+w35	port	port	N			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	4
+w36	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	4
+w37	Miami	Miami	N			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	4

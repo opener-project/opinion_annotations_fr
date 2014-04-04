@@ -1,0 +1,22 @@
+w4	J'	J'	Q		OpinionHolder	1	Opinion	4		0	10-highly positive	5	tour(city/landscape)	6		0		0		0	3	true	2
+w5	adore	adore	G		StrongPositive	3	Opinion	4		0		0		0		0		0		0	4	true	2
+w6	me	me	Q		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	5	true	2
+w7	balader	balader	V		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	6	true	2
+w8	le	le	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	7	true	2
+w9	soir	soir	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	8	true	2
+w10	après	après	P		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	9	true	2
+w11	le	le	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	10	true	2
+w12	dîner	dîner	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	11	true	2
+w13	,	,	O		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	12	true	2
+w14	le	le	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	13	true	2
+w15	long	long	G		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	14	true	2
+w16	d'	d'	P		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	15	true	2
+w17	Ocean	Ocean	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	16	true	2
+w18	Drive	drive	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	17	true	2
+w19	pour	pour	P		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	18	true	2
+w20	regarder	regarder	V		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	19	true	2
+w21	les	le	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	20	true	2
+w22	hôtels	hôtel	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	21	true	2
+w23	art	art	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	22	true	2
+w24	déco	déco	G		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	23	true	2
+w25	éclairés	éclairer	V		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	24	true	2

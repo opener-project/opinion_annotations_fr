@@ -1,0 +1,25 @@
+w1	Trop	Trop	G			0		0		0	1-highly negative	3	unknown	4		0		0		0	0	true	1
+w3	C'	C'	Q		StrongNegative	2	Opinion	1		0		0		0		0		0		0	2	true	2
+w4	est	être	V		StrongNegative	2	Opinion	1		0		0		0		0		0		0	3	true	2
+w5	décevant	décevant	P		StrongNegative	2	Opinion	1		0		0		0		0		0		0	4	true	2
+w6	de	de	P		StrongNegative	2	Opinion	1		0		0		0		0		0		0	5	true	2
+w7	devoir	devoir	V		StrongNegative	2	Opinion	1		0		0		0		0		0		0	6	true	2
+w8	payer	payer	V		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	7	true	2
+w9	plus	plus	G		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	8	true	2
+w10	de	de	P		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	9	true	2
+w11	100	100	D		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	10	true	2
+w12	dollars	dollar	N		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	11	true	2
+w13	pour	pour	P		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	12	true	2
+w14	une	un	D		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	13	true	2
+w15	famille	famille	N		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	14	true	2
+w16	de	de	P		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	15	true	2
+w17	4	4	D		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	16	true	2
+w18	personnes	personne	N		OpinionTarget	5	Opinion	1		0		0		0		0		0		0	17	true	2
+w19	dont	dont	P		StrongNegative	2	Opinion	1		0		0		0		0		0		0	18	true	2
+w20	2	2	D		StrongNegative	2	Opinion	1		0		0		0		0		0		0	19	true	2
+w21	enfants	enfant	N		StrongNegative	2	Opinion	1		0		0		0		0		0		0	20	true	2
+w22	de	de	P		StrongNegative	2	Opinion	1		0		0		0		0		0		0	21	true	2
+w23	moins	moins	G		StrongNegative	2	Opinion	1		0		0		0		0		0		0	22	true	2
+w24	de	de	P		StrongNegative	2	Opinion	1		0		0		0		0		0		0	23	true	2
+w25	6	6	D		StrongNegative	2	Opinion	1		0		0		0		0		0		0	24	true	2
+w26	ans	an	N		StrongNegative	2	Opinion	1		0		0		0		0		0		0	25	true	2

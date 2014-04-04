@@ -1,0 +1,25 @@
+w20	il	il	Q			0	Non-Opinionated	1		0	2-very negative	2	zoo/aquarium	3		0		0		0	19	true	3
+w21	y	y	Q			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	a	avoir	V			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3
+w23	4	4	D			0	Non-Opinionated	1		0		0		0		0		0		0	22	true	3
+w24	requins	requin	N			0	Non-Opinionated	1		0		0		0		0		0		0	23	true	3
+w25	qui	qui	P			0	Non-Opinionated	1		0		0		0		0		0		0	24	true	3
+w26	tournent	tourner	V			0	Non-Opinionated	1		0		0		0		0		0		0	25	true	3
+w27	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	26	true	3
+w28	rond	rond	N			0	Non-Opinionated	1		0		0		0		0		0		0	27	true	3
+w29	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	28	true	3
+w30	un	un	D			0	Non-Opinionated	1		0		0		0		0		0		0	29	true	3
+w31	grand	grand	G			0	Non-Opinionated	1		0		0		0		0		0		0	30	true	3
+w32	bassin	bassin	N			0	Non-Opinionated	1		0		0		0		0		0		0	31	true	3
+w33	que	que	C			0	Non-Opinionated	1		0		0		0		0		0		0	32	true	3
+w34	l'	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	33	true	3
+w35	on	on	Q			0	Non-Opinionated	1		0		0		0		0		0		0	34	true	3
+w36	contourne	contourner	V			0	Non-Opinionated	1		0		0		0		0		0		0	35	true	3
+w37	en	en	P			0	Non-Opinionated	1		0		0		0		0		0		0	36	true	3
+w38	tapis	tapis	G			0	Non-Opinionated	1		0		0		0		0		0		0	37	true	3
+w39	roulant	roulant	G			0	Non-Opinionated	1		0		0		0		0		0		0	38	true	3
+w40	(	(	O			0	Non-Opinionated	1		0		0		0		0		0		0	39	true	3
+w41	vitesse	vitesse	N			0	Non-Opinionated	1		0		0		0		0		0		0	40	true	3
+w42	1	1	G			0	Non-Opinionated	1		0		0		0		0		0		0	41	true	3
+w43	)	)	O			0	Non-Opinionated	1		0		0		0		0		0		0	42	true	3
+w44	.	.	O			0	Non-Opinionated	1		0		0		0		0		0		0	43	true	3

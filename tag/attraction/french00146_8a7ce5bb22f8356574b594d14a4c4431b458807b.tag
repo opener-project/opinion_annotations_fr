@@ -1,0 +1,10 @@
+w13	Enfant	enfant	G			0	Non-Opinionated	1		0		0		0		0		0		0	12	true	3
+w14	·	·	G			0	Non-Opinionated	1		0		0		0		0		0		0	13	true	3
+w15	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	14	true	3
+w16	4ans	4ans	D			0	Non-Opinionated	1		0		0		0		0		0		0	15	true	3
+w17	non	non	G			0	Non-Opinionated	1		0		0		0		0		0		0	16	true	3
+w18	admis	admettre	V			0	Non-Opinionated	1		0		0		0		0		0		0	17	true	3
+w19	cause	cause	N			0	Non-Opinionated	1		0		0		0		0		0		0	18	true	3
+w20	de	de	P			0	Non-Opinionated	1		0		0		0		0		0		0	19	true	3
+w21	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	20	true	3
+w22	hauteur	hauteur	N			0	Non-Opinionated	1		0		0		0		0		0		0	21	true	3

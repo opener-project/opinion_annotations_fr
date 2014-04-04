@@ -1,0 +1,15 @@
+w65	Prévoyez	Prévoyez	N			0	Non-Opinionated	1		0		0		0		0		0		0	64	true	4
+w66	aussi	aussi	G			0	Non-Opinionated	1		0		0		0		0		0		0	65	true	4
+w67	des	des	P			0	Non-Opinionated	1		0		0		0		0		0		0	66	true	4
+w68	vêtement	vêtement	N			0	Non-Opinionated	1		0		0		0		0		0		0	67	true	4
+w69	chauds	chaud	G			0	Non-Opinionated	1		0		0		0		0		0		0	68	true	4
+w70	car	car	C			0	Non-Opinionated	1		0		0		0		0		0		0	69	true	4
+w71	il	il	Q			0	Non-Opinionated	1		0		0		0		0		0		0	70	true	4
+w72	fait	faire	V			0	Non-Opinionated	1		0		0		0		0		0		0	71	true	4
+w73	beaucoup	beaucoup	G			0	Non-Opinionated	1		0		0		0		0		0		0	72	true	4
+w74	plus	plus	G			0	Non-Opinionated	1		0		0		0		0		0		0	73	true	4
+w75	froid	froid	G			0	Non-Opinionated	1		0		0		0		0		0		0	74	true	4
+w76	que	que	C			0	Non-Opinionated	1		0		0		0		0		0		0	75	true	4
+w77	dans	dans	P			0	Non-Opinionated	1		0		0		0		0		0		0	76	true	4
+w78	la	le	D			0	Non-Opinionated	1		0		0		0		0		0		0	77	true	4
+w79	vallée	vallée	N			0	Non-Opinionated	1		0		0		0		0		0		0	78	true	4
