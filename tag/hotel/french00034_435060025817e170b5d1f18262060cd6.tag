@@ -1,4 +1,4 @@
-w1	Plus	Plus	G		Negative	2	Opinion	1		0		0		0		0		0		0	0	true	1
+w1	Plus	Plus	G		Negative	2	Opinion	1		0	1-highly negative	35		0		0		0		0	0	true	1
 w2	jamais	jamais	G		Negative	2	Opinion	1		0		0		0		0		0		0	1	true	1
 w24	rien	rien	P		Negative	4	Opinion	3		0		0		0		0		0		0	23	true	3
 w25	à	à	P		Negative	4	Opinion	3		0		0		0		0		0		0	24	true	3

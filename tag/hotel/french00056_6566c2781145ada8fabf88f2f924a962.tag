@@ -9,17 +9,17 @@ w15	calme.Personnel	calme.Personnel	G		OpinionTarget	8	Opinion	7	Staff	9		0		0		
 w16	d'	d'	P		OpinionTarget	8	Opinion	7	Staff	9		0		0		0		0		0	15	true	2
 w17	accueil	accueil	N		OpinionTarget	8	Opinion	7	Staff	9		0		0		0		0		0	16	true	2
 w18	sympa	sympa	G		Positive	10	Opinion	7		0		0		0		0		0		0	17	true	2
-w19	,	,	O			0	Opinion	7		0		0		0		0		0		0	18	true	2
-w20	ceux	ceux	P		OpinionTarget	38	Opinion	7	Staff	12		0		0		0		0		0	19	true	2
-w21	de	de	P		OpinionTarget	38	Opinion	7	Staff	12		0		0		0		0		0	20	true	2
-w22	la	le	D		OpinionTarget	38	Opinion	7	Staff	12		0		0		0		0		0	21	true	2
-w23	boulangerie	boulangerie	N		OpinionTarget	38	Opinion	7	Staff	12		0		0		0		0		0	22	true	2
-w24	et	et	C			0	Opinion	7		0		0		0		0		0		0	23	true	2
-w25	de	de	P		OpinionTarget	38	Opinion	7	Staff	13		0		0		0		0		0	24	true	2
-w26	la	le	D		OpinionTarget	38	Opinion	7	Staff	13		0		0		0		0		0	25	true	2
-w27	pizzéria	pizzéria	N		OpinionTarget	38	Opinion	7	Staff	13		0		0		0		0		0	26	true	2
-w28	très	très	G		Positive	15	Opinion	7		0		0		0		0		0		0	27	true	2
-w29	commerçants	commerçant	N		Positive	15	Opinion	7		0		0		0		0		0		0	28	true	2
+w19	,	,	O			0		0		0		0		0		0		0		0	18	true	2
+w20	ceux	ceux	P		OpinionTarget	11	Opinion	38	Staff	12		0		0		0		0		0	19	true	2
+w21	de	de	P		OpinionTarget	11	Opinion	38	Staff	12		0		0		0		0		0	20	true	2
+w22	la	le	D		OpinionTarget	11	Opinion	38	Staff	12		0		0		0		0		0	21	true	2
+w23	boulangerie	boulangerie	N		OpinionTarget	11	Opinion	38	Staff	12		0		0		0		0		0	22	true	2
+w24	et	et	C			0	Opinion	38		0		0		0		0		0		0	23	true	2
+w25	de	de	P		OpinionTarget	11	Opinion	38	Staff	13		0		0		0		0		0	24	true	2
+w26	la	le	D		OpinionTarget	11	Opinion	38	Staff	13		0		0		0		0		0	25	true	2
+w27	pizzéria	pizzéria	N		OpinionTarget	11	Opinion	38	Staff	13		0		0		0		0		0	26	true	2
+w28	très	très	G		Positive	15	Opinion	38		0		0		0		0		0		0	27	true	2
+w29	commerçants	commerçant	N		Positive	15	Opinion	38		0		0		0		0		0		0	28	true	2
 w31	petit	petit	G		Negative	17	Opinion	16		0		0		0		0		0		0	30	true	3
 w32	bémol	bémol	N		Negative	17	Opinion	16		0		0		0		0		0		0	31	true	3
 w33	sur	sur	P			0	Opinion	16		0		0		0		0		0		0	32	true	3
@@ -48,15 +48,15 @@ w67	pentaglisse	pentaglisse	N		OpinionTarget	22	Opinion	21	Swimming pool	23		0		
 w68	est	être	V			0	Opinion	21		0		0		0		0		0		0	67	true	3
 w69	extrêmement	extrêmement	G		StrongNegative	24	Opinion	21		0		0		0		0		0		0	68	true	3
 w70	glissant	glissant	G		StrongNegative	24	Opinion	21		0		0		0		0		0		0	69	true	3
-w71	(	(	O			0		0		0		0		0		0		0		0	70	true	3
-w72	mon	son	D		OpinionTarget	25	Opinion	39		0		0		0		0		0		0	71	true	3
-w73	fils	fil	N		OpinionTarget	25	Opinion	39		0		0		0		0		0		0	72	true	3
-w74	s'	s'	Q		Negative	26	Opinion	39		0		0		0		0		0		0	73	true	3
-w75	est	être	V		Negative	26	Opinion	39		0		0		0		0		0		0	74	true	3
-w76	emporté	emporter	V		Negative	26	Opinion	39		0		0		0		0		0		0	75	true	3
-w77	le	le	D		Negative	26	Opinion	39		0		0		0		0		0		0	76	true	3
-w78	genou	genou	N		Negative	26	Opinion	39		0		0		0		0		0		0	77	true	3
-w79	)	)	O			0		0		0		0		0		0		0		0	78	true	3
+w71	(	(	O			0	Opinion	21		0		0		0		0		0		0	70	true	3
+w72	mon	son	D		OpinionTarget	25	Opinion	21		0		0		0		0		0		0	71	true	3
+w73	fils	fil	N		OpinionTarget	25	Opinion	21		0		0		0		0		0		0	72	true	3
+w74	s'	s'	Q		Negative	26	Opinion	21		0		0		0		0		0		0	73	true	3
+w75	est	être	V		Negative	26	Opinion	21		0		0		0		0		0		0	74	true	3
+w76	emporté	emporter	V		Negative	26	Opinion	21		0		0		0		0		0		0	75	true	3
+w77	le	le	D		Negative	26	Opinion	21		0		0		0		0		0		0	76	true	3
+w78	genou	genou	N		Negative	26	Opinion	21		0		0		0		0		0		0	77	true	3
+w79	)	)	O			0	Opinion	21		0		0		0		0		0		0	78	true	3
 w83	le	le	D		OpinionTarget	28	Opinion	27	Interior/exterior	29		0		0		0		0		0	82	true	4
 w84	terrain	terrain	N		OpinionTarget	28	Opinion	27	Interior/exterior	29		0		0		0		0		0	83	true	4
 w85	de	de	P		OpinionTarget	28	Opinion	27	Interior/exterior	29		0		0		0		0		0	84	true	4

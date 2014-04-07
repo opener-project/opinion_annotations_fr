@@ -16,9 +16,10 @@
     </linguisticProcessors>
     <linguisticProcessors layer="features">
       <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:12CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:04CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:12CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:04CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -863,58 +864,8 @@
     </tree>
   </constituency>
   <opinions>
-    <opinion oid="12_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Le reste-->
-        <span>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--impeccable-->
-        <span>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--l' accessibilité de la chambre-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--sauf-->
-        <span>
-          <target id="t8"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Tout-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--très bien-->
-        <span>
-          <target id="t6"/>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -924,7 +875,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder>
         <!--Je-->
         <span>
@@ -944,7 +896,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
       <opinion_holder>
         <!--Je-->
         <span>
@@ -961,6 +914,23 @@
           <target id="t38"/>
           <target id="t39"/>
           <target id="t40"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le reste-->
+        <span>
+          <target id="t42"/>
+          <target id="t43"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--impeccable-->
+        <span>
+          <target id="t45"/>
         </span>
       </opinion_expression>
     </opinion>

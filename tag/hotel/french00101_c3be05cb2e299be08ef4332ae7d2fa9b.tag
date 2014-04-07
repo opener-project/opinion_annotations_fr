@@ -1,4 +1,4 @@
-w1	Plus	Plus	G		StrongNegative	1	Opinion	2		0	1-highly negative	35		0		0		0		0	0	true	1
+w1	Plus	Plus	G		StrongNegative	1	Opinion	2		0		0		0		0		0		0	0	true	1
 w2	jamais	jamais	G		StrongNegative	1	Opinion	2		0		0		0		0		0		0	1	true	1
 w4	Une	un	D		OpinionTarget	3	Opinion	5		0		0		0		0		0		0	3	true	2
 w5	équipe	équipe	N		OpinionTarget	3	Opinion	5	Staff	6		0		0		0		0		0	4	true	2

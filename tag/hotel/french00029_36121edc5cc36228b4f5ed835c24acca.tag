@@ -34,13 +34,13 @@ w39	le	le	D		OpinionTarget	43	Opinion	42	Restaurant	44		0		0		0		0		0	38	true	2
 w40	restaurant	restaurer	V		OpinionTarget	43	Opinion	42	Restaurant	44		0		0		0		0		0	39	true	2
 w41	tres	tres	G		StrongPositive	45	Opinion	42	Cleanliness	46		0		0		0		0		0	40	true	2
 w42	propres	propre	G		StrongPositive	45	Opinion	42	Cleanliness	46		0		0		0		0		0	41	true	2
-w43	mais	mais	C			0		0		0		0		0		0		0		0	42	true	2
-w44	avec	avec	P			0		0		0		0		0		0		0		0	43	true	2
-w45	les	le	D		OpinionTarget	48	Opinion	53		0		0		0		0		0		0	44	true	2
-w46	plats	plat	N		OpinionTarget	48	Opinion	53		0		0		0		0		0		0	45	true	2
-w47	pas	pas	G		Negative	47	Opinion	53		0		0		0		0		0		0	46	true	2
-w48	trop	trop	G		Negative	47	Opinion	53		0		0		0		0		0		0	47	true	2
-w49	varies	varies	G		Negative	47	Opinion	53		0		0		0		0		0		0	48	true	2
+w43	mais	mais	C			0	Opinion	42		0		0		0		0		0		0	42	true	2
+w44	avec	avec	P			0	Opinion	42		0		0		0		0		0		0	43	false	2
+w45	les	le	D		OpinionTarget	48	Opinion	42		0		0		0		0		0		0	44	true	2
+w46	plats	plat	N		OpinionTarget	48	Opinion	42		0		0		0		0		0		0	45	true	2
+w47	pas	pas	G		Negative	47	Opinion	42		0		0		0		0		0		0	46	true	2
+w48	trop	trop	G		Negative	47	Opinion	42		0		0		0		0		0		0	47	true	2
+w49	varies	varies	G		Negative	47	Opinion	42		0		0		0		0		0		0	48	true	2
 w51	l	l	D		OpinionTarget	50	Opinion	49		0		0		0		0		0		0	50	true	2
 w52	animation	animation	N		OpinionTarget	50	Opinion	49		0		0		0		0		0		0	51	true	2
 w53	n	n	G		Positive	51	Opinion	49		0		0		0		0		0		0	52	true	2

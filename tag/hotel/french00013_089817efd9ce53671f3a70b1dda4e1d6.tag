@@ -8,9 +8,9 @@ w7	hotel	hotel	N		OpinionTarget	7	Opinion	9		0		0		0		0		0		0	6	true	2
 w8	pour	pour	P			0	Opinion	9		0		0		0		0		0		0	7	true	2
 w9	la	le	D		Positive	11	Opinion	9		0		0		0		0		0		0	8	true	2
 w10	qualité	qualité	N		Positive	11	Opinion	9	Value-for-money	13		0		0		0		0		0	9	true	2
-w11	de	de	P		Positive	11	Opinion	9		0		0		0		0		0		0	10	true	2
-w12	ses	son	D		Positive	11	Opinion	9		0		0		0		0		0		0	11	true	2
-w13	services	service	N		Positive	11	Opinion	9		0		0		0		0		0		0	12	true	2
+w11	de	de	P		OpinionTarget	12	Opinion	9		0		0		0		0		0		0	10	true	2
+w12	ses	son	D		OpinionTarget	12	Opinion	9		0		0		0		0		0		0	11	true	2
+w13	services	service	N		OpinionTarget	12	Opinion	9		0		0		0		0		0		0	12	true	2
 w14	dans	dans	P			0	Opinion	9		0		0		0		0		0		0	13	true	2
 w15	tout	tout	G			0	Opinion	9		0		0		0		0		0		0	14	true	2
 w16	les	le	D			0	Opinion	9		0		0		0		0		0		0	15	true	2

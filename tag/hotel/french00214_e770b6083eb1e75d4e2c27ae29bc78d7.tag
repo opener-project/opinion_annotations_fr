@@ -1,4 +1,4 @@
-w1	Bon	bon	G		StrongPositive	1	Opinion	3		0	9-very positive	38		0		0		0		0	0	true	1
+w1	Bon	bon	G		StrongPositive	1	Opinion	3		0		0		0		0		0		0	0	true	1
 w2	rapport	rapport	N		StrongPositive	1	Opinion	3		0		0		0		0		0		0	1	true	1
 w3	qualité	qualité	N		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	2	true	1
 w4	·	·	P		OpinionTarget	2	Opinion	3		0		0		0		0		0		0	3	true	1

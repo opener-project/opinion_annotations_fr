@@ -92,25 +92,25 @@ w94	avons	avoir	V			0	Opinion	36		0		0		0		0		0		0	93	true	2
 w95	aussi	aussi	G			0	Opinion	36		0		0		0		0		0		0	94	true	2
 w96	pus	pouvoir	V			0	Opinion	36		0		0		0		0		0		0	95	true	2
 w97	profiter	profiter	V		Positive	38	Opinion	36		0		0		0		0		0		0	96	true	2
-w98	de	de	P			0	Opinion	36		0		0		0		0		0		0	97	true	2
-w99	la	le	D		OpinionTarget	39	Opinion	36	Swimming pool	40		0		0		0		0		0	98	true	2
-w100	piscine	piscine	N		OpinionTarget	39	Opinion	36	Swimming pool	40		0		0		0		0		0	99	true	2
-w101	ouverte	ouvert	G		Positive	41	Opinion	36		0		0		0		0		0		0	100	true	2
-w102	chauffée	chauffer	G		Positive	42	Opinion	36		0		0		0		0		0		0	101	true	2
-w103	avec	avec	P		Positive	43	Opinion	36		0		0		0		0		0		0	102	true	2
+w98	de	de	P			0		0		0		0		0		0		0		0	97	true	2
+w99	la	le	D		OpinionTarget	39	Opinion	57	Swimming pool	40		0		0		0		0		0	98	true	2
+w100	piscine	piscine	N		OpinionTarget	39	Opinion	57	Swimming pool	40		0		0		0		0		0	99	true	2
+w101	ouverte	ouvert	G		Positive	41	Opinion	57		0		0		0		0		0		0	100	true	2
+w102	chauffée	chauffer	G		Positive	42	Opinion	57		0		0		0		0		0		0	101	true	2
+w103	avec	avec	P		Positive	43	Opinion	57		0		0		0		0		0		0	102	true	2
 w104	son	son	D		Positive	43	Opinion	36		0		0		0		0		0		0	103	true	2
 w105	toboggan	toboggan	N		Positive	43	Opinion	36		0		0		0		0		0		0	104	true	2
-w106	et	et	C			0		0		0		0		0		0		0		0	105	true	2
-w107	de	de	P			0		0		0		0		0		0		0		0	106	true	2
-w108	piscine	piscine	N		OpinionTarget	44	Opinion	57	Swimming pool	45		0		0		0		0		0	107	true	2
-w109	couverte	couvert	G		OpinionTarget	44	Opinion	57	Swimming pool	45		0		0		0		0		0	108	true	2
-w110	a	avoir	V		Positive	46	Opinion	57		0		0		0		0		0		0	109	true	2
-w111	200	200	D		Positive	46	Opinion	57		0		0		0		0		0		0	110	true	2
-w112	metre	metre	V		Positive	46	Opinion	57		0		0		0		0		0		0	111	true	2
-w113	du	du	D			0	Opinion	57		0		0		0		0		0		0	112	true	2
-w114	camping	camping	N		OpinionTarget	47	Opinion	57	Location	48		0		0		0		0		0	113	true	2
-w115	super	super	G		Positive	49	Opinion	57		0		0		0		0		0		0	114	true	2
-w116	calme.	calme.	N		Positive	49	Opinion	57		0		0		0		0		0		0	115	true	2
+w106	et	et	C			0	Opinion	36		0		0		0		0		0		0	105	true	2
+w107	de	de	P			0	Opinion	36		0		0		0		0		0		0	106	true	2
+w108	piscine	piscine	N		OpinionTarget	44	Opinion	36	Swimming pool	45		0		0		0		0		0	107	true	2
+w109	couverte	couvert	G		OpinionTarget	44	Opinion	36	Swimming pool	45		0		0		0		0		0	108	true	2
+w110	a	avoir	V		Positive	46	Opinion	36		0		0		0		0		0		0	109	true	2
+w111	200	200	D		Positive	46	Opinion	36		0		0		0		0		0		0	110	true	2
+w112	metre	metre	V		Positive	46	Opinion	36		0		0		0		0		0		0	111	true	2
+w113	du	du	D			0	Opinion	36		0		0		0		0		0		0	112	true	2
+w114	camping	camping	N		OpinionTarget	47	Opinion	36	Location	48		0		0		0		0		0	113	true	2
+w115	super	super	G		Positive	49	Opinion	36		0		0		0		0		0		0	114	true	2
+w116	calme.	calme.	N		Positive	49	Opinion	36		0		0		0		0		0		0	115	true	2
 w119	superbe	superbe	G		Positive	51	Opinion	50		0		0		0		0		0		0	118	true	2
 w120	séjour	séjour	N		OpinionTarget	52	Opinion	50		0		0		0		0		0		0	119	true	2
 w121	on	on	Q		OpinionHolder	55	Opinion	53		0		0		0		0		0		0	120	true	2

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:28" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1557,8 +1557,27 @@
       <edge id="tre237" from="ter85" to="nter152"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t33"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
       <opinion_holder/>
       <opinion_target>
         <!--la moquette des chambres-->
@@ -1576,50 +1595,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--un débit supplémentaire de 26euros sur mon relevé de compte sans avis préalable et sans justificatif-->
-        <span>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t71"/>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t83"/>
-          <target id="t84"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="16_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--le petit dej-->
-        <span>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--en supplément-->
-        <span>
-          <target id="t53"/>
-          <target id="t54"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--Moquette-->
@@ -1634,97 +1611,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--suppléments-->
-        <span>
-          <target id="t4"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--facturés sans avis-->
-        <span>
-          <target id="t5"/>
-          <target id="t6"/>
-          <target id="t7"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piscine-->
-        <span>
-          <target id="t18"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--toute petite-->
-        <span>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Swimming pool">
-        <references>
-          <span>
-            <target id="t18"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t69"/>
-            <target id="t70"/>
-            <target id="t71"/>
-            <target id="t72"/>
-            <target id="t73"/>
-            <target id="t74"/>
-            <target id="t75"/>
-            <target id="t76"/>
-            <target id="t77"/>
-            <target id="t78"/>
-            <target id="t79"/>
-            <target id="t80"/>
-            <target id="t81"/>
-            <target id="t82"/>
-            <target id="t83"/>
-            <target id="t84"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t53"/>
-            <target id="t54"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t5"/>
-            <target id="t6"/>
-            <target id="t7"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t49"/>
-            <target id="t50"/>
-            <target id="t51"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

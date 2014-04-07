@@ -24,14 +24,14 @@ w97	réception	réception	N		OpinionTarget	16	Opinion	18		0		0		0		0		0		0	96	tr
 w98	est	être	V			0	Opinion	18		0		0		0		0		0		0	97	true	5
 w99	très	très	G		StrongPositive	17	Opinion	18		0		0		0		0		0		0	98	true	5
 w100	sympa	sympa	G		StrongPositive	17	Opinion	18		0		0		0		0		0		0	99	true	5
-w101	et	et	C			0		0		0		0		0		0		0		0	100	true	5
-w102	le	le	D		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	101	true	5
-w103	maîtrise	maîtrise	N		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	102	true	5
-w104	bien	bien	G		Positive	21	Opinion	24		0		0		0		0		0		0	103	true	5
-w105	et	et	C			0		0		0		0		0		0		0		0	104	true	5
-w106	les	le	D		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	105	true	5
-w107	deux	deux	G		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	106	true	5
-w108	animateurs	animateur	N		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	107	true	5
-w109	Aykel	Aykel	N		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	108	true	5
-w110	et	et	C		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	109	true	5
-w111	Karim	Karim	N		OpinionTarget	20	Opinion	24		0		0		0		0		0		0	110	true	5
+w101	et	et	C			0	Opinion	18		0		0		0		0		0		0	100	true	5
+w102	le	le	D		OpinionTarget	20	Opinion	18		0		0		0		0		0		0	101	true	5
+w103	maîtrise	maîtrise	N		OpinionTarget	20	Opinion	18		0		0		0		0		0		0	102	true	5
+w104	bien	bien	G		Positive	21	Opinion	18		0		0		0		0		0		0	103	true	5
+w105	et	et	C			0	Opinion	18		0		0		0		0		0		0	104	true	5
+w106	les	le	D		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	105	true	5
+w107	deux	deux	G		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	106	true	5
+w108	animateurs	animateur	N		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	107	true	5
+w109	Aykel	Aykel	N		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	108	true	5
+w110	et	et	C		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	109	true	5
+w111	Karim	Karim	N		OpinionTarget	22	Opinion	18		0		0		0		0		0		0	110	true	5

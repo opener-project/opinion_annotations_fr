@@ -45,19 +45,19 @@ w66	pas	pas	G		Negative	15	Opinion	16		0		0		0		0		0		0	65	true	5
 w67	beaucoup	beaucoup	G		Negative	15	Opinion	16		0		0		0		0		0		0	66	true	5
 w68	d'	d'	P		Negative	15	Opinion	16		0		0		0		0		0		0	67	true	5
 w69	originalité	originalité	N		Negative	15	Opinion	16		0		0		0		0		0		0	68	true	5
-w70	mais	mais	C			0		0		0		0		0		0		0		0	69	true	5
-w71	sa	son	D		OpinionTarget	18	Opinion	22		0		0		0		0		0		0	70	true	5
-w72	situation	situation	N		OpinionTarget	18	Opinion	22	Location	20		0		0		0		0		0	71	true	5
-w73	géographique	géographique	G		OpinionTarget	18	Opinion	22		0		0		0		0		0		0	72	true	5
-w74	permet	permettre	V			0	Opinion	22		0		0		0		0		0		0	73	true	5
-w75	de	de	P			0	Opinion	22		0		0		0		0		0		0	74	true	5
-w76	prendre	prendre	V			0	Opinion	22		0		0		0		0		0		0	75	true	5
-w77	les	le	D			0	Opinion	22		0		0		0		0		0		0	76	true	5
-w78	lignes	ligne	N			0	Opinion	22		0		0		0		0		0		0	77	true	5
-w79	de	de	P			0	Opinion	22		0		0		0		0		0		0	78	true	5
-w80	transport	transport	N			0	Opinion	22		0		0		0		0		0		0	79	true	5
-w81	en	en	P			0	Opinion	22		0		0		0		0		0		0	80	true	5
-w82	un	un	D			0	Opinion	22		0		0		0		0		0		0	81	true	5
-w83	rien	rien	P		Positive	17	Opinion	22		0		0		0		0		0		0	82	true	5
-w84	de	de	P		Positive	17	Opinion	22		0		0		0		0		0		0	83	true	5
-w85	temps	temps	N		Positive	17	Opinion	22		0		0		0		0		0		0	84	true	5
+w70	mais	mais	C			0	Opinion	16		0		0		0		0		0		0	69	true	5
+w71	sa	son	D		OpinionTarget	18	Opinion	16		0		0		0		0		0		0	70	true	5
+w72	situation	situation	N		OpinionTarget	18	Opinion	16	Location	20		0		0		0		0		0	71	true	5
+w73	géographique	géographique	G		OpinionTarget	18	Opinion	16		0		0		0		0		0		0	72	true	5
+w74	permet	permettre	V			0	Opinion	16		0		0		0		0		0		0	73	true	5
+w75	de	de	P			0	Opinion	16		0		0		0		0		0		0	74	true	5
+w76	prendre	prendre	V			0	Opinion	16		0		0		0		0		0		0	75	true	5
+w77	les	le	D			0	Opinion	16		0		0		0		0		0		0	76	true	5
+w78	lignes	ligne	N			0	Opinion	16		0		0		0		0		0		0	77	true	5
+w79	de	de	P			0	Opinion	16		0		0		0		0		0		0	78	true	5
+w80	transport	transport	N			0	Opinion	16		0		0		0		0		0		0	79	true	5
+w81	en	en	P			0	Opinion	16		0		0		0		0		0		0	80	true	5
+w82	un	un	D			0	Opinion	16		0		0		0		0		0		0	81	true	5
+w83	rien	rien	P		Positive	17	Opinion	16		0		0		0		0		0		0	82	true	5
+w84	de	de	P		Positive	17	Opinion	16		0		0		0		0		0		0	83	true	5
+w85	temps	temps	N		Positive	17	Opinion	16		0		0		0		0		0		0	84	true	5

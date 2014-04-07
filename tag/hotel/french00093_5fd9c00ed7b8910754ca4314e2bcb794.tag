@@ -68,15 +68,15 @@ w89	massage	massage	N		Negative	20	Opinion	19		0		0		0		0		0		0	88	true	2
 w90	)	)	O		Negative	20	Opinion	19		0		0		0		0		0		0	89	true	2
 w92	chambre	chambre	N		OpinionTarget	24	Opinion	23	Rooms	25		0		0		0		0		0	91	true	3
 w93	grande	grand	G		Positive	26	Opinion	23		0		0		0		0		0		0	92	true	3
-w95	belle	beau	G		Positive	28	Opinion	39		0		0		0		0		0		0	94	true	3
-w96	salle	salle	N		OpinionTarget	29	Opinion	39	Bathroom	30		0		0		0		0		0	95	true	3
-w97	de	de	P		OpinionTarget	29	Opinion	39	Bathroom	30		0		0		0		0		0	96	true	3
-w98	bain	bain	N		OpinionTarget	29	Opinion	39	Bathroom	30		0		0		0		0		0	97	true	3
-w99	avec	avec	P			0		0		0		0		0		0		0		0	98	true	3
-w100	grande	grand	G		Positive	31	Opinion	40		0		0		0		0		0		0	99	true	3
-w101	baignoire	baignoire	N		OpinionTarget	32	Opinion	40	Bathroom	33		0		0		0		0		0	100	true	3
-w102	pour	pour	P		Positive	31	Opinion	40		0		0		0		0		0		0	101	true	3
-w103	3	3	D		Positive	31	Opinion	40		0		0		0		0		0		0	102	true	3
-w104	personnes.	personnes.	N		Positive	31	Opinion	40		0		0		0		0		0		0	103	true	3
+w95	belle	beau	G		Positive	28	Opinion	27		0		0		0		0		0		0	94	true	3
+w96	salle	salle	N		OpinionTarget	29	Opinion	27	Bathroom	30		0		0		0		0		0	95	true	3
+w97	de	de	P		OpinionTarget	29	Opinion	27	Bathroom	30		0		0		0		0		0	96	true	3
+w98	bain	bain	N		OpinionTarget	29	Opinion	27	Bathroom	30		0		0		0		0		0	97	true	3
+w99	avec	avec	P			0	Opinion	27		0		0		0		0		0		0	98	true	3
+w100	grande	grand	G		Positive	31	Opinion	27		0		0		0		0		0		0	99	true	3
+w101	baignoire	baignoire	N		OpinionTarget	32	Opinion	27	Bathroom	33		0		0		0		0		0	100	true	3
+w102	pour	pour	P		Positive	31	Opinion	27		0		0		0		0		0		0	101	true	3
+w103	3	3	D		Positive	31	Opinion	27		0		0		0		0		0		0	102	true	3
+w104	personnes.	personnes.	N		Positive	31	Opinion	27		0		0		0		0		0		0	103	true	3
 w105	cadre	cadre	P		OpinionTarget	36	Opinion	34	Interior/exterior	37		0		0		0		0		0	104	true	3
 w106	excellent	excellent	G		Positive	35	Opinion	34		0	5-average-negative	38		0		0		0		0	105	true	3

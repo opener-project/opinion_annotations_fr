@@ -1,6 +1,6 @@
-w1	Bien	Bien	G		Positive	1	Opinion	3	Interior/exterior	4	6-average-positive	30		0		0		0		0	0	true	1
+w1	Bien	Bien	G		Positive	1	Opinion	3	Interior/exterior	4		0		0		0		0		0	0	true	1
 w2	mais	mais	C		Negative	2	Opinion	3		0		0		0		0		0		0	1	true	1
-w3	pas	pas	G		Negative	2	Opinion	3		0		0		0		0		0		0	2	false	1
+w3	pas	pas	G		Negative	2	Opinion	3		0	6-average-positive	30		0		0		0		0	2	true	1
 w4	top	top	G		Negative	2	Opinion	3		0		0		0		0		0		0	3	true	1
 w46	qui	qui	P		StrongNegative	6	Opinion	7		0		0		0		0		0		0	45	true	3
 w47	peut	pouvoir	V		StrongNegative	6	Opinion	7	Interior/exterior	8		0		0		0		0		0	46	true	3

@@ -5,13 +5,13 @@ w4	un	un	D			0	Opinion	5		0		0		0		0		0		0	3	true	2
 w5	très	très	G		StrongPositive	8	Opinion	5		0		0		0		0		0		0	4	true	2
 w6	bel	beau	G		StrongPositive	8	Opinion	5		0		0		0		0		0		0	5	true	2
 w7	hôtel	hôtel	N		OpinionTarget	6	Opinion	5	Location	7		0		0		0		0		0	6	true	2
-w28	L	L	N		OpinionTarget	10	Opinion	30		0		0		0		0		0		0	27	true	3
-w29	hôtel	hôtel	N		OpinionTarget	10	Opinion	30	Location	11		0		0		0		0		0	28	true	3
-w30	est	être	V			0	Opinion	30		0		0		0		0		0		0	29	true	3
-w31	quasiment	quasiment	G		Positive	12	Opinion	30		0		0		0		0		0		0	30	true	3
-w32	neuf	neuf	G		Positive	12	Opinion	30		0		0		0		0		0		0	31	true	3
-w33	,	,	O			0		0		0		0		0		0		0		0	32	true	3
-w34	et	et	C			0		0		0		0		0		0		0		0	33	true	3
+w28	L	L	N		OpinionTarget	10	Opinion	9		0		0		0		0		0		0	27	true	3
+w29	hôtel	hôtel	N		OpinionTarget	10	Opinion	9	Location	11		0		0		0		0		0	28	true	3
+w30	est	être	V			0	Opinion	9		0		0		0		0		0		0	29	true	3
+w31	quasiment	quasiment	G		Positive	12	Opinion	9		0		0		0		0		0		0	30	true	3
+w32	neuf	neuf	G		Positive	12	Opinion	9		0		0		0		0		0		0	31	true	3
+w33	,	,	O			0	Opinion	9		0		0		0		0		0		0	32	true	3
+w34	et	et	C			0	Opinion	9		0		0		0		0		0		0	33	true	3
 w35	à	à	P			0	Opinion	9		0		0		0		0		0		0	34	true	3
 w36	part	part	N			0	Opinion	9		0		0		0		0		0		0	35	true	3
 w37	quelques	quelque	D		Negative	13	Opinion	9		0		0		0		0		0		0	36	true	3
@@ -23,12 +23,12 @@ w42	la	le	D		Negative	13	Opinion	9		0		0		0		0		0		0	41	true	3
 w43	va	va	N		Negative	13	Opinion	9		0		0		0		0		0		0	42	true	3
 w44	vite	vite	G		Negative	13	Opinion	9		0		0		0		0		0		0	43	true	3
 w45	,	,	O			0	Opinion	9		0		0		0		0		0		0	44	true	3
-w46	le	le	D		OpinionTarget	31	Opinion	9		0		0		0		0		0		0	45	true	3
-w47	cadre	cadre	N		OpinionTarget	31	Opinion	9		0		0		0		0		0		0	46	true	3
+w46	le	le	D		OpinionTarget	14	Opinion	9		0		0		0		0		0		0	45	true	3
+w47	cadre	cadre	N		OpinionTarget	14	Opinion	9		0		0		0		0		0		0	46	true	3
 w48	ainsi	ainsi	G			0	Opinion	9		0		0		0		0		0		0	47	true	3
 w49	que	que	C			0	Opinion	9		0		0		0		0		0		0	48	true	3
-w50	les	le	D		OpinionTarget	31	Opinion	9	Rooms	16		0		0		0		0		0	49	true	3
-w51	chambres	chambre	N		OpinionTarget	31	Opinion	9	Rooms	16		0		0		0		0		0	50	true	3
+w50	les	le	D		OpinionTarget	15	Opinion	9	Rooms	16		0		0		0		0		0	49	true	3
+w51	chambres	chambre	N		OpinionTarget	15	Opinion	9	Rooms	16		0		0		0		0		0	50	true	3
 w52	sont	être	V			0	Opinion	9		0		0		0		0		0		0	51	true	3
 w53	très	très	G		StrongPositive	17	Opinion	9		0		0		0		0		0		0	52	true	3
 w54	agréables	agréable	G		StrongPositive	17	Opinion	9		0		0		0		0		0		0	53	true	3

@@ -25,15 +25,15 @@ w25	facile	facile	G		Positive	14	Opinion	11		0		0		0		0		0		0	24	true	3
 w26	d'	d'	P		Positive	14	Opinion	11		0		0		0		0		0		0	25	true	3
 w27	y	y	Q		Positive	14	Opinion	11		0		0		0		0		0		0	26	true	3
 w28	accéder	accéder	V		Positive	14	Opinion	11		0		0		0		0		0		0	27	true	3
-w30	Le	le	D		OpinionTarget	16	Opinion	29	Beds	17		0		0		0		0		0	29	true	4
-w31	lit	lit	N		OpinionTarget	16	Opinion	29	Beds	17		0		0		0		0		0	30	true	4
-w32	était	être	V			0	Opinion	29		0		0		0		0		0		0	31	true	4
-w33	confortable	confortable	G		Positive	18	Opinion	29		0		0		0		0		0		0	32	true	4
-w35	le	le	D		OpinionTarget	20	Opinion	30	Breakfast	22		0		0		0		0		0	34	true	4
-w36	petit	petit	G		OpinionTarget	20	Opinion	30	Breakfast	22		0		0		0		0		0	35	true	4
-w37	déjeuner	déjeuner	N		OpinionTarget	20	Opinion	30	Breakfast	22		0		0		0		0		0	36	true	4
-w38	excellent	excellent	G		StrongPositive	23	Opinion	30		0		0		0		0		0		0	37	true	4
-w39	car	car	C			0		0		0		0		0		0		0		0	38	true	4
+w30	Le	le	D		OpinionTarget	16	Opinion	15	Beds	17		0		0		0		0		0	29	true	4
+w31	lit	lit	N		OpinionTarget	16	Opinion	15	Beds	17		0		0		0		0		0	30	true	4
+w32	était	être	V			0	Opinion	15		0		0		0		0		0		0	31	true	4
+w33	confortable	confortable	G		Positive	18	Opinion	15		0		0		0		0		0		0	32	true	4
+w35	le	le	D		OpinionTarget	20	Opinion	19	Breakfast	22		0		0		0		0		0	34	true	4
+w36	petit	petit	G		OpinionTarget	20	Opinion	19	Breakfast	22		0		0		0		0		0	35	true	4
+w37	déjeuner	déjeuner	N		OpinionTarget	20	Opinion	19	Breakfast	22		0		0		0		0		0	36	true	4
+w38	excellent	excellent	G		StrongPositive	23	Opinion	19		0		0		0		0		0		0	37	true	4
+w39	car	car	C			0	Opinion	19		0		0		0		0		0		0	38	true	4
 w40	on	on	Q		OpinionHolder	24	Opinion	19		0		0		0		0		0		0	39	true	4
 w41	y	y	Q		OpinionTarget	25	Opinion	19		0		0		0		0		0		0	40	true	4
 w42	trouve	trouver	V		Positive	26	Opinion	19		0		0		0		0		0		0	41	true	4

@@ -42,28 +42,28 @@ w41	rare.L'	rare.L'	G			0	Opinion	5		0		0		0		0		0		0	40	true	2
 w42	accueil	accueil	N		OpinionTarget	7	Opinion	9	Reservation/check-in/check-out	13		0		0		0		0		0	41	true	2
 w43	parfait	parfait	G		StrongPositive	8	Opinion	9		0		0		0		0		0		0	42	true	2
 w44	,	,	O			0	Opinion	9		0		0		0		0		0		0	43	true	2
-w45	le	le	D			0	Opinion	55		0		0		0		0		0		0	44	true	2
-w46	responsable	responsable	N		OpinionTarget	11	Opinion	55	Staff	12		0		0		0		0		0	45	true	2
-w47	fait	faire	V			0	Opinion	55		0		0		0		0		0		0	46	true	2
-w48	tout	tout	G			0	Opinion	55		0		0		0		0		0		0	47	true	2
-w49	ce	ce	P			0	Opinion	55		0		0		0		0		0		0	48	true	2
-w50	qui	qui	P			0	Opinion	55		0		0		0		0		0		0	49	true	2
-w51	est	être	V			0	Opinion	55		0		0		0		0		0		0	50	true	2
-w52	possible	possible	G			0	Opinion	55		0		0		0		0		0		0	51	true	2
-w53	afin	afin	P			0	Opinion	55		0		0		0		0		0		0	52	true	2
-w54	que	que	C			0	Opinion	55		0		0		0		0		0		0	53	true	2
-w55	l'	le	D			0	Opinion	55		0		0		0		0		0		0	54	true	2
-w56	on	on	Q			0	Opinion	55		0		0		0		0		0		0	55	true	2
-w57	passe	passer	V			0	Opinion	55		0		0		0		0		0		0	56	true	2
-w58	un	un	D			0	Opinion	55		0		0		0		0		0		0	57	true	2
-w59	bon	bon	G			0	Opinion	55		0		0		0		0		0		0	58	true	2
-w60	séjour	séjour	N			0	Opinion	55		0		0		0		0		0		0	59	true	2
-w61	,	,	O			0		0		0		0		0		0		0		0	60	true	2
-w62	très	très	G		StrongPositive	10	Opinion	55		0		0		0		0		0		0	61	true	2
-w63	professionnel	professionnel	G		StrongPositive	10	Opinion	55		0		0		0		0		0		0	62	true	2
-w64	dans	dans	P		StrongPositive	10	Opinion	55		0		0		0		0		0		0	63	true	2
-w65	sa	son	D		StrongPositive	10	Opinion	55		0		0		0		0		0		0	64	true	2
-w66	fonction	fonction	N		StrongPositive	10	Opinion	55		0		0		0		0		0		0	65	true	2
+w45	le	le	D			0	Opinion	9		0		0		0		0		0		0	44	true	2
+w46	responsable	responsable	N		OpinionTarget	11	Opinion	9	Staff	12		0		0		0		0		0	45	true	2
+w47	fait	faire	V			0	Opinion	9		0		0		0		0		0		0	46	true	2
+w48	tout	tout	G			0	Opinion	9		0		0		0		0		0		0	47	true	2
+w49	ce	ce	P			0	Opinion	9		0		0		0		0		0		0	48	true	2
+w50	qui	qui	P			0	Opinion	9		0		0		0		0		0		0	49	true	2
+w51	est	être	V			0	Opinion	9		0		0		0		0		0		0	50	true	2
+w52	possible	possible	G			0	Opinion	9		0		0		0		0		0		0	51	true	2
+w53	afin	afin	P			0	Opinion	9		0		0		0		0		0		0	52	true	2
+w54	que	que	C			0	Opinion	9		0		0		0		0		0		0	53	true	2
+w55	l'	le	D			0	Opinion	9		0		0		0		0		0		0	54	true	2
+w56	on	on	Q			0	Opinion	9		0		0		0		0		0		0	55	true	2
+w57	passe	passer	V			0	Opinion	9		0		0		0		0		0		0	56	true	2
+w58	un	un	D			0	Opinion	9		0		0		0		0		0		0	57	true	2
+w59	bon	bon	G			0	Opinion	9		0		0		0		0		0		0	58	true	2
+w60	séjour	séjour	N			0	Opinion	9		0		0		0		0		0		0	59	true	2
+w61	,	,	O			0	Opinion	9		0		0		0		0		0		0	60	true	2
+w62	très	très	G		StrongPositive	10	Opinion	9		0		0		0		0		0		0	61	true	2
+w63	professionnel	professionnel	G		StrongPositive	10	Opinion	9		0		0		0		0		0		0	62	true	2
+w64	dans	dans	P		StrongPositive	10	Opinion	9		0		0		0		0		0		0	63	true	2
+w65	sa	son	D		StrongPositive	10	Opinion	9		0		0		0		0		0		0	64	true	2
+w66	fonction	fonction	N		StrongPositive	10	Opinion	9		0		0		0		0		0		0	65	true	2
 w68	PISCINE	piscine	N		OpinionTarget	14	Opinion	15	Swimming pool	19		0		0		0		0		0	67	true	3
 w69	:	:	O			0	Opinion	15		0		0		0		0		0		0	68	true	3
 w70	La	le	D		OpinionTarget	14	Opinion	15		0		0		0		0		0		0	69	true	3
@@ -73,12 +73,12 @@ w73	grande	grand	G		Positive	18	Opinion	15		0		0		0		0		0		0	72	true	3
 w74	est	être	V		Positive	18	Opinion	15		0		0		0		0		0		0	73	true	3
 w75	chauffée.Les	chauffée.Les	P		Positive	18	Opinion	15		0		0		0		0		0		0	74	true	3
 w76	toboggans	toboggan	N		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	75	true	3
-w77	et	et	C			0		0		0		0		0		0		0		0	76	true	3
-w78	petite	petit	G		OpinionTarget	16	Opinion	54		0		0		0		0		0		0	77	true	3
-w79	piscine	piscine	N		OpinionTarget	16	Opinion	54		0		0		0		0		0		0	78	true	3
-w80	pour	pour	P		OpinionTarget	16	Opinion	54		0		0		0		0		0		0	79	true	3
-w81	enfant	enfant	N		OpinionTarget	16	Opinion	54		0		0		0		0		0		0	80	true	3
-w82	bien	bien	G		Positive	17	Opinion	54		0		0		0		0		0		0	81	true	3
+w77	et	et	C			0	Opinion	15		0		0		0		0		0		0	76	true	3
+w78	petite	petit	G		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	77	true	3
+w79	piscine	piscine	N		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	78	true	3
+w80	pour	pour	P		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	79	true	3
+w81	enfant	enfant	N		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	80	true	3
+w82	bien	bien	G		Positive	17	Opinion	15		0		0		0		0		0		0	81	true	3
 w84	ANIMATION	animation	N		OpinionTarget	20	Opinion	24	Facilities	21		0		0		0		0		0	83	true	4
 w85	:	:	O			0	Opinion	24		0		0		0		0		0		0	84	true	4
 w86	Au	Au	P			0	Opinion	24		0		0		0		0		0		0	85	true	4

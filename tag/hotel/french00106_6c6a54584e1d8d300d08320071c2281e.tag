@@ -86,17 +86,17 @@ w111	ce	ce	P		Negative	35	Opinion	34		0		0		0		0		0		0	110	true	8
 w112	très	très	G		Negative	35	Opinion	34		0		0		0		0		0		0	111	true	8
 w113	bon	bon	G		Negative	35	Opinion	34		0		0		0		0		0		0	112	true	8
 w114	camping	camping	N		Negative	35	Opinion	34		0		0		0		0		0		0	113	true	8
-w116	les	le	D		OpinionTarget	39	Opinion	50	Staff	40		0		0		0		0		0	115	true	8
-w117	animateurs	animateur	N		OpinionTarget	39	Opinion	50	Staff	40		0		0		0		0		0	116	true	8
-w118	étaient	étayer	V			0	Opinion	50		0		0		0		0		0		0	117	true	8
-w119	plutôt	plutôt	G		Negative	41	Opinion	50		0		0		0		0		0		0	118	true	8
-w120	mauvais	mauvais	G		Negative	41	Opinion	50		0		0		0		0		0		0	119	true	8
-w121	et	et	C			0		0		0		0		0		0		0		0	120	true	8
-w122	par	par	P			0		0		0		0		0		0		0		0	121	true	8
-w123	la	le	D			0		0		0		0		0		0		0		0	122	true	8
-w124	force	force	N			0		0		0		0		0		0		0		0	123	true	8
-w125	des	des	P			0		0		0		0		0		0		0		0	124	true	8
-w126	choses	chose	N			0		0		0		0		0		0		0		0	125	true	8
+w116	les	le	D		OpinionTarget	39	Opinion	38	Staff	40		0		0		0		0		0	115	true	8
+w117	animateurs	animateur	N		OpinionTarget	39	Opinion	38	Staff	40		0		0		0		0		0	116	true	8
+w118	étaient	étayer	V			0	Opinion	38		0		0		0		0		0		0	117	true	8
+w119	plutôt	plutôt	G		Negative	41	Opinion	38		0		0		0		0		0		0	118	true	8
+w120	mauvais	mauvais	G		Negative	41	Opinion	38		0		0		0		0		0		0	119	true	8
+w121	et	et	C			0	Opinion	38		0		0		0		0		0		0	120	true	8
+w122	par	par	P			0	Opinion	38		0		0		0		0		0		0	121	true	8
+w123	la	le	D			0	Opinion	38		0		0		0		0		0		0	122	true	8
+w124	force	force	N			0	Opinion	38		0		0		0		0		0		0	123	true	8
+w125	des	des	P			0	Opinion	38		0		0		0		0		0		0	124	true	8
+w126	choses	chose	N			0	Opinion	38		0		0		0		0		0		0	125	true	8
 w127	les	le	D		OpinionTarget	43	Opinion	38		0		0		0		0		0		0	126	true	8
 w128	animations	animation	N		OpinionTarget	43	Opinion	38		0		0		0		0		0		0	127	true	8
 w129	également	également	G		Negative	42	Opinion	38		0		0		0		0		0		0	128	true	8

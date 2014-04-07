@@ -16,9 +16,10 @@
     </linguisticProcessors>
     <linguisticProcessors layer="features">
       <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:08CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:08CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -928,22 +929,8 @@
     </tree>
   </constituency>
   <opinions>
-    <opinion oid="1_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hôtel-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--magique-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="11_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
       <opinion_holder>
         <!--Je-->
         <span>
@@ -957,18 +944,30 @@
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongPositive">
-        <!--conseille a tous et a toutes-->
+        <!--conseille-->
         <span>
           <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hôtel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--magique-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--Cette hôtel-->
@@ -984,29 +983,30 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
-      <opinion_holder>
-        <!--j'-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--y-->
-        <span>
-          <target id="t23"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--retournerais encore plein de fois-->
-        <span>
-          <target id="t24"/>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t30"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
 </KAF>

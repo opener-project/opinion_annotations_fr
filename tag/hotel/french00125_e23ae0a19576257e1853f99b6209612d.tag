@@ -26,14 +26,14 @@ w29	piscine	piscine	N		OpinionTarget	23	Opinion	24	Swimming pool	25		0		0		0		0	
 w30	chauffee	chauffee	G		OpinionTarget	23	Opinion	24	Swimming pool	25		0		0		0		0		0	29	true	2
 w31	pour	pour	P		Positive	27	Opinion	24		0		0		0		0		0		0	30	true	2
 w32	compenser	compenser	V		Positive	27	Opinion	24		0		0		0		0		0		0	31	true	2
-w33	la	le	D		OpinionTarget	28	Opinion	57		0		0		0		0		0		0	32	true	2
-w34	piscine	piscine	N		OpinionTarget	28	Opinion	57	Swimming pool	26		0		0		0		0		0	33	true	2
-w35	principale	principal	G		OpinionTarget	28	Opinion	57	Swimming pool	26		0		0		0		0		0	34	true	2
-w36	trop	trop	G		Negative	29	Opinion	57		0		0		0		0		0		0	35	true	2
-w37	froide	froid	G		Negative	29	Opinion	57		0		0		0		0		0		0	36	true	2
-w38	en	en	P		Negative	29	Opinion	57		0		0		0		0		0		0	37	true	2
-w39	cette	ce	D		Negative	29	Opinion	57		0		0		0		0		0		0	38	true	2
-w40	saison	saison	N		Negative	29	Opinion	57		0		0		0		0		0		0	39	true	2
+w33	la	le	D		OpinionTarget	28	Opinion	24		0		0		0		0		0		0	32	true	2
+w34	piscine	piscine	N		OpinionTarget	28	Opinion	24	Swimming pool	26		0		0		0		0		0	33	true	2
+w35	principale	principal	G		OpinionTarget	28	Opinion	24	Swimming pool	26		0		0		0		0		0	34	true	2
+w36	trop	trop	G		Negative	29	Opinion	24		0		0		0		0		0		0	35	true	2
+w37	froide	froid	G		Negative	29	Opinion	24		0		0		0		0		0		0	36	true	2
+w38	en	en	P		Negative	29	Opinion	24		0		0		0		0		0		0	37	true	2
+w39	cette	ce	D		Negative	29	Opinion	24		0		0		0		0		0		0	38	true	2
+w40	saison	saison	N		Negative	29	Opinion	24		0		0		0		0		0		0	39	true	2
 w42	l	l	N		OpinionTarget	30	Opinion	32		0		0		0		0		0		0	41	true	2
 w43	aquapark	aquapark	N		OpinionTarget	30	Opinion	32	Facilities	33		0		0		0		0		0	42	true	2
 w44	,	,	O			0	Opinion	32		0		0		0		0		0		0	43	true	2

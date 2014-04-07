@@ -39,16 +39,16 @@ w41	:	:	O			0		0		0		0		0		0		0		0	40	true	3
 w42	le	le	D		OpinionTarget	19	Opinion	36	Facilities	20		0		0		0		0		0	41	true	3
 w43	frigo	frigo	N		OpinionTarget	19	Opinion	36	Facilities	20		0		0		0		0		0	42	true	3
 w44	bruyant	bruyant	G		Negative	21	Opinion	36		0		0		0		0		0		0	43	true	3
-w45	et	et	C			0		0		0		0		0		0		0		0	44	true	3
-w46	surtout	surtout	G			0		0		0		0		0		0		0		0	45	true	3
-w47	les	le	D		OpinionTarget	22	Opinion	14	Facilities	23		0		0		0		0		0	46	true	3
-w48	plaques	plaque	N		OpinionTarget	22	Opinion	14	Facilities	23		0		0		0		0		0	47	true	3
-w49	électriques	électrique	G		OpinionTarget	22	Opinion	14	Facilities	23		0		0		0		0		0	48	true	3
-w50	,	,	O			0	Opinion	14		0		0		0		0		0		0	49	true	3
-w51	avec	avec	P			0	Opinion	14		0		0		0		0		0		0	50	true	3
-w52	la	le	D		Negative	37	Opinion	14		0		0		0		0		0		0	51	true	3
-w53	résistance	résistance	N		Negative	37	Opinion	14		0		0		0		0		0		0	52	true	3
-w54	HS	HS	N		Negative	37	Opinion	14		0		0		0		0		0		0	53	true	3
+w45	et	et	C			0	Opinion	36		0		0		0		0		0		0	44	true	3
+w46	surtout	surtout	G			0	Opinion	36		0		0		0		0		0		0	45	true	3
+w47	les	le	D			0	Opinion	36	Facilities	23		0		0		0		0		0	46	false	3
+w48	plaques	plaque	N			0	Opinion	36	Facilities	23		0		0		0		0		0	47	false	3
+w49	électriques	électrique	G			0	Opinion	36	Facilities	23		0		0		0		0		0	48	false	3
+w50	,	,	O			0		0		0		0		0		0		0		0	49	true	3
+w51	avec	avec	P			0		0		0		0		0		0		0		0	50	true	3
+w52	la	le	D			0		0		0		0		0		0		0		0	51	true	3
+w53	résistance	résistance	N			0		0		0		0		0		0		0		0	52	true	3
+w54	HS	HS	N			0		0		0		0		0		0		0		0	53	true	3
 w56	Malgré	Malgré	P			0	Opinion	24		0		0		0		0		0		0	55	true	4
 w57	l'	le	D		Positive	25	Opinion	24		0		0		0		0		0		0	56	true	4
 w58	intervention	intervention	N		Positive	25	Opinion	24		0		0		0		0		0		0	57	true	4

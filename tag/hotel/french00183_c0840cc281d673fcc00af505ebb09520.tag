@@ -28,28 +28,28 @@ w39	notre	son	D		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	38	true	5
 w40	chambre	chambre	N		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	39	true	5
 w42	décoration	décoration	N		OpinionTarget	22	Opinion	26	Rooms	31		0		0		0		0		0	41	true	5
 w43	moderne	moderne	G		Positive	23	Opinion	26		0		0		0		0		0		0	42	true	5
-w44	,	,	O			0		0		0		0		0		0		0		0	43	true	5
-w45	deux	deux	D		OpinionTarget	24	Opinion	47		0		0		0		0		0		0	44	true	5
-w46	lits	lit	N		OpinionTarget	24	Opinion	47	Beds	32		0		0		0		0		0	45	true	5
-w47	de	de	P			0	Opinion	47		0		0		0		0		0		0	46	true	5
-w48	bonne	bon	G		StrongPositive	25	Opinion	47		0		0		0		0		0		0	47	true	5
-w49	taille	taille	N		StrongPositive	25	Opinion	47		0		0		0		0		0		0	48	true	5
-w50	,	,	O			0		0		0		0		0		0		0		0	49	true	5
-w51	armoire	armoire	N			0		0		0		0		0		0		0		0	50	true	5
-w52	,	,	O			0		0		0		0		0		0		0		0	51	true	5
-w53	ceintres	ceintres	N			0		0		0		0		0		0		0		0	52	true	5
-w54	,	,	O			0		0		0		0		0		0		0		0	53	true	5
-w55	une	un	D		OpinionTarget	27	Opinion	48		0		0		0		0		0		0	54	true	5
-w56	salle	salle	N		OpinionTarget	27	Opinion	48	Bathroom	33		0		0		0		0		0	55	true	5
-w57	de	de	P		OpinionTarget	27	Opinion	48		0		0		0		0		0		0	56	true	5
-w58	bain	bain	N		OpinionTarget	27	Opinion	48		0		0		0		0		0		0	57	true	5
-w59	neuve	neuve	N		Positive	28	Opinion	48		0		0		0		0		0		0	58	true	5
-w60	avec	avec	P			0		0		0		0		0		0		0		0	59	true	5
-w61	une	un	D		OpinionTarget	29	Opinion	49		0		0		0		0		0		0	60	true	5
-w62	douche	douche	N		OpinionTarget	29	Opinion	49		0		0		0		0		0		0	61	true	5
-w63	assez	assez	G		StrongPositive	30	Opinion	49		0		0		0		0		0		0	62	true	5
-w64	spacieuse	spacieux	G		StrongPositive	30	Opinion	49		0		0		0		0		0		0	63	true	5
-w65	...	...	O			0		0		0		0		0		0		0		0	64	true	5
+w44	,	,	O			0	Opinion	26		0		0		0		0		0		0	43	true	5
+w45	deux	deux	D		OpinionTarget	24	Opinion	26		0		0		0		0		0		0	44	true	5
+w46	lits	lit	N		OpinionTarget	24	Opinion	26	Beds	32		0		0		0		0		0	45	true	5
+w47	de	de	P			0	Opinion	26		0		0		0		0		0		0	46	true	5
+w48	bonne	bon	G		StrongPositive	25	Opinion	26		0		0		0		0		0		0	47	true	5
+w49	taille	taille	N		StrongPositive	25	Opinion	26		0		0		0		0		0		0	48	true	5
+w50	,	,	O			0	Opinion	26		0		0		0		0		0		0	49	true	5
+w51	armoire	armoire	N			0	Opinion	26		0		0		0		0		0		0	50	true	5
+w52	,	,	O			0	Opinion	26		0		0		0		0		0		0	51	true	5
+w53	ceintres	ceintres	N			0	Opinion	26		0		0		0		0		0		0	52	true	5
+w54	,	,	O			0	Opinion	26		0		0		0		0		0		0	53	true	5
+w55	une	un	D		OpinionTarget	27	Opinion	26		0		0		0		0		0		0	54	true	5
+w56	salle	salle	N		OpinionTarget	27	Opinion	26	Bathroom	33		0		0		0		0		0	55	true	5
+w57	de	de	P		OpinionTarget	27	Opinion	26		0		0		0		0		0		0	56	true	5
+w58	bain	bain	N		OpinionTarget	27	Opinion	26		0		0		0		0		0		0	57	true	5
+w59	neuve	neuve	N		Positive	28	Opinion	26		0		0		0		0		0		0	58	true	5
+w60	avec	avec	P			0	Opinion	26		0		0		0		0		0		0	59	true	5
+w61	une	un	D		OpinionTarget	29	Opinion	26		0		0		0		0		0		0	60	true	5
+w62	douche	douche	N		OpinionTarget	29	Opinion	26		0		0		0		0		0		0	61	true	5
+w63	assez	assez	G		StrongPositive	30	Opinion	26		0		0		0		0		0		0	62	true	5
+w64	spacieuse	spacieux	G		StrongPositive	30	Opinion	26		0		0		0		0		0		0	63	true	5
+w65	...	...	O			0	Opinion	26		0		0		0		0		0		0	64	true	5
 w66	Le	le	D		OpinionTarget	34	Opinion	36		0		0		0		0		0		0	65	true	6
 w67	prix	prix	N		OpinionTarget	34	Opinion	36	Value-for-money	37		0		0		0		0		0	66	true	6
 w68	est	être	V			0	Opinion	36		0		0		0		0		0		0	67	true	6

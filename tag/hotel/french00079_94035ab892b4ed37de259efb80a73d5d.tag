@@ -1,4 +1,4 @@
-w1	Titanesque	Titanesque	C		Positive	1	Opinion	2		0	9-very positive	37		0		0		0		0	0	true	1
+w1	Titanesque	Titanesque	C		Positive	1	Opinion	2		0		0		0		0		0		0	0	true	1
 w5	complexe	complexe	N		OpinionTarget	3	Opinion	5	Interior/exterior	6		0		0		0		0		0	4	true	2
 w6	hôtelier	hôtelier	G		OpinionTarget	3	Opinion	5	Interior/exterior	6		0		0		0		0		0	5	true	2
 w7	géant	géant	N		OpinionTarget	3	Opinion	5	Interior/exterior	6		0		0		0		0		0	6	true	2

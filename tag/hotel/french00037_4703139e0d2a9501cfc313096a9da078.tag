@@ -22,15 +22,15 @@ w21	chambres	chambre	N		Positive	15	Opinion	3	Rooms	16		0		0		0		0		0	20	true	2
 w22	,	,	O			0	Opinion	3		0		0		0		0		0		0	21	true	2
 w23	un	un	D		StrongPositive	17	Opinion	3		0		0		0		0		0		0	22	true	2
 w24	rève	rève	N		StrongPositive	17	Opinion	3		0		0		0		0		0		0	23	true	2
-w25	.Handicapées	.Handicapées	P			0	Opinion	66		0		0		0		0		0		0	24	true	2
-w26	bienvenue	bienvenu	G			0	Opinion	66		0		0		0		0		0		0	25	true	2
-w27	l'	le	D		OpinionTarget	21	Opinion	66		0		0		0		0		0		0	26	true	2
-w28	hotel	hotel	N		OpinionTarget	21	Opinion	66	Staff	22		0		0		0		0		0	27	true	2
-w29	est	être	V		Positive	23	Opinion	66		0		0		0		0		0		0	28	true	2
-w30	fait	faire	V		Positive	23	Opinion	66		0		0		0		0		0		0	29	true	2
-w31	aussi	aussi	G		Positive	23	Opinion	66		0		0		0		0		0		0	30	true	2
-w32	pour	pour	P		Positive	23	Opinion	66		0		0		0		0		0		0	31	true	2
-w33	eux	eux	P		Positive	23	Opinion	66		0		0		0		0		0		0	32	true	2
+w25	.Handicapées	.Handicapées	P		OpinionTarget	19	Opinion	18		0		0		0		0		0		0	24	true	2
+w26	bienvenue	bienvenu	G		Positive	20	Opinion	18		0		0		0		0		0		0	25	true	2
+w27	l'	le	D		OpinionTarget	21	Opinion	18		0		0		0		0		0		0	26	true	2
+w28	hotel	hotel	N		OpinionTarget	21	Opinion	18	Staff	22		0		0		0		0		0	27	true	2
+w29	est	être	V		Positive	23	Opinion	18		0		0		0		0		0		0	28	true	2
+w30	fait	faire	V		Positive	23	Opinion	18		0		0		0		0		0		0	29	true	2
+w31	aussi	aussi	G		Positive	23	Opinion	18		0		0		0		0		0		0	30	true	2
+w32	pour	pour	P		Positive	23	Opinion	18		0		0		0		0		0		0	31	true	2
+w33	eux	eux	P		Positive	23	Opinion	18		0		0		0		0		0		0	32	true	2
 w34	,	,	O			0	Opinion	18		0		0		0		0		0		0	33	true	2
 w35	pas	pas	G		Positive	24	Opinion	18		0		0		0		0		0		0	34	true	2
 w36	d'	d'	P		Positive	24	Opinion	18		0		0		0		0		0		0	35	true	2
@@ -42,7 +42,7 @@ w45	plage	plage	N		Positive	25	Opinion	26		0		0		0		0		0		0	44	true	2
 w47	GENIAL	GENIAL	N		Positive	28	Opinion	27		0		0		0		0		0		0	46	true	2
 w48	tout	tout	G		Positive	28	Opinion	27		0		0		0		0		0		0	47	true	2
 w49	court	court	G		Positive	28	Opinion	27		0		0		0		0		0		0	48	true	2
-w50	Personnel	personnel	N		OpinionTarget	67	Opinion	29	Staff	31		0		0		0		0		0	49	true	3
+w50	Personnel	personnel	N		OpinionTarget	30	Opinion	29	Staff	31		0		0		0		0		0	49	true	3
 w51	très	très	G		StrongPositive	32	Opinion	29		0		0		0		0		0		0	50	true	3
 w52	serviables	serviable	G		StrongPositive	32	Opinion	29		0		0		0		0		0		0	51	true	3
 w53	,	,	O			0	Opinion	29		0		0		0		0		0		0	52	true	3
@@ -53,7 +53,7 @@ w57	traités	traité	N			0	Opinion	29		0		0		0		0		0		0	56	true	3
 w58	avec	avec	P			0	Opinion	29		0		0		0		0		0		0	57	true	3
 w59	gentillesses	gentillesse	N			0	Opinion	29		0		0		0		0		0		0	58	true	3
 w60	,	,	O			0	Opinion	29		0		0		0		0		0		0	59	true	3
-w61	ils	ils	Q		OpinionTarget	67	Opinion	29	Staff	34		0		0		0		0		0	60	true	3
+w61	ils	ils	Q		OpinionTarget	33	Opinion	29	Staff	34		0		0		0		0		0	60	true	3
 w62	vous	lui	Q		Positive	35	Opinion	29		0		0		0		0		0		0	61	true	3
 w63	maitent	maitent	V		Positive	35	Opinion	29		0		0		0		0		0		0	62	true	3
 w64	a	avoir	V		Positive	35	Opinion	29		0		0		0		0		0		0	63	true	3

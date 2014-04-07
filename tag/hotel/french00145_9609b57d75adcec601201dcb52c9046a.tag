@@ -1,4 +1,4 @@
-w1	Une	un	D		StrongPositive	2	Opinion	3	Interior/exterior	4	10-highly positive	39		0		0		0		0	0	true	1
+w1	Une	un	D		StrongPositive	2	Opinion	3	Interior/exterior	4		0		0		0		0		0	0	true	1
 w2	super	super	G		StrongPositive	2	Opinion	3		0		0		0		0		0		0	1	true	1
 w3	semaine	semaine	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	2	true	1
 w4	de	de	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	3	true	1

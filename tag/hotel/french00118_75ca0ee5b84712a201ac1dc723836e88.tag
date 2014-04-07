@@ -1,14 +1,14 @@
 w1	Bien	Bien	G		Positive	2	Opinion	1		0		0		0		0		0		0	0	true	1
-w4	Tout	Tout	P		OpinionTarget	4	Opinion	16		0		0		0		0		0		0	3	true	2
-w5	était	être	V			0	Opinion	16		0		0		0		0		0		0	4	true	2
-w6	très	très	G		StrongPositive	5	Opinion	16		0		0		0		0		0		0	5	true	2
-w7	bien	bien	G		StrongPositive	5	Opinion	16		0		0		0		0		0		0	6	true	2
-w8	sauf	sauf	P		Negative	7	Opinion	17		0		0		0		0		0		0	7	true	2
-w9	l'	le	D		OpinionTarget	6	Opinion	17		0		0		0		0		0		0	8	true	2
-w10	accessibilité	accessibilité	N		OpinionTarget	6	Opinion	17		0		0		0		0		0		0	9	true	2
-w11	de	de	P		OpinionTarget	6	Opinion	17		0		0		0		0		0		0	10	true	2
-w12	la	le	D		OpinionTarget	6	Opinion	17		0		0		0		0		0		0	11	true	2
-w13	chambre	chambre	N		OpinionTarget	6	Opinion	17		0		0		0		0		0		0	12	true	2
+w4	Tout	Tout	P		OpinionTarget	4	Opinion	3		0		0		0		0		0		0	3	true	2
+w5	était	être	V			0	Opinion	3		0		0		0		0		0		0	4	true	2
+w6	très	très	G		StrongPositive	5	Opinion	3		0		0		0		0		0		0	5	true	2
+w7	bien	bien	G		StrongPositive	5	Opinion	3		0		0		0		0		0		0	6	true	2
+w8	sauf	sauf	P		Negative	7	Opinion	3		0		0		0		0		0		0	7	true	2
+w9	l'	le	D		OpinionTarget	6	Opinion	3		0		0		0		0		0		0	8	true	2
+w10	accessibilité	accessibilité	N		OpinionTarget	6	Opinion	3		0		0		0		0		0		0	9	true	2
+w11	de	de	P		OpinionTarget	6	Opinion	3		0		0		0		0		0		0	10	true	2
+w12	la	le	D		OpinionTarget	6	Opinion	3		0		0		0		0		0		0	11	true	2
+w13	chambre	chambre	N		OpinionTarget	6	Opinion	3		0		0		0		0		0		0	12	true	2
 w14	,	,	O			0	Opinion	3		0		0		0		0		0		0	13	true	2
 w15	surtout	surtout	G			0	Opinion	3		0		0		0		0		0		0	14	true	2
 w16	lorsque	lorsque	C			0	Opinion	3		0		0		0		0		0		0	15	true	2

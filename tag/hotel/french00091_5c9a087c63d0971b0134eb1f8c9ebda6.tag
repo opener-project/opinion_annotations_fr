@@ -27,12 +27,12 @@ w29	avec	avec	P		Negative	19	Opinion	20		0		0		0		0		0		0	28	true	4
 w30	quelques	quelque	D		Negative	19	Opinion	20		0		0		0		0		0		0	29	true	4
 w31	spécialités	spécialité	N		Negative	19	Opinion	20		0		0		0		0		0		0	30	true	4
 w32	turques	turc	G		Negative	19	Opinion	20		0		0		0		0		0		0	31	true	4
-w34	La	le	D		OpinionTarget	24	Opinion	56		0		0		0		0		0		0	33	true	5
-w35	formule	formule	N		OpinionTarget	24	Opinion	56		0		0		0		0		0		0	34	true	5
-w36	all	all	G		OpinionTarget	24	Opinion	56		0		0		0		0		0		0	35	true	5
-w37	inclusive	inclusif	G		OpinionTarget	24	Opinion	56		0		0		0		0		0		0	36	true	5
-w38	avantageuse	avantageux	G		Positive	25	Opinion	56		0		0		0		0		0		0	37	true	5
-w39	/	/	P			0		0		0		0		0		0		0		0	38	true	5
+w34	La	le	D		OpinionTarget	24	Opinion	23		0		0		0		0		0		0	33	true	5
+w35	formule	formule	N		OpinionTarget	24	Opinion	23		0		0		0		0		0		0	34	true	5
+w36	all	all	G		OpinionTarget	24	Opinion	23		0		0		0		0		0		0	35	true	5
+w37	inclusive	inclusif	G		OpinionTarget	24	Opinion	23		0		0		0		0		0		0	36	true	5
+w38	avantageuse	avantageux	G		Positive	25	Opinion	23		0		0		0		0		0		0	37	true	5
+w39	/	/	P			0	Opinion	23		0		0		0		0		0		0	38	true	5
 w40	qualité	qualité	N		OpinionTarget	27	Opinion	23	Value-for-money	28		0		0		0		0		0	39	true	5
 w41	·	·	P		OpinionTarget	27	Opinion	23	Value-for-money	28		0		0		0		0		0	40	true	5
 w42	prix	prix	N		OpinionTarget	27	Opinion	23	Value-for-money	28		0		0		0		0		0	41	true	5
@@ -86,10 +86,10 @@ w95	min	min	N		Positive	47	Opinion	46		0		0		0		0		0		0	94	true	8
 w96	à	à	P		Positive	47	Opinion	46		0		0		0		0		0		0	95	true	8
 w97	pieds	pied	N		Positive	47	Opinion	46		0		0		0		0		0		0	96	true	8
 w99	innombrables	innombrables	D		Positive	50	Opinion	49		0		0		0		0		0		0	98	true	8
-w100	commerces	commerce	N		OpinionTarget	57	Opinion	49		0		0		0		0		0		0	99	true	8
-w101	restaurnats	restaurnats	G		OpinionTarget	57	Opinion	49		0		0		0		0		0		0	100	true	8
+w100	commerces	commerce	N		OpinionTarget	51	Opinion	49		0		0		0		0		0		0	99	true	8
+w101	restaurnats	restaurnats	G		OpinionTarget	52	Opinion	49		0		0		0		0		0		0	100	true	8
 w102	et	et	C			0	Opinion	49		0		0		0		0		0		0	101	true	8
-w103	bars	bar	N		OpinionTarget	57	Opinion	49		0		0		0		0		0		0	102	true	8
+w103	bars	bar	N		OpinionTarget	53	Opinion	49		0		0		0		0		0		0	102	true	8
 w104	à	à	P		Positive	54	Opinion	49		0		0		0		0		0		0	103	true	8
 w105	proximité	proximité	N		Positive	54	Opinion	49		0		0		0		0		0		0	104	true	8
 w106	·	·	O			0		0		0	8-positive	55		0		0		0		0	105	true	8

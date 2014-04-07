@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:39:36" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:18CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:12CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:18CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3148,81 +3148,6 @@
       <edge id="tre471" from="ter175" to="nter296"/>
     </tree>
   </constituency>
-  <opinions>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--le check in-->
-        <span>
-          <target id="t51"/>
-          <target id="t52"/>
-          <target id="t53"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--été très rapide-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="3_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Hôtel-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--confortable-->
-        <span>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--La chambre-->
-        <span>
-          <target id="t136"/>
-          <target id="t137"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--de taille moyenne-->
-        <span>
-          <target id="t139"/>
-          <target id="t140"/>
-          <target id="t141"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Park Inn-->
-        <span>
-          <target id="t166"/>
-          <target id="t167"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--coloré et pratique plus que luxueux-->
-        <span>
-          <target id="t169"/>
-          <target id="t170"/>
-          <target id="t171"/>
-          <target id="t172"/>
-          <target id="t173"/>
-          <target id="t174"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-  </opinions>
   <features>
     <properties>
       <property pid="p0" lemma="Reservation/check-in/check-out">
@@ -3255,4 +3180,83 @@
       </property>
     </properties>
   </features>
+  <opinions>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=9-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--le check in-->
+        <span>
+          <target id="t51"/>
+          <target id="t52"/>
+          <target id="t53"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--été très rapide-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Hôtel-->
+        <span>
+          <target id="t1"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--confortable-->
+        <span>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--La chambre-->
+        <span>
+          <target id="t136"/>
+          <target id="t137"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--de taille moyenne-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Park Inn-->
+        <span>
+          <target id="t166"/>
+          <target id="t167"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--coloré et pratique plus que luxueux-->
+        <span>
+          <target id="t169"/>
+          <target id="t170"/>
+          <target id="t171"/>
+          <target id="t172"/>
+          <target id="t173"/>
+          <target id="t174"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+  </opinions>
 </KAF>

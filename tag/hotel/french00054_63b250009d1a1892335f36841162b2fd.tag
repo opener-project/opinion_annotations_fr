@@ -79,28 +79,28 @@ w84	à	à	P		Negative	29	Opinion	25		0		0		0		0		0		0	83	true	5
 w85	ses	son	D		Negative	29	Opinion	25		0		0		0		0		0		0	84	true	5
 w86	clients	client	N		Negative	29	Opinion	25		0		0		0		0		0		0	85	true	5
 w95	si	si	C			0	Opinion	30		0		0		0		0		0		0	94	true	6
-w96	les	le	D		OpinionTarget	46	Opinion	30	Staff	32		0		0		0		0		0	95	true	6
-w97	surveillants	surveillant	N		OpinionTarget	46	Opinion	30	Staff	32		0		0		0		0		0	96	true	6
-w98	de	de	P		OpinionTarget	46	Opinion	30	Staff	32		0		0		0		0		0	97	true	6
-w99	baignade	baignade	N		OpinionTarget	46	Opinion	30	Staff	32		0		0		0		0		0	98	true	6
+w96	les	le	D		OpinionTarget	31	Opinion	30	Staff	32		0		0		0		0		0	95	true	6
+w97	surveillants	surveillant	N		OpinionTarget	31	Opinion	30	Staff	32		0		0		0		0		0	96	true	6
+w98	de	de	P		OpinionTarget	31	Opinion	30	Staff	32		0		0		0		0		0	97	true	6
+w99	baignade	baignade	N		OpinionTarget	31	Opinion	30	Staff	32		0		0		0		0		0	98	true	6
 w100	et	et	C			0	Opinion	30		0		0		0		0		0		0	99	true	6
-w101	les	le	D		OpinionTarget	46	Opinion	30	Staff	34		0		0		0		0		0	100	true	6
-w102	femmes	femme	N		OpinionTarget	46	Opinion	30	Staff	34		0		0		0		0		0	101	true	6
-w103	à	à	P		OpinionTarget	46	Opinion	30	Staff	34		0		0		0		0		0	102	true	6
-w104	l'	le	D		OpinionTarget	46	Opinion	30	Staff	34		0		0		0		0		0	103	true	6
-w105	accueil	accueil	N		OpinionTarget	46	Opinion	30	Staff	34		0		0		0		0		0	104	true	6
+w101	les	le	D		OpinionTarget	33	Opinion	30	Staff	34		0		0		0		0		0	100	true	6
+w102	femmes	femme	N		OpinionTarget	33	Opinion	30	Staff	34		0		0		0		0		0	101	true	6
+w103	à	à	P		OpinionTarget	33	Opinion	30	Staff	34		0		0		0		0		0	102	true	6
+w104	l'	le	D		OpinionTarget	33	Opinion	30	Staff	34		0		0		0		0		0	103	true	6
+w105	accueil	accueil	N		OpinionTarget	33	Opinion	30	Staff	34		0		0		0		0		0	104	true	6
 w106	sont	être	V			0	Opinion	30		0		0		0		0		0		0	105	true	6
 w107	très	très	G		StrongPositive	35	Opinion	30		0		0		0		0		0		0	106	true	6
 w108	sympathiques	sympathique	G		StrongPositive	35	Opinion	30		0		0		0		0		0		0	107	true	6
-w109	,	,	O			0		0		0		0		0		0		0		0	108	true	6
-w110	les	le	D		OpinionTarget	48	Opinion	47	Staff	37		0		0		0		0		0	109	true	6
-w111	animatrices	animateur	N		OpinionTarget	48	Opinion	47	Staff	37		0		0		0		0		0	110	true	6
-w112	et	et	C			0	Opinion	47		0		0		0		0		0		0	111	true	6
-w113	les	le	D		OpinionTarget	48	Opinion	47	Staff	39		0		0		0		0		0	112	true	6
-w114	barmans	barman	N		OpinionTarget	48	Opinion	47	Staff	39		0		0		0		0		0	113	true	6
-w115	le	le	Q			0	Opinion	47		0		0		0		0		0		0	114	true	6
-w116	sont	être	V			0	Opinion	47		0		0		0		0		0		0	115	true	6
-w117	moins	moins	G		Negative	40	Opinion	47		0		0		0		0		0		0	116	true	6
+w109	,	,	O			0	Opinion	30		0		0		0		0		0		0	108	true	6
+w110	les	le	D		OpinionTarget	36	Opinion	30	Staff	37		0		0		0		0		0	109	true	6
+w111	animatrices	animateur	N		OpinionTarget	36	Opinion	30	Staff	37		0		0		0		0		0	110	true	6
+w112	et	et	C			0	Opinion	30		0		0		0		0		0		0	111	true	6
+w113	les	le	D		OpinionTarget	38	Opinion	30	Staff	39		0		0		0		0		0	112	true	6
+w114	barmans	barman	N		OpinionTarget	38	Opinion	30	Staff	39		0		0		0		0		0	113	true	6
+w115	le	le	Q			0	Opinion	30		0		0		0		0		0		0	114	true	6
+w116	sont	être	V			0	Opinion	30		0		0		0		0		0		0	115	true	6
+w117	moins	moins	G		Negative	40	Opinion	30		0		0		0		0		0		0	116	true	6
 w119	Un	un	D		OpinionTarget	42	Opinion	41		0		0		0		0		0		0	118	true	7
 w120	camping	camping	N		OpinionTarget	42	Opinion	41	Location	43		0		0		0		0		0	119	true	7
 w121	qui	qui	P			0	Opinion	41		0		0		0		0		0		0	120	true	7

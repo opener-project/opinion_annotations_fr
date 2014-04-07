@@ -1,12 +1,12 @@
-w1	Plage	plage	N		OpinionTarget	3	Opinion	48		0		0		0		0		0		0	0	true	1
-w2	superbe	superbe	G		StrongPositive	2	Opinion	48		0		0		0		0		0		0	1	true	1
-w3	mais	mais	C			0		0		0		0		0		0		0		0	2	true	1
-w4	eau	eau	G		OpinionTarget	4	Opinion	49		0		0		0		0		0		0	3	true	1
-w5	troublée	troublée	N		Negative	5	Opinion	49		0		0		0		0		0		0	4	true	1
-w6	et	et	C			0	Opinion	49		0		0		0		0		0		0	5	true	1
-w7	pleine	plein	G		Negative	6	Opinion	49		0		0		0		0		0		0	6	true	1
-w8	de	de	P		Negative	6	Opinion	49		0		0		0		0		0		0	7	true	1
-w9	méduses	méduse	N		Negative	6	Opinion	49		0		0		0		0		0		0	8	true	1
+w1	Plage	plage	N		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	0	true	1
+w2	superbe	superbe	G		StrongPositive	2	Opinion	1		0		0		0		0		0		0	1	true	1
+w3	mais	mais	C			0	Opinion	1		0		0		0		0		0		0	2	true	1
+w4	eau	eau	G		OpinionTarget	4	Opinion	1		0		0		0		0		0		0	3	true	1
+w5	troublée	troublée	N		Negative	5	Opinion	1		0		0		0		0		0		0	4	true	1
+w6	et	et	C			0	Opinion	1		0		0		0		0		0		0	5	true	1
+w7	pleine	plein	G		Negative	6	Opinion	1		0		0		0		0		0		0	6	true	1
+w8	de	de	P		Negative	6	Opinion	1		0		0		0		0		0		0	7	true	1
+w9	méduses	méduse	N		Negative	6	Opinion	1		0		0		0		0		0		0	8	true	1
 w10	hotel	hotel	G		OpinionTarget	8	Opinion	7	Location	9		0		0		0		0		0	9	true	2
 w11	confortable	confortable	G		Positive	10	Opinion	7		0		0		0		0		0		0	10	true	2
 w12	personnel	personnel	N		Positive	11	Opinion	7		0		0		0		0		0		0	11	true	2

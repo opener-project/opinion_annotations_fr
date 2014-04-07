@@ -12,10 +12,10 @@ w85	est	être	V			0	Opinion	12		0		0		0		0		0		0	84	true	7
 w86	de	de	P		Positive	11	Opinion	12		0		0		0		0		0		0	85	true	7
 w87	taille	taille	N		Positive	11	Opinion	12		0		0		0		0		0		0	86	true	7
 w88	moyenne	moyen	G		Positive	11	Opinion	12		0		0		0		0		0		0	87	true	7
-w89	avec	avec	P			0	Opinion	28		0		0		0		0		0		0	88	true	7
-w90	une	un	D			0	Opinion	28		0		0		0		0		0		0	89	true	7
-w91	énorme	énorme	G		Positive	13	Opinion	28	Swimming pool	15		0		0		0		0		0	90	true	7
-w92	piscine	piscine	N		OpinionTarget	14	Opinion	28		0		0		0		0		0		0	91	true	7
+w89	avec	avec	P			0	Opinion	12		0		0		0		0		0		0	88	true	7
+w90	une	un	D			0	Opinion	12		0		0		0		0		0		0	89	true	7
+w91	énorme	énorme	G		Positive	13	Opinion	12	Swimming pool	15		0		0		0		0		0	90	true	7
+w92	piscine	piscine	N		OpinionTarget	14	Opinion	12		0		0		0		0		0		0	91	true	7
 w121	Premier	premier	G		StrongPositive	17	Opinion	20	Facilities	21		0		0		0		0		0	120	true	10
 w122	point	point	N		StrongPositive	17	Opinion	20		0		0		0		0		0		0	121	true	10
 w123	agréable	agréable	G		StrongPositive	17	Opinion	20		0		0		0		0		0		0	122	true	10

@@ -96,11 +96,11 @@ w155	bien	bien	G		Negative	44	Opinion	43		0		0		0		0		0		0	154	true	7
 w156	dommage	dommage	G		Negative	44	Opinion	43		0		0		0		0		0		0	155	true	7
 w160	nous	lui	Q		OpinionHolder	46	Opinion	45		0		0		0		0		0		0	159	true	8
 w161	conseillons	conseiller	V		Positive	47	Opinion	45		0		0		0		0		0		0	160	true	8
-w162	ce	ce	D		OpinionTarget	53	Opinion	45		0		0		0		0		0		0	161	true	8
-w163	camping	camping	N		OpinionTarget	53	Opinion	45	Location	49		0		0		0		0		0	162	true	8
+w162	ce	ce	D		OpinionTarget	48	Opinion	45		0		0		0		0		0		0	161	true	8
+w163	camping	camping	N		OpinionTarget	48	Opinion	45	Location	49		0		0		0		0		0	162	true	8
 w164	et	et	C			0	Opinion	45		0		0		0		0		0		0	163	true	8
-w165	la	le	D		OpinionTarget	53	Opinion	45		0		0		0		0		0		0	164	true	8
-w166	région	région	N		OpinionTarget	53	Opinion	45		0		0		0		0		0		0	165	true	8
+w165	la	le	D		OpinionTarget	50	Opinion	45		0		0		0		0		0		0	164	true	8
+w166	région	région	N		OpinionTarget	50	Opinion	45		0		0		0		0		0		0	165	true	8
 w167	qui	qui	P			0	Opinion	45		0		0		0		0		0		0	166	true	8
 w168	est	être	V			0	Opinion	45		0		0		0		0		0		0	167	true	8
 w169	vraiment	vraiment	G		Positive	51	Opinion	45		0		0		0		0		0		0	168	true	8

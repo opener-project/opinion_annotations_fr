@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:23" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1815,27 +1815,90 @@
       <edge id="tre274" from="ter97" to="nter177"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t49"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t56"/>
+            <target id="t57"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Noisiness">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t44"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t64"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="39_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
-      <opinion_target>
-        <!--chambre-->
+      <opinion_target/>
+      <opinion_expression polarity="Positive">
+        <!--calme-->
         <span>
-          <target id="t83"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--une forte odeur de tabac-->
-        <span>
-          <target id="t86"/>
-          <target id="t87"/>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
+          <target id="t36"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--choix-->
+        <span>
+          <target id="t56"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--excellent-->
+        <span>
+          <target id="t57"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--Salle du petit déjeuner-->
@@ -1854,83 +1917,45 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_1">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
-        <!--Salle du petit déjeuner-->
+        <!--Chambre-->
         <span>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
+          <target id="t44"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Positive">
-        <!--choix excellent-->
+        <!--luxueuse-->
         <span>
-          <target id="t56"/>
-          <target id="t57"/>
+          <target id="t47"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="47_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
-        <!--Personnel-->
+        <!--Chambre-->
         <span>
-          <target id="t59"/>
+          <target id="t44"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--parlant anglais seulement-->
+      <opinion_expression polarity="Positive">
+        <!--spacieuse-->
         <span>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
+          <target id="t45"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="44_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=28-->
       <opinion_holder/>
       <opinion_target>
-        <!--fin de restauraytion-->
-        <span>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--en cours dans le hall-->
-        <span>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--accueil-->
+        <!--accueil service-->
         <span>
           <target id="t64"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--impeccables-->
-        <span>
-          <target id="t67"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="28_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--service-->
-        <span>
           <target id="t66"/>
         </span>
       </opinion_target>
@@ -1941,43 +1966,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="34_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piscine-->
-        <span>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--hors service fin août 2011-->
-        <span>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="34_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--piscine-->
-        <span>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--aucune compensation proposée-->
-        <span>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--hôtel-->
@@ -1985,7 +1975,7 @@
           <target id="t3"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Positive">
+      <opinion_expression polarity="StrongPositive">
         <!--Très bel-->
         <span>
           <target id="t1"/>
@@ -1993,7 +1983,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--hôtel-->
@@ -2001,23 +1992,7 @@
           <target id="t6"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--entièrement restauré-->
-        <span>
-          <target id="t8"/>
-          <target id="t9"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="4_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--hôtel-->
-        <span>
-          <target id="t6"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
+      <opinion_expression polarity="StrongPositive">
         <!--Très bel-->
         <span>
           <target id="t4"/>
@@ -2025,149 +2000,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--au calme-->
-        <span>
-          <target id="t35"/>
-          <target id="t36"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Proche du centre ville-->
-        <span>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-          <target id="t24"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_2">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--15 min. à pied du pont Charles-->
-        <span>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="8_3">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--proche des transports en commun-->
-        <span>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t49"/>
-            <target id="t50"/>
-            <target id="t51"/>
-            <target id="t52"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Location">
-        <references>
-          <span>
-            <target id="t21"/>
-            <target id="t22"/>
-            <target id="t23"/>
-            <target id="t24"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Location">
-        <references>
-          <span>
-            <target id="t26"/>
-            <target id="t27"/>
-            <target id="t28"/>
-            <target id="t29"/>
-            <target id="t30"/>
-            <target id="t31"/>
-            <target id="t32"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Location">
-        <references>
-          <span>
-            <target id="t38"/>
-            <target id="t39"/>
-            <target id="t40"/>
-            <target id="t41"/>
-            <target id="t42"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Staff">
-        <references>
-          <span>
-            <target id="t59"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p5" lemma="Staff">
-        <references>
-          <span>
-            <target id="t66"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p6" lemma="Reservation/check-in/check-out">
-        <references>
-          <span>
-            <target id="t64"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p7" lemma="Swimming pool">
-        <references>
-          <span>
-            <target id="t72"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p8" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t83"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p9" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t44"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

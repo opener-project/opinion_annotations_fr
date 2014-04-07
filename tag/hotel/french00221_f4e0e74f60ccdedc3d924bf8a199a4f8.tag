@@ -25,12 +25,12 @@ w70	n'	n'	G		Negative	12	Opinion	13		0		0		0		0		0		0	69	true	4
 w71	était	être	V		Negative	12	Opinion	13		0		0		0		0		0		0	70	true	4
 w72	pas	pas	G		Negative	12	Opinion	13		0		0		0		0		0		0	71	true	4
 w73	bonne	bon	G		Negative	12	Opinion	13		0		0		0		0		0		0	72	true	4
-w76	le	le	D		OpinionTarget	15	Opinion	22	Restaurant	17		0		0		0		0		0	75	true	4
-w77	choix	choix	N		OpinionTarget	15	Opinion	22		0		0		0		0		0		0	76	true	4
-w78	n'	n'	G		Negative	16	Opinion	22		0		0		0		0		0		0	77	true	4
-w79	était	être	V		Negative	16	Opinion	22		0		0		0		0		0		0	78	true	4
-w80	pas	pas	G		Negative	16	Opinion	22		0		0		0		0		0		0	79	true	4
-w81	grand	grand	G		Negative	16	Opinion	22		0		0		0		0		0		0	80	true	4
+w76	le	le	D		OpinionTarget	15	Opinion	13	Restaurant	17		0		0		0		0		0	75	true	4
+w77	choix	choix	N		OpinionTarget	15	Opinion	13		0		0		0		0		0		0	76	true	4
+w78	n'	n'	G		Negative	16	Opinion	13		0		0		0		0		0		0	77	true	4
+w79	était	être	V		Negative	16	Opinion	13		0		0		0		0		0		0	78	true	4
+w80	pas	pas	G		Negative	16	Opinion	13		0		0		0		0		0		0	79	true	4
+w81	grand	grand	G		Negative	16	Opinion	13		0		0		0		0		0		0	80	true	4
 w87	mauvaise	mauvais	G		StrongNegative	18	Opinion	20	Cleanliness	21		0		0		0		0		0	86	true	5
 w88	odeur	odeur	N		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	87	true	5
 w89	à	à	P		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	88	true	5

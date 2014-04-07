@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:38:12" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:12CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:03CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:12CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:03CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -744,8 +744,22 @@
       <edge id="tre107" from="ter39" to="nter68"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t10"/>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -756,7 +770,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -769,7 +784,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -781,7 +797,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -792,7 +809,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_2">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -806,7 +824,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_3">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -821,7 +840,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_4">
+    <opinion oid="o4">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -831,7 +851,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--je-->
@@ -852,17 +873,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t10"/>
-            <target id="t11"/>
-            <target id="t12"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

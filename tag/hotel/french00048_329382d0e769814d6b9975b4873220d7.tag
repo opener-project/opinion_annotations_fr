@@ -5,16 +5,16 @@ w4	très	très	G		Positive	2	Opinion	3		0		0		0		0		0		0	3	true	1
 w5	passable	passable	G		Positive	2	Opinion	3		0		0		0		0		0		0	4	true	1
 w6	Points	Points	P		OpinionTarget	12	Opinion	11	Interior/exterior	13		0		0		0		0		0	5	true	2
 w7	positifs	positif	G		Positive	6	Opinion	11		0		0		0		0		0		0	6	true	2
-w8	:	:	O			0	Opinion	34		0		0		0		0		0		0	7	true	2
-w9	belle	beau	G		Positive	7	Opinion	34	Interior/exterior	14		0		0		0		0		0	8	true	2
-w10	structure	structure	N		OpinionTarget	8	Opinion	34		0		0		0		0		0		0	9	true	2
-w11	,	,	O			0	Opinion	34		0		0		0		0		0		0	10	true	2
-w12	hôtel	hôtel	N			0	Opinion	35		0		0		0		0		0		0	11	true	2
-w13	en	en	P			0	Opinion	35		0		0		0		0		0		0	12	true	2
-w14	taille	taille	N		OpinionTarget	9	Opinion	35	Rooms	15		0		0		0		0		0	13	true	2
-w15	de	de	P		OpinionTarget	9	Opinion	35		0		0		0		0		0		0	14	true	2
-w16	chambres	chambre	N		OpinionTarget	9	Opinion	35		0		0		0		0		0		0	15	true	2
-w17	correct	correct	G		Positive	10	Opinion	35		0		0		0		0		0		0	16	true	2
+w8	:	:	O			0	Opinion	11		0		0		0		0		0		0	7	true	2
+w9	belle	beau	G		Positive	7	Opinion	11	Interior/exterior	14		0		0		0		0		0	8	true	2
+w10	structure	structure	N		OpinionTarget	8	Opinion	11		0		0		0		0		0		0	9	true	2
+w11	,	,	O			0	Opinion	11		0		0		0		0		0		0	10	true	2
+w12	hôtel	hôtel	N			0	Opinion	11		0		0		0		0		0		0	11	true	2
+w13	en	en	P			0	Opinion	11		0		0		0		0		0		0	12	true	2
+w14	taille	taille	N		OpinionTarget	9	Opinion	11	Rooms	15		0		0		0		0		0	13	true	2
+w15	de	de	P		OpinionTarget	9	Opinion	11		0		0		0		0		0		0	14	true	2
+w16	chambres	chambre	N		OpinionTarget	9	Opinion	11		0		0		0		0		0		0	15	true	2
+w17	correct	correct	G		Positive	10	Opinion	11		0		0		0		0		0		0	16	true	2
 w18	Points	Points	P		OpinionTarget	16	Opinion	18	Interior/exterior	20		0		0		0		0		0	17	true	3
 w19	négatifs	négatif	G		Negative	17	Opinion	18		0		0		0		0		0		0	18	true	3
 w21	pas	pas	G		Negative	21	Opinion	23	Interior/exterior	24		0		0		0		0		0	20	true	3

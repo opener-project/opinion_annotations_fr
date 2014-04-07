@@ -10,18 +10,10 @@ w10	plus	plus	G		Negative	6	Opinion	9		0		0		0		0		0		0	9	true	2
 w11	vieux	vieux	G		Negative	6	Opinion	9		0		0		0		0		0		0	10	true	2
 w12	hotels	hotels	N		Negative	6	Opinion	9		0		0		0		0		0		0	11	true	2
 w13	mais	mais	C			0	Opinion	9		0		0		0		0		0		0	12	true	2
-w14	il	il	Q		OpinionTarget	7	Opinion	16		0		0		0		0		0		0	13	true	2
-w15	est	être	V			0	Opinion	16		0		0		0		0		0		0	14	true	2
-w16	super	super	G		Positive	8	Opinion	16		0		0		0		0		0		0	15	true	2
+w14	il	il	Q		OpinionTarget	7	Opinion	9		0		0		0		0		0		0	13	true	2
+w15	est	être	V			0	Opinion	9		0		0		0		0		0		0	14	true	2
+w16	super	super	G		Positive	8	Opinion	9		0		0		0		0		0		0	15	true	2
 w24	les	les	Q		OpinionTarget	11	Opinion	13	Value-for-money	14		0		0		0		0		0	23	true	2
 w25	prix	prix	N		OpinionTarget	11	Opinion	13		0		0		0		0		0		0	24	true	2
 w26	sont	être	V			0	Opinion	13		0		0		0		0		0		0	25	true	2
 w27	extras	extras	G		Positive	12	Opinion	13		0		0		0		0		0		0	26	true	2
-w72	nous	lui	Q		OpinionHolder	17	Opinion	20		0		0		0		0		0		0	71	true	2
-w73	n'	n'	G		Positive	18	Opinion	20		0		0		0		0		0		0	72	true	2
-w74	avons	avoir	V		Positive	18	Opinion	20		0		0		0		0		0		0	73	true	2
-w75	pas	pas	G		Positive	18	Opinion	20		0		0		0		0		0		0	74	true	2
-w76	été	être	V		Positive	18	Opinion	20		0		0		0		0		0		0	75	true	2
-w77	déçus	décevoir	V		Positive	18	Opinion	20		0		0		0		0		0		0	76	true	2
-w78	Las	Las	O		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	77	true	2
-w79	Vegas	Vegas	N		OpinionTarget	19	Opinion	20		0		0		0		0		0		0	78	true	2

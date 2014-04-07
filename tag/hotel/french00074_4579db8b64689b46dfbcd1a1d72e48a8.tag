@@ -7,7 +7,7 @@ w6	cher	cher	G		Negative	4	Opinion	1		0		0		0		0		0		0	5	true	1
 w7	pour	pour	P		Negative	4	Opinion	1		0		0		0		0		0		0	6	true	1
 w8	les	le	D		Negative	4	Opinion	1		0		0		0		0		0		0	7	true	1
 w9	prestations	prestation	N		Negative	4	Opinion	1		0		0		0		0		0		0	8	true	1
-w11	hotel	hotel	N		OpinionTarget	6	Opinion	5		0		0		0		0		0		0	10	false	2
+w11	hotel	hotel	N		OpinionTarget	6	Opinion	5	Location	7		0		0		0		0		0	10	true	2
 w12	très	très	G		StrongPositive	8	Opinion	5	Location	9		0		0		0		0		0	11	true	2
 w13	bien	bien	G		StrongPositive	8	Opinion	5	Location	9		0		0		0		0		0	12	true	2
 w14	situé	situer	V		StrongPositive	8	Opinion	5	Location	9		0		0		0		0		0	13	true	2
@@ -16,7 +16,7 @@ w16	proche	proche	G		Positive	12	Opinion	5	Location	13		0		0		0		0		0	15	true	2
 w17	de	de	P		Positive	12	Opinion	5	Location	13		0		0		0		0		0	16	true	2
 w18	la	le	D		Positive	12	Opinion	5	Location	13		0		0		0		0		0	17	true	2
 w19	rampa	rampa	N		Positive	12	Opinion	5	Location	13		0		0		0		0		0	18	true	2
-w20	,	,	O		Positive	12	Opinion	5		0		0		0		0		0		0	19	false	2
+w20	,	,	O		Positive	12	Opinion	5	Location	13		0		0		0		0		0	19	true	2
 w21	et	et	C		Positive	12	Opinion	5	Location	13		0		0		0		0		0	20	true	2
 w22	des	un	D		Positive	12	Opinion	5	Location	13		0		0		0		0		0	21	true	2
 w23	centres	centre	N		Positive	12	Opinion	5	Location	13		0		0		0		0		0	22	true	2
@@ -41,15 +41,15 @@ w42	la	le	D		Negative	17	Opinion	14	Value-for-money	18		0		0		0		0		0	41	true	2
 w43	nuit	nuit	N		Negative	17	Opinion	14	Value-for-money	18		0		0		0		0		0	42	true	2
 w49	accueil	accueil	N		OpinionTarget	20	Opinion	19	Reservation/check-in/check-out	21		0		0		0		0		0	48	true	2
 w50	correct	correct	G		Positive	22	Opinion	19		0		0		0		0		0		0	49	true	2
-w52	chambre	chambre	N		OpinionTarget	88	Opinion	23	Rooms	25		0		0		0		0		0	51	true	2
+w52	chambre	chambre	N		OpinionTarget	24	Opinion	23	Rooms	25		0		0		0		0		0	51	true	2
 w53	correct	correct	G		Positive	26	Opinion	23		0		0		0		0		0		0	52	true	2
 w54	mais	mais	C			0	Opinion	23		0		0		0		0		0		0	53	true	2
 w55	nécessiterait	nécessiter	V		Negative	27	Opinion	23		0		0		0		0		0		0	54	true	2
 w56	un	un	D		Negative	27	Opinion	23		0		0		0		0		0		0	55	true	2
 w57	rafraichissement	rafraichissement	N		Negative	27	Opinion	23		0		0		0		0		0		0	56	true	2
 w58	et	et	C			0	Opinion	23		0		0		0		0		0		0	57	true	2
-w59	quelques	quelque	D		OpinionTarget	88	Opinion	23		0		0		0		0		0		0	58	true	2
-w60	détails	détail	N		OpinionTarget	88	Opinion	23		0		0		0		0		0		0	59	true	2
+w59	quelques	quelque	D		OpinionTarget	29	Opinion	23		0		0		0		0		0		0	58	true	2
+w60	détails	détail	N		OpinionTarget	29	Opinion	23		0		0		0		0		0		0	59	true	2
 w61	permettraient	permettre	V		Negative	30	Opinion	23		0		0		0		0		0		0	60	true	2
 w62	de	de	P		Negative	30	Opinion	23		0		0		0		0		0		0	61	true	2
 w63	paraitre	paraitre	V		Negative	30	Opinion	23		0		0		0		0		0		0	62	true	2

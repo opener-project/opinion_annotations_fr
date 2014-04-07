@@ -1,4 +1,3 @@
-w1	Un	un	D			0		0		0	9-very positive	38		0		0		0		0	0	true	1
 w2	camping	camping	N		OpinionTarget	1	Opinion	3	Location	6		0		0		0		0		0	1	true	1
 w3	ideale	ideale	G		StrongPositive	2	Opinion	3		0		0		0		0		0		0	2	true	1
 w4	pour	pour	P		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	3	true	1

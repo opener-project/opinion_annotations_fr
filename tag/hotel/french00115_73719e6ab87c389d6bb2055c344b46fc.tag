@@ -3,25 +3,25 @@ w2	mérite	mériter	V		Negative	2	Opinion	1		0		0		0		0		0		0	1	true	1
 w3	pas	pas	G		Negative	2	Opinion	1		0		0		0		0		0		0	2	true	1
 w4	5	5	D		Negative	2	Opinion	1		0		0		0		0		0		0	3	true	1
 w5	*	*	N		Negative	2	Opinion	1		0		0		0		0		0		0	4	true	1
-w27	à	à	P			0		0		0		0		0		0		0		0	26	true	2
-w28	notre	son	D			0		0		0		0		0		0		0		0	27	true	2
-w29	arrivée	arrivé	N			0		0		0		0		0		0		0		0	28	true	2
-w30	dans	dans	P			0		0		0		0		0		0		0		0	29	true	2
-w31	la	le	D			0		0	Rooms	5		0		0		0		0		0	30	false	2
-w32	chambre	chambre	N			0		0	Rooms	5		0		0		0		0		0	31	false	2
-w33	familiale	familial	G			0		0	Rooms	5		0		0		0		0		0	32	false	2
-w34	,	,	O			0		0		0		0		0		0		0		0	33	true	2
-w35	poils	poils	G		StrongNegative	6	Opinion	41		0		0		0		0		0		0	34	true	2
-w36	dans	dans	P			0	Opinion	41		0		0		0		0		0		0	35	true	2
-w37	la	le	D		OpinionTarget	7	Opinion	41	Bathroom	8		0		0		0		0		0	36	true	2
-w38	baignoire	baignoire	N		OpinionTarget	7	Opinion	41	Bathroom	8		0		0		0		0		0	37	true	2
-w39	,	,	O			0		0		0		0		0		0		0		0	38	true	2
-w40	cuvette	cuvette	N		OpinionTarget	10	Opinion	42	Bathroom	11		0		0		0		0		0	39	true	2
-w41	de	de	P		OpinionTarget	10	Opinion	42	Bathroom	11		0		0		0		0		0	40	true	2
-w42	WC	WC	N		OpinionTarget	10	Opinion	42	Bathroom	11		0		0		0		0		0	41	true	2
-w43	pas	pas	G		Negative	9	Opinion	42		0		0		0		0		0		0	42	true	2
-w44	droite	droit	G		Negative	9	Opinion	42		0		0		0		0		0		0	43	true	2
-w45	,	,	O			0		0		0		0		0		0		0		0	44	true	2
+w27	à	à	P			0	Opinion	3		0		0		0		0		0		0	26	true	2
+w28	notre	son	D			0	Opinion	3		0		0		0		0		0		0	27	true	2
+w29	arrivée	arrivé	N			0	Opinion	3		0		0		0		0		0		0	28	true	2
+w30	dans	dans	P			0	Opinion	3		0		0		0		0		0		0	29	true	2
+w31	la	le	D		OpinionTarget	4	Opinion	3	Rooms	5		0		0		0		0		0	30	true	2
+w32	chambre	chambre	N		OpinionTarget	4	Opinion	3	Rooms	5		0		0		0		0		0	31	true	2
+w33	familiale	familial	G		OpinionTarget	4	Opinion	3	Rooms	5		0		0		0		0		0	32	true	2
+w34	,	,	O			0	Opinion	3		0		0		0		0		0		0	33	true	2
+w35	poils	poils	G		StrongNegative	6	Opinion	3		0		0		0		0		0		0	34	true	2
+w36	dans	dans	P			0	Opinion	3		0		0		0		0		0		0	35	false	2
+w37	la	le	D		OpinionTarget	7	Opinion	3	Bathroom	8		0		0		0		0		0	36	true	2
+w38	baignoire	baignoire	N		OpinionTarget	7	Opinion	3	Bathroom	8		0		0		0		0		0	37	true	2
+w39	,	,	O			0	Opinion	3		0		0		0		0		0		0	38	true	2
+w40	cuvette	cuvette	N		OpinionTarget	10	Opinion	3	Bathroom	11		0		0		0		0		0	39	true	2
+w41	de	de	P		OpinionTarget	10	Opinion	3	Bathroom	11		0		0		0		0		0	40	true	2
+w42	WC	WC	N		OpinionTarget	10	Opinion	3	Bathroom	11		0		0		0		0		0	41	true	2
+w43	pas	pas	G		Negative	9	Opinion	3		0		0		0		0		0		0	42	true	2
+w44	droite	droit	G		Negative	9	Opinion	3		0		0		0		0		0		0	43	true	2
+w45	,	,	O			0	Opinion	3		0		0		0		0		0		0	44	true	2
 w46	moquette	moquetter	V		OpinionTarget	13	Opinion	3	Rooms	14		0		0		0		0		0	45	true	2
 w47	en	en	P		OpinionTarget	13	Opinion	3	Rooms	14		0		0		0		0		0	46	true	2
 w48	dessous	dessous	G		OpinionTarget	13	Opinion	3	Rooms	14		0		0		0		0		0	47	true	2

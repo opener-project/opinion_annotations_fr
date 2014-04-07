@@ -39,16 +39,16 @@ w55	sanitaires	sanitaires	P		OpinionTarget	28	Opinion	27	Bathroom	29		0		0		0		0
 w56	était	être	V			0	Opinion	27		0		0		0		0		0		0	55	true	2
 w57	souvent	souvent	G		Negative	30	Opinion	27		0		0		0		0		0		0	56	true	2
 w58	sale	sale	G		Negative	30	Opinion	27		0		0		0		0		0		0	57	true	2
-w60	les	le	D		OpinionTarget	32	Opinion	40		0		0		0		0		0		0	59	true	2
-w61	vacanciers	vacancier	N		OpinionTarget	32	Opinion	40		0		0		0		0		0		0	60	true	2
-w62	ne	ne	G		Negative	33	Opinion	40		0		0		0		0		0		0	61	true	2
-w63	respecte	respecter	V		Negative	33	Opinion	40		0		0		0		0		0		0	62	true	2
-w64	rien	rien	P		Negative	33	Opinion	40		0		0		0		0		0		0	63	true	2
-w65	(	(	O			0		0		0		0		0		0		0		0	64	true	2
-w66	excrément	excrément	N		OpinionTarget	34	Opinion	41		0		0		0		0		0		0	65	true	2
-w67	sur	sur	P		StrongNegative	35	Opinion	41		0		0		0		0		0		0	66	true	2
-w68	les	le	D		StrongNegative	35	Opinion	41		0		0		0		0		0		0	67	true	2
-w69	murs	mur	N		StrongNegative	35	Opinion	41		0		0		0		0		0		0	68	true	2
+w60	les	le	D		OpinionTarget	32	Opinion	31		0		0		0		0		0		0	59	true	2
+w61	vacanciers	vacancier	N		OpinionTarget	32	Opinion	31		0		0		0		0		0		0	60	true	2
+w62	ne	ne	G		Negative	33	Opinion	31		0		0		0		0		0		0	61	true	2
+w63	respecte	respecter	V		Negative	33	Opinion	31		0		0		0		0		0		0	62	true	2
+w64	rien	rien	P		Negative	33	Opinion	31		0		0		0		0		0		0	63	true	2
+w65	(	(	O			0	Opinion	31		0		0		0		0		0		0	64	true	2
+w66	excrément	excrément	N		OpinionTarget	34	Opinion	31		0		0		0		0		0		0	65	true	2
+w67	sur	sur	P		StrongNegative	35	Opinion	31		0		0		0		0		0		0	66	true	2
+w68	les	le	D		StrongNegative	35	Opinion	31		0		0		0		0		0		0	67	true	2
+w69	murs	mur	N		StrongNegative	35	Opinion	31		0		0		0		0		0		0	68	true	2
 w86	la	le	D			0	Opinion	36		0		0		0		0		0		0	85	true	2
 w87	nuit	nuit	N			0	Opinion	36		0		0		0		0		0		0	86	true	2
 w88	un	un	D		OpinionTarget	37	Opinion	36		0		0		0		0		0		0	87	true	2

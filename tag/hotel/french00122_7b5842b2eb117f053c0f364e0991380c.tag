@@ -110,4 +110,4 @@ w135	,	,	O			0	Opinion	46		0		0		0		0		0		0	134	true	5
 w136	dans	dans	P			0	Opinion	46		0		0		0		0		0		0	135	true	5
 w137	une	un	D			0	Opinion	46		0		0		0		0		0		0	136	true	5
 w138	petite	petit	G		Negative	49	Opinion	46		0		0		0		0		0		0	137	true	5
-w139	chambre	chambre	N		OpinionTarget	50	Opinion	46	Rooms	51	9-very positive	52		0		0		0		0	138	true	5
+w139	chambre	chambre	N		OpinionTarget	50	Opinion	46	Rooms	51		0		0		0		0		0	138	true	5

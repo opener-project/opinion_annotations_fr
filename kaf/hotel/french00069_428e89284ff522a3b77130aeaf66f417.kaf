@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:59" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:15CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:15CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2208,8 +2208,28 @@
       <edge id="tre333" from="ter121" to="nter212"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Location">
+        <references>
+          <span>
+            <target id="t32"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t103"/>
+            <target id="t104"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="23_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -2219,7 +2239,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -2229,7 +2250,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="19_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
       <opinion_holder/>
       <opinion_target>
         <!--224 €-->
@@ -2246,168 +2268,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Ils-->
-        <span>
-          <target id="t87"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ont refusé catégoriquement tout remboursement et même de fixer d' autre dates-->
-        <span>
-          <target id="t88"/>
-          <target id="t89"/>
-          <target id="t90"/>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-          <target id="t95"/>
-          <target id="t96"/>
-          <target id="t97"/>
-          <target id="t98"/>
-          <target id="t99"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--ils-->
-        <span>
-          <target id="t71"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--m' a répondu qu' ne pouvaient rien faire sans l' accord de l' hôtel et ont appelé .-->
-        <span>
-          <target id="t67"/>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t84"/>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Le site-->
-        <span>
-          <target id="t65"/>
-          <target id="t66"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--m' a répondu qu' ne pouvaient rien faire sans l' accord de l' hôtel et ont appelé .-->
-        <span>
-          <target id="t67"/>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t84"/>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--les-->
-        <span>
-          <target id="t83"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--m' a répondu qu' ne pouvaient rien faire sans l' accord de l' hôtel et ont appelé .-->
-        <span>
-          <target id="t67"/>
-          <target id="t68"/>
-          <target id="t69"/>
-          <target id="t70"/>
-          <target id="t72"/>
-          <target id="t73"/>
-          <target id="t74"/>
-          <target id="t75"/>
-          <target id="t76"/>
-          <target id="t77"/>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-          <target id="t81"/>
-          <target id="t82"/>
-          <target id="t84"/>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder>
-        <!--j'-->
-        <span>
-          <target id="t61"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--Ils-->
-        <span>
-          <target id="t44"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--m' ont indiqué que cela ne dépendait pas d' eux mais du site de réservation que ai appelé .-->
-        <span>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-          <target id="t48"/>
-          <target id="t49"/>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t62"/>
-          <target id="t63"/>
-          <target id="t64"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -2419,7 +2281,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder>
         <!--J'-->
         <span>
@@ -2444,56 +2307,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="9_0">
-      <opinion_holder>
-        <!--J'-->
-        <span>
-          <target id="t28"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--cet hôtel-->
-        <span>
-          <target id="t31"/>
-          <target id="t32"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--ai appelé pour leur demander s' il était possible d' être remboursé-->
-        <span>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-          <target id="t36"/>
-          <target id="t37"/>
-          <target id="t38"/>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Location">
-        <references>
-          <span>
-            <target id="t32"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t103"/>
-            <target id="t104"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

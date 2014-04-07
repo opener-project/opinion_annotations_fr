@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:40:31" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:16CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:16CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1600,8 +1600,34 @@
       <edge id="tre245" from="ter87" to="nter158"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t71"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t6"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--Attractions-->
@@ -1617,7 +1643,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1628,7 +1655,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--ce type d ' hotel-->
@@ -1662,29 +1690,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t71"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t1"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Facilities">
-        <references>
-          <span>
-            <target id="t6"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

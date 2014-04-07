@@ -64,7 +64,7 @@ w84	avez	avoir	V		Negative	36	Opinion	30		0		0		0		0		0		0	83	true	6
 w85	droit	droit	N		Negative	36	Opinion	30		0		0		0		0		0		0	84	true	6
 w86	à	à	P		Negative	36	Opinion	30		0		0		0		0		0		0	85	true	6
 w87	30	30	D		Negative	36	Opinion	30		0		0		0		0		0		0	86	true	6
-w89	Si	Si	C			0		0		0		0		0		0		0		0	88	true	7
+w89	Si	Si	C			0	Opinion	37		0		0		0		0		0		0	88	true	7
 w90	vous	lui	Q			0		0		0		0		0		0		0		0	89	true	7
 w91	ne	ne	G			0	Opinion	37		0		0		0		0		0		0	90	true	7
 w92	parlez	parler	V			0	Opinion	37		0		0		0		0		0		0	91	true	7
@@ -76,16 +76,16 @@ w97	vous	lui	Q		OpinionTarget	44	Opinion	37		0		0		0		0		0		0	96	true	7
 w98	serez	serez	Q		Negative	39	Opinion	37		0		0		0		0		0		0	97	true	7
 w99	complètement	complètement	G		Negative	39	Opinion	37		0		0		0		0		0		0	98	true	7
 w100	perdu	perdre	V		Negative	39	Opinion	37		0		0		0		0		0		0	99	true	7
-w101	,	,	O			0		0		0		0		0		0		0		0	100	true	7
-w102	tout	tout	G			0	Opinion	56		0		0		0		0		0		0	101	true	7
-w103	comme	comme	P			0	Opinion	56		0		0		0		0		0		0	102	true	7
-w104	l'	le	D		OpinionTarget	40	Opinion	56		0		0		0		0		0		0	103	true	7
-w105	hôtel	hôtel	N		OpinionTarget	40	Opinion	56	Location	43		0		0		0		0		0	104	true	7
-w106	au	au	P		Negative	41	Opinion	56	Location	42		0		0		0		0		0	105	true	7
-w107	milieu	milieu	N		Negative	41	Opinion	56	Location	42		0		0		0		0		0	106	true	7
-w108	de	de	P		Negative	41	Opinion	56	Location	42		0		0		0		0		0	107	true	7
-w109	nul	nul	D		Negative	41	Opinion	56	Location	42		0		0		0		0		0	108	true	7
-w110	part.	part.	N		Negative	41	Opinion	56	Location	42		0		0		0		0		0	109	true	7
+w101	,	,	O			0	Opinion	37		0		0		0		0		0		0	100	true	7
+w102	tout	tout	G			0	Opinion	37		0		0		0		0		0		0	101	true	7
+w103	comme	comme	P			0	Opinion	37		0		0		0		0		0		0	102	true	7
+w104	l'	le	D		OpinionTarget	40	Opinion	37		0		0		0		0		0		0	103	true	7
+w105	hôtel	hôtel	N		OpinionTarget	40	Opinion	37	Location	43		0		0		0		0		0	104	true	7
+w106	au	au	P		Negative	41	Opinion	37	Location	42		0		0		0		0		0	105	true	7
+w107	milieu	milieu	N		Negative	41	Opinion	37	Location	42		0		0		0		0		0	106	true	7
+w108	de	de	P		Negative	41	Opinion	37	Location	42		0		0		0		0		0	107	true	7
+w109	nul	nul	D		Negative	41	Opinion	37	Location	42		0		0		0		0		0	108	true	7
+w110	part.	part.	N		Negative	41	Opinion	37	Location	42		0		0		0		0		0	109	true	7
 w111	La	le	D		OpinionTarget	46	Opinion	45		0		0		0		0		0		0	110	true	8
 w112	plage	plage	N		OpinionTarget	46	Opinion	45		0		0		0		0		0		0	111	true	8
 w113	n'	n'	G		StrongNegative	47	Opinion	45		0		0		0		0		0		0	112	true	8
@@ -111,14 +111,14 @@ w133	passer	passer	V		Negative	52	Opinion	48		0		0		0		0		0		0	132	true	9
 w134	des	un	D		Negative	52	Opinion	48		0		0		0		0		0		0	133	true	9
 w135	vacances	vacance	N		Negative	52	Opinion	48		0		0		0		0		0		0	134	true	9
 w136	nulles	nul	G		Negative	52	Opinion	48		0		0		0		0		0		0	135	true	9
-w137	choisissez	choisissez	P			0		0		0		0		0		0		0		0	136	true	9
-w138	cet	ce	D			0	Opinion	57		0		0		0		0		0		0	137	true	9
-w139	hôtel	hôtel	N			0	Opinion	57		0		0		0		0		0		0	138	true	9
-w140	que	que	C			0	Opinion	57		0		0		0		0		0		0	139	true	9
-w141	je	je	Q		OpinionTarget	53	Opinion	57		0		0		0		0		0		0	140	true	9
-w142	ne	ne	G		StrongNegative	54	Opinion	57		0		0		0		0		0		0	141	true	9
-w143	donne	donner	V		StrongNegative	54	Opinion	57		0		0		0		0		0		0	142	true	9
-w144	à	à	P		StrongNegative	54	Opinion	57		0		0		0		0		0		0	143	true	9
-w145	peine	peine	N		StrongNegative	54	Opinion	57		0		0		0		0		0		0	144	true	9
-w146	une	un	D		StrongNegative	54	Opinion	57		0		0		0		0		0		0	145	true	9
-w147	*	*	N		StrongNegative	54	Opinion	57		0	1-highly negative	55		0		0		0		0	146	true	9
+w137	choisissez	choisissez	P			0	Opinion	48		0		0		0		0		0		0	136	true	9
+w138	cet	ce	D			0	Opinion	48		0		0		0		0		0		0	137	true	9
+w139	hôtel	hôtel	N			0	Opinion	48		0		0		0		0		0		0	138	true	9
+w140	que	que	C			0	Opinion	48		0		0		0		0		0		0	139	true	9
+w141	je	je	Q		OpinionTarget	53	Opinion	48		0		0		0		0		0		0	140	true	9
+w142	ne	ne	G		StrongNegative	54	Opinion	48		0		0		0		0		0		0	141	true	9
+w143	donne	donner	V		StrongNegative	54	Opinion	48		0		0		0		0		0		0	142	true	9
+w144	à	à	P		StrongNegative	54	Opinion	48		0		0		0		0		0		0	143	true	9
+w145	peine	peine	N		StrongNegative	54	Opinion	48		0		0		0		0		0		0	144	true	9
+w146	une	un	D		StrongNegative	54	Opinion	48		0		0		0		0		0		0	145	true	9
+w147	*	*	N		StrongNegative	54	Opinion	48		0	1-highly negative	55		0		0		0		0	146	true	9

@@ -16,25 +16,25 @@ w15	end	end	G		StrongPositive	7	Opinion	8		0		0		0		0		0		0	14	true	2
 w16	en	en	P		StrongPositive	7	Opinion	8		0		0		0		0		0		0	15	true	2
 w17	couple	couple	N		StrongPositive	7	Opinion	8		0		0		0		0		0		0	16	true	2
 w18	,	,	O			0	Opinion	8		0		0		0		0		0		0	17	true	2
-w19	malgré	malgré	P			0	Opinion	34		0		0		0		0		0		0	18	true	2
-w20	des	un	D			0	Opinion	34		0		0		0		0		0		0	19	true	2
-w21	chambres	chambre	N		OpinionTarget	10	Opinion	34		0		0		0		0		0		0	20	true	2
-w22	étroites	étroit	G		Negative	11	Opinion	34		0		0		0		0		0		0	21	true	2
-w23	,	,	O			0		0		0		0		0		0		0		0	22	true	2
-w24	et	et	C			0	Opinion	35		0		0		0		0		0		0	23	true	2
-w25	avec	avec	P			0	Opinion	35		0		0		0		0		0		0	24	true	2
-w26	un	un	D		OpinionTarget	13	Opinion	35	Staff	14		0		0		0		0		0	25	true	2
-w27	faible	faible	G		Negative	12	Opinion	35		0		0		0		0		0		0	26	true	2
-w28	équipement	équipement	N		OpinionTarget	13	Opinion	35		0		0		0		0		0		0	27	true	2
+w19	malgré	malgré	P			0	Opinion	8		0		0		0		0		0		0	18	true	2
+w20	des	un	D			0	Opinion	8		0		0		0		0		0		0	19	true	2
+w21	chambres	chambre	N		OpinionTarget	10	Opinion	8		0		0		0		0		0		0	20	true	2
+w22	étroites	étroit	G		Negative	11	Opinion	8		0		0		0		0		0		0	21	true	2
+w23	,	,	O			0	Opinion	8		0		0		0		0		0		0	22	true	2
+w24	et	et	C			0	Opinion	8		0		0		0		0		0		0	23	true	2
+w25	avec	avec	P			0	Opinion	8		0		0		0		0		0		0	24	true	2
+w26	un	un	D		OpinionTarget	13	Opinion	8	Staff	14		0		0		0		0		0	25	true	2
+w27	faible	faible	G		Negative	12	Opinion	8		0		0		0		0		0		0	26	true	2
+w28	équipement	équipement	N		OpinionTarget	13	Opinion	8		0		0		0		0		0		0	27	true	2
 w30	Bonne	bon	G		Positive	15	Opinion	21	Facilities	22		0		0		0		0		0	29	true	3
 w31	TV	TV	N		OpinionTarget	16	Opinion	21		0		0		0		0		0		0	30	true	3
-w32	,	,	O			0		0		0		0		0		0		0		0	31	true	3
-w33	bonne	bon	G		Positive	17	Opinion	36	Bathroom	23		0		0		0		0		0	32	true	3
-w34	douche	douche	N		OpinionTarget	18	Opinion	36		0		0		0		0		0		0	33	true	3
-w35	,	,	O			0		0		0		0		0		0		0		0	34	true	3
-w36	et	et	C			0		0		0		0		0		0		0		0	35	true	3
-w37	design	design	P		OpinionTarget	19	Opinion	38	Rooms	24		0		0		0		0		0	36	true	3
-w38	sympathique	sympathique	G		Positive	20	Opinion	38		0		0		0		0		0		0	37	true	3
+w32	,	,	O			0	Opinion	21		0		0		0		0		0		0	31	true	3
+w33	bonne	bon	G		Positive	17	Opinion	21	Bathroom	23		0		0		0		0		0	32	true	3
+w34	douche	douche	N		OpinionTarget	18	Opinion	21		0		0		0		0		0		0	33	true	3
+w35	,	,	O			0	Opinion	21		0		0		0		0		0		0	34	true	3
+w36	et	et	C			0	Opinion	21		0		0		0		0		0		0	35	true	3
+w37	design	design	P		OpinionTarget	19	Opinion	21	Rooms	24		0		0		0		0		0	36	true	3
+w38	sympathique	sympathique	G		Positive	20	Opinion	21		0		0		0		0		0		0	37	true	3
 w40	Check	Check	N		OpinionTarget	25	Opinion	27	Reservation/check-in/check-out	28		0		0		0		0		0	39	true	4
 w41	·	·	G		OpinionTarget	25	Opinion	27		0		0		0		0		0		0	40	true	4
 w42	In	In	O		OpinionTarget	25	Opinion	27		0		0		0		0		0		0	41	true	4

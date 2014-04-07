@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:36:44" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:14CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:07CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:14CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:07CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1003,8 +1003,55 @@
       <edge id="tre145" from="ter53" to="nter92"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t48"/>
+            <target id="t49"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Breakfast">
+        <references>
+          <span>
+            <target id="t40"/>
+            <target id="t41"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Staff">
+        <references>
+          <span>
+            <target id="t22"/>
+            <target id="t23"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="19_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--l’ hôtel-->
+        <span>
+          <target id="t19"/>
+          <target id="t20"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--grâce à-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder>
         <!--Nous-->
         <span>
@@ -1012,8 +1059,9 @@
         </span>
       </opinion_holder>
       <opinion_target>
-        <!--week · end-->
+        <!--un week · end-->
         <span>
+          <target id="t10"/>
           <target id="t12"/>
           <target id="t13"/>
           <target id="t14"/>
@@ -1026,24 +1074,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Le petit déjeuner-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-          <target id="t41"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--parfait-->
-        <span>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="30_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
       <opinion_holder/>
       <opinion_target>
         <!--L' intimité dans la chambre-->
@@ -1055,7 +1087,7 @@
           <target id="t49"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Positive">
+      <opinion_expression polarity="StrongPositive">
         <!--bien conservée-->
         <span>
           <target id="t51"/>
@@ -1063,7 +1095,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="22_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--Le réceptionniste-->
@@ -1080,34 +1113,23 @@
         </span>
       </opinion_expression>
     </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Le petit déjeuner-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--parfait-->
+        <span>
+          <target id="t43"/>
+        </span>
+      </opinion_expression>
+    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t22"/>
-            <target id="t23"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Breakfast">
-        <references>
-          <span>
-            <target id="t39"/>
-            <target id="t40"/>
-            <target id="t41"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t48"/>
-            <target id="t49"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

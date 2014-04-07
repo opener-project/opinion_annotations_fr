@@ -2,20 +2,20 @@ w3	Je	Je	Q		OpinionHolder	2	Opinion	1		0		0		0		0		0		0	2	true	2
 w4	tiens	tenir	V			0	Opinion	1		0		0		0		0		0		0	3	true	2
 w5	a	avoir	V			0	Opinion	1		0		0		0		0		0		0	4	true	2
 w6	felicite	felicite	V		Positive	3	Opinion	1		0		0		0		0		0		0	5	true	2
-w7	le	le	D		OpinionTarget	24	Opinion	1	Staff	5		0		0		0		0		0	6	true	2
-w8	manager	manager	N		OpinionTarget	24	Opinion	1	Staff	5		0		0		0		0		0	7	true	2
-w9	du	du	P		OpinionTarget	24	Opinion	1	Staff	5		0		0		0		0		0	8	true	2
-w10	restaurant	restaurer	V		OpinionTarget	24	Opinion	1	Staff	5		0		0		0		0		0	9	true	2
-w11	rose	rose	G		OpinionTarget	24	Opinion	1	Staff	5		0		0		0		0		0	10	true	2
+w7	le	le	D		OpinionTarget	4	Opinion	1	Staff	5		0		0		0		0		0	6	true	2
+w8	manager	manager	N		OpinionTarget	4	Opinion	1	Staff	5		0		0		0		0		0	7	true	2
+w9	du	du	P		OpinionTarget	4	Opinion	1	Staff	5		0		0		0		0		0	8	true	2
+w10	restaurant	restaurer	V		OpinionTarget	4	Opinion	1	Staff	5		0		0		0		0		0	9	true	2
+w11	rose	rose	G		OpinionTarget	4	Opinion	1	Staff	5		0		0		0		0		0	10	true	2
 w12	,	,	O			0	Opinion	1		0		0		0		0		0		0	11	true	2
-w13	rhones	rhones	N		OpinionTarget	24	Opinion	1	Staff	7		0		0		0		0		0	12	true	2
-w14	,	,	O			0		0		0		0		0		0		0		0	13	true	2
-w15	il	il	Q		OpinionTarget	8	Opinion	25	Staff	9		0		0		0		0		0	14	true	2
-w16	est	être	V			0	Opinion	25		0		0		0		0		0		0	15	true	2
-w17	tres	tres	D		StrongPositive	10	Opinion	25		0		0		0		0		0		0	16	true	2
-w18	honnete	honnete	G		StrongPositive	10	Opinion	25		0		0		0		0		0		0	17	true	2
-w19	,	,	O			0	Opinion	25		0		0		0		0		0		0	18	true	2
-w20	sympathique	sympathique	G		Positive	11	Opinion	25		0		0		0		0		0		0	19	true	2
+w13	rhones	rhones	N		OpinionTarget	6	Opinion	1	Staff	7		0		0		0		0		0	12	true	2
+w14	,	,	O			0	Opinion	1		0		0		0		0		0		0	13	true	2
+w15	il	il	Q		OpinionTarget	8	Opinion	1	Staff	9		0		0		0		0		0	14	true	2
+w16	est	être	V			0	Opinion	1		0		0		0		0		0		0	15	true	2
+w17	tres	tres	D		StrongPositive	10	Opinion	1		0		0		0		0		0		0	16	true	2
+w18	honnete	honnete	G		StrongPositive	10	Opinion	1		0		0		0		0		0		0	17	true	2
+w19	,	,	O			0	Opinion	1		0		0		0		0		0		0	18	true	2
+w20	sympathique	sympathique	G		Positive	11	Opinion	1		0		0		0		0		0		0	19	true	2
 w22	Car	Car	C			0	Opinion	12		0		0		0		0		0		0	21	true	3
 w23	nous	lui	Q			0	Opinion	12		0		0		0		0		0		0	22	true	3
 w24	avons	avoir	V			0	Opinion	12		0		0		0		0		0		0	23	true	3

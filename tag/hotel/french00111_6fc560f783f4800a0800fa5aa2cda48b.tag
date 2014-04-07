@@ -71,15 +71,15 @@ w94	,	,	O			0	Opinion	23		0		0		0		0		0		0	93	true	4
 w95	un	un	D		Positive	26	Opinion	23		0		0		0		0		0		0	94	true	4
 w96	dejeuner	dejeuner	N		Positive	26	Opinion	23		0		0		0		0		0		0	95	true	4
 w97	passable	passable	G		Positive	26	Opinion	23		0		0		0		0		0		0	96	true	4
-w99	les	le	D		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	98	true	4
-w100	reservations	reservations	N		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	99	true	4
-w101	de	de	P		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	100	true	4
-w102	restaurant	restaurer	V		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	101	true	4
-w103	le	le	D		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	102	true	4
-w104	japonais	japonais	N		OpinionTarget	28	Opinion	40	Restaurant	29		0		0		0		0		0	103	true	4
-w105	est	être	V			0	Opinion	40		0		0		0		0		0		0	104	true	4
-w106	sympa	sympa	G		Positive	30	Opinion	40		0		0		0		0		0		0	105	true	4
-w107	mais	mais	C			0		0		0		0		0		0		0		0	106	true	4
+w99	les	le	D		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	98	true	4
+w100	reservations	reservations	N		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	99	true	4
+w101	de	de	P		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	100	true	4
+w102	restaurant	restaurer	V		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	101	true	4
+w103	le	le	D		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	102	true	4
+w104	japonais	japonais	N		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	103	true	4
+w105	est	être	V			0	Opinion	27		0		0		0		0		0		0	104	true	4
+w106	sympa	sympa	G		Positive	30	Opinion	27		0		0		0		0		0		0	105	true	4
+w107	mais	mais	C			0	Opinion	27		0		0		0		0		0		0	106	true	4
 w108	le	le	D		OpinionTarget	31	Opinion	27	Restaurant	32		0		0		0		0		0	107	true	4
 w109	garden	garden	N		OpinionTarget	31	Opinion	27	Restaurant	32		0		0		0		0		0	108	true	4
 w110	grill	grill	N		OpinionTarget	31	Opinion	27	Restaurant	32		0		0		0		0		0	109	true	4

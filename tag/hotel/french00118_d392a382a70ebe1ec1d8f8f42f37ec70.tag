@@ -1,4 +1,4 @@
-w1	Très	Très	G		StrongPositive	1	Opinion	2		0	9-very positive	25		0		0		0		0	0	true	1
+w1	Très	Très	G		StrongPositive	1	Opinion	2		0		0		0		0		0		0	0	true	1
 w2	bon	bon	G		StrongPositive	1	Opinion	2		0		0		0		0		0		0	1	true	1
 w3	sejour	sejour	N		StrongPositive	1	Opinion	2		0		0		0		0		0		0	2	true	1
 w4	Nous	lui	Q		OpinionHolder	3	Opinion	5		0		0		0		0		0		0	3	true	2

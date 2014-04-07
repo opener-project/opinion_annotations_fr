@@ -2,13 +2,13 @@ w3	Cest	Cest	N			0	Opinion	1		0		0		0		0		0		0	2	true	2
 w4	un	un	D			0	Opinion	1		0		0		0		0		0		0	3	true	2
 w5	super	super	N		StrongPositive	4	Opinion	1		0		0		0		0		0		0	4	true	2
 w6	hotel	hotel	G		OpinionTarget	2	Opinion	1	Location	3		0		0		0		0		0	5	true	2
-w7	composee	composee	N			0		0		0		0		0		0		0		0	6	true	2
-w8	de	de	P			0		0		0		0		0		0		0		0	7	true	2
-w9	plusieurs	plusieurs	D		Positive	8	Opinion	27		0		0		0		0		0		0	8	true	2
-w10	tobogant	tobogant	V		OpinionTarget	6	Opinion	27	Swimming pool	7		0		0		0		0		0	9	true	2
-w11	dune	dune	P			0		0		0		0		0		0		0		0	10	true	2
-w12	super	super	V		StrongPositive	9	Opinion	28		0		0		0		0		0		0	11	true	2
-w13	plage	plage	N		OpinionTarget	10	Opinion	28		0		0		0		0		0		0	12	true	2
+w7	composee	composee	N			0	Opinion	5		0		0		0		0		0		0	6	true	2
+w8	de	de	P			0	Opinion	5		0		0		0		0		0		0	7	true	2
+w9	plusieurs	plusieurs	D		Positive	8	Opinion	5		0		0		0		0		0		0	8	true	2
+w10	tobogant	tobogant	V		OpinionTarget	6	Opinion	5	Swimming pool	7		0		0		0		0		0	9	true	2
+w11	dune	dune	P			0	Opinion	5		0		0		0		0		0		0	10	true	2
+w12	super	super	V		StrongPositive	9	Opinion	5		0		0		0		0		0		0	11	true	2
+w13	plage	plage	N		OpinionTarget	10	Opinion	5		0		0		0		0		0		0	12	true	2
 w14	,	,	O			0	Opinion	5		0		0		0		0		0		0	13	true	2
 w15	dune	dune	P			0	Opinion	5		0		0		0		0		0		0	14	true	2
 w16	tres	tres	N		StrongPositive	11	Opinion	5		0		0		0		0		0		0	15	true	2

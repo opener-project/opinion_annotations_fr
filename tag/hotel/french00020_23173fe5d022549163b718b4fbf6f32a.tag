@@ -2,17 +2,17 @@ w1	Plus	Plus	G		Negative	2	Opinion	1		0		0		0		0		0		0	0	true	1
 w2	jamais	jamais	G		Negative	2	Opinion	1		0		0		0		0		0		0	1	true	1
 w3	Camping	camping	N		OpinionTarget	4	Opinion	3	Location	6		0		0		0		0		0	2	true	2
 w4	NUL	nul	N		Negative	7	Opinion	3		0		0		0		0		0		0	3	true	2
-w6	Activités	activité	N		OpinionTarget	9	Opinion	40		0		0		0		0		0		0	5	true	2
-w7	nulles	nul	G		Negative	10	Opinion	40		0		0		0		0		0		0	6	true	2
-w8	et	et	C			0	Opinion	40		0		0		0		0		0		0	7	true	2
-w9	payantes	payant	G		Negative	11	Opinion	40		0		0		0		0		0		0	8	true	2
-w10	même	même	G			0		0		0		0		0		0		0		0	9	true	2
-w11	le	le	D		OpinionTarget	12	Opinion	41		0		0		0		0		0		0	10	true	2
-w12	concours	concours	N		OpinionTarget	12	Opinion	41		0		0		0		0		0		0	11	true	2
-w13	de	de	P		OpinionTarget	12	Opinion	41		0		0		0		0		0		0	12	true	2
-w14	pétanques	pétanque	N		OpinionTarget	12	Opinion	41		0		0		0		0		0		0	13	true	2
-w15	4	4	D		Negative	13	Opinion	41	Value-for-money	14		0		0		0		0		0	14	true	2
-w16	euros	euro	N		Negative	13	Opinion	41	Value-for-money	14		0		0		0		0		0	15	true	2
+w6	Activités	activité	N		OpinionTarget	9	Opinion	8		0		0		0		0		0		0	5	true	2
+w7	nulles	nul	G		Negative	10	Opinion	8		0		0		0		0		0		0	6	true	2
+w8	et	et	C			0	Opinion	8		0		0		0		0		0		0	7	true	2
+w9	payantes	payant	G		Negative	11	Opinion	8		0		0		0		0		0		0	8	true	2
+w10	même	même	G			0	Opinion	8		0		0		0		0		0		0	9	true	2
+w11	le	le	D		OpinionTarget	12	Opinion	8		0		0		0		0		0		0	10	true	2
+w12	concours	concours	N		OpinionTarget	12	Opinion	8		0		0		0		0		0		0	11	true	2
+w13	de	de	P		OpinionTarget	12	Opinion	8		0		0		0		0		0		0	12	true	2
+w14	pétanques	pétanque	N		OpinionTarget	12	Opinion	8		0		0		0		0		0		0	13	true	2
+w15	4	4	D		Negative	13	Opinion	8	Value-for-money	14		0		0		0		0		0	14	true	2
+w16	euros	euro	N		Negative	13	Opinion	8	Value-for-money	14		0		0		0		0		0	15	true	2
 w17	L'	le	D		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	16	true	3
 w18	installation	installation	N		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	17	true	3
 w19	spectacle	spectacle	G		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	18	true	3

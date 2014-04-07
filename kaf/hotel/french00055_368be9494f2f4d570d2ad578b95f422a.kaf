@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:41" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:19CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:14CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:19CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:14CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1322,8 +1322,46 @@
       <edge id="tre194" from="ter71" to="nter123"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t14"/>
+            <target id="t15"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Location">
+        <references>
+          <span>
+            <target id="t1"/>
+            <target id="t2"/>
+            <target id="t3"/>
+            <target id="t4"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t67"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Staff">
+        <references>
+          <span>
+            <target id="t22"/>
+            <target id="t23"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="13_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -1334,7 +1372,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="15_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--le personnel-->
@@ -1362,7 +1401,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="23_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
         <!--souvenir-->
@@ -1379,7 +1419,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="19_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=19-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -1419,7 +1460,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -1442,7 +1484,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target>
         <!--L' hôtel Sofitel Agadir-->
@@ -1462,7 +1505,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--Le séjour-->
@@ -1479,7 +1523,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--le personnel-->
@@ -1495,7 +1540,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--le personnel-->
@@ -1512,41 +1558,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t14"/>
-            <target id="t15"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Location">
-        <references>
-          <span>
-            <target id="t1"/>
-            <target id="t2"/>
-            <target id="t3"/>
-            <target id="t4"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Location">
-        <references>
-          <span>
-            <target id="t67"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Staff">
-        <references>
-          <span>
-            <target id="t22"/>
-            <target id="t23"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

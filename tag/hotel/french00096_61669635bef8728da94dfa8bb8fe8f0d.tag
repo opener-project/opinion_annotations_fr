@@ -11,47 +11,47 @@ w10	personnel	personnel	N		OpinionHolder	6	Opinion	5	Staff	7		0		0		0		0		0	9	tr
 w11	est	être	V			0	Opinion	5		0		0		0		0		0		0	10	true	2
 w12	très	très	G		StrongNegative	9	Opinion	5		0		0		0		0		0		0	11	true	2
 w13	désagréable	désagréable	G		StrongNegative	9	Opinion	5		0		0		0		0		0		0	12	true	2
-w17	une	un	D		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	16	true	3
-w18	jeune	jeune	G		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	17	true	3
-w19	fille	fille	N		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	18	true	3
-w20	de	de	P		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	19	true	3
-w21	l'	le	D		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	20	true	3
-w22	accueil	accueil	N		OpinionTarget	11	Opinion	23	Staff	12		0		0		0		0		0	21	true	3
-w23	nous	lui	Q		Negative	13	Opinion	23		0		0		0		0		0		0	22	true	3
-w24	ait	avoir	V		Negative	13	Opinion	23		0		0		0		0		0		0	23	true	3
-w25	fait	faire	V		Negative	13	Opinion	23		0		0		0		0		0		0	24	true	3
-w26	attendre	attendre	V		Negative	13	Opinion	23		0		0		0		0		0		0	25	true	3
-w27	long	long	G		Negative	13	Opinion	23		0		0		0		0		0		0	26	true	3
-w28	moment	moment	N		Negative	13	Opinion	23		0		0		0		0		0		0	27	true	3
-w29	pour	pour	P		Negative	13	Opinion	23		0		0		0		0		0		0	28	true	3
-w30	une	un	D		Negative	13	Opinion	23		0		0		0		0		0		0	29	true	3
-w31	histoire	histoire	N		Negative	13	Opinion	23		0		0		0		0		0		0	30	true	3
-w32	de	de	P		Negative	13	Opinion	23		0		0		0		0		0		0	31	true	3
-w33	carte	carte	N		Negative	13	Opinion	23		0		0		0		0		0		0	32	true	3
-w34	d'	d'	P		Negative	13	Opinion	23		0		0		0		0		0		0	33	true	3
-w35	identitée	identitée	N		Negative	13	Opinion	23		0		0		0		0		0		0	34	true	3
-w36	(	(	O			0	Opinion	23		0		0		0		0		0		0	35	true	3
-w37	le	le	D			0	Opinion	23		0		0		0		0		0		0	36	true	3
-w38	contrôle	contrôle	N			0	Opinion	23		0		0		0		0		0		0	37	true	3
-w39	d'	d'	P			0	Opinion	23		0		0		0		0		0		0	38	true	3
-w40	identité	identité	N			0	Opinion	23		0		0		0		0		0		0	39	true	3
-w41	pour	pour	P			0	Opinion	23		0		0		0		0		0		0	40	true	3
-w42	un	un	D			0	Opinion	23		0		0		0		0		0		0	41	true	3
-w43	hébergement	hébergement	N			0	Opinion	23		0		0		0		0		0		0	42	true	3
-w44	de	de	P			0	Opinion	23		0		0		0		0		0		0	43	true	3
-w45	ce	ce	D			0	Opinion	23		0		0		0		0		0		0	44	true	3
-w46	type	type	N			0	Opinion	23		0		0		0		0		0		0	45	true	3
-w47	parait	parer	V			0	Opinion	23		0		0		0		0		0		0	46	true	3
-w48	assez	assez	G			0	Opinion	23		0		0		0		0		0		0	47	true	3
-w49	inutile	inutile	G			0	Opinion	23		0		0		0		0		0		0	48	true	3
-w50	)	)	O			0	Opinion	23		0		0		0		0		0		0	49	true	3
-w51	sans	sans]	P		Negative	14	Opinion	23		0		0		0		0		0		0	50	true	3
-w52	nous	lui	Q		Negative	14	Opinion	23		0		0		0		0		0		0	51	true	3
-w53	donner	donner	V		Negative	14	Opinion	23		0		0		0		0		0		0	52	true	3
-w54	trop	trop	G		Negative	14	Opinion	23		0		0		0		0		0		0	53	true	3
-w55	d'	d'	P		Negative	14	Opinion	23		0		0		0		0		0		0	54	true	3
-w56	informations	information	N		Negative	14	Opinion	23		0		0		0		0		0		0	55	true	3
-w57	,	,	O			0		0		0		0		0		0		0		0	56	true	3
+w17	une	un	D		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	16	true	3
+w18	jeune	jeune	G		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	17	true	3
+w19	fille	fille	N		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	18	true	3
+w20	de	de	P		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	19	true	3
+w21	l'	le	D		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	20	true	3
+w22	accueil	accueil	N		OpinionTarget	11	Opinion	10	Staff	12		0		0		0		0		0	21	true	3
+w23	nous	lui	Q		Negative	13	Opinion	10		0		0		0		0		0		0	22	true	3
+w24	ait	avoir	V		Negative	13	Opinion	10		0		0		0		0		0		0	23	true	3
+w25	fait	faire	V		Negative	13	Opinion	10		0		0		0		0		0		0	24	true	3
+w26	attendre	attendre	V		Negative	13	Opinion	10		0		0		0		0		0		0	25	true	3
+w27	long	long	G		Negative	13	Opinion	10		0		0		0		0		0		0	26	true	3
+w28	moment	moment	N		Negative	13	Opinion	10		0		0		0		0		0		0	27	true	3
+w29	pour	pour	P		Negative	13	Opinion	10		0		0		0		0		0		0	28	true	3
+w30	une	un	D		Negative	13	Opinion	10		0		0		0		0		0		0	29	true	3
+w31	histoire	histoire	N		Negative	13	Opinion	10		0		0		0		0		0		0	30	true	3
+w32	de	de	P		Negative	13	Opinion	10		0		0		0		0		0		0	31	true	3
+w33	carte	carte	N		Negative	13	Opinion	10		0		0		0		0		0		0	32	true	3
+w34	d'	d'	P		Negative	13	Opinion	10		0		0		0		0		0		0	33	true	3
+w35	identitée	identitée	N		Negative	13	Opinion	10		0		0		0		0		0		0	34	true	3
+w36	(	(	O			0	Opinion	10		0		0		0		0		0		0	35	true	3
+w37	le	le	D			0	Opinion	10		0		0		0		0		0		0	36	true	3
+w38	contrôle	contrôle	N			0	Opinion	10		0		0		0		0		0		0	37	true	3
+w39	d'	d'	P			0	Opinion	10		0		0		0		0		0		0	38	true	3
+w40	identité	identité	N			0	Opinion	10		0		0		0		0		0		0	39	true	3
+w41	pour	pour	P			0	Opinion	10		0		0		0		0		0		0	40	true	3
+w42	un	un	D			0	Opinion	10		0		0		0		0		0		0	41	true	3
+w43	hébergement	hébergement	N			0	Opinion	10		0		0		0		0		0		0	42	true	3
+w44	de	de	P			0	Opinion	10		0		0		0		0		0		0	43	true	3
+w45	ce	ce	D			0	Opinion	10		0		0		0		0		0		0	44	true	3
+w46	type	type	N			0	Opinion	10		0		0		0		0		0		0	45	true	3
+w47	parait	parer	V			0	Opinion	10		0		0		0		0		0		0	46	true	3
+w48	assez	assez	G			0	Opinion	10		0		0		0		0		0		0	47	true	3
+w49	inutile	inutile	G			0	Opinion	10		0		0		0		0		0		0	48	true	3
+w50	)	)	O			0	Opinion	10		0		0		0		0		0		0	49	true	3
+w51	sans	sans]	P		Negative	14	Opinion	10		0		0		0		0		0		0	50	true	3
+w52	nous	lui	Q		Negative	14	Opinion	10		0		0		0		0		0		0	51	true	3
+w53	donner	donner	V		Negative	14	Opinion	10		0		0		0		0		0		0	52	true	3
+w54	trop	trop	G		Negative	14	Opinion	10		0		0		0		0		0		0	53	true	3
+w55	d'	d'	P		Negative	14	Opinion	10		0		0		0		0		0		0	54	true	3
+w56	informations	information	N		Negative	14	Opinion	10		0		0		0		0		0		0	55	true	3
+w57	,	,	O			0	Opinion	10		0		0		0		0		0		0	56	true	3
 w58	le	le	D		OpinionTarget	15	Opinion	10	Staff	16		0		0		0		0		0	57	true	3
 w59	gérant	gérant	N		OpinionTarget	15	Opinion	10	Staff	16		0		0		0		0		0	58	true	3
 w60	nous	lui	Q		StrongNegative	17	Opinion	10		0		0		0		0		0		0	59	true	3

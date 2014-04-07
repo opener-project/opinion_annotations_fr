@@ -12,11 +12,11 @@ w15	°	°	P		OpinionTarget	5	Opinion	4	Rooms	6		0		0		0		0		0	14	true	2
 w16	62	62	O		OpinionTarget	5	Opinion	4	Rooms	6		0		0		0		0		0	15	true	2
 w17	)	)	O		OpinionTarget	5	Opinion	4	Rooms	6		0		0		0		0		0	16	true	2
 w18	:	:	O			0	Opinion	4		0		0		0		0		0		0	17	true	2
-w19	très	très	G		Positive	56	Opinion	4		0		0		0		0		0		0	18	true	2
-w20	bon	bon	G		Positive	56	Opinion	4		0		0		0		0		0		0	19	true	2
-w21	rapport	rapport	N		Positive	56	Opinion	4	Value-for-money	9		0		0		0		0		0	20	true	2
-w22	qualité	qualité	N		Positive	56	Opinion	4	Value-for-money	9		0		0		0		0		0	21	true	2
-w23	prix	prix	N		Positive	56	Opinion	4	Value-for-money	9		0		0		0		0		0	22	true	2
+w19	très	très	G		StrongPositive	7	Opinion	4		0		0		0		0		0		0	18	true	2
+w20	bon	bon	G		StrongPositive	7	Opinion	4		0		0		0		0		0		0	19	true	2
+w21	rapport	rapport	N		OpinionTarget	8	Opinion	4	Value-for-money	9		0		0		0		0		0	20	true	2
+w22	qualité	qualité	N		OpinionTarget	8	Opinion	4	Value-for-money	9		0		0		0		0		0	21	true	2
+w23	prix	prix	N		OpinionTarget	8	Opinion	4	Value-for-money	9		0		0		0		0		0	22	true	2
 w24	,	,	O			0	Opinion	4		0		0		0		0		0		0	23	true	2
 w25	neuf	neuf	G		Positive	10	Opinion	4		0		0		0		0		0		0	24	true	2
 w26	,	,	O			0	Opinion	4		0		0		0		0		0		0	25	true	2
@@ -46,44 +46,44 @@ w52	et	et	C			0	Opinion	16		0		0		0		0		0		0	51	true	3
 w53	au	au	P		Positive	21	Opinion	16		0		0		0		0		0		0	52	true	3
 w54	calme	calme	N		Positive	21	Opinion	16		0		0		0		0		0		0	53	true	3
 w56	Côté	côté	N			0	Opinion	22		0		0		0		0		0		0	55	true	4
-w57	accueil	accueil	N		OpinionTarget	57	Opinion	22	Reservation/check-in/check-out	24		0		0		0		0		0	56	true	4
+w57	accueil	accueil	N		OpinionTarget	23	Opinion	22	Reservation/check-in/check-out	24		0		0		0		0		0	56	true	4
 w58	rien	rien	P		Positive	25	Opinion	22		0		0		0		0		0		0	57	true	4
 w59	à	à	P		Positive	25	Opinion	22		0		0		0		0		0		0	58	true	4
 w60	dire	dire	V		Positive	25	Opinion	22		0		0		0		0		0		0	59	true	4
 w61	tant	tant	G			0	Opinion	22		0		0		0		0		0		0	60	true	4
 w62	à	à	P			0	Opinion	22		0		0		0		0		0		0	61	true	4
-w63	la	le	D		OpinionTarget	57	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	62	true	4
-w64	réception	réception	N		OpinionTarget	57	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	63	true	4
-w65	du	du	P		OpinionTarget	57	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	64	true	4
-w66	camping	camping	N		OpinionTarget	57	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	65	true	4
+w63	la	le	D		OpinionTarget	26	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	62	true	4
+w64	réception	réception	N		OpinionTarget	26	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	63	true	4
+w65	du	du	P		OpinionTarget	26	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	64	true	4
+w66	camping	camping	N		OpinionTarget	26	Opinion	22	Reservation/check-in/check-out	27		0		0		0		0		0	65	true	4
 w67	et	et	C			0	Opinion	22		0		0		0		0		0		0	66	true	4
 w68	dans	dans	P			0	Opinion	22		0		0		0		0		0		0	67	true	4
-w69	le	le	D		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	68	true	4
-w70	magasin	magasin	N		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	69	true	4
-w71	articles	articles	P		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	70	true	4
-w72	de	de	P		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	71	true	4
-w73	plage	plage	N		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	72	true	4
-w74	·	·	P		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	73	true	4
-w75	presse	presse	N		OpinionTarget	57	Opinion	22	Interior/exterior	30		0		0		0		0		0	74	true	4
+w69	le	le	D		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	68	true	4
+w70	magasin	magasin	N		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	69	true	4
+w71	articles	articles	P		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	70	true	4
+w72	de	de	P		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	71	true	4
+w73	plage	plage	N		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	72	true	4
+w74	·	·	P		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	73	true	4
+w75	presse	presse	N		OpinionTarget	29	Opinion	22	Interior/exterior	30		0		0		0		0		0	74	true	4
 w77	Fin	fin	N			0	Opinion	31		0		0		0		0		0		0	76	true	5
 w78	septembre	septembre	N			0	Opinion	31		0		0		0		0		0		0	77	true	5
 w79	:	:	O			0	Opinion	31		0		0		0		0		0		0	78	true	5
-w80	aucune	aucun	D		Negative	59	Opinion	31		0		0		0		0		0		0	79	true	5
-w81	animation	animation	N		OpinionTarget	58	Opinion	31		0		0		0		0		0		0	80	true	5
+w80	aucune	aucun	D		OpinionTarget	34	Opinion	31		0		0		0		0		0		0	79	true	5
+w81	animation	animation	N		OpinionTarget	34	Opinion	31		0		0		0		0		0		0	80	true	5
 w82	et	et	C			0	Opinion	31		0		0		0		0		0		0	81	true	5
-w83	aucun	aucun	D		Negative	59	Opinion	31		0		0		0		0		0		0	82	true	5
-w84	commerce	commerce	N		OpinionTarget	58	Opinion	31		0		0		0		0		0		0	83	true	5
-w85	ouvert	ouvrir	V		Negative	59	Opinion	31		0		0		0		0		0		0	84	true	5
+w83	aucun	aucun	D		OpinionTarget	35	Opinion	31		0		0		0		0		0		0	82	true	5
+w84	commerce	commerce	N		OpinionTarget	35	Opinion	31		0		0		0		0		0		0	83	true	5
+w85	ouvert	ouvrir	V		Negative	36	Opinion	31		0		0		0		0		0		0	84	true	5
 w86	dans	dans	P			0	Opinion	31		0		0		0		0		0		0	85	true	5
 w87	le	le	D			0	Opinion	31		0		0		0		0		0		0	86	true	5
 w88	centre	centre	N			0	Opinion	31		0		0		0		0		0		0	87	true	5
 w89	commercial	commercial	G			0	Opinion	31		0		0		0		0		0		0	88	true	5
 w90	du	du	P			0	Opinion	31		0		0		0		0		0		0	89	true	5
 w91	camping	camping	N			0	Opinion	31		0		0		0		0		0		0	90	true	5
-w99	Vival	Vival	N		OpinionTarget	60	Opinion	37		0		0		0		0		0		0	98	true	6
+w99	Vival	Vival	N		OpinionTarget	38	Opinion	37		0		0		0		0		0		0	98	true	6
 w100	et	et	C			0	Opinion	37		0		0		0		0		0		0	99	true	6
-w101	autres	autre	G		OpinionTarget	60	Opinion	37		0		0		0		0		0		0	100	true	6
-w102	commerces	commerce	N		OpinionTarget	60	Opinion	37		0		0		0		0		0		0	101	true	6
+w101	autres	autre	G		OpinionTarget	39	Opinion	37		0		0		0		0		0		0	100	true	6
+w102	commerces	commerce	N		OpinionTarget	39	Opinion	37		0		0		0		0		0		0	101	true	6
 w103	à	à	P		Positive	40	Opinion	37		0		0		0		0		0		0	102	true	6
 w104	300m	300m	D		Positive	40	Opinion	37		0		0		0		0		0		0	103	true	6
 w105	du	du	D		Positive	40	Opinion	37		0		0		0		0		0		0	104	true	6

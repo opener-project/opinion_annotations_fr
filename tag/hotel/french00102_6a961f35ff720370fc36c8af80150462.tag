@@ -41,15 +41,15 @@ w45	10	10	G		Negative	31	Opinion	28	Value-for-money	32		0		0		0		0		0	44	true	2
 w46	$	$	V		Negative	31	Opinion	28	Value-for-money	32		0		0		0		0		0	45	true	2
 w47	par	par	P		Negative	31	Opinion	28	Value-for-money	32		0		0		0		0		0	46	true	2
 w48	jour	jour	N		Negative	31	Opinion	28	Value-for-money	32		0		0		0		0		0	47	true	2
-w52	Chambre	chambre	N			0		0	Rooms	35		0		0		0		0		0	51	false	3
-w53	:	:	O			0		0		0		0		0		0		0		0	52	true	3
+w52	Chambre	chambre	N		OpinionTarget	34	Opinion	33	Rooms	35		0		0		0		0		0	51	true	3
+w53	:	:	O			0	Opinion	33		0		0		0		0		0		0	52	true	3
 w54	literie	literie	N		OpinionTarget	36	Opinion	33		0		0		0		0		0		0	53	true	3
 w55	très	très	G		StrongNegative	37	Opinion	33		0		0		0		0		0		0	54	true	3
 w56	très	très	G		StrongNegative	37	Opinion	33		0		0		0		0		0		0	55	true	3
 w57	molle	mou	G		StrongNegative	37	Opinion	33		0		0		0		0		0		0	56	true	3
-w58	,	,	O			0		0		0		0		0		0		0		0	57	true	3
-w59	moquette	moquetter	V		OpinionTarget	38	Opinion	61		0		0		0		0		0		0	58	true	3
-w60	tâchée	tâcher	V		Positive	39	Opinion	61		0		0		0		0		0		0	59	true	3
+w58	,	,	O			0	Opinion	33		0		0		0		0		0		0	57	true	3
+w59	moquette	moquetter	V		OpinionTarget	38	Opinion	33		0		0		0		0		0		0	58	true	3
+w60	tâchée	tâcher	V		Positive	39	Opinion	33		0		0		0		0		0		0	59	true	3
 w62	gros	gros	G		StrongNegative	41	Opinion	40		0		0		0		0		0		0	61	true	4
 w63	sentiment	sentiment	N		StrongNegative	41	Opinion	40		0		0		0		0		0		0	62	true	4
 w64	d'	d'	P		StrongNegative	41	Opinion	40		0		0		0		0		0		0	63	true	4

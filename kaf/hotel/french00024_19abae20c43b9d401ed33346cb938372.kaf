@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:05" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:13CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:05CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:13CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:05CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -4104,113 +4104,78 @@
       <edge id="tre610" from="ter227" to="nter383"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Staff">
+        <references>
+          <span>
+            <target id="t109"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t112"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t118"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t13"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Location">
+        <references>
+          <span>
+            <target id="t123"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t128"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
-        <!--Environnement-->
+        <!--Service-->
         <span>
-          <target id="t123"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--verdoyant calme-->
-        <span>
-          <target id="t124"/>
-          <target id="t126"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="38_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--L' Ali Bey Resort Side ( * * * * * )-->
-        <span>
-          <target id="t137"/>
-          <target id="t138"/>
-          <target id="t139"/>
-          <target id="t140"/>
-          <target id="t141"/>
-          <target id="t142"/>
-          <target id="t143"/>
-          <target id="t144"/>
-          <target id="t145"/>
-          <target id="t146"/>
-          <target id="t147"/>
-          <target id="t148"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--club familial-->
-        <span>
-          <target id="t151"/>
-          <target id="t152"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Infrastructure-->
-        <span>
-          <target id="t128"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--de qualité-->
-        <span>
-          <target id="t129"/>
-          <target id="t130"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="51_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--il-->
-        <span>
-          <target id="t167"/>
+          <target id="t109"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongPositive">
-        <!--delighted-->
+        <!--irréprochable-->
         <span>
-          <target id="t172"/>
+          <target id="t110"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="51_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--il-->
-        <span>
-          <target id="t167"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--plutôt réussi-->
-        <span>
-          <target id="t178"/>
-          <target id="t179"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="51_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--il-->
-        <span>
-          <target id="t167"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--ravi-->
-        <span>
-          <target id="t169"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--Alimentation-->
@@ -4226,125 +4191,71 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="42_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=21-->
       <opinion_holder/>
       <opinion_target>
-        <!--le client-->
+        <!--Infrastructure-->
         <span>
-          <target id="t161"/>
-          <target id="t162"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--ne cherche pas juste à satisfaire-->
-        <span>
-          <target id="t155"/>
-          <target id="t156"/>
-          <target id="t157"/>
-          <target id="t158"/>
-          <target id="t159"/>
-          <target id="t160"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Activités Animation-->
-        <span>
-          <target id="t112"/>
-          <target id="t114"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pour enfants-->
-        <span>
-          <target id="t115"/>
-          <target id="t116"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="35_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--matériel pour bébés-->
-        <span>
-          <target id="t132"/>
-          <target id="t133"/>
-          <target id="t134"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--à disposition-->
-        <span>
-          <target id="t135"/>
-          <target id="t136"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="27_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Service-->
-        <span>
-          <target id="t109"/>
+          <target id="t128"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongPositive">
-        <!--irréprochable-->
+        <!--qualité-->
         <span>
-          <target id="t110"/>
+          <target id="t130"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Environnement-->
+        <span>
+          <target id="t123"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--verdoyant calme-->
+        <span>
+          <target id="t124"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--hébergement-->
+        <span>
+          <target id="t17"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--charme-->
+        <span>
+          <target id="t19"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=6-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--circuits individuels-->
+        <span>
+          <target id="t14"/>
+          <target id="t15"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongPositive">
+        <!--Amoureuse-->
+        <span>
+          <target id="t12"/>
         </span>
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t128"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t118"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Staff">
-        <references>
-          <span>
-            <target id="t109"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t123"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t138"/>
-            <target id="t139"/>
-            <target id="t140"/>
-            <target id="t141"/>
-            <target id="t142"/>
-            <target id="t143"/>
-            <target id="t144"/>
-            <target id="t145"/>
-            <target id="t146"/>
-            <target id="t147"/>
-            <target id="t148"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

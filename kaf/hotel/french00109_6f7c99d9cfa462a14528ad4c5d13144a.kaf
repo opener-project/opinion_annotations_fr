@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:38:48" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:12CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:17CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:12CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2323,8 +2323,28 @@
       <edge id="tre348" from="ter128" to="nter220"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t49"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t46"/>
+            <target id="t47"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--les chambre-->
@@ -2340,7 +2360,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="15_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -2362,7 +2383,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=17-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -2382,7 +2404,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target>
         <!--un 4 étoiles-->
@@ -2403,7 +2426,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="4_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
         <!--si vous cette francais-->
@@ -2436,7 +2460,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--un 4 etoile-->
@@ -2459,23 +2484,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Cleanliness">
-        <references>
-          <span>
-            <target id="t49"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t46"/>
-            <target id="t47"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

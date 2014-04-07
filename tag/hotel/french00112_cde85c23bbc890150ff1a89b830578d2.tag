@@ -21,12 +21,12 @@ w20	séjour	séjour	N			0	Opinion	6		0		0		0		0		0		0	19	true	2
 w24	Chambres	chambre	N		OpinionTarget	10	Opinion	12	Rooms	13		0		0		0		0		0	23	true	4
 w25	tout	tout	G		StrongPositive	11	Opinion	12		0		0		0		0		0		0	24	true	4
 w26	confort	confort	N		StrongPositive	11	Opinion	12		0		0		0		0		0		0	25	true	4
-w27	et	et	C			0		0		0		0		0		0		0		0	26	true	4
-w28	le	le	D		OpinionTarget	14	Opinion	20		0		0		0		0		0		0	27	true	4
-w29	personnel	personnel	N		OpinionTarget	14	Opinion	20	Staff	16		0		0		0		0		0	28	true	4
-w30	est	être	V			0	Opinion	20		0		0		0		0		0		0	29	true	4
-w31	très	très	G		StrongPositive	15	Opinion	20		0		0		0		0		0		0	30	true	4
-w32	professionnelle	professionnel	G		StrongPositive	15	Opinion	20		0		0		0		0		0		0	31	true	4
+w27	et	et	C			0	Opinion	12		0		0		0		0		0		0	26	true	4
+w28	le	le	D		OpinionTarget	14	Opinion	12		0		0		0		0		0		0	27	true	4
+w29	personnel	personnel	N		OpinionTarget	14	Opinion	12	Staff	16		0		0		0		0		0	28	true	4
+w30	est	être	V			0	Opinion	12		0		0		0		0		0		0	29	true	4
+w31	très	très	G		StrongPositive	15	Opinion	12		0		0		0		0		0		0	30	true	4
+w32	professionnelle	professionnel	G		StrongPositive	15	Opinion	12		0		0		0		0		0		0	31	true	4
 w33	A	A	P		StrongPositive	17	Opinion	18		0		0		0		0		0		0	32	true	5
 w34	recommander	recommander	V		StrongPositive	17	Opinion	18		0		0		0		0		0		0	33	true	5
 w35	pour	pour	P		StrongPositive	17	Opinion	18		0		0		0		0		0		0	34	true	5

@@ -35,12 +35,12 @@ w76	au	au	P		Positive	20	Opinion	17		0		0		0		0		0		0	75	true	5
 w77	centre	centre	D		Positive	20	Opinion	17		0		0		0		0		0		0	76	true	5
 w78	·	·	N		Positive	20	Opinion	17		0		0		0		0		0		0	77	true	5
 w79	ville	ville	N		Positive	20	Opinion	17		0		0		0		0		0		0	78	true	5
-w81	Le	le	D		OpinionTarget	22	Opinion	41	Staff	23		0		0		0		0		0	80	true	6
-w82	personnel	personnel	N		OpinionTarget	22	Opinion	41	Staff	23		0		0		0		0		0	81	true	6
-w83	est	être	V			0	Opinion	41		0		0		0		0		0		0	82	true	6
-w84	assez	assez	G		Positive	24	Opinion	41		0		0		0		0		0		0	83	true	6
-w85	compétent	compétent	G		Positive	24	Opinion	41		0		0		0		0		0		0	84	true	6
-w86	,	,	O			0		0		0		0		0		0		0		0	85	true	6
+w81	Le	le	D		OpinionTarget	22	Opinion	21	Staff	23		0		0		0		0		0	80	true	6
+w82	personnel	personnel	N		OpinionTarget	22	Opinion	21	Staff	23		0		0		0		0		0	81	true	6
+w83	est	être	V			0	Opinion	21		0		0		0		0		0		0	82	true	6
+w84	assez	assez	G		Positive	24	Opinion	21		0		0		0		0		0		0	83	true	6
+w85	compétent	compétent	G		Positive	24	Opinion	21		0		0		0		0		0		0	84	true	6
+w86	,	,	O			0	Opinion	21		0		0		0		0		0		0	85	true	6
 w87	en	en	P		Positive	27	Opinion	21		0		0		0		0		0		0	86	true	6
 w88	particulier	particulier	G		Positive	27	Opinion	21		0		0		0		0		0		0	87	true	6
 w89	les	le	D		OpinionTarget	25	Opinion	21	Staff	26		0		0		0		0		0	88	true	6

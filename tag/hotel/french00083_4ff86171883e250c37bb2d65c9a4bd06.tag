@@ -70,23 +70,23 @@ w84	accueil	accueil	N		OpinionTarget	19	Opinion	16	Reservation/check-in/check-ou
 w85	et	et	C			0	Opinion	16		0		0		0		0		0		0	84	true	5
 w86	du	du	D			0	Opinion	16	Staff	21		0		0		0		0		0	85	true	5
 w87	service	service	N			0	Opinion	16	Staff	21		0		0		0		0		0	86	true	5
-w89	J'	J'	Q		OpinionHolder	23	Opinion	51		0		0		0		0		0		0	88	true	6
-w90	enviagerais	enviagerais	G		Positive	25	Opinion	51		0		0		0		0		0		0	89	true	6
-w91	certainement	certainement	G			0	Opinion	51		0		0		0		0		0		0	90	true	6
-w92	cet	ce	D		OpinionTarget	26	Opinion	51		0		0		0		0		0		0	91	true	6
-w93	hôtel	hôtel	N		OpinionTarget	26	Opinion	51	Location	27		0		0		0		0		0	92	true	6
-w94	si	si	C			0		0		0		0		0		0		0		0	93	true	6
-w95	je	je	Q			0		0		0		0		0		0		0		0	94	true	6
-w96	devais	devais	G			0		0		0		0		0		0		0		0	95	true	6
-w97	me	me	Q			0		0		0		0		0		0		0		0	96	true	6
-w98	rendre	rendre	V			0		0		0		0		0		0		0		0	97	true	6
-w99	en	en	P			0		0		0		0		0		0		0		0	98	true	6
-w100	famille	famille	N			0		0		0		0		0		0		0		0	99	true	6
-w101	à	à	P			0		0		0		0		0		0		0		0	100	true	6
-w102	Milan	milan	N			0		0		0		0		0		0		0		0	101	true	6
-w103	,	,	O			0		0		0		0		0		0		0		0	102	true	6
-w104	même	même	G			0		0		0		0		0		0		0		0	103	true	6
-w105	s'	s'	C			0		0		0		0		0		0		0		0	104	true	6
+w89	J'	J'	Q		OpinionHolder	23	Opinion	24		0		0		0		0		0		0	88	true	6
+w90	enviagerais	enviagerais	G		Positive	25	Opinion	24		0		0		0		0		0		0	89	true	6
+w91	certainement	certainement	G			0	Opinion	24		0		0		0		0		0		0	90	true	6
+w92	cet	ce	D		OpinionTarget	26	Opinion	24		0		0		0		0		0		0	91	true	6
+w93	hôtel	hôtel	N		OpinionTarget	26	Opinion	24	Location	27		0		0		0		0		0	92	true	6
+w94	si	si	C			0	Opinion	24		0		0		0		0		0		0	93	true	6
+w95	je	je	Q		OpinionHolder	28	Opinion	24		0		0		0		0		0		0	94	true	6
+w96	devais	devais	G		Positive	29	Opinion	24		0		0		0		0		0		0	95	true	6
+w97	me	me	Q		Positive	29	Opinion	24		0		0		0		0		0		0	96	true	6
+w98	rendre	rendre	V		Positive	29	Opinion	24		0		0		0		0		0		0	97	true	6
+w99	en	en	P		Positive	29	Opinion	24		0		0		0		0		0		0	98	true	6
+w100	famille	famille	N		Positive	29	Opinion	24		0		0		0		0		0		0	99	true	6
+w101	à	à	P		Positive	29	Opinion	24		0		0		0		0		0		0	100	true	6
+w102	Milan	milan	N		Positive	29	Opinion	24		0		0		0		0		0		0	101	true	6
+w103	,	,	O			0	Opinion	24		0		0		0		0		0		0	102	true	6
+w104	même	même	G			0	Opinion	24		0		0		0		0		0		0	103	true	6
+w105	s'	s'	C			0	Opinion	24		0		0		0		0		0		0	104	true	6
 w106	il	il	Q		OpinionTarget	31	Opinion	30	Location	32		0		0		0		0		0	105	true	6
 w107	n'	n'	G		Negative	33	Opinion	30	Location	34		0		0		0		0		0	106	true	6
 w108	est	être	V		Negative	33	Opinion	30	Location	34		0		0		0		0		0	107	true	6

@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:36:47" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:09CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:15CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:09CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1000,33 +1000,40 @@
       <edge id="tre147" from="ter54" to="nter93"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t36"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Location">
+        <references>
+          <span>
+            <target id="t17"/>
+            <target id="t18"/>
+            <target id="t19"/>
+            <target id="t20"/>
+            <target id="t21"/>
+            <target id="t22"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t24"/>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="1_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongPositive">
-        <!--Supers-->
-        <span>
-          <target id="t1"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="19_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--activités-->
-        <span>
-          <target id="t30"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--multiples-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--spectacles-->
@@ -1034,15 +1041,26 @@
           <target id="t36"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--plus abordables-->
+      <opinion_expression polarity="Positive">
+        <!--bien plus abordables et largement plus beaux que quelques grands cabarets parisiens-->
         <span>
+          <target id="t37"/>
           <target id="t38"/>
           <target id="t39"/>
+          <target id="t40"/>
+          <target id="t41"/>
+          <target id="t42"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+          <target id="t46"/>
+          <target id="t47"/>
+          <target id="t48"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--spectacles-->
@@ -1058,42 +1076,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--spectacles-->
-        <span>
-          <target id="t36"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--largement plus beaux-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--un micro climat-->
-        <span>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--un paradis-->
-        <span>
-          <target id="t17"/>
-          <target id="t18"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--un camping-->
@@ -1102,7 +1086,7 @@
           <target id="t25"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="StrongPositive">
+      <opinion_expression polarity="Positive">
         <!--de rêve-->
         <span>
           <target id="t26"/>
@@ -1110,31 +1094,34 @@
         </span>
       </opinion_expression>
     </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--Supers contents !-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+          <target id="t3"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--un paradis avec un micro climat-->
+        <span>
+          <target id="t17"/>
+          <target id="t18"/>
+          <target id="t19"/>
+          <target id="t20"/>
+          <target id="t21"/>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Facilities">
-        <references>
-          <span>
-            <target id="t30"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t24"/>
-            <target id="t25"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Facilities">
-        <references>
-          <span>
-            <target id="t36"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

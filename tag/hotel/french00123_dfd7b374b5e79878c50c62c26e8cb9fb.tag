@@ -30,13 +30,13 @@ w58	des	un	D		Negative	11	Opinion	12		0		0		0		0		0		0	57	true	3
 w59	mobil	mobil	N		Negative	11	Opinion	12		0		0		0		0		0		0	58	true	3
 w60	·	·	P		Negative	11	Opinion	12		0		0		0		0		0		0	59	true	3
 w61	home	home	N		Negative	11	Opinion	12		0		0		0		0		0		0	60	true	3
-w62	,	,	O			0		0		0		0		0		0		0		0	61	true	3
-w63	elles	lui	Q		OpinionTarget	14	Opinion	43	Car parking	16		0		0		0		0		0	62	true	3
-w64	ne	ne	G		Negative	15	Opinion	43		0		0		0		0		0		0	63	true	3
-w65	sont	être	V		Negative	15	Opinion	43		0		0		0		0		0		0	64	true	3
-w66	pas	pas	G		Negative	15	Opinion	43		0		0		0		0		0		0	65	true	3
-w67	assez	assez	G		Negative	15	Opinion	43		0		0		0		0		0		0	66	true	3
-w68	grandes	grand	G		Negative	15	Opinion	43		0		0		0		0		0		0	67	true	3
+w62	,	,	O			0	Opinion	12		0		0		0		0		0		0	61	true	3
+w63	elles	lui	Q		OpinionTarget	14	Opinion	12	Car parking	16		0		0		0		0		0	62	true	3
+w64	ne	ne	G		Negative	15	Opinion	12		0		0		0		0		0		0	63	true	3
+w65	sont	être	V		Negative	15	Opinion	12		0		0		0		0		0		0	64	true	3
+w66	pas	pas	G		Negative	15	Opinion	12		0		0		0		0		0		0	65	true	3
+w67	assez	assez	G		Negative	15	Opinion	12		0		0		0		0		0		0	66	true	3
+w68	grandes	grand	G		Negative	15	Opinion	12		0		0		0		0		0		0	67	true	3
 w71	ce	ce	D		OpinionTarget	17	Opinion	19	Interior/exterior	20		0		0		0		0		0	70	true	3
 w72	camping	camping	N		OpinionTarget	17	Opinion	19	Interior/exterior	20		0		0		0		0		0	71	true	3
 w73	ne	ne	G		StrongNegative	18	Opinion	19		0		0		0		0		0		0	72	true	3

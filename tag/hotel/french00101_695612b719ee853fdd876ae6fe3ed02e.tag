@@ -4,15 +4,15 @@ w3	romantique	romantique	G		OpinionTarget	2	Opinion	1		0		0		0		0		0		0	2	true	1
 w4	avec	avec	P			0	Opinion	1		0		0		0		0		0		0	3	true	1
 w5	mon	son	D			0	Opinion	1		0		0		0		0		0		0	4	true	1
 w6	fiancé	fiancer	G			0	Opinion	1		0		0		0		0		0		0	5	true	1
-w7	L’	L’	N		OpinionTarget	5	Opinion	64	Transportation	6		0		0		0		0		0	6	true	2
-w8	accessibilité	accessibilité	N		OpinionTarget	5	Opinion	64	Transportation	6		0		0		0		0		0	7	true	2
-w9	de	de	P		OpinionTarget	5	Opinion	64	Transportation	6		0		0		0		0		0	8	true	2
-w10	l'	le	D		OpinionTarget	5	Opinion	64	Transportation	6		0		0		0		0		0	9	true	2
-w11	hôtel	hôtel	N		OpinionTarget	5	Opinion	64	Transportation	6		0		0		0		0		0	10	true	2
-w12	reste	rester	V			0	Opinion	64		0		0		0		0		0		0	11	true	2
-w13	plutôt	plutôt	G		Positive	7	Opinion	64		0		0		0		0		0		0	12	true	2
-w14	bonne	bon	G		Positive	7	Opinion	64		0		0		0		0		0		0	13	true	2
-w15	,	,	O			0		0		0		0		0		0		0		0	14	true	2
+w7	L’	L’	N		OpinionTarget	5	Opinion	4	Transportation	6		0		0		0		0		0	6	true	2
+w8	accessibilité	accessibilité	N		OpinionTarget	5	Opinion	4	Transportation	6		0		0		0		0		0	7	true	2
+w9	de	de	P		OpinionTarget	5	Opinion	4	Transportation	6		0		0		0		0		0	8	true	2
+w10	l'	le	D		OpinionTarget	5	Opinion	4	Transportation	6		0		0		0		0		0	9	true	2
+w11	hôtel	hôtel	N		OpinionTarget	5	Opinion	4	Transportation	6		0		0		0		0		0	10	true	2
+w12	reste	rester	V			0	Opinion	4		0		0		0		0		0		0	11	true	2
+w13	plutôt	plutôt	G		Positive	7	Opinion	4		0		0		0		0		0		0	12	true	2
+w14	bonne	bon	G		Positive	7	Opinion	4		0		0		0		0		0		0	13	true	2
+w15	,	,	O			0	Opinion	4		0		0		0		0		0		0	14	true	2
 w16	deux	deux	D		OpinionTarget	8	Opinion	4	Transportation	9		0		0		0		0		0	15	true	2
 w17	tramway	tramway	N		OpinionTarget	8	Opinion	4	Transportation	9		0		0		0		0		0	16	true	2
 w18	sont	être	V			0	Opinion	4		0		0		0		0		0		0	17	true	2
@@ -57,11 +57,11 @@ w92	en	en	P		Positive	38	Opinion	37		0		0		0		0		0		0	91	true	5
 w93	vaut	valoir	V		Positive	38	Opinion	37		0		0		0		0		0		0	92	true	5
 w94	la	le	D		Positive	38	Opinion	37		0		0		0		0		0		0	93	true	5
 w95	peine	peine	N		Positive	38	Opinion	37		0		0		0		0		0		0	94	true	5
-w97	La	le	D		OpinionTarget	40	Opinion	63	Rooms	41		0		0		0		0		0	96	true	6
-w98	chambre	chambre	N		OpinionTarget	40	Opinion	63	Rooms	41		0		0		0		0		0	97	true	6
-w99	était	être	V			0	Opinion	63		0		0		0		0		0		0	98	true	6
-w100	spacieuse	spacieux	G		Positive	42	Opinion	63		0		0		0		0		0		0	99	true	6
-w101	,	,	O			0		0		0		0		0		0		0		0	100	true	6
+w97	La	le	D		OpinionTarget	40	Opinion	39	Rooms	41		0		0		0		0		0	96	true	6
+w98	chambre	chambre	N		OpinionTarget	40	Opinion	39	Rooms	41		0		0		0		0		0	97	true	6
+w99	était	être	V			0	Opinion	39		0		0		0		0		0		0	98	true	6
+w100	spacieuse	spacieux	G		Positive	42	Opinion	39		0		0		0		0		0		0	99	true	6
+w101	,	,	O			0	Opinion	39		0		0		0		0		0		0	100	true	6
 w102	dotée	doter	V		Positive	44	Opinion	39		0		0		0		0		0		0	101	true	6
 w103	d'	d'	P		Positive	44	Opinion	39		0		0		0		0		0		0	102	true	6
 w104	une	un	D		Positive	44	Opinion	39		0		0		0		0		0		0	103	true	6

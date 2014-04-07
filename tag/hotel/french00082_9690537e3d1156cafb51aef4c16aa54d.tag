@@ -1,4 +1,4 @@
-w1	Titanic	Titanic	N		OpinionTarget	1	Opinion	3	Interior/exterior	5	9-very positive	31		0		0		0		0	0	true	1
+w1	Titanic	Titanic	N		OpinionTarget	1	Opinion	3	Interior/exterior	5		0		0		0		0		0	0	true	1
 w2	Beach	Beach	N		OpinionTarget	1	Opinion	3	Interior/exterior	5		0		0		0		0		0	1	true	1
 w3	Spa	Spa	N		OpinionTarget	1	Opinion	3	Interior/exterior	5		0		0		0		0		0	2	true	1
 w4	&	&amp;amp;	N		OpinionTarget	1	Opinion	3	Interior/exterior	5		0		0		0		0		0	3	true	1

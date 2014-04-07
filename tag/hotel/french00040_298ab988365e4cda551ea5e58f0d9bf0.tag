@@ -25,8 +25,8 @@ w50	accueillant	accueillant	G		StrongPositive	20	Opinion	21		0		0		0		0		0		0	49
 w52	Manque	Manque	P		Negative	24	Opinion	25	Cleanliness	26		0		0		0		0		0	51	true	5
 w53	d	d	V		Negative	24	Opinion	25		0		0		0		0		0		0	52	true	5
 w54	hygiene	hygiene	G		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	53	true	5
-w55	toilettes	toilette	N		OpinionTarget	27	Opinion	43		0		0		0		0		0		0	54	true	5
-w56	sales	sales	P		Negative	28	Opinion	43	Cleanliness	44		0		0		0		0		0	55	true	5
+w55	toilettes	toilette	N		OpinionTarget	27	Opinion	25		0		0		0		0		0		0	54	true	5
+w56	sales	sales	P		Negative	28	Opinion	25		0		0		0		0		0		0	55	true	5
 w60	climatisations	climatisation	N		OpinionTarget	29	Opinion	31	Facilities	33		0		0		0		0		0	59	true	5
 w61	défectueuses	défectueux	G		StrongNegative	30	Opinion	31		0		0		0		0		0		0	60	true	5
 w70	Équipe	équiper	V		OpinionTarget	34	Opinion	36	Staff	37		0		0		0		0		0	69	true	6

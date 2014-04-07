@@ -1,16 +1,16 @@
-w4	equipe	equipe	V		OpinionTarget	2	Opinion	29	Staff	3		0		0		0		0		0	3	true	2
-w5	animation	animation	N		OpinionTarget	2	Opinion	29	Staff	3		0		0		0		0		0	4	true	2
-w6	4	4	D		StrongPositive	4	Opinion	29		0		0		0		0		0		0	5	true	2
-w7	etoiles	etoiles	N		StrongPositive	4	Opinion	29		0		0		0		0		0		0	6	true	2
-w8	mais	mais	C			0		0		0		0		0		0		0		0	7	true	2
-w9	animateur	animateur	P		OpinionTarget	5	Opinion	30	Staff	6		0		0		0		0		0	8	true	2
-w10	francophone	francophone	N		OpinionTarget	5	Opinion	30	Staff	6		0		0		0		0		0	9	true	2
-w11	(	(	O			0	Opinion	30	Staff	6		0		0		0		0		0	10	false	2
-w12	alias	alias	G		OpinionTarget	5	Opinion	30	Staff	6		0		0		0		0		0	11	true	2
-w13	zizo	zizo	N		OpinionTarget	5	Opinion	30	Staff	6		0		0		0		0		0	12	true	2
-w14	)	)	O			0	Opinion	30		0		0		0		0		0		0	13	true	2
-w15	5	5	D		StrongPositive	7	Opinion	30		0		0		0		0		0		0	14	true	2
-w16	etoiles.	etoiles.	D		StrongPositive	7	Opinion	30		0		0		0		0		0		0	15	true	2
+w4	equipe	equipe	V		OpinionTarget	2	Opinion	1	Staff	3		0		0		0		0		0	3	true	2
+w5	animation	animation	N		OpinionTarget	2	Opinion	1	Staff	3		0		0		0		0		0	4	true	2
+w6	4	4	D		StrongPositive	4	Opinion	1		0		0		0		0		0		0	5	true	2
+w7	etoiles	etoiles	N		StrongPositive	4	Opinion	1		0		0		0		0		0		0	6	true	2
+w8	mais	mais	C			0	Opinion	1		0		0		0		0		0		0	7	true	2
+w9	animateur	animateur	P		OpinionTarget	5	Opinion	1	Staff	6		0		0		0		0		0	8	true	2
+w10	francophone	francophone	N		OpinionTarget	5	Opinion	1	Staff	6		0		0		0		0		0	9	true	2
+w11	(	(	O		OpinionTarget	5	Opinion	1	Staff	6		0		0		0		0		0	10	true	2
+w12	alias	alias	G		OpinionTarget	5	Opinion	1	Staff	6		0		0		0		0		0	11	true	2
+w13	zizo	zizo	N		OpinionTarget	5	Opinion	1	Staff	6		0		0		0		0		0	12	true	2
+w14	)	)	O			0	Opinion	1		0		0		0		0		0		0	13	true	2
+w15	5	5	D		StrongPositive	7	Opinion	1		0		0		0		0		0		0	14	true	2
+w16	etoiles.	etoiles.	D		StrongPositive	7	Opinion	1		0		0		0		0		0		0	15	true	2
 w17	plus	plus	G		Positive	9	Opinion	8		0		0		0		0		0		0	16	true	2
 w18	animateur	animateur	G		Positive	9	Opinion	8		0		0		0		0		0		0	17	true	2
 w19	mais	mais	C		Positive	9	Opinion	8		0		0		0		0		0		0	18	true	2

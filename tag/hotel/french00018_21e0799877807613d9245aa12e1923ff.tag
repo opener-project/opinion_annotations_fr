@@ -1,11 +1,11 @@
-w1	Très	Très	G		StrongPositive	2	Opinion	61		0		0		0		0		0		0	0	true	1
-w2	bon	bon	G		StrongPositive	2	Opinion	61		0		0		0		0		0		0	1	true	1
-w3	hôtel	hôtel	N		OpinionTarget	3	Opinion	61	Location	4		0		0		0		0		0	2	true	1
-w4	avec	avec	P			0		0		0		0		0		0		0		0	3	true	1
-w5	des	un	D		OpinionTarget	5	Opinion	62	Swimming pool	6		0		0		0		0		0	4	true	1
-w6	toboggans	toboggan	N		OpinionTarget	5	Opinion	62	Swimming pool	6		0		0		0		0		0	5	true	1
-w7	pour	pour	P		Positive	7	Opinion	62		0		0		0		0		0		0	6	true	1
-w8	enfants	enfant	N		Positive	7	Opinion	62		0		0		0		0		0		0	7	true	1
+w1	Très	Très	G		StrongPositive	2	Opinion	1		0		0		0		0		0		0	0	true	1
+w2	bon	bon	G		StrongPositive	2	Opinion	1		0		0		0		0		0		0	1	true	1
+w3	hôtel	hôtel	N		OpinionTarget	3	Opinion	1	Location	4		0		0		0		0		0	2	true	1
+w4	avec	avec	P			0	Opinion	1		0		0		0		0		0		0	3	true	1
+w5	des	un	D		OpinionTarget	5	Opinion	1	Swimming pool	6		0		0		0		0		0	4	true	1
+w6	toboggans	toboggan	N		OpinionTarget	5	Opinion	1	Swimming pool	6		0		0		0		0		0	5	true	1
+w7	pour	pour	P		Positive	7	Opinion	1		0		0		0		0		0		0	6	true	1
+w8	enfants	enfant	N		Positive	7	Opinion	1		0		0		0		0		0		0	7	true	1
 w9	seul	seul	G		Negative	9	Opinion	8		0		0		0		0		0		0	8	true	2
 w10	probleme	probleme	G		Negative	9	Opinion	8		0		0		0		0		0		0	9	true	2
 w11	trop	trop	G		Negative	9	Opinion	8		0		0		0		0		0		0	10	true	2
@@ -45,23 +45,23 @@ w46	INCLUSIVE.	INCLUSIVE.	N		Positive	25	Opinion	24		0		0		0		0		0		0	45	true	3
 w47	tous	tout	G		Positive	29	Opinion	28		0		0		0		0		0		0	46	true	3
 w48	les	le	D		Positive	29	Opinion	28		0		0		0		0		0		0	47	true	3
 w49	jours	jour	N		Positive	29	Opinion	28		0		0		0		0		0		0	48	true	3
-w50	une	un	D		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	49	true	3
-w51	bouteille	bouteille	N		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	50	true	3
-w52	d'	d'	P		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	51	true	3
-w53	eau	eau	N		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	52	true	3
+w50	une	un	D		OpinionTarget	30	Opinion	28		0		0		0		0		0		0	49	true	3
+w51	bouteille	bouteille	N		OpinionTarget	30	Opinion	28		0		0		0		0		0		0	50	true	3
+w52	d'	d'	P		OpinionTarget	30	Opinion	28		0		0		0		0		0		0	51	true	3
+w53	eau	eau	N		OpinionTarget	30	Opinion	28		0		0		0		0		0		0	52	true	3
 w54	par	par	P		Positive	31	Opinion	28		0		0		0		0		0		0	53	true	3
 w55	personne	personne	N		Positive	31	Opinion	28		0		0		0		0		0		0	54	true	3
 w56	dans	dans	P		Positive	31	Opinion	28		0		0		0		0		0		0	55	true	3
 w57	le	le	D		Positive	31	Opinion	28		0		0		0		0		0		0	56	true	3
 w58	frigo	frigo	N		Positive	31	Opinion	28		0		0		0		0		0		0	57	true	3
 w59	+	+	P			0	Opinion	28		0		0		0		0		0		0	58	false	3
-w60	coca	coca	N		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	59	true	3
-w61	et	et	C			0	Opinion	28		0		0		0		0		0		0	60	false	3
-w62	sprite	sprite	V		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	61	true	3
+w60	coca	coca	N		OpinionTarget	32	Opinion	28		0		0		0		0		0		0	59	true	3
+w61	et	et	C		OpinionTarget	32	Opinion	28		0		0		0		0		0		0	60	true	3
+w62	sprite	sprite	V		OpinionTarget	32	Opinion	28		0		0		0		0		0		0	61	true	3
 w63	en	en	P		Positive	33	Opinion	28		0		0		0		0		0		0	62	true	3
 w64	plus	plus	G		Positive	33	Opinion	28		0		0		0		0		0		0	63	true	3
-w65	des	des	P		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	64	true	3
-w66	boissons	boisson	N		OpinionTarget	63	Opinion	28		0		0		0		0		0		0	65	true	3
+w65	des	des	P		OpinionTarget	34	Opinion	28		0		0		0		0		0		0	64	true	3
+w66	boissons	boisson	N		OpinionTarget	34	Opinion	28		0		0		0		0		0		0	65	true	3
 w67	a	avoir	V		Positive	35	Opinion	28		0		0		0		0		0		0	66	true	3
 w68	volonté	volonté	V		Positive	35	Opinion	28		0		0		0		0		0		0	67	true	3
 w69	partout	partout	G		Positive	35	Opinion	28		0		0		0		0		0		0	68	true	3

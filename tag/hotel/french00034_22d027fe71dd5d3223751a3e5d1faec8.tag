@@ -38,8 +38,8 @@ w54	:	:	O			0	Opinion	32		0		0		0		0		0		0	53	true	5
 w55	bien	bien	G		StrongPositive	29	Opinion	32		0		0		0		0		0		0	54	true	5
 w56	+	+	G		StrongPositive	29	Opinion	32		0		0		0		0		0		0	55	true	5
 w57	+	+	P		StrongPositive	29	Opinion	32		0		0		0		0		0		0	56	true	5
-w58	prix	prix	N		OpinionTarget	30	Opinion	55		0		0		0		0		0		0	57	true	5
-w59	correct	correct	G		Positive	31	Opinion	55		0		0		0		0		0		0	58	true	5
+w58	prix	prix	N		OpinionTarget	30	Opinion	32		0		0		0		0		0		0	57	true	5
+w59	correct	correct	G		Positive	31	Opinion	32		0		0		0		0		0		0	58	true	5
 w70	Les	le	D		OpinionTarget	34	Opinion	36	Rooms	37		0		0		0		0		0	69	true	5
 w71	mobilhomes	mobilhomes	N		OpinionTarget	34	Opinion	36		0		0		0		0		0		0	70	true	5
 w72	sont	être	V			0	Opinion	36		0		0		0		0		0		0	71	true	5
@@ -58,11 +58,11 @@ w85	surveillée	surveiller	V		Positive	41	Opinion	44		0		0		0		0		0		0	84	true	6
 w86	+	+	G		Positive	41	Opinion	44		0		0		0		0		0		0	85	true	6
 w87	+	+	G		Positive	41	Opinion	44		0		0		0		0		0		0	86	true	6
 w88	,	,	O			0	Opinion	44		0		0		0		0		0		0	87	true	6
-w89	le	le	D		OpinionTarget	42	Opinion	56		0		0		0		0		0		0	88	true	6
-w90	sol	sol	N		OpinionTarget	42	Opinion	56	Swimming pool	57		0		0		0		0		0	89	true	6
-w91	est	être	V			0	Opinion	56		0		0		0		0		0		0	90	true	6
-w92	glissant	glissant	G		StrongPositive	43	Opinion	56		0		0		0		0		0		0	91	true	6
-w93	dommage	dommage	N		StrongPositive	43	Opinion	56		0		0		0		0		0		0	92	true	6
+w89	le	le	D		OpinionTarget	42	Opinion	44		0		0		0		0		0		0	88	true	6
+w90	sol	sol	N		OpinionTarget	42	Opinion	44		0		0		0		0		0		0	89	true	6
+w91	est	être	V			0	Opinion	44		0		0		0		0		0		0	90	true	6
+w92	glissant	glissant	G		StrongPositive	43	Opinion	44		0		0		0		0		0		0	91	true	6
+w93	dommage	dommage	N		StrongPositive	43	Opinion	44		0		0		0		0		0		0	92	true	6
 w116	camping	camping	O		OpinionTarget	46	Opinion	50	Interior/exterior	52		0		0		0		0		0	115	true	8
 w117	très	très	G		Negative	47	Opinion	50		0		0		0		0		0		0	116	true	8
 w118	cher	cher	G		Negative	47	Opinion	50		0		0		0		0		0		0	117	true	8

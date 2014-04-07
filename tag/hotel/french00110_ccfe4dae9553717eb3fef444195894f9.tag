@@ -7,12 +7,12 @@ w28	home	home	N		OpinionTarget	3	Opinion	5	Rooms	6		0		0		0		0		0	27	true	3
 w29	était	être	V			0	Opinion	5		0		0		0		0		0		0	28	true	3
 w30	très	très	G		StrongPositive	4	Opinion	5		0		0		0		0		0		0	29	true	3
 w31	propre	propre	G		StrongPositive	4	Opinion	5	Cleanliness	7		0		0		0		0		0	30	true	3
-w32	et	et	C			0		0		0		0		0		0		0		0	31	true	3
-w33	les	le	D		OpinionTarget	8	Opinion	22		0		0		0		0		0		0	32	true	3
-w34	animations	animation	N		OpinionTarget	8	Opinion	22	Facilities	10		0		0		0		0		0	33	true	3
-w35	sont	être	V			0	Opinion	22		0		0		0		0		0		0	34	true	3
-w36	très	très	G		StrongPositive	9	Opinion	22		0		0		0		0		0		0	35	true	3
-w37	bien	bien	G		StrongPositive	9	Opinion	22		0		0		0		0		0		0	36	true	3
+w32	et	et	C			0	Opinion	5		0		0		0		0		0		0	31	true	3
+w33	les	le	D		OpinionTarget	8	Opinion	5		0		0		0		0		0		0	32	true	3
+w34	animations	animation	N		OpinionTarget	8	Opinion	5	Facilities	10		0		0		0		0		0	33	true	3
+w35	sont	être	V			0	Opinion	5		0		0		0		0		0		0	34	true	3
+w36	très	très	G		StrongPositive	9	Opinion	5		0		0		0		0		0		0	35	true	3
+w37	bien	bien	G		StrongPositive	9	Opinion	5		0		0		0		0		0		0	36	true	3
 w67	mon	son	D		OpinionHolder	11	Opinion	14		0		0		0		0		0		0	66	true	5
 w68	mari	mari	N		OpinionHolder	11	Opinion	14		0		0		0		0		0		0	67	true	5
 w69	,	,	O		OpinionHolder	11	Opinion	14		0		0		0		0		0		0	68	true	5

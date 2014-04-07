@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:36:50" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:14CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:06CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:14CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:06CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2412,42 +2412,116 @@
       <edge id="tre323" from="ter141" to="nter182"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Location">
+        <references>
+          <span>
+            <target id="t30"/>
+            <target id="t31"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t91"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Reservation/check-in/check-out">
+        <references>
+          <span>
+            <target id="t114"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Swimming pool">
+        <references>
+          <span>
+            <target id="t98"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Location">
+        <references>
+          <span>
+            <target id="t124"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Location">
+        <references>
+          <span>
+            <target id="t1"/>
+            <target id="t2"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Location">
+        <references>
+          <span>
+            <target id="t17"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="26_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
-      <opinion_target>
-        <!--les environs-->
-        <span>
-          <target id="t117"/>
-          <target id="t118"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--au top-->
-        <span>
-          <target id="t119"/>
-          <target id="t120"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="59_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--petits Fourmies-->
-        <span>
-          <target id="t67"/>
-          <target id="t68"/>
-        </span>
-      </opinion_target>
+      <opinion_target/>
       <opinion_expression polarity="Negative">
-        <!--envahis de-->
+        <!--très brouillant-->
         <span>
-          <target id="t65"/>
-          <target id="t66"/>
+          <target id="t30"/>
+          <target id="t31"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="22_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder>
+        <!--je-->
+        <span>
+          <target id="t122"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--y-->
+        <span>
+          <target id="t124"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--n' reviendrais pas-->
+        <span>
+          <target id="t123"/>
+          <target id="t125"/>
+          <target id="t126"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--ouverture-->
+        <span>
+          <target id="t91"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--trop tard-->
+        <span>
+          <target id="t92"/>
+          <target id="t93"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
       <opinion_holder/>
       <opinion_target>
         <!--accueil-->
@@ -2462,60 +2536,37 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="48_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--très brouillant-->
-        <span>
-          <target id="t30"/>
-          <target id="t31"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="49_0">
-      <opinion_holder>
-        <!--je-->
-        <span>
-          <target id="t40"/>
-        </span>
-      </opinion_holder>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--ne serais rester une semaine de plus-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-          <target id="t46"/>
-          <target id="t47"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder>
-        <!--je-->
-        <span>
-          <target id="t122"/>
-        </span>
-      </opinion_holder>
       <opinion_target>
-        <!--y-->
+        <!--fermeture-->
         <span>
-          <target id="t124"/>
+          <target id="t98"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongNegative">
-        <!--reviendrais pas-->
+        <!--trop tôt-->
         <span>
-          <target id="t125"/>
-          <target id="t126"/>
+          <target id="t100"/>
+          <target id="t101"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="45_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=2-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongNegative">
+        <!--Plus jamais-->
+        <span>
+          <target id="t1"/>
+          <target id="t2"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--placé-->
@@ -2531,161 +2582,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="51_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--la piscine-->
-        <span>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--ouverture trop tard avec cette chaleur-->
-        <span>
-          <target id="t91"/>
-          <target id="t92"/>
-          <target id="t93"/>
-          <target id="t94"/>
-          <target id="t95"/>
-          <target id="t96"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="51_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--la piscine-->
-        <span>
-          <target id="t85"/>
-          <target id="t86"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--fermeture 19h trop tôt-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t100"/>
-          <target id="t101"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="53_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--wiffi-->
-        <span>
-          <target id="t110"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--non gratuit-->
-        <span>
-          <target id="t111"/>
-          <target id="t112"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="StrongNegative">
-        <!--Plus jamais-->
-        <span>
-          <target id="t1"/>
-          <target id="t2"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="57_0">
-      <opinion_holder>
-        <!--nous-->
-        <span>
-          <target id="t128"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--bruit de la voie rapide-->
-        <span>
-          <target id="t136"/>
-          <target id="t137"/>
-          <target id="t138"/>
-          <target id="t139"/>
-          <target id="t140"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--pas reposer-->
-        <span>
-          <target id="t131"/>
-          <target id="t132"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Noisiness">
-        <references>
-          <span>
-            <target id="t136"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Swimming pool">
-        <references>
-          <span>
-            <target id="t85"/>
-            <target id="t86"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Internet">
-        <references>
-          <span>
-            <target id="t110"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Noisiness">
-        <references>
-          <span>
-            <target id="t30"/>
-            <target id="t31"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Reservation/check-in/check-out">
-        <references>
-          <span>
-            <target id="t114"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p5" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t117"/>
-            <target id="t118"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p6" lemma="Location">
-        <references>
-          <span>
-            <target id="t17"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p7" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t111"/>
-            <target id="t112"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

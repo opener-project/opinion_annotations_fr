@@ -1,4 +1,4 @@
-w1	Sympa	Sympa	N		Positive	3	Opinion	4	Interior/exterior	5	8-positive	30		0		0		0		0	0	true	1
+w1	Sympa	Sympa	N		Positive	3	Opinion	4	Interior/exterior	5		0		0		0		0		0	0	true	1
 w2	pour	pour	P		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	1	true	1
 w3	quelques	quelque	D		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	2	true	1
 w4	jours	jour	N		OpinionTarget	2	Opinion	4		0		0		0		0		0		0	3	true	1

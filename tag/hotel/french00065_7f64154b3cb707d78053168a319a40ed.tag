@@ -92,16 +92,16 @@ w93	voiture	voiture	N		Negative	18	Opinion	17		0		0		0		0		0		0	92	true	3
 w94	entre	entre	P		Negative	18	Opinion	17		0		0		0		0		0		0	93	true	3
 w95	chacun.	chacun.	D		Negative	18	Opinion	17		0		0		0		0		0		0	94	true	3
 w96	seul	seul	G		Negative	21	Opinion	19		0		0		0		0		0		0	95	true	3
-w97	point	point	N			0		0		0		0		0		0		0		0	96	true	3
-w98	positif	positif	G			0		0		0		0		0		0		0		0	97	true	3
-w99	l'	le	D		OpinionTarget	31	Opinion	19	Facilities	23		0		0		0		0		0	98	true	3
-w100	équipement	équipement	N		OpinionTarget	31	Opinion	19	Facilities	23		0		0		0		0		0	99	true	3
-w101	du	du	P		OpinionTarget	31	Opinion	19	Facilities	23		0		0		0		0		0	100	true	3
-w102	mobilhome	mobilhome	N		OpinionTarget	31	Opinion	19	Facilities	23		0		0		0		0		0	101	true	3
+w97	point	point	N		OpinionTarget	20	Opinion	19		0		0		0		0		0		0	96	true	3
+w98	positif	positif	G		OpinionTarget	20	Opinion	19		0		0		0		0		0		0	97	true	3
+w99	l'	le	D		Positive	22	Opinion	19	Facilities	23		0		0		0		0		0	98	true	3
+w100	équipement	équipement	N		Positive	22	Opinion	19	Facilities	23		0		0		0		0		0	99	true	3
+w101	du	du	P		Positive	22	Opinion	19	Facilities	23		0		0		0		0		0	100	true	3
+w102	mobilhome	mobilhome	N		Positive	22	Opinion	19	Facilities	23		0		0		0		0		0	101	true	3
 w103	:	:	O			0	Opinion	19		0		0		0		0		0		0	102	true	3
-w104	la	le	D		OpinionTarget	31	Opinion	19	Facilities	25		0		0		0		0		0	103	true	3
-w105	tonnelle	tonnelle	N		OpinionTarget	31	Opinion	19	Facilities	25		0		0		0		0		0	104	true	3
+w104	la	le	D		Positive	24	Opinion	19	Facilities	25		0		0		0		0		0	103	true	3
+w105	tonnelle	tonnelle	N		Positive	24	Opinion	19	Facilities	25		0		0		0		0		0	104	true	3
 w106	et	et	C			0	Opinion	19		0		0		0		0		0		0	105	true	3
 w107	la	le	D			0	Opinion	19		0		0		0		0		0		0	106	true	3
 w108	grande	grand	G		Positive	28	Opinion	19		0		0		0		0		0		0	107	true	3
-w109	terrasse	terrasse	N		OpinionTarget	31	Opinion	19	Facilities	27	3-negative	29		0		0		0		0	108	true	3
+w109	terrasse	terrasse	N		OpinionTarget	26	Opinion	19	Facilities	27	3-negative	29		0		0		0		0	108	true	3

@@ -1,4 +1,4 @@
-w1	Très	Très	G		Positive	1		0		0	3-negative	19		0		0		0		0	0	true	1
+w1	Très	Très	G		Positive	1		0		0		0		0		0		0		0	0	true	1
 w2	moyen	moyen	G		Positive	1		0		0		0		0		0		0		0	1	true	1
 w3	Chambre	chambre	N		OpinionTarget	2	Opinion	5		0		0		0		0		0		0	2	true	2
 w4	qui	qui	P			0	Opinion	5		0		0		0		0		0		0	3	true	2

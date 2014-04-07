@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:29" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3019,60 +3019,86 @@
       <edge id="tre453" from="ter168" to="nter285"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t91"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Facilities">
+        <references>
+          <span>
+            <target id="t152"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t139"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t118"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t156"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Rooms">
+        <references>
+          <span>
+            <target id="t77"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="24_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--très bien situé-->
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
+      <opinion_holder>
+        <!--nous-->
         <span>
-          <target id="t139"/>
-          <target id="t140"/>
-          <target id="t141"/>
+          <target id="t91"/>
         </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="12_0">
-      <opinion_holder/>
+      </opinion_holder>
       <opinion_target>
-        <!--une petite fenêtre-->
+        <!--autre pièce-->
         <span>
-          <target id="t50"/>
-          <target id="t51"/>
-          <target id="t52"/>
+          <target id="t95"/>
+          <target id="t96"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--seulement recouverte d' une grille qui ne peut s ´ être ouvert-->
+      <opinion_expression polarity="StrongNegative">
+        <!--sans douche fonctionnement-->
         <span>
-          <target id="t49"/>
-          <target id="t53"/>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
-          <target id="t62"/>
-          <target id="t63"/>
+          <target id="t98"/>
+          <target id="t99"/>
+          <target id="t100"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="15_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--cellule de prison-->
-        <span>
-          <target id="t78"/>
-          <target id="t79"/>
-          <target id="t80"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="21_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -3082,56 +3108,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_1">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--avec le balcon-->
-        <span>
-          <target id="t120"/>
-          <target id="t121"/>
-          <target id="t122"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_0">
-      <opinion_holder>
-        <!--je-->
-        <span>
-          <target id="t159"/>
-        </span>
-      </opinion_holder>
-      <opinion_target>
-        <!--endroit-->
-        <span>
-          <target id="t157"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--que recommanderais à même mon ennemi-->
-        <span>
-          <target id="t158"/>
-          <target id="t160"/>
-          <target id="t161"/>
-          <target id="t162"/>
-          <target id="t163"/>
-          <target id="t164"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="18_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Negative">
-        <!--sans douche fonctionnement-->
-        <span>
-          <target id="t98"/>
-          <target id="t99"/>
-          <target id="t100"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="29_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
       <opinion_holder/>
       <opinion_target>
         <!--sevice-->
@@ -3140,14 +3118,54 @@
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
-        <!--avecne pas-->
+        <!--pas de-->
         <span>
-          <target id="t151"/>
           <target id="t152"/>
+          <target id="t153"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=18-->
+      <opinion_holder/>
+      <opinion_target/>
+      <opinion_expression polarity="StrongPositive">
+        <!--très bien situé-->
+        <span>
+          <target id="t139"/>
+          <target id="t140"/>
+          <target id="t141"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=27-->
+      <opinion_holder>
+        <!--je-->
+        <span>
+          <target id="t159"/>
+        </span>
+      </opinion_holder>
+      <opinion_target>
+        <!--Aucun endroit-->
+        <span>
+          <target id="t156"/>
+          <target id="t157"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--recommanderais à même mon ennemi-->
+        <span>
+          <target id="t160"/>
+          <target id="t161"/>
+          <target id="t162"/>
+          <target id="t163"/>
+          <target id="t164"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=4-->
       <opinion_holder>
         <!--Je-->
         <span>
@@ -3169,99 +3187,19 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
-      <opinion_target>
-        <!--une chambre avec balcon-->
-        <span>
-          <target id="t10"/>
-          <target id="t11"/>
-          <target id="t12"/>
-          <target id="t13"/>
-        </span>
-      </opinion_target>
+      <opinion_target/>
       <opinion_expression polarity="Negative">
-        <!--ún seul dans la maison-->
+        <!--cette cellule de prison-->
         <span>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="9_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--notre clé-->
-        <span>
-          <target id="t38"/>
-          <target id="t39"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--Après attendaint plus d' une heure devant la porte-->
-        <span>
-          <target id="t25"/>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-          <target id="t30"/>
-          <target id="t31"/>
-          <target id="t32"/>
-          <target id="t33"/>
+          <target id="t77"/>
+          <target id="t78"/>
+          <target id="t79"/>
+          <target id="t80"/>
         </span>
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t10"/>
-            <target id="t11"/>
-            <target id="t12"/>
-            <target id="t13"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Location">
-        <references>
-          <span>
-            <target id="t139"/>
-            <target id="t140"/>
-            <target id="t141"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Bathroom">
-        <references>
-          <span>
-            <target id="t98"/>
-            <target id="t99"/>
-            <target id="t100"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Rooms">
-        <references>
-          <span>
-            <target id="t78"/>
-            <target id="t79"/>
-            <target id="t80"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Staff">
-        <references>
-          <span>
-            <target id="t154"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

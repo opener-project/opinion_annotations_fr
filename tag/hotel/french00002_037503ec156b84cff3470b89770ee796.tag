@@ -30,23 +30,23 @@ w31	(	(	O			0	Opinion	11		0		0		0		0		0		0	30	true	2
 w32	très	très	G		StrongNegative	15	Opinion	11	Cleanliness	16		0		0		0		0		0	31	true	2
 w33	sales	sale	G		StrongNegative	15	Opinion	11	Cleanliness	16		0		0		0		0		0	32	true	2
 w34	,	,	O			0	Opinion	11		0		0		0		0		0		0	33	true	2
-w35	résidus	résidu	N		Negative	41	Opinion	11		0		0		0		0		0		0	34	true	2
-w36	de	de	P		Negative	41	Opinion	11		0		0		0		0		0		0	35	true	2
-w37	savon	savon	N		Negative	41	Opinion	11		0		0		0		0		0		0	36	true	2
+w35	résidus	résidu	N		OpinionTarget	17	Opinion	11		0		0		0		0		0		0	34	true	2
+w36	de	de	P		OpinionTarget	17	Opinion	11		0		0		0		0		0		0	35	true	2
+w37	savon	savon	N		OpinionTarget	17	Opinion	11		0		0		0		0		0		0	36	true	2
 w38	et	et	C			0	Opinion	11		0		0		0		0		0		0	37	true	2
-w39	excrément	excrément	G		StrongNegative	42	Opinion	11		0		0		0		0		0		0	38	true	2
-w40	sur	sur	P		StrongNegative	42	Opinion	11		0		0		0		0		0		0	39	true	2
-w41	les	le	D		StrongNegative	42	Opinion	11		0		0		0		0		0		0	40	true	2
-w42	murs	mur	N		StrongNegative	42	Opinion	11		0		0		0		0		0		0	41	true	2
-w43	)	)	O			0		0		0		0		0		0		0		0	42	true	2
-w44	une	un	D			0	Opinion	43		0		0		0		0		0		0	43	true	2
-w45	seule	seul	G			0	Opinion	43		0		0		0		0		0		0	44	true	2
-w46	raclette	raclette	N		OpinionTarget	20	Opinion	43		0		0		0		0		0		0	45	true	2
-w47	à	à	P		Negative	21	Opinion	43		0		0		0		0		0		0	46	true	2
-w48	disposition	disposition	N		Negative	21	Opinion	43		0		0		0		0		0		0	47	true	2
-w49	pour	pour	P		Negative	21	Opinion	43		0		0		0		0		0		0	48	true	2
-w50	douze	douze	D		Negative	21	Opinion	43		0		0		0		0		0		0	49	true	2
-w51	douches.	douches.	P		Negative	21	Opinion	43		0		0		0		0		0		0	50	true	2
+w39	excrément	excrément	G		OpinionTarget	18	Opinion	11		0		0		0		0		0		0	38	true	2
+w40	sur	sur	P		StrongNegative	19	Opinion	11		0		0		0		0		0		0	39	true	2
+w41	les	le	D		StrongNegative	19	Opinion	11		0		0		0		0		0		0	40	true	2
+w42	murs	mur	N		StrongNegative	19	Opinion	11		0		0		0		0		0		0	41	true	2
+w43	)	)	O			0	Opinion	11		0		0		0		0		0		0	42	true	2
+w44	une	un	D			0	Opinion	11		0		0		0		0		0		0	43	true	2
+w45	seule	seul	G			0	Opinion	11		0		0		0		0		0		0	44	true	2
+w46	raclette	raclette	N		OpinionTarget	20	Opinion	11		0		0		0		0		0		0	45	true	2
+w47	à	à	P		Negative	21	Opinion	11		0		0		0		0		0		0	46	true	2
+w48	disposition	disposition	N		Negative	21	Opinion	11		0		0		0		0		0		0	47	true	2
+w49	pour	pour	P		Negative	21	Opinion	11		0		0		0		0		0		0	48	true	2
+w50	douze	douze	D		Negative	21	Opinion	11		0		0		0		0		0		0	49	true	2
+w51	douches.	douches.	P		Negative	21	Opinion	11		0		0		0		0		0		0	50	true	2
 w52	ne	ne	G		Negative	23	Opinion	22		0		0		0		0		0		0	51	true	2
 w53	convient	convenir	V		Negative	23	Opinion	22		0		0		0		0		0		0	52	true	2
 w54	aux	aux	P		Negative	23	Opinion	22		0		0		0		0		0		0	53	true	2

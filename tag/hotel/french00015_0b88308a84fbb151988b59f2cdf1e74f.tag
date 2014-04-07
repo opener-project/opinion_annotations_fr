@@ -16,10 +16,9 @@ w71	bonne	bon	G		Positive	17	Opinion	19		0		0		0		0		0		0	70	false	5
 w82	la	le	D		Negative	18	Opinion	19		0		0		0		0		0		0	81	false	5
 w83	même	même	G		Negative	18	Opinion	19		0		0		0		0		0		0	82	false	5
 w84	chose	chose	N		Negative	18	Opinion	19		0		0		0		0		0		0	83	false	5
-w87	c'	c'	Q		OpinionTarget	21	Opinion	37		0		0		0		0		0		0	86	true	5
-w88	est	être	V			0	Opinion	37		0		0		0		0		0		0	87	true	5
-w89	très	très	G		Positive	22	Opinion	37		0		0		0		0		0		0	88	true	5
-w90	correct	correct	G		Positive	22	Opinion	37		0		0		0		0		0		0	89	true	5
+w87	c'	c'	Q		OpinionTarget	21	Opinion	19		0		0		0		0		0		0	86	true	5
+w89	très	très	G		Positive	22	Opinion	19		0		0		0		0		0		0	88	true	5
+w90	correct	correct	G		Positive	22	Opinion	19		0		0		0		0		0		0	89	true	5
 w92	les	le	D		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	91	true	5
 w93	chambres	chambre	N		OpinionTarget	23	Opinion	25	Rooms	26		0		0		0		0		0	92	true	5
 w95	propres	propre	G		Positive	24	Opinion	25	Cleanliness	27		0		0		0		0		0	94	true	5

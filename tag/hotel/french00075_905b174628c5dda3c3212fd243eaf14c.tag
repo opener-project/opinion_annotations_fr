@@ -1,4 +1,4 @@
-w1	Vacance	vacance	N		StrongPositive	1	Opinion	2		0	10-highly positive	26		0		0		0		0	0	true	1
+w1	Vacance	vacance	N		StrongPositive	1	Opinion	2		0		0		0		0		0		0	0	true	1
 w2	idéale	idéale	N		StrongPositive	1	Opinion	2		0		0		0		0		0		0	1	true	1
 w3	en	en	P		StrongPositive	1	Opinion	2		0		0		0		0		0		0	2	true	1
 w4	famille	famille	N		StrongPositive	1	Opinion	2		0		0		0		0		0		0	3	true	1

@@ -18,7 +18,7 @@ w25	qui	qui	P			0	Opinion	12		0		0		0		0		0		0	24	true	2
 w26	est	être	V			0	Opinion	12		0		0		0		0		0		0	25	true	2
 w27	très	très	G		StrongPositive	14	Opinion	12		0		0		0		0		0		0	26	true	2
 w28	agréable	agréable	G		StrongPositive	14	Opinion	12		0		0		0		0		0		0	27	true	2
-w31	la	le	D		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	30	false	3
+w31	la	le	D		OpinionTarget	16	Opinion	15	Restaurant	17		0		0		0		0		0	30	true	3
 w32	restauration	restauration	N		OpinionTarget	16	Opinion	15	Restaurant	17		0		0		0		0		0	31	true	3
 w33	,	,	O			0	Opinion	15		0		0		0		0		0		0	32	true	3
 w34	il	il	Q			0	Opinion	15		0		0		0		0		0		0	33	true	3

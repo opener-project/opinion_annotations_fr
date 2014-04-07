@@ -19,10 +19,10 @@
       <lp name="corefgraph-fr" timestamp="2014-01-14T17:34:39" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:11CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:02CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1951,8 +1951,41 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t110"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Location">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Location">
+        <references>
+          <span>
+            <target id="t3"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Location">
+        <references>
+          <span>
+            <target id="t57"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="24_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1963,7 +1996,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=26-->
       <opinion_holder/>
       <opinion_target>
         <!--Personnel-->
@@ -1979,7 +2013,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="26_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=26-->
       <opinion_holder/>
       <opinion_target>
         <!--Personnel-->
@@ -1995,7 +2030,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -2029,7 +2065,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="20_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=20-->
       <opinion_holder>
         <!--nous-->
         <span>
@@ -2058,7 +2095,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="20_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=20-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -2087,7 +2125,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
         <!--y-->
@@ -2104,7 +2143,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_1">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
         <!--y-->
@@ -2123,7 +2163,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_2">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=14-->
       <opinion_holder/>
       <opinion_target>
         <!--y-->
@@ -2139,51 +2180,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="33_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--les gens-->
-        <span>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--se croient seuls-->
-        <span>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="33_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--les gens-->
-        <span>
-          <target id="t7"/>
-          <target id="t8"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--crient la nuit jusqu' à 3 ou 4 heures du matin.-->
-        <span>
-          <target id="t13"/>
-          <target id="t14"/>
-          <target id="t15"/>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-          <target id="t21"/>
-          <target id="t22"/>
-          <target id="t23"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target>
         <!--Camping-->
@@ -2198,53 +2196,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Camping-->
-        <span>
-          <target id="t3"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--très bruyant-->
-        <span>
-          <target id="t4"/>
-          <target id="t5"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t110"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Location">
-        <references>
-          <span>
-            <target id="t1"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Location">
-        <references>
-          <span>
-            <target id="t3"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Location">
-        <references>
-          <span>
-            <target id="t57"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

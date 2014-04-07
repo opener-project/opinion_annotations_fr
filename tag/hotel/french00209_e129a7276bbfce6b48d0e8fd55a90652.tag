@@ -1,4 +1,4 @@
-w1	Magnifique	Magnifique	N		StrongPositive	2	Opinion	4	Interior/exterior	5	10-highly positive	51		0		0		0		0	0	true	1
+w1	Magnifique	Magnifique	N		StrongPositive	2	Opinion	4	Interior/exterior	5		0		0		0		0		0	0	true	1
 w2	hôtel	hôtel	N		OpinionTarget	1	Opinion	4		0		0		0		0		0		0	1	true	1
 w3	très	très	G		StrongPositive	3	Opinion	4		0		0		0		0		0		0	2	true	1
 w4	design	design	Q		StrongPositive	3	Opinion	4		0		0		0		0		0		0	3	true	1

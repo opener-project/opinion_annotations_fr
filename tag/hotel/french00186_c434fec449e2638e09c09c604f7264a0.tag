@@ -30,19 +30,19 @@ w43	nous	lui	Q			0	Opinion	25		0		0		0		0		0		0	42	true	2
 w44	a	avoir	V			0	Opinion	25		0		0		0		0		0		0	43	true	2
 w45	fait	faire	V			0	Opinion	25		0		0		0		0		0		0	44	true	2
 w46	une	un	D			0	Opinion	25		0		0		0		0		0		0	45	true	2
-w47	présentation	présentation	N		Positive	22	Opinion	25		0		0		0		0		0		0	46	true	2
+w47	présentation	présentation	N		OpinionTarget	21	Opinion	25		0		0		0		0		0		0	46	true	2
 w48	superbe	superbe	G		Positive	22	Opinion	25		0		0		0		0		0		0	47	true	2
-w49	et	et	C			0		0		0		0		0		0		0		0	48	true	2
-w50	un	un	D		OpinionTarget	23	Opinion	48		0		0		0		0		0		0	49	true	2
-w51	spectacle	spectacle	N		OpinionTarget	23	Opinion	48	Facilities	27		0		0		0		0		0	50	true	2
-w52	en	en	P		OpinionTarget	23	Opinion	48		0		0		0		0		0		0	51	true	2
-w53	semaine	semaine	N		OpinionTarget	23	Opinion	48		0		0		0		0		0		0	52	true	2
-w54	payant	payer	V		OpinionTarget	23	Opinion	48		0		0		0		0		0		0	53	true	2
-w55	,	,	O			0		0		0		0		0		0		0		0	54	true	2
-w56	mais	mais	C			0		0		0		0		0		0		0		0	55	true	2
-w57	de	de	P		StrongPositive	24	Opinion	48		0		0		0		0		0		0	56	true	2
-w58	haute	haut	G		StrongPositive	24	Opinion	48		0		0		0		0		0		0	57	true	2
-w59	qualité.Le	qualité.Le	N		StrongPositive	24	Opinion	48		0		0		0		0		0		0	58	true	2
+w49	et	et	C			0	Opinion	25		0		0		0		0		0		0	48	true	2
+w50	un	un	D		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	49	true	2
+w51	spectacle	spectacle	N		OpinionTarget	23	Opinion	25	Facilities	27		0		0		0		0		0	50	true	2
+w52	en	en	P		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	51	true	2
+w53	semaine	semaine	N		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	52	true	2
+w54	payant	payer	V		OpinionTarget	23	Opinion	25		0		0		0		0		0		0	53	true	2
+w55	,	,	O			0	Opinion	25		0		0		0		0		0		0	54	true	2
+w56	mais	mais	C			0	Opinion	25		0		0		0		0		0		0	55	true	2
+w57	de	de	P		StrongPositive	24	Opinion	25		0		0		0		0		0		0	56	true	2
+w58	haute	haut	G		StrongPositive	24	Opinion	25		0		0		0		0		0		0	57	true	2
+w59	qualité.Le	qualité.Le	N		StrongPositive	24	Opinion	25		0		0		0		0		0		0	58	true	2
 w60	restau	restau	O		OpinionTarget	28	Opinion	31	Restaurant	32		0		0		0		0		0	59	true	2
 w61	est	être	V			0	Opinion	31		0		0		0		0		0		0	60	true	2
 w62	cher	cher	G		Negative	29	Opinion	31		0		0		0		0		0		0	61	true	2

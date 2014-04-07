@@ -12,13 +12,13 @@ w11	de	de	P			0	Opinion	7		0		0		0		0		0		0	10	true	2
 w12	tres	tres	D		StrongPositive	10	Opinion	7		0		0		0		0		0		0	11	true	2
 w13	beaux	beau	G		StrongPositive	10	Opinion	7		0		0		0		0		0		0	12	true	2
 w14	souvenir	souvenir	V		StrongPositive	10	Opinion	7		0		0		0		0		0		0	13	true	2
-w15	et	et	C			0		0		0		0		0		0		0		0	14	true	2
-w16	je	je	Q		OpinionHolder	11	Opinion	28		0		0		0		0		0		0	15	true	2
-w17	pense	penser	V			0	Opinion	28		0		0		0		0		0		0	16	true	2
-w18	y	y	Q		OpinionTarget	12	Opinion	28	Interior/exterior	14		0		0		0		0		0	17	true	2
-w19	retourner	retourner	V		StrongPositive	13	Opinion	28		0		0		0		0		0		0	18	true	2
-w20	tres	tres	G		StrongPositive	13	Opinion	28		0		0		0		0		0		0	19	true	2
-w21	rapidement.	rapidement.	G		StrongPositive	13	Opinion	28		0		0		0		0		0		0	20	true	2
+w15	et	et	C			0	Opinion	7		0		0		0		0		0		0	14	true	2
+w16	je	je	Q		OpinionHolder	11	Opinion	7		0		0		0		0		0		0	15	true	2
+w17	pense	penser	V			0	Opinion	7		0		0		0		0		0		0	16	true	2
+w18	y	y	Q		OpinionTarget	12	Opinion	7	Interior/exterior	14		0		0		0		0		0	17	true	2
+w19	retourner	retourner	V		StrongPositive	13	Opinion	7		0		0		0		0		0		0	18	true	2
+w20	tres	tres	G		StrongPositive	13	Opinion	7		0		0		0		0		0		0	19	true	2
+w21	rapidement.	rapidement.	G		StrongPositive	13	Opinion	7		0		0		0		0		0		0	20	true	2
 w37	service	service	N		OpinionTarget	15	Opinion	17	Staff	18		0		0		0		0		0	36	true	2
 w38	sur	sur	P		OpinionTarget	15	Opinion	17	Staff	18		0		0		0		0		0	37	true	2
 w39	la	le	D		OpinionTarget	15	Opinion	17	Staff	18		0		0		0		0		0	38	true	2

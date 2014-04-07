@@ -34,18 +34,18 @@ w84	aussi	aussi	G			0	Opinion	14		0		0		0		0		0		0	83	true	5
 w85	est	être	V			0	Opinion	14		0		0		0		0		0		0	84	true	5
 w86	le	le	D		OpinionTarget	16	Opinion	14		0		0		0		0		0		0	85	true	5
 w87	camp	camp	N		OpinionTarget	16	Opinion	14		0		0		0		0		0		0	86	true	5
-w100	de	de	P		OpinionTarget	17	Opinion	32		0		0		0		0		0		0	99	true	5
-w101	jeunes	jeune	N		OpinionTarget	17	Opinion	32		0		0		0		0		0		0	100	true	5
-w102	allemands	allemand	G		OpinionTarget	17	Opinion	32		0		0		0		0		0		0	101	true	5
-w103	qui	qui	P			0	Opinion	32		0		0		0		0		0		0	102	true	5
-w104	sont	être	V			0	Opinion	32		0		0		0		0		0		0	103	true	5
-w105	peu	peu	G		Negative	18	Opinion	32		0		0		0		0		0		0	104	true	5
-w106	encadrés	encadrer	V		Negative	18	Opinion	32		0		0		0		0		0		0	105	true	5
-w107	et	et	C			0	Opinion	32		0		0		0		0		0		0	106	true	5
-w108	qui	qui	P			0	Opinion	32		0		0		0		0		0		0	107	true	5
-w109	ne	ne	G		Negative	19	Opinion	32		0		0		0		0		0		0	108	true	5
-w110	respectent	respecter	V		Negative	19	Opinion	32		0		0		0		0		0		0	109	true	5
-w111	rien	rien	P		Negative	19	Opinion	32		0		0		0		0		0		0	110	true	5
+w100	de	de	P		OpinionTarget	17	Opinion	14		0		0		0		0		0		0	99	true	5
+w101	jeunes	jeune	N		OpinionTarget	17	Opinion	14		0		0		0		0		0		0	100	true	5
+w102	allemands	allemand	G		OpinionTarget	17	Opinion	14		0		0		0		0		0		0	101	true	5
+w103	qui	qui	P			0	Opinion	14		0		0		0		0		0		0	102	true	5
+w104	sont	être	V			0	Opinion	14		0		0		0		0		0		0	103	true	5
+w105	peu	peu	G		Negative	18	Opinion	14		0		0		0		0		0		0	104	true	5
+w106	encadrés	encadrer	V		Negative	18	Opinion	14		0		0		0		0		0		0	105	true	5
+w107	et	et	C			0	Opinion	14		0		0		0		0		0		0	106	true	5
+w108	qui	qui	P			0	Opinion	14		0		0		0		0		0		0	107	true	5
+w109	ne	ne	G		Negative	19	Opinion	14		0		0		0		0		0		0	108	true	5
+w110	respectent	respecter	V		Negative	19	Opinion	14		0		0		0		0		0		0	109	true	5
+w111	rien	rien	P		Negative	19	Opinion	14		0		0		0		0		0		0	110	true	5
 w124	Dommage	dommage	N		Negative	21	Opinion	20		0		0		0		0		0		0	123	true	6
 w125	car	car	C			0	Opinion	20		0		0		0		0		0		0	124	true	6
 w126	endroit	endroit	N		OpinionTarget	22	Opinion	20	Location	23		0		0		0		0		0	125	true	6

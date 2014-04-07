@@ -28,10 +28,10 @@ w54	aire	aire	N		Negative	17	Opinion	14		0		0		0		0		0		0	53	true	5
 w55	de	de	P		Negative	17	Opinion	14		0		0		0		0		0		0	54	true	5
 w56	jeu	jeu	N		Negative	17	Opinion	14		0		0		0		0		0		0	55	true	5
 w57	minimale	minimale	O		Negative	17	Opinion	14		0		0		0		0		0		0	56	true	5
-w58	(	(	O			0		0		0		0		0		0		0		0	57	true	5
-w59	une	un	D		Negative	18	Opinion	44		0		0		0		0		0		0	58	true	5
-w60	seule	seul	G		Negative	18	Opinion	44		0		0		0		0		0		0	59	true	5
-w61	balançoire	balançoire	N		OpinionTarget	19	Opinion	44		0		0		0		0		0		0	60	true	5
+w58	(	(	O			0	Opinion	14		0		0		0		0		0		0	57	true	5
+w59	une	un	D		Negative	18	Opinion	14		0		0		0		0		0		0	58	true	5
+w60	seule	seul	G		Negative	18	Opinion	14		0		0		0		0		0		0	59	true	5
+w61	balançoire	balançoire	N		OpinionTarget	19	Opinion	14		0		0		0		0		0		0	60	true	5
 w65	Accueil	accueil	N		OpinionTarget	21	Opinion	20	Reservation/check-in/check-out	22		0		0		0		0		0	64	true	7
 w66	glacial	glacial	G		StrongNegative	23	Opinion	20		0		0		0		0		0		0	65	true	7
 w67	,	,	O			0	Opinion	20		0		0		0		0		0		0	66	true	7
@@ -39,35 +39,33 @@ w68	limite	limiter	V		StrongNegative	24	Opinion	20		0		0		0		0		0		0	67	true	7
 w69	désagréable	désagréable	G		StrongNegative	24	Opinion	20		0		0		0		0		0		0	68	true	7
 w71	Restaurant	restaurer	V		OpinionTarget	26	Opinion	25	Restaurant	28		0		0		0		0		0	70	true	8
 w72	fermé	fermer	V		Negative	27	Opinion	25		0		0		0		0		0		0	71	true	8
-w74	On	On	Q		OpinionHolder	30	Opinion	42		0		0		0		0		0		0	73	true	9
-w75	a	avoir	V		Positive	31	Opinion	42		0		0		0		0		0		0	74	true	9
-w76	compensé	compenser	V		Positive	31	Opinion	42		0		0		0		0		0		0	75	true	9
-w77	avec	avec	P			0	Opinion	42		0		0		0		0		0		0	76	true	9
-w78	l'	le	D		OpinionTarget	43	Opinion	42	Interior/exterior	33		0		0		0		0		0	77	true	9
-w79	extérieur	extérieur	N		OpinionTarget	43	Opinion	42	Interior/exterior	33		0		0		0		0		0	78	true	9
-w80	(	(	O			0	Opinion	42		0		0		0		0		0		0	79	true	9
-w81	Coulon	Coulon	N			0	Opinion	42		0		0		0		0		0		0	80	true	9
-w82	et	et	C			0	Opinion	42		0		0		0		0		0		0	81	true	9
-w83	ses	son	D			0	Opinion	42		0		0		0		0		0		0	82	true	9
-w84	environs	environs	N			0	Opinion	42		0		0		0		0		0		0	83	true	9
-w85	,	,	O			0	Opinion	42		0		0		0		0		0		0	84	true	9
-w86	marais	marais	N			0	Opinion	42		0		0		0		0		0		0	85	true	9
-w87	poitevin	poitevin	N			0	Opinion	42		0		0		0		0		0		0	86	true	9
-w88	,	,	O			0	Opinion	42		0		0		0		0		0		0	87	true	9
-w89	Puy	puy	N			0	Opinion	42		0		0		0		0		0		0	88	true	9
-w90	du	du	D			0	Opinion	42		0		0		0		0		0		0	89	true	9
-w91	Fou	fou	N			0	Opinion	42		0		0		0		0		0		0	90	true	9
-w92	,	,	O			0	Opinion	42		0		0		0		0		0		0	91	true	9
-w93	La	le	D			0	Opinion	42		0		0		0		0		0		0	92	true	9
-w94	Rochelle	Rochelle	N			0	Opinion	42		0		0		0		0		0		0	93	true	9
-w95	...	...	O			0	Opinion	42		0		0		0		0		0		0	94	true	9
-w96	)	)	O			0	Opinion	42		0		0		0		0		0		0	95	true	9
-w97	et	et	C			0	Opinion	42		0		0		0		0		0		0	96	true	9
-w98	le	le	D		OpinionTarget	43	Opinion	42	Interior/exterior	35		0		0		0		0		0	97	true	9
-w99	côté	côté	N		OpinionTarget	43	Opinion	42	Interior/exterior	35		0		0		0		0		0	98	true	9
-w100	calme	calme	G		OpinionTarget	43	Opinion	42	Interior/exterior	35		0		0		0		0		0	99	true	9
-w101	du	du	P		OpinionTarget	43	Opinion	42		0		0		0		0		0		0	100	true	9
-w102	camping	camping	N		OpinionTarget	43	Opinion	42	Location	37		0		0		0		0		0	101	true	9
+w74	On	On	Q		OpinionHolder	30	Opinion	29		0		0		0		0		0		0	73	true	9
+w75	a	avoir	V		Positive	31	Opinion	29		0		0		0		0		0		0	74	true	9
+w76	compensé	compenser	V		Positive	31	Opinion	29		0		0		0		0		0		0	75	true	9
+w77	avec	avec	P			0	Opinion	29		0		0		0		0		0		0	76	true	9
+w78	l'	le	D		OpinionTarget	32	Opinion	29	Interior/exterior	33		0		0		0		0		0	77	true	9
+w79	extérieur	extérieur	N		OpinionTarget	32	Opinion	29	Interior/exterior	33		0		0		0		0		0	78	true	9
+w80	(	(	O			0	Opinion	29		0		0		0		0		0		0	79	true	9
+w81	Coulon	Coulon	N			0	Opinion	29		0		0		0		0		0		0	80	true	9
+w82	et	et	C			0	Opinion	29		0		0		0		0		0		0	81	true	9
+w83	ses	son	D			0	Opinion	29		0		0		0		0		0		0	82	true	9
+w84	environs	environs	N			0	Opinion	29		0		0		0		0		0		0	83	true	9
+w85	,	,	O			0	Opinion	29		0		0		0		0		0		0	84	true	9
+w86	marais	marais	N			0	Opinion	29		0		0		0		0		0		0	85	true	9
+w87	poitevin	poitevin	N			0	Opinion	29		0		0		0		0		0		0	86	true	9
+w88	,	,	O			0	Opinion	29		0		0		0		0		0		0	87	true	9
+w89	Puy	puy	N			0	Opinion	29		0		0		0		0		0		0	88	true	9
+w90	du	du	D			0	Opinion	29		0		0		0		0		0		0	89	true	9
+w91	Fou	fou	N			0	Opinion	29		0		0		0		0		0		0	90	true	9
+w92	,	,	O			0	Opinion	29		0		0		0		0		0		0	91	true	9
+w93	La	le	D			0	Opinion	29		0		0		0		0		0		0	92	true	9
+w94	Rochelle	Rochelle	N			0	Opinion	29		0		0		0		0		0		0	93	true	9
+w95	...	...	O			0	Opinion	29		0		0		0		0		0		0	94	true	9
+w96	)	)	O			0	Opinion	29		0		0		0		0		0		0	95	true	9
+w98	le	le	D		OpinionTarget	34		0	Interior/exterior	35		0		0		0		0		0	97	true	9
+w99	côté	côté	N		OpinionTarget	34		0	Interior/exterior	35		0		0		0		0		0	98	true	9
+w100	calme	calme	G		OpinionTarget	34		0	Interior/exterior	35		0		0		0		0		0	99	true	9
+w102	camping	camping	N		OpinionTarget	36		0	Location	37		0		0		0		0		0	101	true	9
 w104	Mais	Mais	C			0	Opinion	38		0		0		0		0		0		0	103	true	10
 w105	la	le	D		OpinionTarget	39	Opinion	38		0		0		0		0		0		0	104	true	10
 w106	prestation	prestation	N		OpinionTarget	39	Opinion	38		0		0		0		0		0		0	105	true	10

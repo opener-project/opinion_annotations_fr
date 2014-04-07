@@ -10,9 +10,9 @@ w19	bain	bain	N		OpinionTarget	5	Opinion	7		0		0		0		0		0		0	18	true	2
 w20	laisse	laisser	V		StrongNegative	6	Opinion	7		0		0		0		0		0		0	19	true	2
 w21	à	à	P		StrongNegative	6	Opinion	7		0		0		0		0		0		0	20	true	2
 w22	désirer	désirer	V		StrongNegative	6	Opinion	7		0		0		0		0		0		0	21	true	2
-w43	les	le	D		OpinionTarget	9	Opinion	16		0		0		0		0		0		0	42	true	2
-w44	WC	WC	N		OpinionTarget	9	Opinion	16		0		0		0		0		0		0	43	true	2
-w45	coulent	couler	V		Negative	10	Opinion	16		0		0		0		0		0		0	44	true	2
+w43	les	le	D		OpinionTarget	9	Opinion	7		0		0		0		0		0		0	42	true	2
+w44	WC	WC	N		OpinionTarget	9	Opinion	7		0		0		0		0		0		0	43	true	2
+w45	coulent	couler	V		Negative	10	Opinion	7		0		0		0		0		0		0	44	true	2
 w55	déjeuner	déjeuner	V		OpinionTarget	11	Opinion	13	Breakfast	14		0		0		0		0		0	54	true	3
 w56	,	,	O			0	Opinion	13		0		0		0		0		0		0	55	true	3
 w57	il	il	Q			0	Opinion	13		0		0		0		0		0		0	56	true	3

@@ -16,18 +16,18 @@ w40	chambre	chambre	N		OpinionTarget	14	Opinion	16	Rooms	17		0		0		0		0		0	39	tr
 w41	modernes	moderne	G		Positive	15	Opinion	16		0		0		0		0		0		0	40	true	4
 w42	en	en	P			0	Opinion	16		0		0		0		0		0		0	41	true	4
 w43	déco	déco	N			0	Opinion	16		0		0		0		0		0		0	42	true	4
-w44	mais	mais	C			0		0		0		0		0		0		0		0	43	true	4
-w45	équipées	équiper	V		Negative	18	Opinion	27		0		0		0		0		0		0	44	true	4
-w46	uniquement	uniquement	G		Negative	18	Opinion	27		0		0		0		0		0		0	45	true	4
-w47	avec	avec	P			0	Opinion	27		0		0		0		0		0		0	46	true	4
-w48	une	un	D			0	Opinion	27		0		0		0		0		0		0	47	true	4
-w49	douche	douche	N			0	Opinion	27		0		0		0		0		0		0	48	true	4
-w50	et	et	C			0	Opinion	27		0		0		0		0		0		0	49	true	4
-w51	une	un	D		OpinionTarget	19	Opinion	27	Bathroom	21		0		0		0		0		0	50	true	4
-w52	salle	salle	N		OpinionTarget	19	Opinion	27		0		0		0		0		0		0	51	true	4
-w53	de	de	P		OpinionTarget	19	Opinion	27		0		0		0		0		0		0	52	true	4
-w54	bain	bain	N		OpinionTarget	19	Opinion	27		0		0		0		0		0		0	53	true	4
-w55	minimaliste	minimaliste	N		Negative	20	Opinion	27		0		0		0		0		0		0	54	true	4
+w44	mais	mais	C			0	Opinion	16		0		0		0		0		0		0	43	true	4
+w45	équipées	équiper	V		Negative	18	Opinion	16		0		0		0		0		0		0	44	true	4
+w46	uniquement	uniquement	G		Negative	18	Opinion	16		0		0		0		0		0		0	45	true	4
+w47	avec	avec	P			0	Opinion	16		0		0		0		0		0		0	46	true	4
+w48	une	un	D			0	Opinion	16		0		0		0		0		0		0	47	true	4
+w49	douche	douche	N			0	Opinion	16		0		0		0		0		0		0	48	true	4
+w50	et	et	C			0	Opinion	16		0		0		0		0		0		0	49	true	4
+w51	une	un	D		OpinionTarget	19	Opinion	16	Bathroom	21		0		0		0		0		0	50	true	4
+w52	salle	salle	N		OpinionTarget	19	Opinion	16		0		0		0		0		0		0	51	true	4
+w53	de	de	P		OpinionTarget	19	Opinion	16		0		0		0		0		0		0	52	true	4
+w54	bain	bain	N		OpinionTarget	19	Opinion	16		0		0		0		0		0		0	53	true	4
+w55	minimaliste	minimaliste	N		Negative	20	Opinion	16		0		0		0		0		0		0	54	true	4
 w86	isolation	isolation	N		OpinionTarget	22	Opinion	24	Noisiness	25		0		0		0		0		0	85	true	6
 w87	sonore	sonore	G		OpinionTarget	22	Opinion	24		0		0		0		0		0		0	86	true	6
 w88	est	être	V			0	Opinion	24		0		0		0		0		0		0	87	true	6

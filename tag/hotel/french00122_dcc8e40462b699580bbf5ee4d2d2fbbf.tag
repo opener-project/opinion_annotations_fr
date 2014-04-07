@@ -28,19 +28,19 @@ w32	Le	le	D		OpinionTarget	18	Opinion	20	Interior/exterior	24		0		0		0		0		0	31	
 w33	bâtiment	bâtiment	N		OpinionTarget	18	Opinion	20	Interior/exterior	24		0		0		0		0		0	32	true	3
 w34	est	être	V			0	Opinion	20		0		0		0		0		0		0	33	true	3
 w35	vieux	vieux	G		Positive	19	Opinion	20		0		0		0		0		0		0	34	true	3
-w36	,	,	O			0		0		0		0		0		0		0		0	35	true	3
-w37	l'	le	D		OpinionTarget	21	Opinion	26	Interior/exterior	23		0		0		0		0		0	36	true	3
-w38	intérieur	intérieur	N		OpinionTarget	21	Opinion	26	Interior/exterior	23		0		0		0		0		0	37	true	3
-w39	est	être	V			0	Opinion	26		0		0		0		0		0		0	38	true	3
-w40	correct	correct	G		Positive	22	Opinion	26		0		0		0		0		0		0	39	true	3
-w41	pour	pour	P		Positive	22	Opinion	26		0		0		0		0		0		0	40	true	3
-w42	ce	ce	P		Positive	22	Opinion	26		0		0		0		0		0		0	41	true	3
-w43	qu'	qu'	P		Positive	22	Opinion	26		0		0		0		0		0		0	42	true	3
-w44	on	on	Q		Positive	22	Opinion	26		0		0		0		0		0		0	43	true	3
-w45	peut	pouvoir	V		Positive	22	Opinion	26		0		0		0		0		0		0	44	true	3
-w46	attendre	attendre	V		Positive	22	Opinion	26		0		0		0		0		0		0	45	true	3
-w47	de	de	P		Positive	22	Opinion	26		0		0		0		0		0		0	46	true	3
-w48	ce	ce	D		Positive	22	Opinion	26		0		0		0		0		0		0	47	true	3
-w49	type	type	N		Positive	22	Opinion	26		0		0		0		0		0		0	48	true	3
-w50	d'	d'	P		Positive	22	Opinion	26		0		0		0		0		0		0	49	true	3
-w51	hôtel	hôtel	N		Positive	22	Opinion	26		0		0		0		0		0		0	50	true	3
+w36	,	,	O			0	Opinion	20		0		0		0		0		0		0	35	true	3
+w37	l'	le	D		OpinionTarget	21	Opinion	20	Interior/exterior	23		0		0		0		0		0	36	true	3
+w38	intérieur	intérieur	N		OpinionTarget	21	Opinion	20	Interior/exterior	23		0		0		0		0		0	37	true	3
+w39	est	être	V			0	Opinion	20		0		0		0		0		0		0	38	true	3
+w40	correct	correct	G		Positive	22	Opinion	20		0		0		0		0		0		0	39	true	3
+w41	pour	pour	P		Positive	22	Opinion	20		0		0		0		0		0		0	40	true	3
+w42	ce	ce	P		Positive	22	Opinion	20		0		0		0		0		0		0	41	true	3
+w43	qu'	qu'	P		Positive	22	Opinion	20		0		0		0		0		0		0	42	true	3
+w44	on	on	Q		Positive	22	Opinion	20		0		0		0		0		0		0	43	true	3
+w45	peut	pouvoir	V		Positive	22	Opinion	20		0		0		0		0		0		0	44	true	3
+w46	attendre	attendre	V		Positive	22	Opinion	20		0		0		0		0		0		0	45	true	3
+w47	de	de	P		Positive	22	Opinion	20		0		0		0		0		0		0	46	true	3
+w48	ce	ce	D		Positive	22	Opinion	20		0		0		0		0		0		0	47	true	3
+w49	type	type	N		Positive	22	Opinion	20		0		0		0		0		0		0	48	true	3
+w50	d'	d'	P		Positive	22	Opinion	20		0		0		0		0		0		0	49	true	3
+w51	hôtel	hôtel	N		Positive	22	Opinion	20		0		0		0		0		0		0	50	true	3

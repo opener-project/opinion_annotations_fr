@@ -1,4 +1,4 @@
-w1	Camping	camping	N		OpinionTarget	1	Opinion	3		0	8-positive	45		0		0		0		0	0	true	1
+w1	Camping	camping	N		OpinionTarget	1	Opinion	3		0		0		0		0		0		0	0	true	1
 w2	assez	assez	G		Positive	2	Opinion	3		0		0		0		0		0		0	1	true	1
 w3	agréable	agréable	G		Positive	2	Opinion	3		0		0		0		0		0		0	2	true	1
 w4	Le	le	D		OpinionTarget	4	Opinion	6		0		0		0		0		0		0	3	true	2

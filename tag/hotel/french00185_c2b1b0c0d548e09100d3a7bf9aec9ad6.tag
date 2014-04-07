@@ -21,10 +21,10 @@ w43	rêve	rêve	N		StrongPositive	11	Opinion	12		0		0		0		0		0		0	42	true	3
 w46	endroit	endroit	N		OpinionTarget	14	Opinion	16	Interior/exterior	17		0		0		0		0		0	45	true	3
 w47	est	être	V			0	Opinion	16		0		0		0		0		0		0	46	true	3
 w48	magnifique	magnifique	G		StrongPositive	15	Opinion	16		0		0		0		0		0		0	47	true	3
-w50	l'	le	D		OpinionTarget	18	Opinion	31		0		0		0		0		0		0	49	true	3
-w51	ambiance	ambiance	N		OpinionTarget	18	Opinion	31		0		0		0		0		0		0	50	true	3
-w52	est	être	V			0	Opinion	31		0		0		0		0		0		0	51	true	3
-w53	extra	extra	V		StrongPositive	19	Opinion	31		0		0		0		0		0		0	52	true	3
+w50	l'	le	D		OpinionTarget	18	Opinion	16		0		0		0		0		0		0	49	true	3
+w51	ambiance	ambiance	N		OpinionTarget	18	Opinion	16		0		0		0		0		0		0	50	true	3
+w52	est	être	V			0	Opinion	16		0		0		0		0		0		0	51	true	3
+w53	extra	extra	V		StrongPositive	19	Opinion	16		0		0		0		0		0		0	52	true	3
 w77	spectacles	spectacle	N		OpinionTarget	21	Opinion	22	Facilities	24		0		0		0		0		0	76	true	3
 w78	de	de	P			0	Opinion	22		0		0		0		0		0		0	77	true	3
 w79	très	très	G		StrongPositive	20	Opinion	22		0		0		0		0		0		0	78	true	3

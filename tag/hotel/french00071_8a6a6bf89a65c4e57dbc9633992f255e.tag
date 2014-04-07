@@ -7,15 +7,15 @@ w6	nous	lui	Q		OpinionHolder	4	Opinion	6		0		0		0		0		0		0	5	true	2
 w7	a	avoir	V			0	Opinion	6		0		0		0		0		0		0	6	true	2
 w8	plu	plu	G		StrongPositive	5	Opinion	6		0		0		0		0		0		0	7	true	2
 w9	enormement	enormement	G		StrongPositive	5	Opinion	6		0		0		0		0		0		0	8	true	2
-w10	et	et	C			0		0		0		0		0		0		0		0	9	true	2
-w11	la	le	D		OpinionTarget	7	Opinion	33		0		0		0		0		0		0	10	true	2
-w12	premiere	premiere	N		OpinionTarget	7	Opinion	33		0		0		0		0		0		0	11	true	2
-w13	experience	experience	V		OpinionTarget	7	Opinion	33		0		0		0		0		0		0	12	true	2
-w14	avec	avec	P		OpinionTarget	7	Opinion	33		0		0		0		0		0		0	13	true	2
-w15	l'	le	D		OpinionTarget	7	Opinion	33		0		0		0		0		0		0	14	true	2
-w16	Egypte	Egypte	N		OpinionTarget	7	Opinion	33	Location	11		0		0		0		0		0	15	true	2
-w17	etait	etait	V			0	Opinion	33		0		0		0		0		0		0	16	true	2
-w18	inoubliable	inoubliable	G		StrongPositive	8	Opinion	33		0		0		0		0		0		0	17	true	2
+w10	et	et	C			0	Opinion	6		0		0		0		0		0		0	9	true	2
+w11	la	le	D		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	10	true	2
+w12	premiere	premiere	N		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	11	false	2
+w13	experience	experience	V		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	12	false	2
+w14	avec	avec	P		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	13	true	2
+w15	l'	le	D		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	14	true	2
+w16	Egypte	Egypte	N		OpinionTarget	7	Opinion	6	Location	11		0		0		0		0		0	15	true	2
+w17	etait	etait	V			0	Opinion	6		0		0		0		0		0		0	16	true	2
+w18	inoubliable	inoubliable	G		StrongPositive	8	Opinion	6		0		0		0		0		0		0	17	true	2
 w20	les	le	D		OpinionTarget	12	Opinion	19		0		0		0		0		0		0	19	true	3
 w21	chambres	chambre	N		OpinionTarget	12	Opinion	19	Rooms	20		0		0		0		0		0	20	true	3
 w22	sont	être	V			0	Opinion	19		0		0		0		0		0		0	21	true	3

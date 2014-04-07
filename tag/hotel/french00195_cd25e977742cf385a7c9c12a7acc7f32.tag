@@ -20,10 +20,10 @@ w35	,	,	O			0		0		0		0		0		0		0		0	34	true	3
 w36	le	le	D		OpinionTarget	9	Opinion	11		0		0		0		0		0		0	35	false	3
 w37	resto	restaurant	N		OpinionTarget	9	Opinion	11	Restaurant	20		0		0		0		0		0	36	true	3
 w38	nickel	nickel	N		StrongPositive	10	Opinion	11		0		0		0		0		0		0	37	false	3
-w39	les	le	D		OpinionTarget	12	Opinion	28		0		0		0		0		0		0	38	true	3
-w40	pizzas	pizza	N		OpinionTarget	12	Opinion	28		0		0		0		0		0		0	39	true	3
-w41	très	très	G		StrongPositive	13	Opinion	28		0		0		0		0		0		0	40	true	3
-w42	bonnes	bon	G		StrongPositive	13	Opinion	28		0		0		0		0		0		0	41	true	3
+w39	les	le	D		OpinionTarget	12	Opinion	11		0		0		0		0		0		0	38	false	3
+w40	pizzas	pizza	N		OpinionTarget	12	Opinion	11		0		0		0		0		0		0	39	false	3
+w41	très	très	G		StrongPositive	13	Opinion	11		0		0		0		0		0		0	40	false	3
+w42	bonnes	bon	G		StrongPositive	13	Opinion	11		0		0		0		0		0		0	41	false	3
 w43	,	,	O			0		0		0		0		0		0		0		0	42	true	3
 w44	cette	ce	D			0		0		0		0		0		0		0		0	43	true	3
 w45	année	année	N			0		0		0		0		0		0		0		0	44	true	3

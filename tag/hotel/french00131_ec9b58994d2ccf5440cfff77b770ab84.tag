@@ -48,7 +48,7 @@ w110	,	,	O			0	Opinion	29		0		0		0		0		0		0	109	true	3
 w111	propres	propre	G		Positive	31	Opinion	29	Cleanliness	33		0		0		0		0		0	110	true	3
 w112	et	et	C			0	Opinion	29		0		0		0		0		0		0	111	true	3
 w113	ombragés	ombrager	V		Positive	32	Opinion	29		0		0		0		0		0		0	112	true	3
-w115	un	un	D		Negative	34		0		0		0		0		0		0		0	114	true	4
+w115	un	un	D		Negative	34	Opinion	37		0		0		0		0		0		0	114	true	4
 w116	petit	petit	G		Negative	34	Opinion	37		0		0		0		0		0		0	115	true	4
 w117	point	point	N		Negative	34	Opinion	37		0		0		0		0		0		0	116	true	4
 w118	négatif	négatif	G		Negative	34	Opinion	37		0		0		0		0		0		0	117	true	4
@@ -59,9 +59,9 @@ w122	mériteraient	mériter	V		Negative	36	Opinion	37		0		0		0		0		0		0	121	true
 w123	d'	d'	P		Negative	36	Opinion	37		0		0		0		0		0		0	122	true	4
 w124	être	être	V		Negative	36	Opinion	37		0		0		0		0		0		0	123	true	4
 w125	refait	refaire	V		Negative	36	Opinion	37		0		0		0		0		0		0	124	true	4
-w126	et	et	C			0	Opinion	37		0		0		0		0		0		0	125	true	4
-w127	les	le	D			0	Opinion	37		0		0		0		0		0		0	126	true	4
-w128	bacs	bac	N		OpinionTarget	38	Opinion	37		0		0		0		0		0		0	127	true	4
-w129	de	de	P		OpinionTarget	38	Opinion	37		0		0		0		0		0		0	128	true	4
-w130	douche	douche	N		OpinionTarget	38	Opinion	37	Bathroom	40		0		0		0		0		0	129	true	4
-w131	revus	revoir	V		Negative	39	Opinion	37		0		0		0		0		0		0	130	true	4
+w126	et	et	C			0		0		0		0		0		0		0		0	125	true	4
+w127	les	le	D			0		0		0		0		0		0		0		0	126	true	4
+w128	bacs	bac	N		OpinionTarget	38	Opinion	42		0		0		0		0		0		0	127	true	4
+w129	de	de	P		OpinionTarget	38	Opinion	42		0		0		0		0		0		0	128	true	4
+w130	douche	douche	N		OpinionTarget	38	Opinion	42	Bathroom	40		0		0		0		0		0	129	true	4
+w131	revus	revoir	V		Negative	39	Opinion	42		0		0		0		0		0		0	130	true	4

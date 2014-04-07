@@ -48,26 +48,26 @@ w84	heure	heure	V		Positive	28	Opinion	24		0		0		0		0		0		0	83	true	3
 w85	de	de	P		Positive	28	Opinion	24		0		0		0		0		0		0	84	true	3
 w86	la	le	D		Positive	28	Opinion	24		0		0		0		0		0		0	85	true	3
 w87	journée	journée	N		Positive	28	Opinion	24		0		0		0		0		0		0	86	true	3
-w88	,	,	O			0		0		0		0		0		0		0		0	87	true	3
-w89	ils	ils	Q		OpinionTarget	29	Opinion	42	Staff	30		0		0		0		0		0	88	true	3
-w90	ont	avoir	V			0	Opinion	42		0		0		0		0		0		0	89	true	3
-w91	vraiment	vraiment	G			0	Opinion	42		0		0		0		0		0		0	90	true	3
-w92	beaucoup	beaucoup	G		Positive	31	Opinion	42		0		0		0		0		0		0	91	true	3
-w93	de	de	P		Positive	31	Opinion	42		0		0		0		0		0		0	92	true	3
-w94	pêche	pêche	N		Positive	31	Opinion	42		0		0		0		0		0		0	93	true	3
-w95	et	et	C			0	Opinion	42		0		0		0		0		0		0	94	true	3
-w96	s'	s'	Q		Positive	32	Opinion	42		0		0		0		0		0		0	95	true	3
-w97	efforcent	efforcer	V		Positive	32	Opinion	42		0		0		0		0		0		0	96	true	3
-w98	de	de	P		Positive	32	Opinion	42		0		0		0		0		0		0	97	true	3
-w99	faire	faire	V		Positive	32	Opinion	42		0		0		0		0		0		0	98	true	3
-w100	plaisir	plaisir	V		Positive	32	Opinion	42		0		0		0		0		0		0	99	true	3
-w101	à	à	P		Positive	32	Opinion	42		0		0		0		0		0		0	100	true	3
-w102	tout	tout	G		Positive	32	Opinion	42		0		0		0		0		0		0	101	true	3
-w103	le	le	D		Positive	32	Opinion	42		0		0		0		0		0		0	102	true	3
-w104	monde	monde	N		Positive	32	Opinion	42		0		0		0		0		0		0	103	true	3
-w105	petits	petit	G		Positive	32	Opinion	42		0		0		0		0		0		0	104	true	3
-w106	et	et	C		Positive	32	Opinion	42		0		0		0		0		0		0	105	true	3
-w107	grands	grand	G		Positive	32	Opinion	42		0		0		0		0		0		0	106	true	3
+w88	,	,	O			0	Opinion	24		0		0		0		0		0		0	87	true	3
+w89	ils	ils	Q		OpinionTarget	29	Opinion	24	Staff	30		0		0		0		0		0	88	true	3
+w90	ont	avoir	V			0	Opinion	24		0		0		0		0		0		0	89	true	3
+w91	vraiment	vraiment	G			0	Opinion	24		0		0		0		0		0		0	90	true	3
+w92	beaucoup	beaucoup	G		Positive	31	Opinion	24		0		0		0		0		0		0	91	true	3
+w93	de	de	P		Positive	31	Opinion	24		0		0		0		0		0		0	92	true	3
+w94	pêche	pêche	N		Positive	31	Opinion	24		0		0		0		0		0		0	93	true	3
+w95	et	et	C			0	Opinion	24		0		0		0		0		0		0	94	true	3
+w96	s'	s'	Q		Positive	32	Opinion	24		0		0		0		0		0		0	95	true	3
+w97	efforcent	efforcer	V		Positive	32	Opinion	24		0		0		0		0		0		0	96	true	3
+w98	de	de	P		Positive	32	Opinion	24		0		0		0		0		0		0	97	true	3
+w99	faire	faire	V		Positive	32	Opinion	24		0		0		0		0		0		0	98	true	3
+w100	plaisir	plaisir	V		Positive	32	Opinion	24		0		0		0		0		0		0	99	true	3
+w101	à	à	P		Positive	32	Opinion	24		0		0		0		0		0		0	100	true	3
+w102	tout	tout	G		Positive	32	Opinion	24		0		0		0		0		0		0	101	true	3
+w103	le	le	D		Positive	32	Opinion	24		0		0		0		0		0		0	102	true	3
+w104	monde	monde	N		Positive	32	Opinion	24		0		0		0		0		0		0	103	true	3
+w105	petits	petit	G		Positive	32	Opinion	24		0		0		0		0		0		0	104	true	3
+w106	et	et	C		Positive	32	Opinion	24		0		0		0		0		0		0	105	true	3
+w107	grands	grand	G		Positive	32	Opinion	24		0		0		0		0		0		0	106	true	3
 w110	merci	merci	G		Positive	34	Opinion	33		0		0		0		0		0		0	109	true	4
 w111	à	à	P			0	Opinion	33		0		0		0		0		0		0	110	true	4
 w112	Marco	Marco	N		OpinionTarget	35	Opinion	33	Staff	38		0		0		0		0		0	111	true	4

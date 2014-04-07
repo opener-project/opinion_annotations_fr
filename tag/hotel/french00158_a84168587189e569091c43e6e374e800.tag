@@ -39,23 +39,23 @@ w40	penne	penne	N			0	Opinion	27		0		0		0		0		0		0	39	true	2
 w41	à	à	P			0	Opinion	27		0		0		0		0		0		0	40	true	2
 w42	la	le	D			0	Opinion	27		0		0		0		0		0		0	41	true	2
 w43	clenche	clenche	N			0	Opinion	27		0		0		0		0		0		0	42	true	2
-w44	,	,	O			0		0		0		0		0		0		0		0	43	true	2
-w45	robinetterie	robinetterie	N		OpinionTarget	21	Opinion	46		0		0		0		0		0		0	44	true	2
-w46	du	du	P		OpinionTarget	21	Opinion	46		0		0		0		0		0		0	45	true	2
-w47	lavabo	lavabo	D		OpinionTarget	21	Opinion	46		0		0		0		0		0		0	46	true	2
-w48	complètement	complètement	N		StrongNegative	22	Opinion	46	Bathroom	23		0		0		0		0		0	47	true	2
-w49	rouillée	rouiller	V		StrongNegative	22	Opinion	46		0		0		0		0		0		0	48	true	2
-w50	,	,	O			0		0		0		0		0		0		0		0	49	true	2
-w51	celle	celle	P		OpinionTarget	24	Opinion	47	Bathroom	26		0		0		0		0		0	50	true	2
-w52	de	de	P		OpinionTarget	24	Opinion	47		0		0		0		0		0		0	51	true	2
-w53	la	le	D		OpinionTarget	24	Opinion	47		0		0		0		0		0		0	52	true	2
-w54	baignoire	baignoire	N		OpinionTarget	24	Opinion	47		0		0		0		0		0		0	53	true	2
-w55	était	être	V			0	Opinion	47		0		0		0		0		0		0	54	true	2
-w56	même	même	G		StrongNegative	25	Opinion	47		0		0		0		0		0		0	55	true	2
-w57	déscellée	déscellée	V		StrongNegative	25	Opinion	47		0		0		0		0		0		0	56	true	2
-w58	du	du	D			0	Opinion	47		0		0		0		0		0		0	57	true	2
-w59	mur	mur	N			0	Opinion	47		0		0		0		0		0		0	58	true	2
-w60	.	.	O			0		0		0		0		0		0		0		0	59	true	2
+w44	,	,	O			0	Opinion	27		0		0		0		0		0		0	43	true	2
+w45	robinetterie	robinetterie	N		OpinionTarget	21	Opinion	27		0		0		0		0		0		0	44	true	2
+w46	du	du	P		OpinionTarget	21	Opinion	27		0		0		0		0		0		0	45	true	2
+w47	lavabo	lavabo	D		OpinionTarget	21	Opinion	27		0		0		0		0		0		0	46	true	2
+w48	complètement	complètement	N		StrongNegative	22	Opinion	27	Bathroom	23		0		0		0		0		0	47	true	2
+w49	rouillée	rouiller	V		StrongNegative	22	Opinion	27		0		0		0		0		0		0	48	true	2
+w50	,	,	O			0	Opinion	27		0		0		0		0		0		0	49	true	2
+w51	celle	celle	P		OpinionTarget	24	Opinion	27	Bathroom	26		0		0		0		0		0	50	true	2
+w52	de	de	P		OpinionTarget	24	Opinion	27		0		0		0		0		0		0	51	true	2
+w53	la	le	D		OpinionTarget	24	Opinion	27		0		0		0		0		0		0	52	true	2
+w54	baignoire	baignoire	N		OpinionTarget	24	Opinion	27		0		0		0		0		0		0	53	true	2
+w55	était	être	V			0	Opinion	27		0		0		0		0		0		0	54	true	2
+w56	même	même	G		StrongNegative	25	Opinion	27		0		0		0		0		0		0	55	true	2
+w57	déscellée	déscellée	V		StrongNegative	25	Opinion	27		0		0		0		0		0		0	56	true	2
+w58	du	du	D			0	Opinion	27		0		0		0		0		0		0	57	true	2
+w59	mur	mur	N			0	Opinion	27		0		0		0		0		0		0	58	true	2
+w60	.	.	O			0	Opinion	27		0		0		0		0		0		0	59	true	2
 w61	Le	le	D		OpinionTarget	29	Opinion	31	Bathroom	34		0		0		0		0		0	60	true	3
 w62	carrelage	carrelage	N		OpinionTarget	29	Opinion	31		0		0		0		0		0		0	61	true	3
 w63	était	être	V			0	Opinion	31		0		0		0		0		0		0	62	true	3

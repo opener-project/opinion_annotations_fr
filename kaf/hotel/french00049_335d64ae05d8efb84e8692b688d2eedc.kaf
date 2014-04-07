@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:37:34" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:16CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-03T11:10:20CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:16CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3056,120 +3056,150 @@
       <edge id="tre462" from="ter168" to="nter294"/>
     </tree>
   </constituency>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t39"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t47"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p2" lemma="Restaurant">
+        <references>
+          <span>
+            <target id="t63"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p3" lemma="Staff">
+        <references>
+          <span>
+            <target id="t71"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p4" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t136"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p5" lemma="Staff">
+        <references>
+          <span>
+            <target id="t81"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p6" lemma="Staff">
+        <references>
+          <span>
+            <target id="t97"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p7" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t1"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p8" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t7"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
-        <!--en-->
+        <!--des endroits-->
         <span>
-          <target id="t24"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pour tous les goûts-->
-        <span>
-          <target id="t26"/>
-          <target id="t27"/>
-          <target id="t28"/>
-          <target id="t29"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--l' animation-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--pour petits-->
-        <span>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="13_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--l' animation-->
-        <span>
-          <target id="t32"/>
-          <target id="t33"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--grands-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="38_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--propreté-->
-        <span>
-          <target id="t82"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongPositive">
-        <!--irréprochable-->
-        <span>
-          <target id="t83"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="17_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--endroits-->
-        <span>
+          <target id="t39"/>
           <target id="t40"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Positive">
-        <!--bien distincts-->
+        <!--calmes animés bien distincts-->
         <span>
+          <target id="t41"/>
+          <target id="t43"/>
           <target id="t44"/>
           <target id="t45"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_1">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=22-->
       <opinion_holder/>
       <opinion_target>
-        <!--endroits-->
+        <!--De la nourriture-->
         <span>
-          <target id="t40"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Positive">
-        <!--calmes-->
+        <!--de qualité-->
         <span>
-          <target id="t41"/>
+          <target id="t68"/>
+          <target id="t69"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_2">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=22-->
       <opinion_holder/>
       <opinion_target>
-        <!--endroits-->
+        <!--De la nourriture-->
         <span>
-          <target id="t40"/>
+          <target id="t63"/>
+          <target id="t64"/>
+          <target id="t65"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Positive">
-        <!--animés-->
+        <!--variées-->
         <span>
-          <target id="t43"/>
+          <target id="t66"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="22_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=16-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Tout-->
+        <span>
+          <target id="t47"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--très facile-->
+        <span>
+          <target id="t54"/>
+          <target id="t55"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target>
         <!--Tout-->
@@ -3186,185 +3216,25 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="22_1">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=33-->
       <opinion_holder/>
       <opinion_target>
-        <!--Tout-->
+        <!--Une propreté-->
         <span>
-          <target id="t47"/>
+          <target id="t81"/>
+          <target id="t82"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--très facile pour les personnes à mobilité réduite-->
+      <opinion_expression polarity="StrongPositive">
+        <!--irréprochable-->
         <span>
-          <target id="t54"/>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-          <target id="t61"/>
+          <target id="t83"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="46_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--boutique-->
-        <span>
-          <target id="t91"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="54_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un jardin-->
-        <span>
-          <target id="t136"/>
-          <target id="t137"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--bien entretenu-->
-        <span>
-          <target id="t138"/>
-          <target id="t139"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="54_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un jardin-->
-        <span>
-          <target id="t136"/>
-          <target id="t137"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--parsemé d' arbres et plantations-->
-        <span>
-          <target id="t140"/>
-          <target id="t141"/>
-          <target id="t142"/>
-          <target id="t143"/>
-          <target id="t144"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un personnel-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--aimable-->
-        <span>
-          <target id="t77"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un personnel-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--souriant-->
-        <span>
-          <target id="t75"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_2">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un personnel-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--nombreux-->
-        <span>
-          <target id="t73"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="31_3">
-      <opinion_holder/>
-      <opinion_target>
-        <!--Un personnel-->
-        <span>
-          <target id="t71"/>
-          <target id="t72"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--disponible-->
-        <span>
-          <target id="t79"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="42_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--Un centre SPA-->
-        <span>
-          <target id="t85"/>
-          <target id="t86"/>
-          <target id="t87"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--la nourriture-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--variées-->
-        <span>
-          <target id="t66"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="26_1">
-      <opinion_holder/>
-      <opinion_target>
-        <!--la nourriture-->
-        <span>
-          <target id="t64"/>
-          <target id="t65"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--de qualité-->
-        <span>
-          <target id="t68"/>
-          <target id="t69"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="50_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=37-->
       <opinion_holder/>
       <opinion_target>
         <!--Des animateurs-->
@@ -3380,11 +3250,98 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=29-->
       <opinion_holder/>
       <opinion_target>
-        <!--rapport qualité / prix-->
+        <!--Un personnel-->
         <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--nombreux-->
+        <span>
+          <target id="t73"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o1">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Un personnel-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--souriant-->
+        <span>
+          <target id="t75"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o2">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Un personnel-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--aimable-->
+        <span>
+          <target id="t77"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=29-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Un personnel-->
+        <span>
+          <target id="t71"/>
+          <target id="t72"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--disponible-->
+        <span>
+          <target id="t79"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=41-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--jardin-->
+        <span>
+          <target id="t137"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Positive">
+        <!--bien entretenu-->
+        <span>
+          <target id="t138"/>
+          <target id="t139"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o0">
+      <!--Tag opinion scope id=3-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Un rapport qualité / prix-->
+        <span>
+          <target id="t1"/>
           <target id="t3"/>
           <target id="t4"/>
           <target id="t5"/>
@@ -3392,37 +3349,14 @@
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongPositive">
-        <!--Un excellent-->
+        <!--excellent-->
         <span>
-          <target id="t1"/>
           <target id="t2"/>
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
-      <opinion_holder/>
-      <opinion_target>
-        <!--L' hôtel Kustur Club Village-->
-        <span>
-          <target id="t7"/>
-          <target id="t8"/>
-          <target id="t9"/>
-          <target id="t10"/>
-          <target id="t11"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Positive">
-        <!--le nombre de ses atouts-->
-        <span>
-          <target id="t16"/>
-          <target id="t17"/>
-          <target id="t18"/>
-          <target id="t19"/>
-          <target id="t20"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="5_1">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target>
         <!--L' hôtel Kustur Club Village-->
@@ -3442,77 +3376,5 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="48_0">
-      <opinion_holder/>
-      <opinion_target/>
-      <opinion_expression polarity="Positive">
-        <!--terrain de sport-->
-        <span>
-          <target id="t93"/>
-          <target id="t94"/>
-          <target id="t95"/>
-        </span>
-      </opinion_expression>
-    </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t71"/>
-            <target id="t72"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t136"/>
-            <target id="t137"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p2" lemma="Restaurant">
-        <references>
-          <span>
-            <target id="t64"/>
-            <target id="t65"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p3" lemma="Cleanliness">
-        <references>
-          <span>
-            <target id="t82"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p4" lemma="Staff">
-        <references>
-          <span>
-            <target id="t97"/>
-            <target id="t98"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p5" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t3"/>
-            <target id="t4"/>
-            <target id="t5"/>
-            <target id="t6"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p6" lemma="Facilities">
-        <references>
-          <span>
-            <target id="t20"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

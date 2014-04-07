@@ -26,15 +26,15 @@ w27	commun	commun	N		Negative	14	Opinion	9		0		0		0		0		0		0	26	true	2
 w28	sur	sur	P		Negative	14	Opinion	9		0		0		0		0		0		0	27	true	2
 w29	le	le	D		Negative	14	Opinion	9		0		0		0		0		0		0	28	true	2
 w30	palier	palier	N		Negative	14	Opinion	9		0		0		0		0		0		0	29	true	2
-w32	J'	J'	Q			0		0		0		0		0		0		0		0	31	true	3
-w33	ai	avoir	V			0		0		0		0		0		0		0		0	32	true	3
-w34	été	être	V			0		0		0		0		0		0		0		0	33	true	3
-w35	3	3	D			0		0		0		0		0		0		0		0	34	true	3
-w36	fois	foi	N			0		0		0		0		0		0		0		0	35	true	3
-w37	dans	dans	P			0		0		0		0		0		0		0		0	36	true	3
-w38	cette	ce	D			0		0		0		0		0		0		0		0	37	true	3
-w39	hôtel	hôtel	N			0		0		0		0		0		0		0		0	38	true	3
-w40	et	et	C			0		0		0		0		0		0		0		0	39	true	3
+w32	J'	J'	Q		OpinionHolder	16	Opinion	15		0		0		0		0		0		0	31	true	3
+w33	ai	avoir	V			0	Opinion	15		0		0		0		0		0		0	32	true	3
+w34	été	être	V			0	Opinion	15		0		0		0		0		0		0	33	true	3
+w35	3	3	D		Positive	17	Opinion	15		0		0		0		0		0		0	34	true	3
+w36	fois	foi	N		Positive	17	Opinion	15		0		0		0		0		0		0	35	true	3
+w37	dans	dans	P		Positive	17	Opinion	15		0		0		0		0		0		0	36	true	3
+w38	cette	ce	D		Positive	17	Opinion	15		0		0		0		0		0		0	37	true	3
+w39	hôtel	hôtel	N		Positive	17	Opinion	15		0		0		0		0		0		0	38	true	3
+w40	et	et	C			0	Opinion	15		0		0		0		0		0		0	39	true	3
 w41	je	je	Q		OpinionHolder	18	Opinion	15		0		0		0		0		0		0	40	true	3
 w42	n'	n'	G		Positive	20	Opinion	15		0		0		0		0		0		0	41	true	3
 w43	ai	avoir	V		Positive	20	Opinion	15		0		0		0		0		0		0	42	true	3

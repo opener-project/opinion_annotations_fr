@@ -8,15 +8,15 @@ w7	vrai	vrai	G		StrongPositive	5	Opinion	3		0		0		0		0		0		0	6	true	2
 w8	plaisir	plaisir	N		StrongPositive	5	Opinion	3		0		0		0		0		0		0	7	true	2
 w9	ces	ce	D		OpinionTarget	4	Opinion	3		0		0		0		0		0		0	8	true	2
 w10	vacances	vacance	N		OpinionTarget	4	Opinion	3		0		0		0		0		0		0	9	true	2
-w12	Une	un	D		OpinionTarget	40	Opinion	6		0		0		0		0		0		0	11	true	3
-w13	animation	animation	N		OpinionTarget	40	Opinion	6		0		0		0		0		0		0	12	true	3
+w12	Une	un	D		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	11	true	3
+w13	animation	animation	N		OpinionTarget	7	Opinion	6		0		0		0		0		0		0	12	true	3
 w14	un	un	D		Negative	8	Opinion	6		0		0		0		0		0		0	13	true	3
 w15	peu	peu	G		Negative	8	Opinion	6		0		0		0		0		0		0	14	true	3
 w16	trop	trop	G		Negative	8	Opinion	6		0		0		0		0		0		0	15	true	3
 w17	presente	presente	G		Negative	8	Opinion	6		0		0		0		0		0		0	16	true	3
 w18	avec	avec	P			0	Opinion	6		0		0		0		0		0		0	17	true	3
-w19	un	un	D		OpinionTarget	40	Opinion	6	Staff	10		0		0		0		0		0	18	true	3
-w20	animateur	animateur	N		OpinionTarget	40	Opinion	6	Staff	10		0		0		0		0		0	19	true	3
+w19	un	un	D		OpinionTarget	9	Opinion	6	Staff	10		0		0		0		0		0	18	true	3
+w20	animateur	animateur	N		OpinionTarget	9	Opinion	6	Staff	10		0		0		0		0		0	19	true	3
 w21	qui	qui	P			0	Opinion	6		0		0		0		0		0		0	20	true	3
 w22	se	se	Q		Negative	11	Opinion	6		0		0		0		0		0		0	21	true	3
 w23	prend	prendre	V		Negative	11	Opinion	6		0		0		0		0		0		0	22	true	3
@@ -36,29 +36,29 @@ w37	c'	c'	Q			0	Opinion	12		0		0		0		0		0		0	36	true	3
 w38	était	être	V			0	Opinion	12		0		0		0		0		0		0	37	true	3
 w39	vraiiment	vraiiment	G		StrongPositive	14	Opinion	12		0		0		0		0		0		0	38	true	3
 w40	sympa	sympa	G		StrongPositive	14	Opinion	12		0		0		0		0		0		0	39	true	3
-w42	Cuisine	cuisine	N		OpinionTarget	17	Opinion	41	Restaurant	18		0		0		0		0		0	41	true	4
-w43	variée	varier	G		Positive	19	Opinion	41		0		0		0		0		0		0	42	true	4
-w44	et	et	C			0		0		0		0		0		0		0		0	43	true	4
-w45	grand	grand	G		Positive	20	Opinion	42		0		0		0		0		0		0	44	true	4
-w46	buffet	buffet	N		OpinionTarget	21	Opinion	42	Restaurant	22		0		0		0		0		0	45	true	4
-w47	,	,	O			0		0		0		0		0		0		0		0	46	true	4
-w48	impossible	impossible	G		StrongPositive	24	Opinion	43		0		0		0		0		0		0	47	true	4
-w49	de	de	P		StrongPositive	24	Opinion	43		0		0		0		0		0		0	48	true	4
-w50	ne	ne	G		StrongPositive	24	Opinion	43		0		0		0		0		0		0	49	true	4
-w51	pas	pas	G		StrongPositive	24	Opinion	43		0		0		0		0		0		0	50	true	4
-w52	trouver	trouver	V		StrongPositive	24	Opinion	43		0		0		0		0		0		0	51	true	4
-w53	son	son	D		StrongPositive	24	Opinion	43		0		0		0		0		0		0	52	true	4
-w54	bonheur	bonheur	N		StrongPositive	24	Opinion	43		0		0		0		0		0		0	53	true	4
-w55	,	,	O			0		0		0		0		0		0		0		0	54	true	4
-w56	malheureusement	malheureusement	G		Negative	25	Opinion	44		0		0		0		0		0		0	55	true	4
-w57	pas	pas	G		Negative	25	Opinion	44		0		0		0		0		0		0	56	true	4
-w58	assez	assez	G		Negative	25	Opinion	44		0		0		0		0		0		0	57	true	4
-w59	de	de	P		Negative	25	Opinion	44		0		0		0		0		0		0	58	true	4
-w60	poissons	poisson	N		Negative	25	Opinion	44		0		0		0		0		0		0	59	true	4
-w61	et	et	C		Negative	25	Opinion	44		0		0		0		0		0		0	60	true	4
-w62	jamais	jamais	G		Negative	25	Opinion	44		0		0		0		0		0		0	61	true	4
-w63	de	de	P		Negative	25	Opinion	44		0		0		0		0		0		0	62	true	4
-w64	crustacés	crustacé	N		Negative	25	Opinion	44		0		0		0		0		0		0	63	true	4
+w42	Cuisine	cuisine	N		OpinionTarget	17	Opinion	15	Restaurant	18		0		0		0		0		0	41	true	4
+w43	variée	varier	G		Positive	19	Opinion	15		0		0		0		0		0		0	42	true	4
+w44	et	et	C			0	Opinion	15		0		0		0		0		0		0	43	true	4
+w45	grand	grand	G		Positive	20	Opinion	15		0		0		0		0		0		0	44	true	4
+w46	buffet	buffet	N		OpinionTarget	21	Opinion	15	Restaurant	22		0		0		0		0		0	45	true	4
+w47	,	,	O			0	Opinion	15		0		0		0		0		0		0	46	true	4
+w48	impossible	impossible	G		StrongPositive	24	Opinion	15		0		0		0		0		0		0	47	true	4
+w49	de	de	P		StrongPositive	24	Opinion	15		0		0		0		0		0		0	48	true	4
+w50	ne	ne	G		StrongPositive	24	Opinion	15		0		0		0		0		0		0	49	true	4
+w51	pas	pas	G		StrongPositive	24	Opinion	15		0		0		0		0		0		0	50	true	4
+w52	trouver	trouver	V		StrongPositive	24	Opinion	15		0		0		0		0		0		0	51	true	4
+w53	son	son	D		StrongPositive	24	Opinion	15		0		0		0		0		0		0	52	true	4
+w54	bonheur	bonheur	N		StrongPositive	24	Opinion	15		0		0		0		0		0		0	53	true	4
+w55	,	,	O			0	Opinion	15		0		0		0		0		0		0	54	true	4
+w56	malheureusement	malheureusement	G		Negative	25	Opinion	15		0		0		0		0		0		0	55	true	4
+w57	pas	pas	G		Negative	25	Opinion	15		0		0		0		0		0		0	56	true	4
+w58	assez	assez	G		Negative	25	Opinion	15		0		0		0		0		0		0	57	true	4
+w59	de	de	P		Negative	25	Opinion	15		0		0		0		0		0		0	58	true	4
+w60	poissons	poisson	N		Negative	25	Opinion	15		0		0		0		0		0		0	59	true	4
+w61	et	et	C		Negative	25	Opinion	15		0		0		0		0		0		0	60	true	4
+w62	jamais	jamais	G		Negative	25	Opinion	15		0		0		0		0		0		0	61	true	4
+w63	de	de	P		Negative	25	Opinion	15		0		0		0		0		0		0	62	true	4
+w64	crustacés	crustacé	N		Negative	25	Opinion	15		0		0		0		0		0		0	63	true	4
 w66	chambres	chambre	N		OpinionTarget	27	Opinion	26	Rooms	28		0		0		0		0		0	65	true	5
 w67	correctes	correct	G		Positive	29	Opinion	26		0		0		0		0		0		0	66	true	5
 w69	nous	lui	Q		OpinionHolder	30		0		0		0		0		0		0		0	68	true	5

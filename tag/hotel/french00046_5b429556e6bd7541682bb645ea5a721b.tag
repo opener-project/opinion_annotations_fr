@@ -3,19 +3,19 @@ w2	DECUS	DECUS	N		StrongNegative	2	Opinion	1		0		0		0		0		0		0	1	true	1
 w3	DE	DE	P			0	Opinion	1		0		0		0		0		0		0	2	true	1
 w4	CE	CE	N		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	3	true	1
 w5	CAMPING	camping	N		OpinionTarget	3	Opinion	1	Location	4		0		0		0		0		0	4	true	1
-w6	Mobilhomes	Mobilhomes	N		OpinionTarget	6	Opinion	36	Rooms	7		0		0		0		0		0	5	true	2
-w7	collés	collés	P		Negative	8	Opinion	36		0		0		0		0		0		0	6	true	2
-w8	les	le	D		Negative	8	Opinion	36		0		0		0		0		0		0	7	true	2
-w9	uns	uns	P		Negative	8	Opinion	36		0		0		0		0		0		0	8	true	2
-w10	aux	aux	P		Negative	8	Opinion	36		0		0		0		0		0		0	9	true	2
-w11	autres	autres	D		Negative	8	Opinion	36		0		0		0		0		0		0	10	true	2
-w12	avec	avec	P			0		0		0		0		0		0		0		0	11	true	2
-w13	emplacement	emplacement	N		OpinionTarget	9	Opinion	37	Car parking	10		0		0		0		0		0	12	true	2
-w14	pour	pour	P		OpinionTarget	9	Opinion	37	Car parking	10		0		0		0		0		0	13	true	2
-w15	voiture	voiture	N		OpinionTarget	9	Opinion	37	Car parking	10		0		0		0		0		0	14	true	2
-w16	impossible	impossible	G		Negative	11	Opinion	37		0		0		0		0		0		0	15	true	2
-w17	pour	pour	P		Negative	11	Opinion	37		0		0		0		0		0		0	16	true	2
-w18	nous	lui	Q		Negative	11	Opinion	37		0		0		0		0		0		0	17	true	2
+w6	Mobilhomes	Mobilhomes	N		OpinionTarget	6	Opinion	5	Rooms	7		0		0		0		0		0	5	true	2
+w7	collés	collés	P		Negative	8	Opinion	5		0		0		0		0		0		0	6	true	2
+w8	les	le	D		Negative	8	Opinion	5		0		0		0		0		0		0	7	true	2
+w9	uns	uns	P		Negative	8	Opinion	5		0		0		0		0		0		0	8	true	2
+w10	aux	aux	P		Negative	8	Opinion	5		0		0		0		0		0		0	9	true	2
+w11	autres	autres	D		Negative	8	Opinion	5		0		0		0		0		0		0	10	true	2
+w12	avec	avec	P			0	Opinion	5		0		0		0		0		0		0	11	true	2
+w13	emplacement	emplacement	N		OpinionTarget	9	Opinion	5	Car parking	10		0		0		0		0		0	12	true	2
+w14	pour	pour	P		OpinionTarget	9	Opinion	5	Car parking	10		0		0		0		0		0	13	true	2
+w15	voiture	voiture	N		OpinionTarget	9	Opinion	5	Car parking	10		0		0		0		0		0	14	true	2
+w16	impossible	impossible	G		Negative	11	Opinion	5		0		0		0		0		0		0	15	true	2
+w17	pour	pour	P		Negative	11	Opinion	5		0		0		0		0		0		0	16	true	2
+w18	nous	lui	Q		Negative	11	Opinion	5		0		0		0		0		0		0	17	true	2
 w20	Bac	bac	N		OpinionTarget	13	Opinion	12	Bathroom	14		0		0		0		0		0	19	true	3
 w21	de	de	P		OpinionTarget	13	Opinion	12	Bathroom	14		0		0		0		0		0	20	true	3
 w22	douche	douche	N		OpinionTarget	13	Opinion	12	Bathroom	14		0		0		0		0		0	21	true	3

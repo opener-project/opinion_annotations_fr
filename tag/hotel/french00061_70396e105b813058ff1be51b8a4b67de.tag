@@ -3,24 +3,24 @@ w2	Lamentable	Lamentable	D		Negative	2	Opinion	1		0		0		0		0		0		0	1	true	1
 w3	Camping	camping	N		OpinionTarget	6	Opinion	5	Location	7		0		0		0		0		0	2	true	2
 w4	très	très	G		Negative	8	Opinion	5		0		0		0		0		0		0	3	true	2
 w5	bruyant	bruyant	G		Negative	8	Opinion	5		0		0		0		0		0		0	4	true	2
-w6	,	,	O			0		0		0		0		0		0		0		0	5	true	2
-w7	les	le	D		OpinionTarget	9	Opinion	33		0		0		0		0		0		0	6	true	2
-w8	gens	gens	N		OpinionTarget	9	Opinion	33		0		0		0		0		0		0	7	true	2
-w9	se	se	Q		Negative	10	Opinion	33		0		0		0		0		0		0	8	true	2
-w10	croient	croire	V		Negative	10	Opinion	33		0		0		0		0		0		0	9	true	2
-w11	seuls	seul	G		Negative	10	Opinion	33		0		0		0		0		0		0	10	true	2
-w12	,	,	O			0	Opinion	33		0		0		0		0		0		0	11	true	2
-w13	crient	crier	V		Negative	11	Opinion	33		0		0		0		0		0		0	12	true	2
-w14	la	le	D		Negative	11	Opinion	33		0		0		0		0		0		0	13	true	2
-w15	nuit	nuit	N		Negative	11	Opinion	33		0		0		0		0		0		0	14	true	2
-w16	jusqu'	jusque	P		Negative	11	Opinion	33		0		0		0		0		0		0	15	true	2
-w17	à	à	P		Negative	11	Opinion	33		0		0		0		0		0		0	16	true	2
-w18	3	3	D		Negative	11	Opinion	33		0		0		0		0		0		0	17	true	2
-w19	ou	ou	C		Negative	11	Opinion	33		0		0		0		0		0		0	18	true	2
-w20	4	4	D		Negative	11	Opinion	33		0		0		0		0		0		0	19	true	2
-w21	heures	heure	N		Negative	11	Opinion	33		0		0		0		0		0		0	20	true	2
-w22	du	du	P		Negative	11	Opinion	33		0		0		0		0		0		0	21	true	2
-w23	matin.	matin.	N		Negative	11	Opinion	33		0		0		0		0		0		0	22	true	2
+w6	,	,	O			0	Opinion	5		0		0		0		0		0		0	5	true	2
+w7	les	le	D		OpinionTarget	9	Opinion	5		0		0		0		0		0		0	6	true	2
+w8	gens	gens	N		OpinionTarget	9	Opinion	5		0		0		0		0		0		0	7	true	2
+w9	se	se	Q		Negative	10	Opinion	5		0		0		0		0		0		0	8	true	2
+w10	croient	croire	V		Negative	10	Opinion	5		0		0		0		0		0		0	9	true	2
+w11	seuls	seul	G		Negative	10	Opinion	5		0		0		0		0		0		0	10	true	2
+w12	,	,	O			0	Opinion	5		0		0		0		0		0		0	11	true	2
+w13	crient	crier	V		Negative	11	Opinion	5		0		0		0		0		0		0	12	true	2
+w14	la	le	D		Negative	11	Opinion	5		0		0		0		0		0		0	13	true	2
+w15	nuit	nuit	N		Negative	11	Opinion	5		0		0		0		0		0		0	14	true	2
+w16	jusqu'	jusque	P		Negative	11	Opinion	5		0		0		0		0		0		0	15	true	2
+w17	à	à	P		Negative	11	Opinion	5		0		0		0		0		0		0	16	true	2
+w18	3	3	D		Negative	11	Opinion	5		0		0		0		0		0		0	17	true	2
+w19	ou	ou	C		Negative	11	Opinion	5		0		0		0		0		0		0	18	true	2
+w20	4	4	D		Negative	11	Opinion	5		0		0		0		0		0		0	19	true	2
+w21	heures	heure	N		Negative	11	Opinion	5		0		0		0		0		0		0	20	true	2
+w22	du	du	P		Negative	11	Opinion	5		0		0		0		0		0		0	21	true	2
+w23	matin.	matin.	N		Negative	11	Opinion	5		0		0		0		0		0		0	22	true	2
 w24	lorsqu'	lorsqu'	O		Negative	13	Opinion	12		0		0		0		0		0		0	23	true	2
 w25	on	on	Q		Negative	13	Opinion	12		0		0		0		0		0		0	24	true	2
 w26	le	le	Q		Negative	13	Opinion	12		0		0		0		0		0		0	25	true	2

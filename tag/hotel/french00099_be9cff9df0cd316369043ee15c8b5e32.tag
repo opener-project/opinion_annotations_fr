@@ -1,4 +1,3 @@
-w1	Titanic	Titanic	N			0		0		0	10-highly positive	14		0		0		0		0	0	true	1
 w33	je	je	Q		OpinionHolder	1	Opinion	4		0		0		0		0		0		0	32	true	3
 w34	suis	suivre	V			0	Opinion	4		0		0		0		0		0		0	33	true	3
 w35	contente	content	G		Positive	2	Opinion	4		0		0		0		0		0		0	34	true	3

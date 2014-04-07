@@ -35,11 +35,11 @@ w50	,	,	O			0	Opinion	12		0		0		0		0		0		0	49	true	4
 w51	le	le	D		Positive	16	Opinion	12		0		0		0		0		0		0	50	true	4
 w52	plus	plus	G		Positive	16	Opinion	12		0		0		0		0		0		0	51	true	4
 w53	serviable	serviable	G		Positive	16	Opinion	12		0		0		0		0		0		0	52	true	4
-w54	et	et	C			0		0		0		0		0		0		0		0	53	true	4
-w55	la	le	D		OpinionTarget	17	Opinion	22	Restaurant	18		0		0		0		0		0	54	true	4
-w56	nouriture	nouriture	N		OpinionTarget	17	Opinion	22	Restaurant	18		0		0		0		0		0	55	true	4
-w57	y	y	Q			0	Opinion	22		0		0		0		0		0		0	56	true	4
-w58	est	être	V			0	Opinion	22		0		0		0		0		0		0	57	true	4
-w59	supperieur	supperieur	V		Positive	19	Opinion	22		0		0		0		0		0		0	58	true	4
-w60	aux	aux	P		Positive	19	Opinion	22		0		0		0		0		0		0	59	true	4
-w61	autres	autres	P		Positive	19	Opinion	22		0	6-average-positive	21		0		0		0		0	60	true	4
+w54	et	et	C			0	Opinion	12		0		0		0		0		0		0	53	true	4
+w55	la	le	D		OpinionTarget	17	Opinion	12	Restaurant	18		0		0		0		0		0	54	true	4
+w56	nouriture	nouriture	N		OpinionTarget	17	Opinion	12	Restaurant	18		0		0		0		0		0	55	true	4
+w57	y	y	Q			0	Opinion	12		0		0		0		0		0		0	56	true	4
+w58	est	être	V			0	Opinion	12		0		0		0		0		0		0	57	true	4
+w59	supperieur	supperieur	V		Positive	19	Opinion	12		0		0		0		0		0		0	58	true	4
+w60	aux	aux	P		Positive	19	Opinion	12		0		0		0		0		0		0	59	true	4
+w61	autres	autres	P		Positive	19	Opinion	12		0	6-average-positive	21		0		0		0		0	60	true	4

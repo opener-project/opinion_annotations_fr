@@ -1,9 +1,9 @@
 w1	Séjour	Séjour	P		OpinionTarget	3	Opinion	1		0		0		0		0		0		0	0	true	1
 w2	agréable	agréable	G		Positive	2	Opinion	1		0		0		0		0		0		0	1	true	1
-w3	à	à	P			0		0		0		0		0		0		0		0	2	true	1
-w4	part	part	N			0		0		0		0		0		0		0		0	3	true	1
-w5	le	le	D			0		0	Swimming pool	6		0		0		0		0		0	4	false	1
-w6	Spa	Spa	N			0		0	Swimming pool	6		0		0		0		0		0	5	false	1
+w3	à	à	P		Negative	4	Opinion	1		0		0		0		0		0		0	2	true	1
+w4	part	part	N		Negative	4	Opinion	1		0		0		0		0		0		0	3	true	1
+w5	le	le	D		OpinionTarget	5	Opinion	1	Swimming pool	6		0		0		0		0		0	4	true	1
+w6	Spa	Spa	N		OpinionTarget	5	Opinion	1	Swimming pool	6		0		0		0		0		0	5	true	1
 w7	Mise	Mise	O			0	Opinion	7		0		0		0		0		0		0	6	true	2
 w8	à	à	P			0	Opinion	7		0		0		0		0		0		0	7	true	2
 w9	part	part	N			0	Opinion	7		0		0		0		0		0		0	8	true	2
@@ -47,20 +47,20 @@ w46	souffrant	souffrir	V		Negative	12	Opinion	7		0		0		0		0		0		0	45	true	2
 w47	de	de	P		Negative	12	Opinion	7		0		0		0		0		0		0	46	true	2
 w48	problème	problème	N		Negative	12	Opinion	7		0		0		0		0		0		0	47	true	2
 w49	cardiaque	cardiaque	G		Negative	12	Opinion	7		0		0		0		0		0		0	48	true	2
-w50	,	,	O			0		0		0		0		0		0		0		0	49	true	2
-w51	on	on	Q		OpinionHolder	14	Opinion	35		0		0		0		0		0		0	50	true	2
-w52	frappait	frapper	V		OpinionTarget	13	Opinion	35		0		0		0		0		0		0	51	true	2
-w53	à	à	P		OpinionTarget	13	Opinion	35		0		0		0		0		0		0	52	true	2
-w54	la	le	D		OpinionTarget	13	Opinion	35		0		0		0		0		0		0	53	true	2
-w55	porte	porte	N		OpinionTarget	13	Opinion	35		0		0		0		0		0		0	54	true	2
-w56	pour	pour	P			0	Opinion	35		0		0		0		0		0		0	55	false	2
-w57	qu'	qu'	C			0	Opinion	35		0		0		0		0		0		0	56	false	2
-w58	on	on	Q			0	Opinion	35		0		0		0		0		0		0	57	false	2
-w59	nous	lui	Q			0	Opinion	35		0		0		0		0		0		0	58	false	2
-w60	ouvre	ouvrer	V			0	Opinion	35		0		0		0		0		0		0	59	false	2
-w61	personne	personne	P		StrongNegative	37	Opinion	35		0		0		0		0		0		0	60	true	2
-w62	ne	ne	G		StrongNegative	37	Opinion	35		0		0		0		0		0		0	61	true	2
-w63	répondait	répondre	V		StrongNegative	37	Opinion	35		0		0		0		0		0		0	62	true	2
+w50	,	,	O			0	Opinion	7		0		0		0		0		0		0	49	true	2
+w51	on	on	Q		OpinionHolder	14	Opinion	7		0		0		0		0		0		0	50	true	2
+w52	frappait	frapper	V		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	51	true	2
+w53	à	à	P		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	52	true	2
+w54	la	le	D		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	53	true	2
+w55	porte	porte	N		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	54	true	2
+w56	pour	pour	P		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	55	true	2
+w57	qu'	qu'	C		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	56	true	2
+w58	on	on	Q		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	57	true	2
+w59	nous	lui	Q		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	58	true	2
+w60	ouvre	ouvrer	V		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	59	true	2
+w61	personne	personne	P		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	60	true	2
+w62	ne	ne	G		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	61	true	2
+w63	répondait	répondre	V		OpinionTarget	13	Opinion	7		0		0		0		0		0		0	62	true	2
 w67	le	le	D		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	66	true	3
 w68	massage	massage	N		OpinionTarget	16	Opinion	15		0		0		0		0		0		0	67	true	3
 w69	était	être	V			0	Opinion	15		0		0		0		0		0		0	68	true	3

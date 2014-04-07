@@ -16,10 +16,10 @@ w40	personnel	personnel	N		OpinionTarget	10	Opinion	12		0		0		0		0		0		0	39	true
 w41	etais	etais	C			0	Opinion	12		0		0		0		0		0		0	40	true	3
 w42	très	très	G		StrongPositive	11	Opinion	12		0		0		0		0		0		0	41	true	3
 w43	aimable	aimable	G		StrongPositive	11	Opinion	12		0		0		0		0		0		0	42	true	3
-w53	il	il	Q		OpinionTarget	14	Opinion	22	Staff	23		0		0		0		0		0	52	true	3
-w54	se	se	Q		Positive	15	Opinion	22		0		0		0		0		0		0	53	true	3
-w55	debrouillais	debrouillais	G		Positive	15	Opinion	22		0		0		0		0		0		0	54	true	3
-w56	bien.	bien.	C		Positive	15	Opinion	22		0		0		0		0		0		0	55	true	3
+w53	il	il	Q		OpinionTarget	14	Opinion	12		0		0		0		0		0		0	52	true	3
+w54	se	se	Q		Positive	15	Opinion	12		0		0		0		0		0		0	53	true	3
+w55	debrouillais	debrouillais	G		Positive	15	Opinion	12		0		0		0		0		0		0	54	true	3
+w56	bien.	bien.	C		Positive	15	Opinion	12		0		0		0		0		0		0	55	true	3
 w57	je	je	Q		OpinionHolder	16	Opinion	19	Interior/exterior	20		0		0		0		0		0	56	true	3
 w58	le	le	Q		OpinionTarget	17	Opinion	19		0		0		0		0		0		0	57	true	3
 w59	recommande	recommander	V		StrongPositive	18	Opinion	19		0		0		0		0		0		0	58	true	3

@@ -30,13 +30,13 @@ w31	·	·	N			0	Opinion	10		0		0		0		0		0		0	30	true	3
 w32	(	(	O			0	Opinion	10		0		0		0		0		0		0	31	true	3
 w33	(	(	O			0	Opinion	10		0		0		0		0		0		0	32	true	3
 w34	)	)	O			0	Opinion	10		0		0		0		0		0		0	33	true	3
-w35	inadmissible	inadmissible	G		StrongNegative	53	Opinion	10		0		0		0		0		0		0	34	true	3
-w36	pour	pour	P		StrongNegative	53	Opinion	10		0		0		0		0		0		0	35	true	3
-w37	un	un	D		StrongNegative	53	Opinion	10		0		0		0		0		0		0	36	true	3
-w38	hôtel	hôtel	N		StrongNegative	53	Opinion	10	Location	20		0		0		0		0		0	37	true	3
-w39	de	de	P		StrongNegative	53	Opinion	10		0		0		0		0		0		0	38	true	3
-w40	cette	ce	D		StrongNegative	53	Opinion	10		0		0		0		0		0		0	39	true	3
-w41	gamme	gamme	N		StrongNegative	53	Opinion	10		0		0		0		0		0		0	40	true	3
+w35	inadmissible	inadmissible	G		StrongNegative	18	Opinion	10		0		0		0		0		0		0	34	true	3
+w36	pour	pour	P			0	Opinion	10		0		0		0		0		0		0	35	true	3
+w37	un	un	D		OpinionTarget	19	Opinion	10		0		0		0		0		0		0	36	true	3
+w38	hôtel	hôtel	N		OpinionTarget	19	Opinion	10	Location	20		0		0		0		0		0	37	true	3
+w39	de	de	P		OpinionTarget	19	Opinion	10		0		0		0		0		0		0	38	true	3
+w40	cette	ce	D		OpinionTarget	19	Opinion	10		0		0		0		0		0		0	39	true	3
+w41	gamme	gamme	N		OpinionTarget	19	Opinion	10		0		0		0		0		0		0	40	true	3
 w43	Prix	prix	N		OpinionTarget	21		0		0		0		0		0		0		0	42	false	4
 w44	des	des	P		OpinionTarget	21		0		0		0		0		0		0		0	43	false	4
 w45	cocktails	cocktail	N		OpinionTarget	21		0		0		0		0		0		0		0	44	false	4
@@ -88,11 +88,11 @@ w100	:	:	O			0	Opinion	33		0		0		0		0		0		0	99	true	8
 w101	super	super	V		Positive	39	Opinion	33		0		0		0		0		0		0	100	true	8
 w103	Cuisine	cuisine	N		OpinionTarget	41	Opinion	40	Restaurant	42		0		0		0		0		0	102	true	9
 w104	:	:	O			0	Opinion	40		0		0		0		0		0		0	103	true	9
-w105	très	très	G		StrongPositive	54	Opinion	40		0		0		0		0		0		0	104	true	9
-w106	bon	bon	G		StrongPositive	54	Opinion	40		0		0		0		0		0		0	105	true	9
-w107	chef	chef	N		StrongPositive	54	Opinion	40	Staff	55		0		0		0		0		0	106	true	9
-w108	en	en	P		StrongPositive	54	Opinion	40	Staff	55		0		0		0		0		0	107	true	9
-w109	cuisine	cuisine	N		StrongPositive	54	Opinion	40	Staff	55		0		0		0		0		0	108	true	9
+w105	très	très	G		StrongPositive	45	Opinion	40		0		0		0		0		0		0	104	true	9
+w106	bon	bon	G		StrongPositive	45	Opinion	40		0		0		0		0		0		0	105	true	9
+w107	chef	chef	N		OpinionTarget	43	Opinion	40	Restaurant	44		0		0		0		0		0	106	true	9
+w108	en	en	P		OpinionTarget	43	Opinion	40	Restaurant	44		0		0		0		0		0	107	true	9
+w109	cuisine	cuisine	N		OpinionTarget	43	Opinion	40	Restaurant	44		0		0		0		0		0	108	true	9
 w110	:	:	O			0	Opinion	40		0		0		0		0		0		0	109	true	9
 w111	c'	c'	Q			0	Opinion	40		0		0		0		0		0		0	110	true	9
 w112	est	être	V			0	Opinion	40		0		0		0		0		0		0	111	true	9

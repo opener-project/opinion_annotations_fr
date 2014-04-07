@@ -38,17 +38,17 @@ w40	)	)	O			0	Opinion	19		0		0		0		0		0		0	39	true	5
 w41	Cuisine	cuisine	N		OpinionTarget	25	Opinion	24	Restaurant	26		0		0		0		0		0	40	true	5
 w42	assez	assez	G		Positive	27	Opinion	24		0		0		0		0		0		0	41	true	5
 w43	different	different	G		Positive	27	Opinion	24		0		0		0		0		0		0	42	true	5
-w45	buffet	buffet	N		OpinionTarget	65	Opinion	28	Restaurant	30		0		0		0		0		0	44	true	5
-w46	restaurants	restaurant	N		OpinionTarget	65	Opinion	28	Restaurant	30		0		0		0		0		0	45	true	5
-w47	thématiques	thématique	G		OpinionTarget	65	Opinion	28	Restaurant	30		0		0		0		0		0	46	true	5
+w45	buffet	buffet	N		OpinionTarget	29	Opinion	28	Restaurant	30		0		0		0		0		0	44	true	5
+w46	restaurants	restaurant	N		OpinionTarget	29	Opinion	28	Restaurant	30		0		0		0		0		0	45	true	5
+w47	thématiques	thématique	G		OpinionTarget	29	Opinion	28	Restaurant	30		0		0		0		0		0	46	true	5
 w48	(	(	O			0	Opinion	28		0		0		0		0		0		0	47	true	5
-w49	Chinois	chinois	N		OpinionTarget	65	Opinion	28	Restaurant	32		0		0		0		0		0	48	true	5
+w49	Chinois	chinois	N		OpinionTarget	31	Opinion	28	Restaurant	32		0		0		0		0		0	48	true	5
 w50	à	à	P		Positive	33	Opinion	28		0		0		0		0		0		0	49	true	5
 w51	recommander	recommander	V		Positive	33	Opinion	28		0		0		0		0		0		0	50	true	5
 w52	)	)	O			0	Opinion	28		0		0		0		0		0		0	51	true	5
 w53	,	,	O			0	Opinion	28		0		0		0		0		0		0	52	true	5
-w54	resto	restaurant	N		OpinionTarget	65	Opinion	28	Restaurant	35		0		0		0		0		0	53	true	5
-w55	Cal	cal	N		OpinionTarget	65	Opinion	28	Restaurant	35		0		0		0		0		0	54	true	5
+w54	resto	restaurant	N		OpinionTarget	34	Opinion	28	Restaurant	35		0		0		0		0		0	53	true	5
+w55	Cal	cal	N		OpinionTarget	34	Opinion	28	Restaurant	35		0		0		0		0		0	54	true	5
 w56	pour	pour	P		Positive	37	Opinion	28		0		0		0		0		0		0	55	true	5
 w57	petit	petit	G		Positive	37	Opinion	28		0		0		0		0		0		0	56	true	5
 w58	déjeuner	déjeuner	N		Positive	37	Opinion	28		0		0		0		0		0		0	57	true	5

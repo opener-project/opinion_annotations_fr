@@ -73,20 +73,20 @@ w91	état	état	N		Negative	40	Opinion	37		0		0		0		0		0		0	90	true	6
 w92	que	que	C		Negative	40	Opinion	37		0		0		0		0		0		0	91	true	6
 w93	les	le	D		OpinionTarget	41	Opinion	37	Rooms	42		0		0		0		0		0	92	true	6
 w94	chambres	chambre	N		OpinionTarget	41	Opinion	37	Rooms	42		0		0		0		0		0	93	true	6
-w100	tout	tout	P		OpinionTarget	44	Opinion	63		0		0		0		0		0		0	99	true	7
-w101	est	être	V			0	Opinion	63		0		0		0		0		0		0	100	true	7
-w102	payant	payant	G		Negative	45	Opinion	63		0		0		0		0		0		0	101	true	7
-w103	et	et	C			0	Opinion	63		0		0		0		0		0		0	102	true	7
-w104	...	...	O			0	Opinion	63		0		0		0		0		0		0	103	true	7
-w105	très	très	G		StrongNegative	46	Opinion	63		0		0		0		0		0		0	104	true	7
-w106	cher	cher	G		StrongNegative	46	Opinion	63		0		0		0		0		0		0	105	true	7
-w107	(	(	O			0		0		0		0		0		0		0		0	106	true	7
-w108	accès	accès	N		OpinionTarget	48	Opinion	64	Internet	50		0		0		0		0		0	107	true	7
-w109	wifi	wifi	N		OpinionTarget	48	Opinion	64	Internet	50		0		0		0		0		0	108	true	7
-w110	par	par	P			0		0		0		0		0		0		0		0	109	true	7
-w111	exemple	exemple	N			0		0		0		0		0		0		0		0	110	true	7
-w112	)	)	O			0		0		0		0		0		0		0		0	111	true	7
-w113	et	et	C			0		0		0		0		0		0		0		0	112	true	7
+w100	tout	tout	P		OpinionTarget	44	Opinion	47		0		0		0		0		0		0	99	true	7
+w101	est	être	V			0	Opinion	47		0		0		0		0		0		0	100	true	7
+w102	payant	payant	G		Negative	45	Opinion	47		0		0		0		0		0		0	101	true	7
+w103	et	et	C			0	Opinion	47		0		0		0		0		0		0	102	true	7
+w104	...	...	O			0	Opinion	47		0		0		0		0		0		0	103	true	7
+w105	très	très	G		StrongNegative	46	Opinion	47		0		0		0		0		0		0	104	true	7
+w106	cher	cher	G		StrongNegative	46	Opinion	47		0		0		0		0		0		0	105	true	7
+w107	(	(	O			0	Opinion	47		0		0		0		0		0		0	106	true	7
+w108	accès	accès	N		OpinionTarget	48	Opinion	47	Internet	50		0		0		0		0		0	107	true	7
+w109	wifi	wifi	N		OpinionTarget	48	Opinion	47	Internet	50		0		0		0		0		0	108	true	7
+w110	par	par	P			0	Opinion	47		0		0		0		0		0		0	109	true	7
+w111	exemple	exemple	N			0	Opinion	47		0		0		0		0		0		0	110	true	7
+w112	)	)	O			0	Opinion	47		0		0		0		0		0		0	111	true	7
+w113	et	et	C			0	Opinion	47		0		0		0		0		0		0	112	true	7
 w114	je	je	Q		OpinionHolder	51	Opinion	47		0		0		0		0		0		0	113	true	7
 w115	n'	n'	G			0	Opinion	47		0		0		0		0		0		0	114	true	7
 w116	ose	oser	V			0	Opinion	47		0		0		0		0		0		0	115	true	7

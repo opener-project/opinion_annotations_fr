@@ -1,4 +1,4 @@
-w1	Luxures	luxure	N		StrongPositive	2	Opinion	1		0		0		0		0		0		0	0	true	1
+w1	Luxures	luxure	N		StrongPositive	2	Opinion	1		0	9-very positive	20		0		0		0		0	0	true	1
 w2	Je	Je	Q		OpinionHolder	4	Opinion	3		0		0		0		0		0		0	1	true	2
 w3	le	le	D		OpinionTarget	5	Opinion	3		0		0		0		0		0		0	2	true	2
 w4	ferais	ferais	N		Positive	6	Opinion	3		0		0		0		0		0		0	3	true	2

@@ -31,15 +31,15 @@ w32	maitre	maitre	N		Negative	25	Opinion	22		0		0		0		0		0		0	31	true	3
 w33	nageur	nageur	G		Negative	25	Opinion	22		0		0		0		0		0		0	32	true	3
 w34	absent	absent	G		Negative	25	Opinion	22		0		0		0		0		0		0	33	true	3
 w35	)	)	O			0	Opinion	22		0		0		0		0		0		0	34	true	3
-w40	la	le	D		OpinionTarget	27		0	Restaurant	28		0		0		0		0		0	39	false	3
-w41	restauration	restauration	N		OpinionTarget	27		0	Restaurant	28		0		0		0		0		0	40	false	3
-w42	,	,	O			0		0		0		0		0		0		0		0	41	true	3
+w40	la	le	D		OpinionTarget	27	Opinion	26	Restaurant	28		0		0		0		0		0	39	true	3
+w41	restauration	restauration	N		OpinionTarget	27	Opinion	26	Restaurant	28		0		0		0		0		0	40	true	3
+w42	,	,	O			0	Opinion	26		0		0		0		0		0		0	41	true	3
 w43	pizzéria	pizzéria	N		OpinionTarget	29	Opinion	26	Restaurant	30		0		0		0		0		0	42	true	3
 w44	chère	cher	G		Negative	31	Opinion	26		0		0		0		0		0		0	43	true	3
-w45	et	et	C			0		0		0		0		0		0		0		0	44	true	3
-w46	pizzas	pizza	N		OpinionTarget	32	Opinion	66	Restaurant	33		0		0		0		0		0	45	true	3
-w47	médiocres	médiocre	G		Negative	34	Opinion	66		0		0		0		0		0		0	46	true	3
-w48	,	,	O			0		0		0		0		0		0		0		0	47	true	3
+w45	et	et	C			0	Opinion	26		0		0		0		0		0		0	44	true	3
+w46	pizzas	pizza	N		OpinionTarget	32	Opinion	26	Restaurant	33		0		0		0		0		0	45	true	3
+w47	médiocres	médiocre	G		Negative	34	Opinion	26		0		0		0		0		0		0	46	true	3
+w48	,	,	O			0	Opinion	26		0		0		0		0		0		0	47	true	3
 w49	je	je	Q		OpinionHolder	35	Opinion	26		0		0		0		0		0		0	48	true	3
 w50	ne	ne	G		Negative	36	Opinion	26		0		0		0		0		0		0	49	true	3
 w51	conseille	conseiller	V		Negative	36	Opinion	26		0		0		0		0		0		0	50	true	3

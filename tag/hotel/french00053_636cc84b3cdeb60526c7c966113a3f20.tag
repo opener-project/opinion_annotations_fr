@@ -62,12 +62,12 @@ w67	Superette	Superette	N		OpinionTarget	31	Opinion	30		0		0		0		0		0		0	66	true
 w68	pratique	pratiquer	V		Positive	32	Opinion	30		0		0		0		0		0		0	67	true	6
 w69	mais	mais	C			0	Opinion	30		0		0		0		0		0		0	68	true	6
 w70	chére	chére	P		Negative	33	Opinion	30		0		0		0		0		0		0	69	true	6
-w71	;	;	O			0		0		0		0		0		0		0		0	70	true	6
-w72	pain	pain	N		OpinionTarget	41	Opinion	42	Breakfast	36		0		0		0		0		0	71	true	6
-w73	et	et	C			0	Opinion	42		0		0		0		0		0		0	72	true	6
-w74	croissanterie	croissanterie	N		OpinionTarget	41	Opinion	42	Breakfast	38		0		0		0		0		0	73	true	6
-w75	tous	tout	G		Positive	39	Opinion	42		0		0		0		0		0		0	74	true	6
-w76	les	le	D		Positive	39	Opinion	42		0		0		0		0		0		0	75	true	6
-w77	jours	jour	N		Positive	39	Opinion	42		0		0		0		0		0		0	76	true	6
-w78	sans	sans]	P		Positive	39	Opinion	42		0	6-average-positive	40		0		0		0		0	77	true	6
-w79	réservation	réservation	N		Positive	39	Opinion	42		0		0		0		0		0		0	78	true	6
+w71	;	;	O			0	Opinion	30		0		0		0		0		0		0	70	true	6
+w72	pain	pain	N		OpinionTarget	34	Opinion	30	Breakfast	36		0		0		0		0		0	71	true	6
+w73	et	et	C			0	Opinion	30		0		0		0		0		0		0	72	true	6
+w74	croissanterie	croissanterie	N		OpinionTarget	37	Opinion	30	Breakfast	38		0		0		0		0		0	73	true	6
+w75	tous	tout	G		Positive	39	Opinion	30		0		0		0		0		0		0	74	true	6
+w76	les	le	D		Positive	39	Opinion	30		0		0		0		0		0		0	75	true	6
+w77	jours	jour	N		Positive	39	Opinion	30		0		0		0		0		0		0	76	true	6
+w78	sans	sans]	P		Positive	39	Opinion	30		0	6-average-positive	40		0		0		0		0	77	true	6
+w79	réservation	réservation	N		Positive	39	Opinion	30		0		0		0		0		0		0	78	true	6

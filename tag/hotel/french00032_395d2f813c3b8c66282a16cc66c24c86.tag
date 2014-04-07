@@ -1,18 +1,18 @@
-w3	Hotel	Hotel	N		OpinionTarget	2	Opinion	29	Location	4		0		0		0		0		0	2	true	2
-w4	immense	immense	G		StrongPositive	30	Opinion	29		0		0		0		0		0		0	3	true	2
-w5	,	,	O			0		0		0		0		0		0		0		0	4	true	2
-w6	avec	avec	P			0		0		0		0		0		0		0		0	5	true	2
-w7	grande	grand	G		Positive	5	Opinion	31		0		0		0		0		0		0	6	true	2
-w8	piscine	piscine	N		Positive	5	Opinion	31	Swimming pool	6		0		0		0		0		0	7	true	2
-w9	et	et	C			0		0		0		0		0		0		0		0	8	true	2
-w10	mer	mer	N		OpinionTarget	7	Opinion	32		0		0		0		0		0		0	9	true	2
-w11	a	avoir	V		Positive	8	Opinion	32		0		0		0		0		0		0	10	true	2
-w12	proximite	proximite	G		Positive	8	Opinion	32		0		0		0		0		0		0	11	true	2
+w3	Hotel	Hotel	N		OpinionTarget	2	Opinion	1	Location	4		0		0		0		0		0	2	true	2
+w4	immense	immense	G			0	Opinion	3		0		0		0		0		0		0	3	true	2
+w5	,	,	O			0	Opinion	1		0		0		0		0		0		0	4	true	2
+w6	avec	avec	P			0	Opinion	1		0		0		0		0		0		0	5	true	2
+w7	grande	grand	G		Positive	5	Opinion	1		0		0		0		0		0		0	6	true	2
+w8	piscine	piscine	N		Positive	5	Opinion	1	Swimming pool	6		0		0		0		0		0	7	true	2
+w9	et	et	C			0	Opinion	1		0		0		0		0		0		0	8	true	2
+w10	mer	mer	N		OpinionTarget	7	Opinion	1		0		0		0		0		0		0	9	true	2
+w11	a	avoir	V		Positive	8	Opinion	1		0		0		0		0		0		0	10	true	2
+w12	proximite	proximite	G		Positive	8	Opinion	1		0		0		0		0		0		0	11	true	2
 w14	Eau	Eau	P		OpinionTarget	10	Opinion	9		0		0		0		0		0		0	13	true	3
 w15	tres	tres	G		Positive	11	Opinion	9		0		0		0		0		0		0	14	true	3
 w16	chaude	chaude	N		Positive	11	Opinion	9		0		0		0		0		0		0	15	true	3
 w17	et	et	C			0	Opinion	9		0		0		0		0		0		0	16	true	3
-w18	remplie	remplir	V		Positive	33	Opinion	9		0		0		0		0		0		0	17	true	3
+w18	remplie	remplir	V		OpinionTarget	12	Opinion	9		0		0		0		0		0		0	17	true	3
 w19	de	de	P			0	Opinion	9		0		0		0		0		0		0	18	true	3
 w20	magnifiques	magnifiques	N		Positive	13	Opinion	9		0		0		0		0		0		0	19	true	3
 w21	poissons	poisser	V		Positive	13	Opinion	9		0		0		0		0		0		0	20	true	3

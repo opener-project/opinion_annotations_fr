@@ -37,12 +37,12 @@ w45	dans	dans	P		Negative	24	Opinion	22		0		0		0		0		0		0	44	true	5
 w46	un	un	D		Negative	24	Opinion	22		0		0		0		0		0		0	45	true	5
 w47	des	un	D		Negative	24	Opinion	22		0		0		0		0		0		0	46	true	5
 w48	restaurants	restaurant	N		Negative	24	Opinion	22		0		0		0		0		0		0	47	true	5
-w49	et	et	C			0		0		0		0		0		0		0		0	48	true	5
-w50	je	je	Q		OpinionHolder	25	Opinion	39		0		0		0		0		0		0	49	true	5
-w51	trouve	trouver	V		Negative	26	Opinion	39		0		0		0		0		0		0	50	true	5
-w52	cela	cela	P		Negative	26	Opinion	39		0		0		0		0		0		0	51	true	5
-w53	bien	bien	G		Negative	26	Opinion	39		0		0		0		0		0		0	52	true	5
-w54	dommage	dommage	G		Negative	26	Opinion	39		0		0		0		0		0		0	53	true	5
+w49	et	et	C			0	Opinion	22		0		0		0		0		0		0	48	true	5
+w50	je	je	Q		OpinionHolder	25	Opinion	22		0		0		0		0		0		0	49	true	5
+w51	trouve	trouver	V		Negative	26	Opinion	22		0		0		0		0		0		0	50	true	5
+w52	cela	cela	P		Negative	26	Opinion	22		0		0		0		0		0		0	51	true	5
+w53	bien	bien	G		Negative	26	Opinion	22		0		0		0		0		0		0	52	true	5
+w54	dommage	dommage	G		Negative	26	Opinion	22		0		0		0		0		0		0	53	true	5
 w56	Concernant	concerner	V			0	Opinion	27		0		0		0		0		0		0	55	true	6
 w57	les	le	D		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	56	true	6
 w58	boissons	boisson	N		OpinionTarget	28	Opinion	27	Restaurant	29		0		0		0		0		0	57	true	6
@@ -69,16 +69,16 @@ w78	est	être	V		Negative	30	Opinion	27		0		0		0		0		0		0	77	true	6
 w79	pas	pas	G		Negative	30	Opinion	27		0		0		0		0		0		0	78	true	6
 w80	donner	donner	V		Negative	30	Opinion	27		0		0		0		0		0		0	79	true	6
 w82	Sinon	Sinon	C			0	Opinion	31		0		0		0		0		0		0	81	true	7
-w83	personnel	personnel	N		OpinionTarget	40	Opinion	31	Staff	33		0		0		0		0		0	82	true	7
+w83	personnel	personnel	N		OpinionTarget	32	Opinion	31	Staff	33		0		0		0		0		0	82	true	7
 w84	très	très	G		StrongPositive	34	Opinion	31		0		0		0		0		0		0	83	true	7
 w85	bien	bien	G		StrongPositive	34	Opinion	31		0		0		0		0		0		0	84	true	7
 w86	surtout	surtout	G			0	Opinion	31		0		0		0		0		0		0	85	true	7
-w87	celui	celui	P		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	86	true	7
-w88	du	du	P		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	87	true	7
-w89	restaurant	restaurer	V		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	88	true	7
-w90	"	&amp;quot;	O		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	89	true	7
-w91	Rose	rose	N		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	90	true	7
-w92	"	&amp;quot;	O		OpinionTarget	40	Opinion	31	Staff	36		0		0		0		0		0	91	true	7
+w87	celui	celui	P		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	86	true	7
+w88	du	du	P		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	87	true	7
+w89	restaurant	restaurer	V		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	88	true	7
+w90	"	&amp;quot;	O		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	89	true	7
+w91	Rose	rose	N		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	90	true	7
+w92	"	&amp;quot;	O		OpinionTarget	35	Opinion	31	Staff	36		0		0		0		0		0	91	true	7
 w93	,	,	O			0	Opinion	31		0		0		0		0		0		0	92	true	7
 w94	très	très	G		StrongPositive	37	Opinion	31		0		0		0		0		0		0	93	true	7
 w95	gentil	gentil	G		StrongPositive	37	Opinion	31		0		0		0		0		0		0	94	true	7

@@ -1,8 +1,8 @@
 w1	Situation	situation	N		OpinionTarget	1	Opinion	5	Location	6	2-very negative	61		0		0		0		0	0	true	1
 w2	agréable	agréable	G		Positive	2	Opinion	5		0		0		0		0		0		0	1	true	1
-w3	et	et	C			0		0		0		0		0		0		0		0	2	true	1
-w4	temps	temps	N		OpinionTarget	3	Opinion	62	Interior/exterior	7		0		0		0		0		0	3	true	1
-w5	magnifique	magnifique	N		StrongPositive	4	Opinion	62		0		0		0		0		0		0	4	true	1
+w3	et	et	C			0	Opinion	5		0		0		0		0		0		0	2	true	1
+w4	temps	temps	N		OpinionTarget	3	Opinion	5	Interior/exterior	7		0		0		0		0		0	3	true	1
+w5	magnifique	magnifique	N		StrongPositive	4	Opinion	5		0		0		0		0		0		0	4	true	1
 w30	les	le	D			0		0		0		0		0		0		0		0	29	true	3
 w31	enfants	enfant	N			0		0		0		0		0		0		0		0	30	true	3
 w37	Connaissance	connaissance	N		OpinionTarget	9	Opinion	11	Staff	12		0		0		0		0		0	36	true	4
@@ -24,11 +24,11 @@ w54	irréprochables	irréprochable	G		StrongPositive	19	Opinion	20		0		0		0		0		
 w56	Certains	Certains	P		OpinionTarget	22	Opinion	27	Staff	28		0		0		0		0		0	55	true	7
 w57	animateurs	animateur	N		OpinionTarget	22	Opinion	27		0		0		0		0		0		0	56	true	7
 w58	agréables	agréable	G		Positive	24	Opinion	27		0		0		0		0		0		0	57	true	7
-w59	,	,	O			0		0		0		0		0		0		0		0	58	true	7
-w60	d'	un	D		OpinionTarget	25	Opinion	63		0		0		0		0		0		0	59	true	7
-w61	autres	autres	P		OpinionTarget	25	Opinion	63	Staff	64		0		0		0		0		0	60	true	7
-w62	très	très	G		StrongNegative	26	Opinion	63		0		0		0		0		0		0	61	true	7
-w63	désagréables	désagréable	G		StrongNegative	26	Opinion	63		0		0		0		0		0		0	62	true	7
+w59	,	,	O			0	Opinion	27		0		0		0		0		0		0	58	true	7
+w60	d'	un	D		OpinionTarget	25	Opinion	27		0		0		0		0		0		0	59	true	7
+w61	autres	autres	P		OpinionTarget	25	Opinion	27		0		0		0		0		0		0	60	true	7
+w62	très	très	G		StrongNegative	26	Opinion	27		0		0		0		0		0		0	61	true	7
+w63	désagréables	désagréable	G		StrongNegative	26	Opinion	27		0		0		0		0		0		0	62	true	7
 w67	Animations	animation	N		OpinionTarget	29	Opinion	31	Facilities	32		0		0		0		0		0	66	true	8
 w68	pas	pas	G		Negative	30	Opinion	31		0		0		0		0		0		0	67	true	8
 w69	vraiment	vraiment	G		Negative	30	Opinion	31		0		0		0		0		0		0	68	true	8
