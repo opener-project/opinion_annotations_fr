@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:08:44" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1217,8 +1217,20 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Staff">
+        <references>
+          <span>
+            <target id="t56"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="10_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1229,7 +1241,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="13_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -1239,7 +1252,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="13_1">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -1249,7 +1263,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target>
         <!--spectacle-->
@@ -1266,7 +1281,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o4">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1276,7 +1292,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--prix d' entré + pass expres-->
@@ -1296,7 +1313,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o6">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--personnel-->
@@ -1313,15 +1331,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Staff">
-        <references>
-          <span>
-            <target id="t56"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

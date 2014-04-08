@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:06:14" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:48CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:44CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:48CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -705,8 +705,28 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t2"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -716,7 +736,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -731,7 +752,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="13_0">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=13-->
       <opinion_holder>
         <!--enfants.ns-->
         <span>
@@ -756,7 +778,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=6-->
       <opinion_holder>
         <!--animaux.ns-->
         <span>
@@ -778,23 +801,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t11"/>
-            <target id="t12"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t2"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

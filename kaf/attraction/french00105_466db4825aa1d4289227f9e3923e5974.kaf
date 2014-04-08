@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:07:17" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -787,8 +787,23 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t32"/>
+            <target id="t33"/>
+            <target id="t34"/>
+            <target id="t35"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="15_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
         <!--le prix d' entrée-->
@@ -806,7 +821,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="8_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>
         <!--message environnemental-->
@@ -822,7 +838,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -834,7 +851,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_1">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -844,7 +862,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="12_0">
+    <opinion oid="o4">
+      <!--Tag opinion scope id=12-->
       <opinion_holder/>
       <opinion_target>
         <!--ballade à faire-->
@@ -861,7 +880,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -875,18 +895,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t32"/>
-            <target id="t33"/>
-            <target id="t34"/>
-            <target id="t35"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

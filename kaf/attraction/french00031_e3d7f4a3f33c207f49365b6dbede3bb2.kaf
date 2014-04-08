@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:04:47" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:43CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:38CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:43CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -1862,8 +1862,23 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t9"/>
+            <target id="t10"/>
+            <target id="t11"/>
+            <target id="t12"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongPositive">
@@ -1874,7 +1889,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="11_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--les enfants-->
@@ -1895,7 +1911,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_0">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--c'-->
@@ -1921,7 +1938,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_1">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--c'-->
@@ -1944,7 +1962,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="3_2">
+    <opinion oid="o4">
+      <!--Tag opinion scope id=3-->
       <opinion_holder/>
       <opinion_target>
         <!--c'-->
@@ -1960,7 +1979,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="20_0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=20-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Positive">
@@ -1975,7 +1995,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_0">
+    <opinion oid="o6">
+      <!--Tag opinion scope id=14-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -1996,7 +2017,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_1">
+    <opinion oid="o7">
+      <!--Tag opinion scope id=14-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -2018,7 +2040,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_2">
+    <opinion oid="o8">
+      <!--Tag opinion scope id=14-->
       <opinion_holder>
         <!--on-->
         <span>
@@ -2051,18 +2074,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t9"/>
-            <target id="t10"/>
-            <target id="t11"/>
-            <target id="t12"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

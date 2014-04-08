@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:08:17" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:44CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:40CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:44CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -3063,8 +3063,27 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Cleanliness">
+        <references>
+          <span>
+            <target id="t69"/>
+          </span>
+        </references>
+      </property>
+      <property pid="p1" lemma="Interior/exterior">
+        <references>
+          <span>
+            <target id="t35"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="24_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=24-->
       <opinion_holder>
         <!--Je-->
         <span>
@@ -3080,7 +3099,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="10_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--Tout-->
@@ -3097,7 +3117,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="21_0">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=21-->
       <opinion_holder/>
       <opinion_target>
         <!--L' eau de certain bassin ou les enfants mettent les mains-->
@@ -3123,7 +3144,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="17_0">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=17-->
       <opinion_holder/>
       <opinion_target>
         <!--La propreté-->
@@ -3139,7 +3161,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="28_0">
+    <opinion oid="o4">
+      <!--Tag opinion scope id=28-->
       <opinion_holder>
         <!--je-->
         <span>
@@ -3168,7 +3191,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="6_0">
+    <opinion oid="o5">
+      <!--Tag opinion scope id=6-->
       <opinion_holder/>
       <opinion_target>
         <!--Ce parc-->
@@ -3185,7 +3209,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="14_0">
+    <opinion oid="o6">
+      <!--Tag opinion scope id=14-->
       <opinion_holder>
         <!--j'-->
         <span>
@@ -3211,22 +3236,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Cleanliness">
-        <references>
-          <span>
-            <target id="t69"/>
-          </span>
-        </references>
-      </property>
-      <property pid="p1" lemma="Interior/exterior">
-        <references>
-          <span>
-            <target id="t35"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>

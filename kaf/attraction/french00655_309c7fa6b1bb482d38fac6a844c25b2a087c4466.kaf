@@ -9,10 +9,10 @@
       <lp name="opennlp-pos-treetagger-fr" timestamp="2014-02-11T08:29:18Z" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:49CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:46CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:49CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -807,7 +807,8 @@
   </features>
   <relations/>
   <opinions>
-    <opinion oid="1_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="StrongNegative">
@@ -823,7 +824,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="2_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=2-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">

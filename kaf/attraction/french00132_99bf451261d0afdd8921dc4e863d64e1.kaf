@@ -18,10 +18,10 @@
       <lp name="corefgraph-fr" timestamp="2014-02-03T10:08:08" version="0.8"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-04T13:34:47CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:42:50CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -633,8 +633,20 @@
       </span>
     </coref>
   </coreferences>
+  <features>
+    <properties>
+      <property pid="p0" lemma="Value-for-money">
+        <references>
+          <span>
+            <target id="t25"/>
+          </span>
+        </references>
+      </property>
+    </properties>
+  </features>
   <opinions>
-    <opinion oid="11_0">
+    <opinion oid="o0">
+      <!--Tag opinion scope id=11-->
       <opinion_holder/>
       <opinion_target>
         <!--la note-->
@@ -651,7 +663,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_0">
+    <opinion oid="o1">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--manèges pour tous les âges-->
@@ -670,7 +683,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="5_1">
+    <opinion oid="o2">
+      <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
         <!--manèges pour tous les âges-->
@@ -689,7 +703,8 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="7_0">
+    <opinion oid="o3">
+      <!--Tag opinion scope id=7-->
       <opinion_holder/>
       <opinion_target/>
       <opinion_expression polarity="Negative">
@@ -701,15 +716,4 @@
       </opinion_expression>
     </opinion>
   </opinions>
-  <features>
-    <properties>
-      <property pid="p0" lemma="Value-for-money">
-        <references>
-          <span>
-            <target id="t25"/>
-          </span>
-        </references>
-      </property>
-    </properties>
-  </features>
 </KAF>
