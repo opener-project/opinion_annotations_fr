@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:38:41" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:13CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:29:16CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:13CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:29:16CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2265,7 +2265,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o1">
       <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
@@ -2275,25 +2275,6 @@
           <target id="t58"/>
           <target id="t59"/>
           <target id="t60"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--fort désagréable-->
-        <span>
-          <target id="t68"/>
-          <target id="t69"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=23-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Les duty managers-->
-        <span>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="StrongNegative">
@@ -2308,18 +2289,18 @@
       <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
-        <!--les agents de sécurité-->
+        <!--Les duty managers-->
         <span>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--soupçonneux-->
+      <opinion_expression polarity="StrongNegative">
+        <!--fort désagréable-->
         <span>
-          <target id="t62"/>
+          <target id="t68"/>
+          <target id="t69"/>
         </span>
       </opinion_expression>
     </opinion>
@@ -2327,11 +2308,12 @@
       <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
-        <!--Les duty managers-->
+        <!--les agents de sécurité-->
         <span>
-          <target id="t52"/>
-          <target id="t53"/>
-          <target id="t54"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
@@ -2345,6 +2327,24 @@
       <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
+        <!--Les duty managers-->
+        <span>
+          <target id="t52"/>
+          <target id="t53"/>
+          <target id="t54"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--soupçonneux-->
+        <span>
+          <target id="t62"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o5">
+      <!--Tag opinion scope id=23-->
+      <opinion_holder/>
+      <opinion_target>
         <!--les agents de sécurité-->
         <span>
           <target id="t57"/>
@@ -2360,7 +2360,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o5">
+    <opinion oid="o6">
       <!--Tag opinion scope id=23-->
       <opinion_holder/>
       <opinion_target>
@@ -2378,7 +2378,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o7">
       <!--Tag opinion scope id=31-->
       <opinion_holder/>
       <opinion_target>
@@ -2396,7 +2396,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o8">
       <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target/>
@@ -2418,7 +2418,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o1">
+    <opinion oid="o9">
       <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target/>
@@ -2435,7 +2435,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o2">
+    <opinion oid="o10">
       <!--Tag opinion scope id=16-->
       <opinion_holder/>
       <opinion_target/>
@@ -2450,7 +2450,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o11">
       <!--Tag opinion scope id=35-->
       <opinion_holder/>
       <opinion_target>
@@ -2467,7 +2467,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o12">
       <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target>
@@ -2483,7 +2483,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o13">
       <!--Tag opinion scope id=38-->
       <opinion_holder/>
       <opinion_target/>
@@ -2499,7 +2499,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o14">
       <!--Tag opinion scope id=5-->
       <opinion_holder/>
       <opinion_target>
@@ -2515,7 +2515,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o15">
       <!--Tag opinion scope id=40-->
       <opinion_holder/>
       <opinion_target>
@@ -2535,7 +2535,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o1">
+    <opinion oid="o16">
       <!--Tag opinion scope id=40-->
       <opinion_holder/>
       <opinion_target>
@@ -2558,7 +2558,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o2">
+    <opinion oid="o17">
       <!--Tag opinion scope id=40-->
       <opinion_holder/>
       <opinion_target>
@@ -2578,7 +2578,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o18">
       <!--Tag opinion scope id=8-->
       <opinion_holder/>
       <opinion_target>

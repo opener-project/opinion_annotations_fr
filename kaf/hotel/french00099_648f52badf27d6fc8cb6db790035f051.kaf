@@ -15,10 +15,10 @@
       <lp name="ehu-parse-fr" timestamp="2014-02-24 12:38:36" version="1.0"/>
     </linguisticProcessors>
     <linguisticProcessors layer="features">
-      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-07T16:32:06CEST"/>
+      <lp name="Property manual annotations" version="1.0" timestamp="2014-04-08T16:29:11CEST"/>
     </linguisticProcessors>
     <linguisticProcessors layer="opinions">
-      <lp name="Manual annotations" version="1.0" timestamp="2014-04-07T16:32:06CEST"/>
+      <lp name="Manual annotations" version="1.0" timestamp="2014-04-08T16:29:11CEST"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -2881,30 +2881,13 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o1">
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
         <!--blanc-->
         <span>
           <target id="t21"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--fades-->
-        <span>
-          <target id="t22"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=10-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Vins rouge-->
-        <span>
-          <target id="t18"/>
-          <target id="t19"/>
         </span>
       </opinion_target>
       <opinion_expression polarity="Negative">
@@ -2918,6 +2901,23 @@
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
+        <!--Vins rouge-->
+        <span>
+          <target id="t18"/>
+          <target id="t19"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--fades-->
+        <span>
+          <target id="t22"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o3">
+      <!--Tag opinion scope id=10-->
+      <opinion_holder/>
+      <opinion_target>
         <!--blanc-->
         <span>
           <target id="t21"/>
@@ -2933,7 +2933,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o3">
+    <opinion oid="o4">
       <!--Tag opinion scope id=10-->
       <opinion_holder/>
       <opinion_target>
@@ -2953,7 +2953,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o5">
       <!--Tag opinion scope id=38-->
       <opinion_holder/>
       <opinion_target>
@@ -2969,7 +2969,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o1">
+    <opinion oid="o6">
       <!--Tag opinion scope id=38-->
       <opinion_holder/>
       <opinion_target>
@@ -2990,159 +2990,21 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Cola-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o1">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--jus d' orange-->
-        <span>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o2">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Fanta-->
-        <span>
-          <target id="t31"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o3">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--tonic-->
-        <span>
-          <target id="t37"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o4">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--le tout-->
-        <span>
-          <target id="t41"/>
-          <target id="t42"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o5">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--le café-->
-        <span>
-          <target id="t39"/>
-          <target id="t40"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="Negative">
-        <!--au goût bizarre-->
-        <span>
-          <target id="t43"/>
-          <target id="t44"/>
-          <target id="t45"/>
-        </span>
-      </opinion_expression>
-    </opinion>
-    <opinion oid="o6">
-      <!--Tag opinion scope id=15-->
-      <opinion_holder/>
-      <opinion_target>
-        <!--Cola-->
-        <span>
-          <target id="t29"/>
-        </span>
-      </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--du bas de gamme en gratuit-->
-        <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
-        </span>
-      </opinion_expression>
-    </opinion>
     <opinion oid="o7">
       <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
-        <!--jus d' orange-->
+        <!--Cola-->
         <span>
-          <target id="t33"/>
-          <target id="t34"/>
-          <target id="t35"/>
+          <target id="t29"/>
         </span>
       </opinion_target>
-      <opinion_expression polarity="StrongNegative">
-        <!--du bas de gamme en gratuit-->
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
         <span>
-          <target id="t55"/>
-          <target id="t56"/>
-          <target id="t57"/>
-          <target id="t58"/>
-          <target id="t59"/>
-          <target id="t60"/>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
         </span>
       </opinion_expression>
     </opinion>
@@ -3150,6 +3012,144 @@
       <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
+        <!--jus d' orange-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o9">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Fanta-->
+        <span>
+          <target id="t31"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o10">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--tonic-->
+        <span>
+          <target id="t37"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o11">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--le tout-->
+        <span>
+          <target id="t41"/>
+          <target id="t42"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o12">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--le café-->
+        <span>
+          <target id="t39"/>
+          <target id="t40"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="Negative">
+        <!--au goût bizarre-->
+        <span>
+          <target id="t43"/>
+          <target id="t44"/>
+          <target id="t45"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o13">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--Cola-->
+        <span>
+          <target id="t29"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--du bas de gamme en gratuit-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o14">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
+        <!--jus d' orange-->
+        <span>
+          <target id="t33"/>
+          <target id="t34"/>
+          <target id="t35"/>
+        </span>
+      </opinion_target>
+      <opinion_expression polarity="StrongNegative">
+        <!--du bas de gamme en gratuit-->
+        <span>
+          <target id="t55"/>
+          <target id="t56"/>
+          <target id="t57"/>
+          <target id="t58"/>
+          <target id="t59"/>
+          <target id="t60"/>
+        </span>
+      </opinion_expression>
+    </opinion>
+    <opinion oid="o15">
+      <!--Tag opinion scope id=15-->
+      <opinion_holder/>
+      <opinion_target>
         <!--Fanta-->
         <span>
           <target id="t31"/>
@@ -3167,7 +3167,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o9">
+    <opinion oid="o16">
       <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
@@ -3188,7 +3188,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o10">
+    <opinion oid="o17">
       <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
@@ -3210,7 +3210,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o11">
+    <opinion oid="o18">
       <!--Tag opinion scope id=15-->
       <opinion_holder/>
       <opinion_target>
@@ -3232,7 +3232,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o19">
       <!--Tag opinion scope id=46-->
       <opinion_holder/>
       <opinion_target>
@@ -3251,7 +3251,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o20">
       <!--Tag opinion scope id=42-->
       <opinion_holder/>
       <opinion_target>
@@ -3269,7 +3269,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o21">
       <!--Tag opinion scope id=1-->
       <opinion_holder/>
       <opinion_target>
@@ -3287,7 +3287,7 @@
         </span>
       </opinion_expression>
     </opinion>
-    <opinion oid="o0">
+    <opinion oid="o22">
       <!--Tag opinion scope id=4-->
       <opinion_holder/>
       <opinion_target>
